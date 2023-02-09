@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202302060042
+! Version: 202302082226
 ! Title: EasyPrivacy
-! Last modified: 06 Feb 2023 00:42 UTC
+! Last modified: 08 Feb 2023 22:26 UTC
 ! Expires: 6 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -14464,6 +14464,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||nanostats.nanopress.it^
 ||net-parade.it/tracker/
 ||noicattolici.it/x_visite/
+||plausible.citynews.ovh^
 ||plug.it/tracks/
 ||plug.it^*/iol_evnt.
 ||plug.it^*/iol_evnt_
@@ -14865,6 +14866,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.sec.telefonica.com^
 ||tag.shopping-feed.com^
 ||track.sunmedia.tv^
+||track.tappx.com^
 ||tracker.thinkindot.com^
 ||tracking.smartmeapp.com^
 ||webpixel.smartmeapp.com^
@@ -15407,6 +15409,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||iedc.fitbit.com^
 ||ign.com/metrics/
 ||iheart.com/api/v3/playback/reporting
+||ihg.com/logging/
 ||imagefap.com/images/yes.gif?
 ||imdb.com/api/_ajax/metrics/
 ||imdb.com/tr/
@@ -29193,6 +29196,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||tgw.gmx.ch^
 ||tgw.gmx.net^
 ||tgw.web.de^
+||tm.swp.de^
 ||tracer.autoscout24.ch^
 ||track.dws.de^
 ||track.express.de^
@@ -30051,6 +30055,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 ||mirtesen.ru/js/ms.js
 ||mytoys.ru/ka_z.jpg?
 ||ngs.ru/s/
+||odnoklassniki.ru/dk?cmd=videoStatNew
 ||ok.ru/dk?cmd=videoStatNew
 ||ozon.ru/tracker/
 ||pixels.boxberry.ru^
@@ -30976,6 +30981,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||pmdstatic.net/advertising-$script,xmlhttprequest,domain=programme-tv.net
 @@||s-sfr.fr/stats/header.js$script,domain=red-by-sfr.fr|sfr.fr
 @@||script.ownpage.fr/v1/ownpage.js?$script,domain=lci.fr
+@@||sdk.privacy-center.org^$domain=recup.paylib.fr
 @@||static.lci.fr/assets/scripts/common/tracker.js?$script,~third-party
 @@||static.lci.fr/assets/scripts/common/user-agent-analyzer.js$script,~third-party
 @@||tag.aticdn.net/583901/at.js$script,domain=tv5monde.com
@@ -31438,6 +31444,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=skyback.ru|szukajka
 @@||gruposantander.es^*/scripts/log.js
 @@||imprentaonline.net^*/js/gtm.min.js$~third-party
 @@||json.geoiplookup.io/?callback=$script,domain=chilepeajes.cl
+@@||media.aws.alkomprar.com/resources/assets/alkosto/_ui/responsive/common/js/modules/algolia/widgets/analytics.js$domain=alkosto.com
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
 @@||officedepot.com.mx/_ui/shared/js/analyticsmediator.js$~third-party
