@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: QzVtSqFYMiFQJRA1vE4xyA
-! Version: 202302160031
+! Checksum: G7YcB8MRXrxHAvK3IjYsoQ
+! Version: 202302200031
 ! Title: ABP filters
-! Last modified: 16 Feb 2023 00:31 UTC
+! Last modified: 20 Feb 2023 00:31 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
 !
@@ -64,6 +64,9 @@ iprima.cz,www.seznam.cz,novinky.cz,super.cz,ahaonline.cz,expres.cz,kinobox.cz,ho
 kinobox.cz,novinky.cz,expres.cz,fights.cz,tiscali.cz,hudebniskupiny.cz,osobnosti.cz,ahaonline.cz,super.cz#$#prevent-listener beforeunload (); cookie-remover /^_?adb/;
 sauto.cz#$#override-property-read sssp undefined
 super.cz#$#override-property-read sspPositions null
+expres.cz,idnes.cz#$#override-property-read pxReady null
+expres.cz,idnes.cz#$#abort-on-property-read Object.prototype.kununu_mul
+expres.cz,idnes.cz#$#cookie-remover /^adb$|adb\.key|^[a-z]{5,11}$/
 iprima.cz##.sas_center, .px-ad, .sas_mone, .mone_box, .ifr-passback, [data-sas_status], div[id^="sas_"], div[class^="mas_mone_"], [data-alter_area="leaderboardpremium-1"], [data-alter_area="boardbottom-1"], .ifr-masshack, .px-zone, .sas_megaboard, .ifr-classflak, [data-sas-creative], #cnn_reklama, div[class^="mas_"], ._sasia_fcid, [class^="mas"][class$="_clue"]
 iprima.cz#?#div:-abp-has(>.mone_header)
 iprima.cz##.px-type-banner
@@ -132,8 +135,6 @@ idnes.cz###foto-reklama
 /tigatage:$script,domain=www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz|iprima.cz|tiscali.cz|kinobox.cz|osobnosti.cz|karaoketexty.cz|nasepenize.cz|fights.cz|novinky.cz|super.cz|sport.cz|kupi.cz|horoskopy.cz
 ||w-cached.cncenter.cz/js/cnc-ads-controller.$script,domain=blesk.cz|extra.cz|reflex.cz|zive.cz|auto.cz|e15.cz|autorevue.cz|dama.cz|maminka.cz|mojezdravi.cz|zeny.cz|onetv.cz|info.cz|ahaonline.cz
 client=ca-pub-$subdocument,domain=iprima.cz|www.idnes.cz|expres.cz|auto.cz|autorevue.cz|maminka.cz|reflex.cz|ahaonline.cz|blesk.cz|dama.cz|e15.cz|info.cz|mojezdravi.cz|onetv.cz|zeny.cz|zive.cz
-||www.expres.cz/*?.jpg$image,domain=www.expres.cz
-||www.idnes.cz/*?.jpg$image,domain=www.idnes.cz
 reflex.cz###gl-nat
 e15.cz##.mys-wrapper
 blesk.cz##.banner-ifortuna
@@ -141,9 +142,8 @@ blesk.cz##article[data-track-element-id*="prPremium"]
 blesk.cz##div[data-track-element-id^="prStandardZpravy"]
 blesk.cz###px2-wall-wrap
 blesk.cz###stickyfloatLeftEmptySpaceCheckLeft
-expres.cz,idnes.cz,blesk.cz###alN-wwp
-expres.cz,idnes.cz##[class^="rma"]
-expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-resize]
+expres.cz,idnes.cz##[class^="r-main"]
+expres.cz#$#hide-if-contains-visible-text /[a-zA-Z]/ '*[class][id]' span[id][data-rsize]
 dama.cz##[class*="ads-"]
 zeny.cz,auto.cz##[data-track-ad]
 super.cz##img[id^="rs-bg-img"]
@@ -858,6 +858,7 @@ www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/object[@type="nest
 ! Experimental
 www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'span[id="ssrb_feed_start"]~* h3+div>div' 'span[id="ssrb_feed_start"]~* h3+div>div span>a[href="#"]:first-of-type div>svg' '/./' '/(margin-right: -[3-5][0-9].*width: 10)|(margin-right: -[4-6][0-9].*width: 11)|(margin-right: -[5-7][0-9].*width: 12)|(margin-right: -[6-8][0-9].*width: 13)/'
 www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'span[id="ssrb_feed_start"]~* h3+div>div' 'span[id="ssrb_feed_start"]~* h3+div>div span>a[href="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'
+www.facebook.com,web.facebook.com#$#hide-if-has-and-matches-style * 'div[class]~* h3+div>div' 'div[class]~* h3+div>div span>a[href="#"]:first-of-type *>svg' '/./' '/(width: [4-6])/'
 ! *** abp-filters-anti-cv:french.txt ***
 ! #CV-691
 ! #CV-761
@@ -1035,8 +1036,8 @@ poczta.o2.pl##dd-holder[slot^="FEED_RECTANGLE_"]
 poczta.o2.pl###placeholder56
 sportowefakty.wp.pl#$#hide-if-matches-xpath '//div[@class ][1]/div[not(*) and not(normalize-space())][@class][not(contains(@class,"gallerybox"))]/ancestor::div[@class][1][not(contains(@class,"npp-container")) and not(string-length(@class)=41) and not(string-length(@class)=7)]'
 sportowefakty.wp.pl#$#hide-if-matches-xpath './/img[string-length(@src)>155]/following::span/a[string-length(@href)>1000]/ancestor::li[@class]'
-www.wp.pl#$#hide-if-matches-xpath '//div[@class]/a[contains(@href,"wp.pl/")]/img[contains(@src,"v.wpimg.pl/")]/following::div[1]/parent::div[@class][not(@data-st-area)]'
-www.wp.pl#$#hide-if-matches-xpath '//div[@class]/a[contains(@href,"wp.pl/")]/div[1]/following::div[3]/preceding::img[contains(@src,"v.wpimg.pl/")]/parent::div[@style="height: 60px;"]'
+www.wp.pl#$#abort-on-property-write Object.prototype.directOnly
+www.wp.pl#$#hide-if-matches-xpath './/span[contains(text(),"Okazje")]/parent::div/ancestor-or-self::div[2]'
 o2.pl##div[class$="cevoIl"]
 ! MISC
 www.elektroda.pl#$#abort-on-property-read popupStatus; abort-on-property-write welcomeAdContainer
@@ -1312,7 +1313,11 @@ vcomic.net,truyen86.com#$#abort-current-inline-script Object $._Eu
 ! *** abp-filters-hotfix:hotfix.txt ***
 ! FDA-2830
 @@||cdn.jsdelivr.net/npm/just-detect-adblock@*/dist/bundle.umd.min.js|
-! FDA-2915 / FDA-2984 / FD-3135 / FD-3401 / FD-3422 / FD-3573
+! FDA-2915 / FDA-2984 / FD-3135 / FD-3401 / FD-3422 / FD-3573 / FD-3660
+@@||pocketfaucet.com^$script,xmlhttprequest
+@@||stretchsquirrel.com^$script,xmlhttprequest
+@@||unbecominglamp.com^$script,xmlhttprequest
+@@||restrainstorm.com^$script,xmlhttprequest
 @@||spookyskate.com^$script,xmlhttprequest
 @@||2znp09oa.com^$script,xmlhttprequest
 @@||4jnzhl0d0.com^$script,xmlhttprequest
