@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: E2aDBF/0N7v+SdOl3k5VCA
-! Version: 202302270031
+! Checksum: HCic/ZlVMUmr5BW1F7X7kg
+! Version: 202303020031
 ! Title: EasyList China
-! Last modified: 27 Feb 2023 00:31 UTC
+! Last modified: 02 Mar 2023 00:31 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -676,6 +676,7 @@
 ://rou*/_next/static/chunks/pages/home-
 ://s.htkk*.top:$script,third-party
 ://seai*/ads/float.js
+://xingkong6688s.oss-
 :1010/openV5.js
 :10443/$script,subdocument,third-party
 :12289/o.js$script,third-party
@@ -1414,6 +1415,7 @@ newduba.cn###jq_youxi
 ##a[href*=":7888/?register="]
 ##a[href*=":8701/?register="]
 ##a[href*="?channelCode="] > img[src*=".com"]
+##a[href*="?channelCode="] > img[src*=".xyz"]
 ##a[href*="?invite_code="] > img[src*=".com"]
 ##a[href*="?register="] > img[src*=".douyinpic.com"]
 ##a[href*="?register="] > img[width="100%"]
@@ -1550,8 +1552,10 @@ newduba.cn###jq_youxi
 ##a[href*="/ky0001.vip"]
 ##a[href*="/ky0777.cn"]
 ##a[href*="/ky53362.com"]
+##a[href*="/l76fh.com"]
 ##a[href*="/lm63m.vip"]
 ##a[href*="/sm003r.tv"]
+##a[href*="/sm010k.xyz"]
 ##a[href*="/sm033v.tv"]
 ##a[href*="/sm27z.net"]
 ##a[href*="/smch7.com"]
@@ -1585,7 +1589,6 @@ newduba.cn###jq_youxi
 ||2hfby.top^
 ||2pwja.cn^
 ||2r6.cn^
-||328888.xyz^
 ||3633a.com^
 ||375772rug.com^
 ||37tek.fun^
@@ -1625,7 +1628,10 @@ newduba.cn###jq_youxi
 ||9bph.top^
 ||9cgms.xyz^
 ||9f11.win^
+||9fh6m.cn^
+||a-ads.com^
 ||aaaesme.cn^
+||accommodatingremindauntie.com^
 ||afdplay.xyz^
 ||afx001.pw^
 ||agkacg.xyz^
@@ -1649,10 +1655,12 @@ newduba.cn###jq_youxi
 ||asdffe22.com^
 ||asoeasy.cn^
 ||aswtai.xyz^
+||atnnf.xyz^
 ||atuhi.cyou^
 ||banhui.xyz^
 ||bavxxf.xyz^
 ||bddwm.com^
+||beatricecathy.com^
 ||bfdaawe.top^
 ||bgcnhux.cn^
 ||bgjjwl.cn^
@@ -1664,6 +1672,7 @@ newduba.cn###jq_youxi
 ||bitu.fun^
 ||bjdqxt.com^
 ||bkisss.com^
+||bkvps.com^$third-party
 ||bojebd.xyz^
 ||bomut.cyou^
 ||boodi.cyou^
@@ -1741,6 +1750,8 @@ newduba.cn###jq_youxi
 ||ewmvim.xyz^
 ||ewrwf.com^
 ||ezfxpuo.cn^
+||ezwxia.xyz^
+||f9s6.top^
 ||fangfeng009.xyz^
 ||fangyaomin.site^
 ||faunaships.com^
@@ -1779,6 +1790,7 @@ newduba.cn###jq_youxi
 ||gskbzle.cn^
 ||guangdongtaiji.com^
 ||guge.red^
+||guoandong.ltd^
 ||guode.cyou^
 ||guuds.cyou^
 ||guyu8855.club^
@@ -1791,6 +1803,7 @@ newduba.cn###jq_youxi
 ||handuwangluo.top^
 ||handuwl.top^
 ||hangchen.icu^
+||hanxin.me^
 ||happi.cyou^
 ||hcqsuqq.cn^
 ||hellobody.online^
@@ -1802,6 +1815,7 @@ newduba.cn###jq_youxi
 ||hhaobcj.cn^
 ||hibaby.ren^
 ||hiqrnyn.cn^
+||hkbzl.hk^
 ||hmpubc.xyz^
 ||hndhas.com^
 ||hnrjign.cn^
@@ -1827,6 +1841,7 @@ newduba.cn###jq_youxi
 ||huiyueting.com^
 ||hvhudp.xyz^
 ||hzcp.fun^
+||iaozwe.xyz^
 ||ibgksw.xyz^
 ||ibjkafefertt.xyz^
 ||icentos.info^
@@ -1854,6 +1869,7 @@ newduba.cn###jq_youxi
 ||ixelcpo.cn^
 ||jbuzacg.cn^
 ||jcvty.cyou^
+||jdnlynb.cn^
 ||jfmfmgj.cn^
 ||jgqub.cn^
 ||jike001.top^
@@ -1862,6 +1878,7 @@ newduba.cn###jq_youxi
 ||jiutou20230210.live^
 ||jjfopb.xyz^
 ||jkxvvv.xyz^
+||jllfxt.xyz^
 ||jmqmbsn.cn^
 ||jojog.com^
 ||jqtzw.xyz^
@@ -1879,6 +1896,7 @@ newduba.cn###jq_youxi
 ||keoap.xyz^
 ||keshidianhua.xyz^
 ||keysmw.xyz^
+||kgacp.cyou^
 ||kingsun.online^
 ||kiymowg.cn^
 ||kkqeqk.cn^
@@ -1955,6 +1973,7 @@ newduba.cn###jq_youxi
 ||mzwzo.cn^
 ||n0544.com^
 ||n0644.com^
+||nai7.xyz^
 ||nccaer.xyz^
 ||ncrkff.xyz^
 ||ncvkzz.cn^
@@ -1988,7 +2007,11 @@ newduba.cn###jq_youxi
 ||ofgysy.xyz^
 ||ogkfuw.xyz^
 ||ohmpyq.xyz^
+||oiqdjksgpo.com^
+||okew.top^
 ||okmwfq.xyz^
+||okoc.top^
+||okod.top^
 ||okoy.top^
 ||okwa.top^
 ||okwg.top^
@@ -2010,13 +2033,16 @@ newduba.cn###jq_youxi
 ||payoneok.com^
 ||pcmtf.cn^
 ||pddbtn.xyz^
+||pe5a.top^
 ||pehlvl.xyz^
 ||peoir.cyou^
 ||pgccaoy.cn^
 ||pic123.top^
+||pigwin.net^
 ||pj0z5.cn^
 ||pkeog.cn^
 ||plyuwqq.cn^
+||poeid.cyou^
 ||pojjtt.xyz^
 ||polkmerty.xyz^
 ||porjjhu.cn^
@@ -2032,16 +2058,19 @@ newduba.cn###jq_youxi
 ||qbd3.site^
 ||qbd4.site^
 ||qdutmef.cn^
+||qehaxkl.cn^
 ||qerbert78.xyz^
 ||qgazysq.cn^
 ||qgermm.xyz^
 ||qheoy.cn^
+||qianbaobbs.net^
 ||qiegoa.xyz^
 ||qingfengxq.com^
 ||qingganlan.ltd^
 ||qinkuai.top^
 ||qitou20230204.live^
 ||qkoio.cyou^
+||qkqasu.xyz^
 ||qliiom.xyz^
 ||qnfvojfkw.xyz^
 ||qsezjy.cn^
@@ -2093,6 +2122,7 @@ newduba.cn###jq_youxi
 ||shhaiya.com^
 ||shidaiheima.ltd^
 ||shikongbb.com^
+||siejp.cyou^
 ||sige20221230.xyz^
 ||siuscs.xyz^
 ||sixarwr.cn^
@@ -2110,12 +2140,14 @@ newduba.cn###jq_youxi
 ||sxakca.xyz^
 ||sycrgc.xyz^
 ||sygmtz.com^
+||szsxy.vip^
 ||t3p58.com^
 ||tanghao.club^
 ||tehgfn.xyz^
 ||tfbulkidn.com^
 ||tfzozf.xyz^
 ||tg0qu.top^
+||tgktw.xyz^
 ||tgryfh.xyz^
 ||theads.xyz^
 ||thlnbzi.cn^
@@ -2151,10 +2183,12 @@ newduba.cn###jq_youxi
 ||u25011.com^
 ||u25022.com^
 ||u644.fun^
+||u66099.com^
 ||uasvyi.xyz^
 ||udifvi.cn^
 ||ufynxmf.cn^
 ||ukutuy.xyz^
+||uniway.cn.com^
 ||unmnkkq.cn^
 ||uowfag.xyz^
 ||uwumr.cn^
@@ -2175,6 +2209,7 @@ newduba.cn###jq_youxi
 ||vwvjzd.xyz^
 ||vykeavz.cn^
 ||w80n.fun^
+||wangyc.club^
 ||waoeou.xyz^
 ||waterfairy.xyz^
 ||wawqqfg.cn^
@@ -2183,7 +2218,9 @@ newduba.cn###jq_youxi
 ||wdasa.top^
 ||wdmdejd.cn^
 ||weieo.cyou^
+||weighcb.com^
 ||weiqu.cyou^
+||wfndponfd.com^
 ||whrgsmi.cn^
 ||wjl58.icu^
 ||wooledswards.com^
@@ -2191,6 +2228,7 @@ newduba.cn###jq_youxi
 ||wpiwoo.xyz^
 ||wqmgqm.xyz^
 ||wschao.xyz^
+||wsdd11.com^
 ||wsdof.xyz^
 ||wuepo.cn^
 ||wuge20230104.live^
@@ -2222,10 +2260,12 @@ newduba.cn###jq_youxi
 ||xkjcpl.cn^
 ||xkqit.com^
 ||xmmnsl.com^
+||xnrcnz.xyz^
 ||xopew.cyou^
 ||xrewo.xyz^
 ||xryjyfb.cn^
 ||xtpez.xyz^
+||xuhaijun.pw^
 ||xunren.club^
 ||xxp123.live^
 ||xxsmcps.com^
@@ -2244,6 +2284,7 @@ newduba.cn###jq_youxi
 ||yhsfsdv03.com^
 ||yhtuchuang.com^
 ||yhzzzs02.com^
+||yimao20230217.live^
 ||yinming.online^
 ||youed.cyou^
 ||ypoiea.xyz^
@@ -2287,11 +2328,12 @@ newduba.cn###jq_youxi
 ||zunnnh.xyz^
 ||zxfas56.com^
 ||zxtkfvm.cn^
-||xuhaijun.pw^
-||iaozwe.xyz^
-||hanxin.me^
-||nai7.xyz^
-||kgacp.cyou^
+||diqizu.xyz^
+||pgrjxpd.cn^
+||ejyvgq.xyz^
+||jiape.cyou^
+||xxtalp.xyz^
+||ibqswjdkpo.com^
 !
 ##.btn[href*="/viphktv.com/"]
 ##[class][onclick*=".ununxsxs.top"]
@@ -11982,6 +12024,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||jinriguanzhu.cc^$domain=cgfdjz.net
 ||jinti.com^*/aspx/*gg
 ||jinyici.com/qq.js
+||jishulink.com/jishulink/searching/ad/get?
 ||jishuqq.com/images/haodian.gif
 ||jishuqq.com/wadsb.gif
 ||jishuyl.com/_skins/*/ad_
@@ -12401,6 +12444,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||meiyouad.com/user/admin?
 ||meizhou.cn/comm/mygg/
 ||meizhou.com/images/topbanner
+||mestrip.com/widgets/
 ||metvb.com/js/bofangwei.js
 ||mfacelive.com/Scripts/social/openchannel_min.js
 ||mfav88.com/yinzi/
@@ -20245,6 +20289,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||003store.com^
 ||0512s.com^$third-party
 ||0755rc.com^$third-party
+||0941.org^
 ||1.01fy.cn^
 ||1.07swz.com^
 ||1.1010pic.com^
@@ -20599,6 +20644,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||ckg.vipyl.com^
 ||classic.39health.com^
 ||cm.baidu.com^
+||cm.luyouwang.com^
 ||cn.bidushe.com^
 ||cn6x.com^
 ||cod.southmoney.com^
@@ -20831,6 +20877,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||js.yanyue.cn^
 ||js.yanyue.net^
 ||js.yjbys.com^
+||js1.122cha.com^
 ||js1.dadiniu.cn^
 ||js1.haoge500.com^
 ||jsb.qianzhan.com^
@@ -20902,6 +20949,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||mm.paizi.net^
 ||mnwor.xuanlishi.com^
 ||mo-tuo.com^
+||mo.gushiji.cc^
 ||mountain.zhidao.baidu.com^
 ||mpb1.iteye.com^
 ||mps.wenkuzu.com^
@@ -20986,6 +21034,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||shiyaokejishanghai.com^
 ||shzzzz.dftoutiao.com^
 ||sjbaiduadv1.redou.com^
+||sky.dunsuan.com^
 ||snzfj.net^$third-party
 ||so.auto999.cn^
 ||sp.dnqc.com^
@@ -21734,7 +21783,7 @@ laosiji.com#@#.sns-wrapper
 saydigi.com#@#.social-bottom
 mrbird.cc#@#.social-icons
 ghxi.com#@#.social-item
-7b2.com,thh521.com,zhujib.com#@#.social-top:not(html):not(body)
+7b2.com,thh521.com,vikacg.com,zhujib.com#@#.social-top:not(html):not(body)
 cowtransfer.com#@#.socialButton
 storm.mg#@#.social_btn
 ali213.net#@#.subscribe-container
