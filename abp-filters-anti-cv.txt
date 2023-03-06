@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: FGPwMq8tNUpQfqjOoi29zA
-! Version: 202303020031
+! Checksum: DpHM0r+ZhreLp+/wg+aL3Q
+! Version: 202303060030
 ! Title: ABP filters
-! Last modified: 02 Mar 2023 00:31 UTC
+! Last modified: 06 Mar 2023 00:30 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://github.com/abp-filters/abp-filters-anti-cv
 !
@@ -1065,6 +1065,7 @@ animesonline22.com#$#abort-current-inline-script JSON.parse /atob|btoa|break/
 gekkou.com.br#$#abort-current-inline-script document.querySelectorAll popMagic
 gofilmes.me#$#abort-on-property-read zfgformats
 betteranime.net#$#abort-current-inline-script document.createElement _mdttdpu
+torrentdosfilmes.eu#$#abort-current-inline-script document.createElement /break|case/
 ! #CV-667
 filmesonlinegratis.com#$#abort-current-inline-script Math zfgloaded
 ! *** abp-filters-anti-cv:romanian.txt ***
@@ -1167,7 +1168,13 @@ www.e1.ru#$#abort-on-property-read Object.prototype.brandingBlock
 biqle.org,biqle.ru#$#prevent-listener /click|mousedown/ 'popunder'
 rg.ru#$#abort-on-property-read AdFox_getCodeScript
 ontivi.net#$#abort-current-inline-script document.createElement Math.random
-bstudy.net,studbooks.net,studme.org,studref.com,studwood.net,vuzlit.com,xstud.org#$#abort-on-property-read abl
+bstudy.net#$#abort-on-property-read _0xddc4
+studbooks.net#$#abort-on-property-read _0x8336
+studme.org#$#abort-on-property-read _0x5443
+studref.com#$#abort-on-property-read _0x308a
+studwood.net#$#abort-on-property-read _0x8cc0
+vuzlit.com#$#abort-on-property-read _0xc091
+xstud.org#$#abort-on-property-read _0xd07e
 ! Prevent auto reload
 24boxing.com.ua,bilshe.com,businessua.com,f1analytic.com,football-ukraine.com,footballgazeta.com,footballtransfer.com.ua,glianec.com,nashamama.com,sportanalytic.com,stravy.net,zdorovia.com.ua#$#abort-current-inline-script setInterval reload
 ! Popup/popunder/clickunder
