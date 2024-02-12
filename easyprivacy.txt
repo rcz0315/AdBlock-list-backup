@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202402111207
+! Version: 202402112324
 ! Title: EasyPrivacy
-! Last modified: 11 Feb 2024 12:07 UTC
+! Last modified: 11 Feb 2024 23:24 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1525,6 +1525,7 @@
 /oo/*/lsync.js
 /oo/cl*.js?rd=
 /opdc.js
+/ope-adalliance.js
 /open/log/*
 /openpixel.gif?
 /openpixel.js
@@ -12919,6 +12920,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector.githubapp.com^
 ||collector.megaxh.com^
 ||collector.pi.spectrum.net^
+||collector.taoxh.life^
 ||collector.xhamster.com^
 ||collector.xhamster.desi^
 ||collector.xhamster2.com^
@@ -48519,6 +48521,8 @@ abema.tv##+js(rmnt, script, NREUM)
 ||bz-berlin.de/_stats/
 ||chartsurfer.de/js/mtm.js
 ||chartsurfer.de/uscoll.php?
+||chefkoch-cdn.de/agf/agf.js
+||chefkoch.de/search/tracking/
 ||chefkoch.de/tracking/
 ||click.alternate.de^
 ||cmp2.channelpartner.de^
