@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202402160051
+! Version: 202402170034
 ! Title: EasyPrivacy
-! Last modified: 16 Feb 2024 00:51 UTC
+! Last modified: 17 Feb 2024 00:34 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -5209,6 +5209,7 @@ omni.soundestlink.com$image
 ||sayutracking.co.uk^$third-party
 ||sbbanalytics.com^$third-party
 ||scaledb.com^$third-party
+||scarf.sh^$third-party
 ||sciencerevenue.com^$third-party
 ||scorecardresearch.com^$third-party
 ||scoutanalytics.net^$third-party
@@ -5379,6 +5380,7 @@ omni.soundestlink.com$image
 ||ssm.codes^$third-party
 ||star-cntr-5.com^$third-party
 ||stat-track.com^$third-party
+||stat.re^$third-party
 ||stat.social^$third-party
 ||stat24.com^$third-party
 ||statcounter.com^$third-party
@@ -6505,6 +6507,7 @@ omni.soundestlink.com$image
 ||dk4ywix.com^
 ||dockdigestion.com^
 ||docksalmon.com^
+||dogcollarfavourbluff.com^
 ||dogsshoes.com^
 ||dollardelta.com^
 ||dolldetail.com^
@@ -6539,6 +6542,7 @@ omni.soundestlink.com$image
 ||eatablesquare.com^
 ||echoinghaven.com^
 ||economicpizzas.com^
+||educatedeggnog.com^
 ||efficaciouscactus.com^
 ||ejyymghi.com^
 ||elasticchange.com^
@@ -6866,6 +6870,7 @@ omni.soundestlink.com$image
 ||joblessdrum.com^
 ||joyoussurprise.com^
 ||jubilantcanyon.com^
+||jubilantglimmer.com^
 ||justicejudo.com^
 ||k54nw.pw^
 ||kaputquill.com^
@@ -12982,7 +12987,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||deovr.com/api_logs/
 ||dev.to/fallback_activity_recorder
 ||developer.mozilla.org/submit/
-||df.infra.shopee.ph^
+||df.infra.shopee.
 ||dhl.com/g8Dj6P8TAg/
 ||dhresource.com/dhs/fob/js/common/track/$domain=dhgate.com
 ||digg.com/library/tracker.js
@@ -12995,6 +13000,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||docs.github.com/events
 ||domainit.com/scripts/track.js
 ||dominos.co.uk/qRgAwS/
+||dot.nonolive.com^
 ||dotesports.com/sp.js
 ||dp.shoprunner.com^
 ||drop.com/impressionsBeacon
@@ -13911,6 +13917,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracking.christianpost.com^
 ||tracking.digitalocean.com^
 ||tracking.engineering.cloud.seek.com.au^
+||tracking.game8.co^
 ||tracking.hsn.com^
 ||tracking.shopstyle.co.uk^
 ||tracking.shopstyle.com^
@@ -13952,7 +13959,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ubereats.com/_errors
 ||ubereats.com/_events
 ||ubereats.com/_track
-||ubt.tracking.shopee.ph^
+||ubt.tracking.shopee.
 ||ubuyanalytics.ubuy.com^
 ||ucoz.com/stat/
 ||ucweb.com/collect/
@@ -14073,11 +14080,13 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||youtube-nocookie.com/api/stats/qoe?
 ||youtube-nocookie.com/ptracking?
 ||youtube-nocookie.com/robots.txt?
+||youtube-nocookie.com/youtubei/v1/log_event?
 ||youtube.com/api/stats/delayplay?
 ||youtube.com/api/stats/qoe?
 ||youtube.com/get_video?
 ||youtube.com/ptracking?
 ||youtube.com/set_awesome?
+||youtube.com/youtubei/v1/log_event?
 ||youtubekids.com/api/stats/ads?
 ||youtubekids.com/api/stats/qoe?
 ||youtubekids.com/ptracking?
