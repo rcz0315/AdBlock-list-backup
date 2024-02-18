@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202402170034
+! Version: 202402180007
 ! Title: EasyPrivacy
-! Last modified: 17 Feb 2024 00:34 UTC
+! Last modified: 18 Feb 2024 00:07 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -53,6 +53,7 @@
 .gif?Log=
 .jp/pv?
 .jp/static/js/track.js
+.js?id=GTM-
 .lms-analytics/
 .net/l.gif?
 .no/app/aas/a
@@ -1061,6 +1062,7 @@
 /gtag.min.js
 /GTag/general_tracker.js
 /gtag/js?
+/gtm-data-layer-$script
 /gtm-listeners.js
 /gtm-suite.js
 /gtm.js
@@ -1827,6 +1829,7 @@
 /rm-gtm-google-analytics-for-wordpress/js/gtm-player.js
 /rm.gif?
 /rmntracking.js
+/rnb/events
 /rntracking.js
 /roi_tracker.js
 /roi_tracker.min.js
@@ -11340,6 +11343,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ws.sharethis.com^$script
 ||wsmcdn.audioeye.com^
 ||wspisp.net/logger.php
+||wstats.slashed.cloud^
 ||wt.viagogo.net^
 ||wtbevents.pricespider.com^
 ||wtr-digital-analytics.ew.r.appspot.com^
@@ -12128,6 +12132,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics00.meride.tv^
 ||analytics2-3-meride-tv.akamaized.net^
 ||analytics2-meride-tv.akamaized.net^
+||api.rivpoint.com/*/event/
 ||aruba.it/servlet/counterserver?
 ||audit.shaa.it^
 ||bemail.it^*/analytics.js
@@ -13525,6 +13530,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pingback.giphy.com^
 ||pingback.issuu.com^
 ||pingo.staticmoly.me^
+||pinkvilla.com/comscore_response.php
 ||pixel.archive.
 ||pixel.archivecaslytosk.onion^
 ||pixel.archiveiya74codqgiixo33q62qlrqtkgmcitqx5u2oeqnmn5bpcbiyd.onion^
@@ -14408,12 +14414,12 @@ abema.tv##+js(rmnt, script, NREUM)
 ! #endif
 ://coomer.su^$xhr,method=patch|post
 ://kemono.su^$xhr,method=patch|post
-@@/^https:\/\/coomer\.su\/api\/v1\/(?:fansly|onlyfans)\/user\/[0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xhr,1p,match-case,method=post
-@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/creator\/(?:fansly|onlyfans)\/[0-9A-Z_a-z]+$/$xhr,1p,match-case,method=post
-@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/post\/(?:fansly|onlyfans)\/[0-9A-Z_a-z]+\/\d+$/$xhr,1p,match-case,method=post
-@@/^https:\/\/kemono\.su\/api\/v1\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/user\/[0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xhr,1p,match-case,method=post
-@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/creator\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[0-9A-Z_a-z]+$/$xhr,1p,match-case,method=post
-@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/post\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[0-9A-Z_a-z]+\/[0-9A-Za-z]+$/$xhr,1p,match-case,method=post
+@@/^https:\/\/coomer\.su\/api\/v1\/(?:fansly|onlyfans)\/user\/[.0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xhr,1p,match-case,method=post
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/creator\/(?:fansly|onlyfans)\/[.0-9A-Z_a-z]+$/$xhr,1p,match-case,method=post
+@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/post\/(?:fansly|onlyfans)\/[.0-9A-Z_a-z]+\/\d+$/$xhr,1p,match-case,method=post
+@@/^https:\/\/kemono\.su\/api\/v1\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/user\/[.0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xhr,1p,match-case,method=post
+@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/creator\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[.0-9A-Z_a-z]+$/$xhr,1p,match-case,method=post
+@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/post\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[.0-9A-Z_a-z]+\/[0-9A-Za-z]+$/$xhr,1p,match-case,method=post
 @@||coomer.su/.well-known/ddos-guard/mark/|
 @@||kemono.su/.well-known/ddos-guard/mark/|
 
@@ -49343,6 +49349,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||game-i.daa.jp/skin/analytics.php
 ||gizmodo.jp/api/SurveyCountCollection?
 ||goo.ne.jp^*/vltracedmd.js
+||gtm.diamond.jp^
 ||hatarako.net/api/recommend/analyze_logger
 ||i2i.jp/bin/
 ||img.syosetu.org/js/c_
