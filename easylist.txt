@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202402180007
+! Version: 202402190023
 ! Title: EasyList
-! Last modified: 18 Feb 2024 00:07 UTC
+! Last modified: 19 Feb 2024 00:23 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1538,6 +1538,7 @@
 /zanox/banner/*
 /zcredirect?
 /zcvisitor/*
+/zergnet_ad/*
 /~cdn/ads/*
 ://a.*/ad-provider.js$third-party
 ://a.ads.
@@ -15519,6 +15520,7 @@ _800x80_
 ##.polaris-ad--wrapper-desktop
 ##.polarisMarketing
 ##.polaris__ad
+##.polaris__below-header-ad-wrapper
 ##.polaris__teads
 ##.position-ads
 ##.post--native-ad
@@ -17783,6 +17785,7 @@ _800x80_
 ##aside[id^="adrotate_widgets-"]
 ##atf-ad-slot
 ##bottomadblock
+##display-ad-component
 ##display-ads
 ##div[aria-label="Ads"]
 ##div[class^="Adstyled__AdWrapper-"]
@@ -18050,35 +18053,20 @@ _800x80_
 ###pubexchange_below_content
 ##.pubexchange_module
 ! Outbrain
-###adv_outbrain_SB_1_sidebar
-###ao-article-outbrain
-###ao-sidebar-outbrain
-###container-outbrain-sticky
 ###js-outbrain-ads-module
-###js-outbrain-rightrail-ads-module
 ###outbrain-wrapper
 ###outbrainAdWrapper
-###outbrain_dual_ad_fs_0_dual
-###outbrain_vertical
-###sponsored-outbrain-1
-##.Cheat__outbrain
 ##.OUTBRAIN[data-widget-id^="FMS_REELD_"]
 ##.adv_outbrain
-##.ht_outbrain
 ##.js-outbrain-container
-##.ob-ad-carousel-layout
-##.ob-hover
 ##.ob-p.ob-dynamic-rec-container
-##.ob-strip-layout
+##.ob-widget-header
 ##.outBrainWrapper
 ##.outbrain-ad-slot
 ##.outbrain-ad-units
 ##.outbrain-bg
 ##.outbrain-widget
 ##.outbrainAdHeight
-##.outbrain_ad_li
-##.outbrain_dual_ad_whats_class
-##.outbrain_ul_ad_top
 ##.outbrainad
 ##.promoted-outbrain
 ##.responsive-ad-outbrain
@@ -18099,8 +18087,6 @@ _800x80_
 ###component-taboola-below-article-feed
 ###component-taboola-below-article-feed-2
 ###component-taboola-below-homepage-feed
-###fake_taboola_fallback
-###ra-taboola-bottom
 ###taboola-ad
 ###taboola-adverts
 ###taboola-below
@@ -18109,90 +18095,46 @@ _800x80_
 ###taboola-below-article-thumbnails-express
 ###taboola-below-article-thumbnails-v2
 ###taboola-below-forum-thumbnails
-###taboola-content
-###taboola-footer-ad
-###taboola-main-container
 ###taboola-mid-article-thumbnails
 ###taboola-mid-article-thumbnails-ii
 ###taboola-mobile-article-thumbnails
 ###taboola-placeholder
 ###taboola-right-rail
 ###taboola-right-rail-express
-###taboola-top-banner-abp
-###taboola_related
 ###taboola_responsive_wrapper
-##.ab_taboola
-##.ad-container--taboola
-##.article-body__suppl_content--taboola-mid-article
-##.article-footer--taboola
 ##.article-taboola
-##.box-taboola-content
-##.dart-ad-taboola
-##.for-taboola
 ##.grid__module-sizer_name_taboola
-##.grv-taboola
-##.nw-taboola
 ##.nya-slot[style]
-##.qa-placement-outbrain-under-post-cr
-##.tablet_ad_box
-##.tablet_ad_head
 ##.taboola-above-article
 ##.taboola-above-article-thumbnails
 ##.taboola-ad
 ##.taboola-block
 ##.taboola-general
 ##.taboola-in-plug-wrap
-##.taboola-inbetweener
 ##.taboola-item
-##.taboola-left-rail-wrapper
-##.taboola-partnerlinks-ad
-##.taboola-placeholder
-##.taboola-placement
-##.taboola-single-asset-ads
-##.taboola-unit
 ##.taboola-widget
 ##.taboolaArticle
 ##.taboolaHeight
 ##.taboola__container
-##.taboola_advertising
 ##.taboola_blk
-##.taboola_block1
 ##.taboola_container
 ##.taboola_lhs
-##.tbl-floating-unit
-##.tncls_taboola
 ##.trb_taboola
-##.trc_excludable.syndicatedItem
-##.trc_rbox .syndicatedItem
-##.trc_rbox_border_elm .syndicatedItem
-##.trc_rbox_div .syndicatedItem
-##.trc_rbox_div .syndicatedItemUB
-##.trc_related_container div[data-item-syndicated="true"]
+##.trc_excludable
+##.trc_rbox
+##.trc_rbox_border_elm
+##.trc_rbox_div
+##.trc_related_container
 ##.van_taboola
 ##.widget_taboola
 ##amp-embed[type="taboola"]
 ##div[id^="taboola-stream-"]
 ! Zergnet
-###boxes-box-zergnet_module
-###right_rail-zergnet
-###zergnet
-###zergnet-wrapper
 ##.ZERGNET
-##.adLocation-zerg
-##.component-zergnet
-##.content-zergnet
-##.js-footer-zerg
 ##.module-zerg
-##.o-zergnet
-##.post-zergnet-wrap
 ##.sidebar-zergnet
-##.td-zergnet
-##.widget-ami-zergnet
-##.widget_ok_zergnet_widget
-##.zerg-colm
 ##.zerg-widget
 ##.zerg-widgets
-##.zergmod
 ##.zergnet
 ##.zergnet-holder
 ##.zergnet-row
@@ -18201,11 +18143,7 @@ _800x80_
 ##.zergnet-widget-container
 ##.zergnet-widget__header
 ##.zergnet-widget__subtitle
-##.zergnetBLock
 ##.zergnet__container
-##.zergnetpower
-##.zergpowered
-##display-ad-component
 ##div[id^="zergnet-widget"]
 ! *** easylist:easylist/easylist_allowlist_general_hide.txt ***
 dez.ro#@##ad-carousel
@@ -23006,6 +22944,7 @@ browsershots.org#@#.advert_area
 ||billionstarads.com^
 ||billservingineffective.com^
 ||billybobandirect.org^
+||billyhis.com^
 ||billypub.com^
 ||bilsyndication.com^
 ||bimlocal.com^
@@ -27546,6 +27485,7 @@ browsershots.org#@#.advert_area
 ||dragnag.com^
 ||drainlot.com^
 ||drako2sha8de09.com^
+||dralintheirbr.com^
 ||dramasoloist.com^
 ||dramaticagreementsalt.com^
 ||dramipmsxyutc.xyz^
@@ -32420,6 +32360,7 @@ browsershots.org#@#.advert_area
 ||hepani.com^
 ||hepare.com^
 ||heparllasysy.xyz^
+||heparlorne.org^
 ||hepekdxt.xyz^
 ||hepsaign.com^
 ||heptix.net^
@@ -33511,6 +33452,7 @@ browsershots.org#@#.advert_area
 ||ilovemakingpics.com^
 ||iloxvxenlwsv.com^
 ||ilumtoux.net^
+||ilvpbrvrpzrys.com^
 ||ilxhsgd.com^
 ||ilxkwlhqo.com^
 ||ilyf4amifh.com^
@@ -35212,6 +35154,7 @@ browsershots.org#@#.advert_area
 ||kazanbossterrifying.com^
 ||kbadguhvqig.xyz^
 ||kbao7755.de^
+||kbevcidiiqwa.com^
 ||kbkewkjlqjqzr.top^
 ||kbknujjtpnqq.com^
 ||kbmcpatd.com^
@@ -35460,6 +35403,7 @@ browsershots.org#@#.advert_area
 ||kjotkqyzxe.com^
 ||kjqlmeaykennr.top^
 ||kjrlulmt.com^
+||kjrnmkfwqp.com^
 ||kjsckwjvdxju.xyz^
 ||kjsvvnzcto.com^
 ||kjuftmdofmsrhq.com^
@@ -36234,6 +36178,7 @@ browsershots.org#@#.advert_area
 ||lfngqrtheim.com^
 ||lfnwqrghxqrqb.com^
 ||lfooldjzuyfhae.com^
+||lfpmtibqwqre.com^
 ||lfstmedia.com^
 ||lfsuigdrtsszog.com^
 ||lfufujhxmy.com^
@@ -36516,6 +36461,7 @@ browsershots.org#@#.advert_area
 ||llalo.click^
 ||llantynethebrav.xyz^
 ||llapaewllfc.com^
+||llboqevyazylr.top^
 ||llcbcqfwxyhgyda.com^
 ||lleadupthere.xyz^
 ||llevenmanis.xyz^
@@ -37472,6 +37418,7 @@ browsershots.org#@#.advert_area
 ||measurementpond.com^
 ||measuringrules.com^
 ||meatytell.pro^
+||meawo.cloud^
 ||mebeptxj.com^
 ||mechaelpaceway.com^
 ||mechanicsforgave.com^
@@ -40261,6 +40208,7 @@ browsershots.org#@#.advert_area
 ||onwardrespirationcommandment.com^
 ||onwasrv.com^
 ||onwekdebd.xyz^
+||onznwiocrrim.com^
 ||oo00.biz^
 ||oobuwjnlljbah.com^
 ||oocxefrgn.com^
@@ -40395,6 +40343,7 @@ browsershots.org#@#.advert_area
 ||optad360.net^
 ||optaivuy.net^
 ||opteama.com^
+||optedprebend.top^
 ||opter.co^
 ||opthushbeginning.com^
 ||opticlygremio.com^
@@ -41825,7 +41774,6 @@ browsershots.org#@#.advert_area
 ||pixelspivot.com^
 ||pixfuture.net^
 ||pixinform.com^
-||pixiv.org^
 ||pixxur.com^
 ||piybineqejjswp.com^
 ||piz7ohhujogi.com^
@@ -46352,6 +46300,7 @@ browsershots.org#@#.advert_area
 ||smenqskfmpfxnb.bid^
 ||smentbrads.info^
 ||smervyfenks.com^
+||smewwuwppjbebd.com^
 ||smfsojvsaxbgf.com^
 ||smigdxy.com^
 ||smigro.info^
@@ -52210,6 +52159,7 @@ browsershots.org#@#.advert_area
 ||xlcceiswfsntpp.xyz^
 ||xlckxtyqntt.xyz^
 ||xlfrhhp.com^
+||xlgatxqovuvz.com^
 ||xliirdr.com^
 ||xlirdr.com^
 ||xlivesex.com^
@@ -54341,7 +54291,7 @@ browsershots.org#@#.advert_area
 ||smowtion.com^$third-party
 ||smpgfx.com^$third-party
 ||snack-media.com^$third-party
-||snap.com^$third-party
+||snap.com^$third-party,domain=~forbusiness.snapchat.com
 ||sndkorea.co.kr^$third-party
 ||sni.ps^$third-party
 ||snigelweb.com^$third-party
@@ -54655,6 +54605,25 @@ browsershots.org#@#.advert_area
 ! Altice / Optimum / CableVision injects ads
 ! https://github.com/ryanbr/fanboy-adblock/issues/816
 ||167.206.10.148^
+! TrustPid/Utiq
+||utiq-aws.net^
+||utiq.24auto.de^
+||utiq.24hamburg.de^
+||utiq.24rhein.de^
+||utiq.buzzfeed.de^
+||utiq.come-on.de^
+||utiq.einfach-tasty.de^
+||utiq.fnp.de^
+||utiq.fr.de^
+||utiq.hna.de^
+||utiq.ingame.de^
+||utiq.kreiszeitung.de^
+||utiq.merkur.de^
+||utiq.mopo.de^
+||utiq.op-online.de^
+||utiq.soester-anzeiger.de^
+||utiq.tz.de^
+||utiq.wa.de^
 ! *** easylist:easylist/easylist_adservers_popup.txt ***
 ||0265331.com^$popup
 ||07c225f3.online^$popup
@@ -59532,6 +59501,7 @@ browsershots.org#@#.advert_area
 ||mmosale.com/baner_images/
 ||mmwebhandler.888.com^
 ||monetize-static.viralize.tv^
+||mps.nbcuni.com/fetch/ext/
 ||mydirtyhobby.com^$third-party,domain=~my-dirty-hobby.com|~mydirtyhobby.de
 ||myfinance.com^$subdocument,third-party
 ||namecheap.com/graphics/linkus/
@@ -59646,6 +59616,7 @@ browsershots.org#@#.advert_area
 ||static.prd.datawars.io/static/promo/
 ||static.sunmedia.tv/integrations/
 ||static.tradetracker.net^$third-party
+||staticmisc.blob.core.windows.net^$domain=onecompiler.com
 ||storage.googleapis.com/adtags/
 ||storage.googleapis.com/ba_utils/stab.js
 ||stunserver.net/frun.js
@@ -61255,6 +61226,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||expats.cz/images/amedia/
 ||facebook.com/network_ads_common
 ||familylawweek.co.uk/bin_1/
+||fastapi.tiangolo.com/img/sponsors/$image
 ||fauceit.com/Roulette-(728x90).jpg
 ||fentent.streampiay.fun^
 ||fentent.streampiay.me^
@@ -62257,6 +62229,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||imgdrive.net/xb02673583fb.js
 ||imgtaxi.com/frame.php
 ||imhentai.xxx/js/slider.js
+||inporn.com/8kl7mzfgy6
 ||internationalsexguide.nl/forum/clientscript/PopUnderISG.js
 ||interracial-girls.com/chaturbate/
 ||interracial-girls.com/i/$image
@@ -62275,7 +62248,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||javslon.com/clacunder.js
 ||javxnxx.pro/pscript.js
 ||jennylist.xyz/t63fd79f7055.js
-||jizzberry.com/654eb40079439pop/
+||jizzberry.com/65
 ||jo.4wank.com^
 ||joysporn.sex/js/kj.js
 ||justthegays.com/agent.php
@@ -62294,6 +62267,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||manga18fx.com/tkmo2023/
 ||manhwa18.cc/main2023/
 ||mansurfer.com/flash_promo/
+||manysex.com/ha10y0dcss
 ||marawaresearch.com/js/wosevu.js
 ||marine.xhamster.com^
 ||marine.xhamster.desi^
@@ -62309,7 +62283,8 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||momvids.com/player/html.php?aid=
 ||mopoga.com/img/aff_
 ||mylistcrawler.com/wp-content/plugins/elfsight-popup-cc/
-||mylust.com/342-0r0erwd4qjw
+||mylust.com/092-
+||mylust.com/assets/script.js
 ||mysexgames.com/pix/best-sex-games/
 ||mysexgames.com/plop.js
 ||myvideos.club/api/
@@ -62476,7 +62451,7 @@ $popup,third-party,domain=1337x.buzz|720pstream.tv|adblockeronstape.me|adblocker
 ||xbooru.com/script/application.js
 ||xcity.org/tc2ca02c24c5.js
 ||xgirls.agency/pg/c/
-||xgroovy.com/6595d2ae9bda9oio/
+||xgroovy.com/65
 ||xgroovy.com/static/js/script.js
 ||xhamster.com*/vast?
 ||xhamster.desi*/vast?
@@ -62720,6 +62695,8 @@ agar.io###agar-io_300x250
 alchetron.com###alchetronFreeStarVideoAdContainer
 djchuang.com###amazon3
 wtechnews.com###aniBox
+ancient-origins.net###ao-article-outbrain
+ancient-origins.net###ao-sidebar-outbrain
 mybanktracker.com###article-content > .lazyloaded
 timesofmalta.com###article-sponsored
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au###articlePartnerStories
@@ -63116,6 +63093,7 @@ fakeupdate.net###itemz
 offidocs.com###ja-container-prev
 apkonline.net###ja-container-prev-0
 offidocs.com###ja-container-prev-c
+cnn.com###js-outbrain-rightrail-ads-module
 9gag.com###jsid-ad-container-page_adhesion
 dhakatribune.com###jw-popup
 food52.com###jw_iframe
@@ -63424,6 +63402,7 @@ firmwarefile.com###spon
 progressillinois.com,slitaz.org###sponsor
 meteocentrale.ch###sponsor-info
 newsfirst.lk###sponsored-content-1
+cnn.com###sponsored-outbrain-1
 hiphopkit.com###sponsored-sidebar
 homedepot.com###sponsored-standard-banner-nucleus
 techmeme.com###sponsorposts
@@ -65772,6 +65751,7 @@ tekno.kompas.com##.native-wrap
 seura.fi##.nativead:not(.list)
 vice.com##.nav-bar__article-spacer
 majorgeeks.com##.navigation-light
+notebookcheck.net##.nbc-right-float
 vocm.com##.nccBigBox
 aceshowbiz.com,cmr24.net##.ne-banner-layout1
 meilleurpronostic.fr##.ne4u07a96r5c3
@@ -65980,7 +65960,7 @@ freewebarcade.com##.pnum
 thespec.com##.polarAds
 bramptonguardian.com,guelphmercury.com,insideottawavalley.com,thestar.com##.polarBlock
 autoexpress.co.uk##.polaris__below-header-ad-wrapper
-autoexpress.co.uk,carbuyer.co.uk##.polaris__partnership-block
+autoexpress.co.uk,carbuyer.co.uk,evo.co.uk##.polaris__partnership-block
 bigissue.com##.polaris__simple-grid--full
 compoundsemiconductor.net##.popular__section-newsx
 wethegeek.com##.popup-dialog
@@ -67713,6 +67693,7 @@ metabattle.com##div[style="display: flex; justify-content: center; align-items: 
 mangabtt.com##div[style="display: flex; justify-content: space-around; flex-flow: wrap; height: 270px;"]
 aceshowbiz.com##div[style="display:inline-block;min-height:300px"]
 kimcartoon.li##div[style="font-size: 0; position: relative; text-align: center; margin: 10px auto; width: 300px; height: 250px; overflow: hidden;"]
+pixiv.net##div[style="font-size: 0px;"] a[target="premium_noads"]
 kuncomic.com##div[style="height: 260px;overflow: hidden"]
 beta.riftkit.net##div[style="height: 300px; width: 400px;"]
 paraphraser.io##div[style="height:128px;overflow: hidden !important;"]

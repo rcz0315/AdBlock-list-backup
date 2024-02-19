@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dK3DMT5vR8TQQYfbwb/1AA
-! Version: 202402180051
+! Checksum: FjTqCQtnipbXNHB+V0Pp7Q
+! Version: 202402190051
 ! Title: EasyList China
-! Last modified: 18 Feb 2024 00:51 UTC
+! Last modified: 19 Feb 2024 00:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -170,6 +170,7 @@
 /2016v2/js/adm2.js
 /2048/aps/*_pc.js
 /500ad/*
+/pj98co.oss-
 /527ldy.oss-
 /5555vipqipai.oss-
 /58pic/index.php?m=adManageSystem&
@@ -1712,6 +1713,21 @@ newduba.cn###jq_youxi
 ||ovjlccs.xyz^
 ||1ny3r.icu^
 ||jgmywh.icu^
+||ostjpig.cn^
+||nplahh.xyz^
+||cdybwjpa.xyz^
+||uu22662.com^
+||benpsbp.com^
+||tu2024020388.com^
+||xdybwjpa.xyz^
+||kksjsa.top^
+||bwlcpr.xyz^
+||uxrdg.cn^
+||yvudqzoa.xyz^
+||clywws.xyz^
+||anjdwmq.xyz^
+||p45m0.icu^
+||hbjolp.xyz^
 !
 ##[style*="sotv.me"]
 ##a[href$="/lm2p2.com"]
@@ -16191,7 +16207,7 @@ weibo.com#?#.card-wrap:-abp-has(> .card-film > .card-head > .title:-abp-contains
 weibo.com#?#.card-wrap:-abp-has(>.card-top>.s-fr:-abp-contains(广告))
 weibo.com#?#.card-wrap:-abp-has(>.card>i[style*="%E5%B9%"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-ad-tag:-abp-contains(广告))
-weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(.wbpro-auth-tag>div:-abp-contains(热推))
+weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class*="head-info_"]>div:-abp-contains(热推))
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(div[class*="head-info_"]>img[src^="data"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(img[class^="head-info_authicon_"][src^="data"])
 weibo.com#?#.vue-recycle-scroller__item-view:-abp-has(span[class^="wbpro-icon-search"]:-abp-contains(/商|上新|好物/))
@@ -17118,7 +17134,6 @@ guailie.com#@#.google-ad
 !#8
 !#91porny.com
 ###playerJsvLayer.jsv-layer
-##.btn-outline-primary[href*=".cc"]
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.container-fluid.p-0[class*="mb-"]
 ##.fixed-bottom.jsv.jsv-g1
 91porny.com,9s102.xyz,jiuse205.com,jiuse390.xyz,jiuse970.com##.jsv-g1
