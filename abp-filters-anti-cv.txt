@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: YuOVDwoDDWZKQhuzOLEJEg
-! Version: 202402230051
+! Checksum: gixOhQLWtzieElH53WWENg
+! Version: 202402240051
 ! Title: ABP filters
-! Last modified: 23 Feb 2024 00:51 UTC
+! Last modified: 24 Feb 2024 00:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -649,7 +649,7 @@ topwwnews.com#$#abort-on-property-read localStorage
 ! #CV-697
 thetrendspotter.net,theavtimes.com#$#abort-on-property-read advads_passive_ads
 ! #CV-782
-www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]' 5; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=100'
+www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/div[contains(@class,"video-ads")]//div[@class="ytp-ad-player-overlay"]'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
 www.youtube.com#$#skip-video '.video-stream' './/ytd-player/div[@id]//div[contains(@class,"ad-interrupting") or contains(@class,"ad-showing")]'; simulate-mouse-event 'button.ytp-ad-skip-button-modern$delay=0'
 www.youtube.com,m.youtube.com,youtube-nocookie.com#$#skip-video 'video.html5-main-video' './/ytlr-player//div[contains(@class,"ad-interrupting")]'
 music.youtube.com,youtubekids.com#$#json-prune '0.playerResponse.adPlacements 0.playerResponse.playerAds 1.playerResponse.adPlacements 1.playerResponse.playerAds 2.playerResponse.adPlacements 2.playerResponse.playerAds playerResponse.adPlacements playerResponse.playerAds ytInitialPlayerResponse.adPlacements ytInitialPlayerResponse.playerAds adPlacements playerAds'
@@ -998,10 +998,9 @@ www.facebook.com,web.facebook.com#$#race start; hide-if-contains-visible-text /[
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[@aria-labelledby and @aria-describedby]//span/div[@class][@role][contains(., "Anzeige") or contains(., "Sponsored") or contains(., "Sponsorlu") or contains(., "Gesponsert") or contains(., "Patrocinado") or contains(., "Sponsorisé") or contains(., "Commandité") or contains(., "Gesponsord") or contains(., "Sponsorowane") or contains(., "Publicidad") or contains(., "Sponsrad") or contains(., "Sponsoreret") or contains(., "Sponsoroitu") or contains(., "Sponsa") or contains(., "Sponset") or contains(., "Sponsorizat") or contains(., "Bersponsor") or contains(., "Ditaja") or contains(., "Sponsorizzato") or contains(., "May Sponsor") or contains(., "Реклама") or contains(., "贊助") or contains(., "赞助内容") or contains(., "ได้รับการสนับสนุน") or contains(., "Được tài trợ") or contains(., "प्रायोजित") or contains(., "دارای پشتیبانی مالی") or contains(., "تمويل شوي") or contains(., "সৌজন্যে") or contains(., "مُموَّل") or contains(., "سپانسرڈ") or contains(., "ממומן") or contains(., "Hirdetés")]/ancestor::div[@aria-labelledby and @aria-describedby]'
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/span[@id="ssrb_feed_start"]/following-sibling::div//div[@aria-labelledby and @aria-describedby]//div[contains(text(),"Sponsored")]/ancestor::div[@aria-labelledby and @aria-describedby]'
 www.facebook.com,web.facebook.com##a[href*="ad_preferences"]>span[class][dir]
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//following::a[@class][@rel][@target]/parent::div/ancestor::div[@class][contains(@style,"max-width") and contains(@style,"min-width")][1]'
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/div[contains(@aria-label,"Marketplace")][@role="main"]//following::a[@aria-label][@class][@href][@role][@tabindex]/parent::div/ancestor::div[@class][contains(@style,"max-width") and contains(@style,"min-width")][1]'
+www.facebook.com,web.facebook.com#?#:xpath(.//div[contains(@aria-label,"Marketplace")][@role="main"]//following::a[@class][@rel][@target]/parent::div/ancestor::div[@class][contains(@style,"max-width") and contains(@style,"min-width")][1])
+www.facebook.com,web.facebook.com#?#:xpath(.//div[contains(@aria-label,"Marketplace")][@role="main"]//following::a[@aria-label][@class][@href][@role][@tabindex]/parent::div/ancestor::div[@class][contains(@style,"max-width") and contains(@style,"min-width")][1])
 www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a[contains(@href,"ads/about")][text()]//ancestor::span'
-www.facebook.com,web.facebook.com#$#hide-if-matches-xpath './/a[contains(@href,"/ads/about")]/span[@dir]/ancestor::div[1]'
 ! Rules that don't need to change
 @@||www.facebook.com^$generichide
 @@||web.facebook.com^$generichide
@@ -1200,6 +1199,8 @@ www.elektroda.pl#$#abort-on-property-read popupStatus; abort-on-property-write w
 naekranie.pl#$#abort-on-property-read adQueue
 www.olx.pl#$#hide-if-matches-xpath './/div[@class="vivus_footer"]/h5/ancestor-or-self::div[contains(@class,"vivus")]/ancestor::div[@data-testid="qa-advert-slot"]'
 gierkionline.pl#$#hide-if-matches-xpath './/div[@id]//div[contains(text(),"Reklama")]/parent::div[contains(@class,"banner")]/ancestor::div[@id][@class][1]'
+! video ads
+||g.cda.pl/player*?ads&vi*^$xmlhttprequest,domain=cda.pl
 ! Popup/Popunder/Clickunder
 filmy69.pl#$#abort-current-inline-script document.querySelectorAll popMagic
 ! *** abp-filters-anti-cv:portuguese.txt ***
@@ -1468,17 +1469,17 @@ xoivo2.online,tructiepdabong5.co,vaoroi365.com#$#override-property-read adsPlaye
 kenh14.vn#$#override-property-read Constants.allowAds false
 vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
-thapcam2.live#$#simulate-mouse-event '#modalasd$continue,delay=300'
+thapcam3.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
 ! Popup/Popunder/Clickunder
 fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet.net,anh.moe,truyenhentaivn.com#$#abort-on-property-read open
 khophimhd.net,downloadsachmienphi.com,tvhay.top#$#abort-current-inline-script JSON.parse atob
 truyen2u.net#$#abort-current-inline-script eval
-thienhatruyen.com#$#abort-current-inline-script $ pc-popup-2
+thienhatruyen.net#$#abort-current-inline-script $ pc-popup-2
 sexphimhd.net,gvnvh18.com#$#abort-current-inline-script Math
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.win,sieudamtv.me,ephimchill.com,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.net,www.khophim88s.com,nhentaivn.com,khophimchill.net,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,khoaiphim.com,phimmoi.win,sieudamtv.pro,ephimchill.com,maclife.io,ophimhdvn3.net,thuvienhd.xyz,xemtv.tvhayhd.net,www.khophim88s.com,nhentaivn.com,khophimchill.net,mv.dailyphimz.com,mv.phimbathu.one#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 truyentuan.xyz#$#abort-current-inline-script $ btpop
@@ -1488,13 +1489,13 @@ xoilac100.tv#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.red,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenme.com,yurineko.net,vlxyz.vc,javhay.in,phimsexhay669.co,cliphot69.vin,doctruyen3qc.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.top,top1sex.club,lenlut.net,xemsex.asia,hentaivn.ac,sexphim1.com,cdn.streamvl.sbs,www.buomtv.app,truyenvn.fun,cdnstream.sbs,javtiful.com,tuoi69.red,quatvn.club,tenmientruyengi.net,topxxxhay.com#$#abort-current-inline-script WebAssembly instantiate
+viet69.men,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotvay.net,truyengihotnay.com,dualeotruyenme.com,yurineko.net,vlxyz.vc,javhay.in,phimsexhay669.co,cliphot69.club,doctruyen3qc.com,hentaizz.vip,animehay.city,vlxx.xxx,heo69.vc,top1sex.club,lenlut.tv,xemsex.ac,hentaivn.ac,phim2.sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.fun,cdnstream.sbs,javtiful.com,tuoi69.red,quatvn.club,tenmientruyengi.net,topxxxhay.com#$#abort-current-inline-script WebAssembly instantiate
 animevietsub.io#$#abort-current-inline-script document.documentElement break;case
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl;abort-current-inline-script eval $._Eu
-gocphimvn.vip,p.thoctv.com#$#abort-current-inline-script document.createElement script
+gocphimvnn.com,p.thoctv.com#$#abort-current-inline-script document.createElement script
 mephimnhe1.net#$#abort-current-inline-script jQuery popurl
-phimhdc.com,motchill.uk#$#abort-current-inline-script document.addEventListener linksToOpen
+phimhdc.com,motchilluk.com#$#abort-current-inline-script document.addEventListener linksToOpen
 khoaiphim.com,phimmoinay.tv#$#abort-current-inline-script jQuery click_time
 dualeotruyenme.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.addEventListener popunder
 lxmanga.net#$#abort-current-inline-script $ PopUnder
@@ -1504,7 +1505,7 @@ truyenqqvn.com#$#abort-current-inline-script document.addEventListener window.op
 audiotruyenfull.com#$#abort-on-property-read adpiaListUrl
 vailonxx.com,phimlongtieng.com,phimlongtieng.net#$#abort-current-inline-script jQuery window.open
 tctruyen.com,tctruyen.net,abtruyen.com#$#abort-current-inline-script $ popup
-nettruyenai.com#$#abort-current-inline-script Promise break;case
+nettruyenall.com#$#abort-current-inline-script Promise break;case
 holyphim.com#$#abort-current-inline-script window.addEventListener window.open
 nettruyenus.net#$#abort-on-property-read sp
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom
