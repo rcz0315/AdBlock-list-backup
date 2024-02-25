@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ffS7tpXYnyEWO4uV7DzREA
-! Version: 202402240015
+! Checksum: w+rPv9c0+tYjoH+VPBYHhg
+! Version: 202402242340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-24 00:15 UTC
+! Last modified: 2024-02-24 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -29723,6 +29723,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.osw-privacy
 ##.ot-cookie-consent
 ##.ot-sdk-show-settings
+##.otCookiesNotification
 ##.ot_cookie_settings_btn
 ##.ou-cookies-bar
 ##.outer-privacy-top-navigationBar
@@ -35067,7 +35068,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||js.pelcro.com/ui/plugin/
 ||justone.ai/embed/csd.html$subdocument
 ||lightboxcdn.com/vendor/$script,third-party
-||mailerlite.com^$third-party
+||mailerlite.com/js/universal.js
 ||maillist-manage.com^$third-party
 ||mailmojo.no/sdk.js
 ||nordiskemedier.dk/remodal/
@@ -35823,6 +35824,7 @@ oilprice.com##.JoinCommunityBtnContainer
 marieclaire.com.au##.MagDriver
 disk.yandex.com,disk.yandex.ru##.PSHeader-Center
 talkingpointsmemo.com##.PostArticleAsk
+weather.com##.PromoDriver--card--15FjK
 sacurrent.com##.PromoTopBar
 thekitchn.com##.PromotionalRibbon
 popsci.com##.PromotionalStripe
@@ -37247,6 +37249,7 @@ embed.listcorp.com##.CompanyPage2CompanyPageAbout__share
 nutraingredients-asia.com,nutraingredients-latam.com,nutraingredients-usa.com,nutraingredients.com##.Detail-share
 federalnewsnetwork.com##.Entry-infoSocial
 nutraingredients-asia.com,nutraingredients-latam.com,nutraingredients-usa.com,nutraingredients.com##.Follow
+weather.com##.Footer--socialContainer--3z8CW
 earth.com##.Footer_social_bar__E9yGn
 coingape.com##.GoogleFollws
 gadgetsnow.com##.KkbaU
@@ -37827,7 +37830,7 @@ knewz.com##.social-items
 cinenews.be##.social-line
 businesspost.ie##.social-links-wrapper
 denofgeek.com##.social-links__anchor--sharing
-securityaffairs.com,trtworld.com,watchesbysjx.com##.social-media
+securityaffairs.com,techopedia.com,trtworld.com,watchesbysjx.com##.social-media
 cyberdaily.au,gamingbolt.com##.social-media-container
 outlookindia.com,pgpf.org##.social-media-icons
 defenseone.com##.social-media-icons-container
@@ -38336,6 +38339,7 @@ gorillas.io,simbrief.com###cookie-settings
 startermotoralternator.com###cookie-status
 511mt.net###cookieBannerHolder
 investtech.com###cookieConsentDialogue
+smartconversion.com###cookieConsentdiv
 gezondheidsplein.nl###cookieForm
 sharphomeappliances.com###cookieModuleModal
 moringa.com###cookieNoticeSoww
@@ -38522,6 +38526,7 @@ aptoide.com###news
 metal-shop.eu###nextcreBotDialog
 plotz.co.uk,skyremotecodes.co.uk###nfaModal
 plotz.co.uk,skyremotecodes.co.uk###nfaPopup
+nfb.ca###nfb-cookies-banner
 lycoschat.com###nomnom
 bydautomotive.com.au###noticeModal
 co-opinsurance.co.uk###noticePanel
@@ -40682,7 +40687,7 @@ acast.com,bais.de,birgit-bittermann.de,builds.gg,catcat.com,checkyourmath.com,ci
 !! .consents
 estetic-dent-sklep.pl,miodykrupiec.pl,modnakiecka.pl,niewiem.pl,planszostrefa.pl,questsport.shop,skarbyroztocza.com,wkdzik.pl##.consents
 !! #consent
-alarabiya.net,alhadath.net,bagira.bg,cardzmania.com,chiccentre.com,cleverreisen.de,co.jpf.go.jp,datacite.org,digminecraft.com,drugstore.bg,e-confirm.de,eismoinfo.lt,encycolorpedia.fr,find-dvd.co.uk,framar.bg,ft.com,heathrowexpress.com,heroforge.com,hifi4you.de,holition.com,hospiz-bodhicharya.de,hospiz-horizont.de,hunsruecktouristik.de,itt.bg,jtl-software.de,kaeltewolf.de,kauppasatama.fi,kigu.nl,kinopolis.de,kunstnet.de,lacsiboltja.hu,mapcarta.com,notebookinfo.de,nperf.com,pardini.de,plasico.bg,produkt.easyweb.travel,reisebuero-marzian.de,reisetreff-muecke.de,schulthess.ch,stat.gov.lt,techonthenet.com,terminal-bgt.de,tourismos.net,touristikerfotos.net,wellnissimo.de,zitatezumnachdenken.com###consent
+alarabiya.net,alhadath.net,bagira.bg,cardzmania.com,chiccentre.com,cleverreisen.de,co.jpf.go.jp,datacite.org,digminecraft.com,drugstore.bg,e-confirm.de,eismoinfo.lt,encycolorpedia.fr,find-dvd.co.uk,framar.bg,ft.com,heathrowexpress.com,heroforge.com,hifi4you.de,holition.com,hospiz-bodhicharya.de,hospiz-horizont.de,hunsruecktouristik.de,itt.bg,jtl-software.de,kaeltewolf.de,kauppasatama.fi,kigu.nl,kinopolis.de,kunstnet.de,lacsiboltja.hu,lzf-lamps.com,mapcarta.com,notebookinfo.de,nperf.com,pardini.de,plasico.bg,produkt.easyweb.travel,reisebuero-marzian.de,reisetreff-muecke.de,schulthess.ch,stat.gov.lt,techonthenet.com,terminal-bgt.de,tourismos.net,touristikerfotos.net,wellnissimo.de,zitatezumnachdenken.com###consent
 !! ^.cookiesBanner-
 interacty.me,wetaca.com##div[class^="cookiesBanner"]
 !! .cli-bar-popup
@@ -41067,7 +41072,7 @@ cinobo.com,jdslabs.com,lukso.network,mymarket.ge,platform.stability.ai,simtex.io
 !! .bottom-8
 ai-coustics.com,dr-anns.com,lightyear.one,vecer.com##.bottom-8
 !! .bottom-4
-desenio.se,justo.ca,moises.ai,my.openbb.co,promobit.com.br,remnote.com,shuttle.rs,stableaudio.com,thecycle.game,urlcast.io##.bottom-4
+depot.dev,desenio.se,getmerlin.in,justo.ca,moises.ai,my.openbb.co,promobit.com.br,remnote.com,shuttle.rs,stableaudio.com,thecycle.game,urlcast.io##.bottom-4
 !! .bottom-40
 netnoticias.mx##.bottom-40
 !! .bottom-3
@@ -41628,6 +41633,7 @@ bbc.com###zephr-message
 sciencenews.org###zephr-user-form-root
 pirg.org##.-gg\:1.-mb\:3
 fivebooks.com##.-newsletter
+weather.com##.AnonymousNewsletter--AnonymousNewsletter--1Btxs
 newshub.co.nz##.ArticleAttribution
 laist.com##.ArticlePage-aside-content
 outdoorstatus.com##.ArticleSignupForm
@@ -41635,6 +41641,7 @@ fatherly.com,mic.com##.BMP
 talkingpointsmemo.com##.BackchannelFormWidget
 kpbs.org##.Banner
 cnbc.com##.CNBCFooter-info
+wbur.org##.Campaign__innerWrapper
 popsugar.com##.EmailAcquisitonstyles__EmailAcquisitionOuterContainer-sc-1b9duud-0
 dailymemphian.com##.EmailSignup
 zazzle.com##.EmailSignupForm
@@ -41693,6 +41700,7 @@ asmag.com##.SubtoNew_box
 gatesnotes.com##.TGN_site_FullOverlay
 which.co.uk##.ToolSignpost__container--1h2Ap
 inverse.com##.VrW
+wbur.org##.WallOfLinks_actions__cAUTE
 axios.com##.\!bg-blue-core
 thequint.com##._1iwhd
 otcmarkets.com##._2hrcOcFIZM
@@ -41932,6 +41940,8 @@ chron.com,sfgate.com##.containerDailyPromo
 sportspromedia.com##.content-block-sidebar-form
 commondreams.org##.content_newsletter_wrapper
 defenseone.com##.conversion-module
+thecooldown.com##.cool_gallery__main
+thecooldown.com##.cool_newsletter
 the-line-up.com##.copyRight-div
 english.nv.ua##.coronavirus_subscribe
 crainsnewyork.com##.crain-newsletter-v2-wrapper
@@ -42587,7 +42597,7 @@ crikey.com.au##.pm-todays-newsletter-block
 dot.la##.pop-up-content
 thefader.com##.popular_posts
 morningconsult.com,pbs.org##.popup
-wanderlust.co.uk##.popup-box
+thecooldown.com,wanderlust.co.uk##.popup-box
 homecookingadventure.com##.popup-signup
 businessinsider.com##.popup-wrapper
 kyivindependent.com##.popupBannerSubscribeUd
@@ -42866,6 +42876,7 @@ propublica.org##.syndicated-modal
 utilitydive.com##.t-signup-navigation
 techrepublic.com##.ta-campaign-widget
 techrepublic.com##.ta-campaign-widget__popup-wrapper
+thecooldown.com##.tcd-gradient-cerulean-alt
 marktechpost.com##.td-a-rec-id-content_inline
 cinelinx.com##.td-all-devices
 carnewschina.com##.td-pb-span4.tdi_127
@@ -43003,6 +43014,7 @@ culturemap.com##.z-newsletter
 nypost.com,pagesix.com##.zephr-component
 bbc.com##.zephr-overlay
 minds.com##M-MODAL
+weather.com##[aria-label="The Weather Channel Newsletter"]
 therealdeal.com##[class*="Newsletter"]
 axios.com##[class*="StoryPageCTA_story-page-cta_"]
 animalchannel.co,homehacks.co,parentingisnteasy.co,relieved.co,seeitlive.co,spotlightstories.co,sweetandsavory.co##[class="md:mt-10"]
@@ -45728,6 +45740,7 @@ barfuss.it##.css-1ienoy8.e1gi2aal2
 legalbird.de##.css-1tbvhrn.jss86
 hotelheller.de##.css-jyar7y
 propellermann.de,wg-elbtal.de##.cw_ov
+ourpower.coop##.d-block
 discover-utrecht.com##.dSWqfk
 jazzkeller69.de##.dark
 bbbank.de,berliner-volksbank.de,psd-aufwind.de,psd-berlin-brandenburg.de,psd-rhein-ruhr.de,psd-west.de,sparda-b.de,vrbankeg.de##.darken-layer
@@ -45860,7 +45873,7 @@ querstarter.de##.page-lock
 avl-ludwigsburg.de,packster.de##.page-overlay
 sport2000rent.com##.pageOverlay
 tchibo.de##.pageloading-mask
-krankengym-zentrum.de,s3nnet.de##.pcb
+hollaus-it.at,krankengym-zentrum.de,s3nnet.de##.pcb
 recordsale.de##.personalization-request
 bluemonty.de##.pixelmate-big-wrapper
 daemmen-lohnt-sich.de##.popover-background
@@ -46964,6 +46977,7 @@ justjoin.it##.jss218
 justjoin.it##.jss243
 processos.tribunais.org.pt##.justica-cookie_bar
 tv.quattroruote.it##.jw-popups
+bmartigrafiche.it##.main-container-cookie-banner
 ari.it,supermeteo.com##.message
 emiliaromagnasport.com,marchesport.info##.modal-backdrop
 telethon.it##.modalMessage
@@ -47189,6 +47203,7 @@ przyspiesz.pl###container_vsm
 krsystem.pl###cook
 eastnews.pl###cookie-frame
 przystanki.bialystok.pl###cookie-info-overlay
+stylchen.pl###cookieMonsterOvr
 binkowskihotel.pl###cookieWarningNew
 esbank.pl###cookie_info_es
 net-s.pl###cookie_info_sel1_n
