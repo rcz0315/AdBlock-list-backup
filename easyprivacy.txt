@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202402280023
+! Version: 202402290024
 ! Title: EasyPrivacy
-! Last modified: 28 Feb 2024 00:23 UTC
+! Last modified: 29 Feb 2024 00:24 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -82,7 +82,6 @@
 /1px.php?
 /1x1.gif?
 /1x1.png?
-/2.120.0/main.js
 /2.gif?
 /24h-analytics.
 /2x2.gif?$image
@@ -1730,6 +1729,7 @@
 /ptrack.js
 /pub/as?_ri_=$image
 /pub/imp?
+/pubcid.min.js
 /public/analytics.js
 /public/statsd
 /public/visit/record
@@ -8025,7 +8025,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adclear.net^$third-party
 ||adcrowd.com^$third-party
 ||admeira.ch^$third-party
-||adnz.co^$third-party
 ||adquality.ch^$third-party
 ||adtraxx.de^$third-party
 ||adtriba.com^$third-party
@@ -9010,6 +9009,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adfox.yandex.ru^
 ||adimo.co/api/tracking/
 ||adlog.com.com^
+||adnz.co/dmp/publisher.js
+||adnz.co/header.js
 ||adobedc.net/collector/
 ||ads-trk.vidible.tv^
 ||adsolutions.com^$third-party
@@ -50281,7 +50282,6 @@ abema.tv##+js(rmnt, script, NREUM)
 @@||google-analytics.com/gtm/optimize.js$domain=focus.de
 @@||googleoptimize.com/optimize.js?$domain=eventim.de
 @@||gymnasedeburier.ch/themes/segment/js/$~third-party
-@@||img.adnz.co^$image,domain=finanzen.ch
 @@||kameleoon.eu/images/$domain=welt.de
 @@||kameleoon.eu/kameleoon.js$domain=welt.de
 @@||kameleoon.io/geolocation^$domain=welt.de
