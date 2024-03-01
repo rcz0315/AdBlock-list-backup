@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: XyVzcMgHI95u8m7nLHwDfQ
-! Version: 202402290040
+! Checksum: O9qTu8NXWcs9C/8YvKx2lQ
+! Version: 202403010015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-02-29 00:40 UTC
+! Last modified: 2024-03-01 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -180,6 +180,7 @@ _backToTop.
 /flying_push.
 /get_onesignal_
 /gm-push-notification-
+/googleReviews.js
 /ilabspush.
 /imports/notifications.
 /inpl.webpush.
@@ -3192,6 +3193,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ##a[href^="http://www.mobi24.net/"]
 ##a[href^="https://www.mobi24.net/"]
 ##amp-app-banner
+! google review popup
+##.es-badge-container
 ! substack
 ##.subscription-widget-wrap > .show-subscribe
 ! spot.im Notifications
@@ -34110,6 +34113,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||parse.ly^$third-party
 ||partner.dw.com^$third-party
 ||pelcro.com^$third-party,domain=newsweek.com
+||permalink-system.com^$third-party
 ||phoenix-widget.com^$third-party
 ||pippity.com^$third-party
 ||placehold.it^$third-party
@@ -34138,6 +34142,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||quote.fm/services/button/$third-party
 ||r42tag.com^$third-party
 ||radioonlinehd.net/ads/
+||raidrush.net/ticker/$third-party
 ||rankdirectory.org^$third-party
 ||rating-widget.com^$third-party
 ||rdstation.com.br^$third-party
@@ -34260,6 +34265,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||yimg.com^*/GoldenGate.
 ||yottos.com^$third-party
 ||youappi.com/widget/$third-party
+||youspacko.com/com/$third-party
 ||youtube.com/v/*autoplay$third-party,domain=7chan.org|boards.4chan.org
 ||ytimg.com^*/www-subscribe-widget-$script
 ||zaparena.com^$third-party
@@ -36138,6 +36144,7 @@ oneindia.com##.oi-footer-bottom-ad-btns
 msn.com##.paddle
 alligator-sunglasses.com,bucketlistseekers.com##.pagination
 deadline.com##.pmc-u-background-white.pmc-u-margin-b-0
+theprp.com##.post-preview-next
 theprp.com##.post-preview-prev
 ew-nutrition.com##.post_navigation
 businessmirror.com.ph##.posts-pagination
@@ -36508,8 +36515,10 @@ docs.github.com##[aria-label="Scroll to top"]
 ! Include ubO specific
 !#include fanboy_annoyance_specific_uBO.txt
 ! fanboy_notifications_specific_hide.txt
+clubd.co.jp###FixedBanner
 tbsnews.net###___tbspushdiv
 redbull.com###bottom-notifications
+clubd.co.jp###footerBanner
 thehindu.com,thehindubusinessline.com###gsi_overlay
 masrawy.com,yallakora.com###izooto-optin
 kizi.com###kizi-popover-dialog
@@ -37057,6 +37066,7 @@ wikihow.com###sf
 colibriwp.com###sfsi-widget-2
 gomag.com###share-buttons
 bracketfights.com,ecuadoradio.ec,tiermaker.com###share-container
+aiseesoft.com###share-list
 mein-schoener-garten.de###shareButton
 biorxiv.org###shareit
 benq.com###shares
@@ -37181,6 +37191,7 @@ english.nv.ua##.article__footer__additional_share
 u.today##.article__gnews
 rt.com##.article__google-news
 armeniasputnik.am,spnfa.ir,sputnik-abkhazia.info,sputnik-georgia.com,sputnik-ossetia.com,sputnik.af,sputnik.az,sputnik.by,sputnik.kg,sputnik.kz,sputnik.tj,sputnikarabic.ae,sputnikglobe.com,sputniknews.africa,sputniknews.cn,sputniknews.com,sputniknews.com.tr,sputniknews.in,sputniknews.jp,sputniknews.lat,sputniknews.ru,sputniknews.uz,sputniknews.vn,sputniknewsbr.com.br,sputnikportal.rs##.article__news-services-subscribe
+ecowatch.com##.article__share-buttons
 wnep.com##.article__sharing
 greenbuildingadvisor.com##.article__social
 news18.com##.article_bnow
@@ -37295,6 +37306,7 @@ overwolf.com##.creator-social
 bloomberg.com##.css--social-wrapper-outer
 dailywire.com##.css-a91oi6
 thedrive.com##.css-vr83lp
+coincodecap.com##.ct-block-wrapper
 columbian.com##.cta
 ithinkdiff.com##.custom-html-widget
 therighthairstyles.com##.custom-pinterest-wrap
@@ -38516,6 +38528,7 @@ rcwilley.com###rcDrawer
 totalmerchandise.co.uk###react-cookie-consent
 insightturkey.com###readed_contract_row
 researchgate.net###rg-us-cookie-banner
+greubelforsey.com###rgpd-ask-popin
 elanco.com###ribbon
 ricochet.com###ricochet-cookie-bar
 zomato.com###root > div:first-child:not(:only-child)
@@ -38625,7 +38638,7 @@ here.com###wrapper
 wyze.com###wyze-cookie-banner
 coindix.com###xbanner
 spiceworks.com###zdprivacy-content-new
-framer.com##.--framer-cookie-banner-container
+bunq.com,framer.com##.--framer-cookie-banner-container
 dublininquirer.com##.-alert.-fixed.notice
 alpari.com,alpariforex.org##.-footer__notice
 nhl.com##.-left.nhl-c-toast
@@ -39020,6 +39033,7 @@ yoursoccerdose.com##.cc-simple
 mysoapbox.com##.cc_modal
 drakecircus.com##.ccc-widget
 blueskybuilding.com##.ccd_cookie_bar
+ccmhockey.com##.ccm-cookie-banner
 ccn.com##.ccn-consent
 plebbin.com##.ccp-pop
 hannity.com,oxfordhotel.com,thespotlyte.com##.ccpa
@@ -39057,6 +39071,7 @@ aia.com##.cmp-notification-action-panel
 manulife.com##.cmp-ntfbanner
 evoestate.com##.cnc-container
 cnn.com##.cnn-toast--tos
+courthousenews.com##.cns-cg-modal__overlay
 meteopower.com##.cnt223
 candyoffers.com##.co-cookie-message
 canvasondemand.com##.cod-notifications
@@ -39865,6 +39880,7 @@ jacksonsauction.com##.popup-dialog
 cancerresearch.org##.popup-inner
 skippersreview.com##.popup-overlayPop
 haiermedical.com##.popup-window
+mfc.co.uk##.popup-wrapper
 smartclient.com##.popupPolicies
 plsx.com##.popup_block
 abplive.in##.popup_desktop
@@ -40245,6 +40261,7 @@ plente.com##[class*="SnackbarMessages__snackbar_"]
 payback-ltd.com##[class*="cookiesPopUp"]
 noovo.ca##[class*="modalstyles__StyledModalContainer-"]
 weedmaps.com##[class*="styles__BannerContainer-"]
+getunleash.io##[class^="CookieControl"]
 bitbrain.com##[class^="CookiesManager"]
 btc-alpha.com##[class^="Cookies_container"]
 graphql.braintreepayments.com##[class^="GDPR-module_"]
@@ -41522,6 +41539,7 @@ fatherly.com,mic.com##.BMP
 talkingpointsmemo.com##.BackchannelFormWidget
 kpbs.org##.Banner
 cnbc.com##.CNBCFooter-info
+retailwire.com##.Campaign
 wbur.org##.Campaign__innerWrapper
 popsugar.com##.EmailAcquisitonstyles__EmailAcquisitionOuterContainer-sc-1b9duud-0
 dailymemphian.com##.EmailSignup
@@ -41624,6 +41642,8 @@ publishersweekly.com##.articleRelatedSignup
 ft.com##.article__content-sign-up
 sputnikglobe.com##.article__news-services-subscribe
 3dprint.com##.article__subscribe
+ecowatch.com##.article__suscribe-bottom
+ecowatch.com##.article__suscribe-sidebar
 hackster.io##.article_layout__signupCTA__2MHYh
 coinspeaker.com##.aside-little_newsletter
 nationalreview.com##.aside-module--promo-module
@@ -41834,6 +41854,7 @@ fxstreet.com##.css-kmucxv
 bet.com##.css-mha66v-Box-Flex-StyledNewsletterLayout
 stylist.co.uk##.css-uwbbg5
 businessplus.ie##.ct-link-text
+coincodecap.com##.ct-newsletter-subscribe-container
 biznews.com,bridgemi.com,thenation.com##.cta
 themarkup.org##.cta--subscribe
 bigissue.com##.cta--subscription
@@ -41865,7 +41886,7 @@ dailyfx.com##.dfx-ftgBannerWidget
 dailyfx.com##.dfx-inHouseEducationSubmoduleBanner
 dailyfx.com##.dfx-inHouseGuideBannerComponent
 dailyfx.com##.dfx-inHouseNewsletterBanner
-brownstone.org,homesteading.com,innotechtoday.com,jewishjournal.com,nowtoronto.com,shapeways.com##.dialog-lightbox-widget
+brownstone.org,coincodecap.com,homesteading.com,innotechtoday.com,jewishjournal.com,nowtoronto.com,shapeways.com##.dialog-lightbox-widget
 deliciousmagazine.co.uk##.digital-download-wrapper
 livemint.com##.disclamerText
 floridianpress.com##.diverse-subscribe
@@ -43649,6 +43670,7 @@ harveynorman.co.nz##.wufoo-form-container
 zappos.com##.xh-z
 ooshtush.com,rgmwatches.com##.yui-popup-container-node
 kayak.com##[aria-label="Receive our newsletter."]
+leer.com##c-tag-home-page-sign-up-pop-up
 shopcjglobal.com##flashy-popup
 ! smsbump-form-
 bergautodesign.com,braveandkindbooks.com,bwpsales.com,deal4.ca,fwdformnutrition.com,gizmogoober.com##[id^="smsbump-form-"]
@@ -44615,6 +44637,7 @@ pramgnet.com##.sbnr
 maannews.net##.sc
 midad.com##.social-actions
 studyshoot.com##.social-flex
+khamsat.com##.social-media
 alaqsavoice.ps##.social-style-2
 alalam.ir##.social_icon_head
 raya.com##.social_single_post
@@ -47503,6 +47526,7 @@ churchsoftware.com.br##.popup-pro
 agazetafm.com,araraquaranews.com.br,slatual.com.br##.popup_footer
 gaz.com.br##.privacy-policy__popup
 starrcompanies.com.br##.privacy-warning
+honda-automoveis.pt##.rigor-cookies
 rovitex.com.br##.rovitex-apps-0-x-cookieContainer
 blog.runrun.it##.sc-AxiKw
 direcaoconcursos.com.br##.sc-faada46b-0
@@ -48340,6 +48364,7 @@ ants.vn##.sg-popup-content
 ||up-cookiemon.wavecdn.net^
 ||vag.de/typo3conf/ext/cookieman/
 ||versicherungsjournal.de/public/app.js
+||wc.vandervalkonline.com/cookie-manager/cookie-manager.js
 ||weddstyle.de/bilder/banner/$image
 ||weiterbildung-biberach.de/ccm-wb/public/app.js
 !
