@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: s6WCGv5xB5Oe750SOxIEBw
-! Version: 202403120050
+! Checksum: 7NdK1SVdO+s0/yFQ7Sogjw
+! Version: 202403130051
 ! Title: EasyList China
-! Last modified: 12 Mar 2024 00:50 UTC
+! Last modified: 13 Mar 2024 00:51 UTC
 ! Expires: 4 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -996,6 +996,7 @@ newduba.cn###jq_youxi
 ###player_banner[style*="fixed;"]
 ###player_pause > .tip + a[target="_blank"]
 ###player_pause[style^="position"] > a[target="_blank"]
+###playlistbtn > a[href="/h0312.html"]
 ###popadv_popmask
 ###popadv_popmenu
 ###popup.t
@@ -1678,6 +1679,7 @@ newduba.cn###jq_youxi
 ##a[href*="/dsf71.cc"]
 ||0940088.com^
 ||0j775d.cn^
+||0tq6ub.cn^
 ||0uvt8b.cn^
 ||0uyt5b.cn^
 ||0v1syj.cn^
@@ -1789,6 +1791,7 @@ newduba.cn###jq_youxi
 ||hbjolp.xyz^
 ||hciwyv.icu^
 ||hdtedar126.shop^
+||hdvsrz.xyz^
 ||heapz.cyou^
 ||hexcvb.xyz^
 ||hgthpj.xyz^
@@ -1844,6 +1847,7 @@ newduba.cn###jq_youxi
 ||ndthdte125.shop^
 ||ndthdtr586.shop^
 ||ngnxyub.cn^
+||njhvalu.cn^
 ||nkbkor.icu^
 ||nowhern.com^
 ||nplahh.xyz^
@@ -1857,6 +1861,8 @@ newduba.cn###jq_youxi
 ||okwkaa.xyz^
 ||onagsc.xyz^
 ||oojjsa.com^
+||oppnfev.xyz^
+||osisk.com^
 ||ostjpig.cn^
 ||ovjlccs.xyz^
 ||p04qzl.cn^
@@ -1878,6 +1884,7 @@ newduba.cn###jq_youxi
 ||qzalsk.xyz^
 ||rarcff.xyz^
 ||rbhunp.xyz^
+||rcyzsh.icu^
 ||rfnvqpo.xyz^
 ||riscil.com^
 ||rjhbjv.xyz^
@@ -1900,10 +1907,12 @@ newduba.cn###jq_youxi
 ||sjaaquj.cn^
 ||skfda5.com^
 ||smallfo.com^
+||snifdlab.top^
 ||soffersk.com^
 ||spsfupq.cn^
 ||srzpsbf.xyz^
 ||svncowt.cn^
+||swsegi.xyz^
 ||szbhb.cn^
 ||szmnd.cn^
 ||szmnf.cn^
@@ -1987,11 +1996,12 @@ newduba.cn###jq_youxi
 ||zhihucloud.xyz^
 ||zjrtxt.xyz^
 ||znhlxvb.xyz^
-||hdvsrz.xyz^
-||swsegi.xyz^
-||rcyzsh.icu^
-||snifdlab.top^
-||oppnfev.xyz^
+||0r3tyg.cn^
+||ahtfzhs.xyz^
+||pnxtnp.xyz^
+||vmnlkr.icu^
+||enifdlaw.top^
+||eiqsky.xyz^
 ||zojyob.icu^
 ||zopuqv.icu^
 ||zsjpi.cn^
@@ -15000,7 +15010,7 @@ suopao.org##.t5[style^="margin-top:8px;"]
 bbs.fobshanghai.com##.t_infoline
 douyu.com##.tab-content.promote
 chinatimes.com##.tab_4_box
-wandhi.com##.table
+wandhi.com##.table img
 wandhi.com##.table-bordered
 qqyouyue.com##.table-responsive
 eoof.net##.tableborder1[cellspacing="1"][cellpadding="3"]
@@ -17167,7 +17177,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||ozabc.com^$generichide
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl$domain=ff14angler.com|logi.im
 @@||pagead2.googlesyndication.com/pagead/js/*/show_ads_impl.js$domain=doitwell.tw
-@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best
+@@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$domain=23qb.net|4spaces.org|aboluowang.com|assbbs.com|chaojizhibo.net|chtoen.com|daxiaamu.com|demo.ama.pub|dizhishengcheng.com|doitwell.tw|ekamus.info|eu4cn.com|ff14angler.com|freedidi.com|haoweichi.com|it365.abctool.info|linovelib.com|logi.im|monnsutogatya.com|mpyit.com|myqqjd.com|numberempire.com|ozabc.com|pansearch.me|patch.ali213.net|pc3mag.com|reh.tw|shenfendaquan.com|sistersbedroom.com|sto520.com|vaptcha.com|wandhi.com|wenxuecity.com|wuyong.fun|xbeibeix.com|xiebruce.top|xugaoxiang.com|xxxxx520.com|yodu.org|yummy.best
 @@||pagead2.googlesyndication.com/pagead/js/adsbygoogle.js$xmlhttprequest,domain=duelmeta.com|linetv.tw|liout.com|moneysave.info|zxmee.com
 @@||pagead2.googlesyndication.com/pagead/js/google_top_exp.js$domain=ebb.io
 @@||pagead2.googlesyndication.com/pagead/show_ads.js$domain=knowlet3389.blogspot.com|knowlet3389.blogspot.hk|knowlet3389.blogspot.jp|knowlet3389.blogspot.tw|mnighthk.net|weithenn.org
@@ -17326,6 +17336,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||viu.tv^$generichide
 @@||vlist.se/advertisement.js
 @@||vvic.com/monetize/ads/index/
+@@||wandhi.com^$generichide
 @@||ware.shop.jd.com^$genericblock,generichide
 @@||wavse.com^$generichide
 @@||webmail.smartlinkcorp.com/dotrans_20160909.php
@@ -17369,17 +17380,17 @@ guailie.com#@#.google-ad
 17ce.com##a[href^="http"]:not([href*="17ce.com"]) img
 ||17ce.com^*_$image
 !#18comic.org
+/exads-adblock-$image
 18-comic.work,18comic.org,18comic.vip,jmcomic.me###guide-modal
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.div_sticky2
 18-comic.work,18comic.org,18comic.vip,jmcomic.me##.modal-backdrop
-/exads-adblock-$image
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
+18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+script)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>ins+style)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:-abp-has(>script+ins)
 18-comic.work,18comic.org,18comic.vip,jmcomic.me#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img
-18-comic.work,18comic.org,18comic.vip,jmcomic.me##a[href*="//"]:not([href*="comic."]) > img + [style]
 ||18-comic.work/media/albums/*?$media
 ||18comic.*/media/albums/*?$media
 !#2
@@ -17886,6 +17897,7 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||c1.china.cn^
 ||c1.czcol.cn^
 ||c6.friok.com^
+||c81.ipanocloud.com^
 ||ca.yangshengtv.com^
 ||car.qcmrjx.com^
 ||cbdm.weathercn.com^
@@ -17974,7 +17986,6 @@ ipv6.baidu.com,www.baidu.com,www1.baidu.com,xueshu.baidu.com##style[id^="s-"] + 
 ||dm.zjut.cc^
 ||dm.zuowenku.net^
 ||dm1.ddwk8.cn^
-||dm1.guanwawa.com^
 ||dm1.zjydt.com^
 ||dmm.aizhan.com^
 ||dmr.cnhoney.com^
