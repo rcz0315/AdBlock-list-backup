@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: K3qpzP2a/thx6xBwpnSjOg
-! Version: 202403150040
+! Checksum: QYS2bYeaVaFvlWVqoS8lWg
+! Version: 202403152340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-03-15 00:40 UTC
+! Last modified: 2024-03-15 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -33801,7 +33801,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||placeholder.com^$third-party
 ||platform.loyaltylion.com^
 ||plaxo.com^$third-party
-||player.anyclip.com^$script,third-party
+||player.anyclip.com^$script,third-party,domain=clickorlando.com
 ||plista.com^$third-party
 ||plugin.me2day.net^$third-party
 ||postquare.com^$third-party
@@ -35698,7 +35698,7 @@ slate.com##.slate-plus-promo
 sporcle.com##.sporcle-promo
 imobie.com##.sprtadv
 scientificamerican.com##.spw__banner
-bleepingcomputer.com##.stackcommerce-widget
+bleepingcomputer.com,techdirt.com##.stackcommerce-widget
 thespinoff.co.nz##.staffInlineBannerOuter
 i24news.tv##.sticky-bottom-banner
 bitdegree.org##.sticky-bubble-wrp
@@ -35778,6 +35778,7 @@ phemex.com##[href^="https://phemex.com/bonus"]
 walletinvestor.com##[href^="https://premium.walletinvestor.com/"]
 theguardian.com##[name="SlotBodyEnd"]
 theguardian.com##[name="StickyBottomBanner"]
+techdirt.com##[style="width: 300px; height: 360px;"]
 xhamster.com,xhamster.desi##a[class*="promoMessageBanner-"]
 tech-camp.in##a[data-gtm-tcb="TCB_CLICK_scrollbanner_default_exp_income"]
 tech-camp.in##a[data-gtm-tcb^="TCB_CLICK_buntyubanner_"]
@@ -36437,6 +36438,7 @@ qatarairways.com##.appstore
 ny1.com##.article-app-prompt
 msn.com##.articlePage_continueReadingButtonPrimary-DS-EntryPoint1-1
 nltimes.nl##.ath-phone
+bing.com##.b_bnp_bopc
 castbox.fm##.banner
 gibiru.com##.banner-button
 animeanime.global##.banner-click-app
@@ -37633,6 +37635,7 @@ semafor.com##div[class^="styles_shareWrapper_"]
 cheddar.com##div[class^="video__share_"]
 abc.net.au##div[data-component="ShareUtility"]
 artforum.com##div[data-component="social-media"]
+land.nrw##div[data-type="social_feed"]
 askmefast.com##div[style="clear:both;position:absolute;top:20px;left:0px"]
 fansshare.com##div[style="width:192px;height:90px;float:left;padding-left:6px;"]
 discord.me##li.menu-link.d-xl-inline-block
@@ -39160,6 +39163,7 @@ advocate.com##.gdpr-cookie-wrapper
 ecwid.com,liberties.eu##.gdpr-window
 shop.animalbiome.com##.gdpr__holder
 mitac.com##.gdpr_block
+learnpick.in##.gdpr_holder
 zionsbank.com##.genesis-cookie-consent
 gamefound.com##.gfu-floating-message
 gosugamers.net##.gg-css-77iu9o
@@ -40356,7 +40360,7 @@ proprospan.ru,worksmile.com##.cookies-component
 !! #cc-main
 bienpreter.com,jackbox.tv,kirchberg.ch,ndsas.sk,sardynkibiznesu.pl,trakt.tv###cc-main
 !! #cc--main
-alde.se,arbetsgivarverket.se,bambulab.com,blackcomb-shop.eu,blog.fanfiktion.de,boardgamegeek.com,cdw.com,cdwg.com,defector.com,feedoptimise.com,flowforge.com,gatehousebank.com,kroo.com,myjob.ch,packtpub.com,reteimprese.it,spielregeln-spielanleitungen.de,sprintesport.it,stocksy.com,streetsblog.org,suncalc.org,teksavvy.com,ungeziefer-ratgeber.info,wifiwijs.nl,woche-bb.ch###cc--main
+alde.se,arbetsgivarverket.se,bambulab.com,blackcomb-shop.eu,blog.fanfiktion.de,boardgamegeek.com,cdw.com,cdwg.com,defector.com,feedoptimise.com,flowforge.com,gatehousebank.com,kroo.com,myjob.ch,nowpatient.com,packtpub.com,reteimprese.it,spielregeln-spielanleitungen.de,sprintesport.it,stocksy.com,streetsblog.org,suncalc.org,teksavvy.com,ungeziefer-ratgeber.info,wifiwijs.nl,woche-bb.ch###cc--main
 !! .c--anim
 a24films.com,accademia-agricoltura.it,actualidadempleo.es,aftermath.site,alpha-heidelberg.de,amperecomputing.com,auraton.cz,bicidastrada.it,brnooffice.cz,byu.edu,cgmfinance.it,cubeshot.io,diderot.sk,ebikecult.it,elettricomagazine.it,emmellearredamenti.com,fanfiktion.de,fazzini.sk,fcvysocina.cz,federgolf.it,ferbafran.com,fiumewine.com,floorpark.cz,gaminternational.it,giga-hamburg.de,handylex.org,hippogroup.it,import-sport.com,izolace-info.cz,klasikcz.eu,locandadelledune.it,macrent.se,mtbcult.it,nabytek-alesvit.cz,nasejimky.cz,natureticabielli.it,netzwerk-kinderschutz-msh.de,nicelocal.com.de,passionemaglie.it,perugiassisi.org,plateuptools.com,plus-gp-joule.de,ppeshop.cz,rptuning.cz,ruinimarco.it,santarcangelobasket.com,sbcomp.cz,senkyrik.cz,shop.dicompass.cloud,sponkovacky-kovani-vruty.cz,svet-topeni.eu,systeminit.com,tagvenue.com,tgyou24.it,tokarex.cz,trakt.tv,tuttopisa.com,universoinformatico24.it,vinoplacek.cz,vkcyklosport.cz,www.query.cz,xn--audiodiqualit-1db.com,yalemedicine.org,zeno.fm##.c--anim
 !! #wr-c
@@ -41788,7 +41792,6 @@ rebelnews.com##.form-wrap
 shenandoahah.com##.form__container
 valuewalk.com##.formkit-form
 algemeiner.com##.formnews
-christianpost.com##.fpeb-0822
 neurologyadvisor.com,ophthalmologyadvisor.com,optometryadvisor.com##.fr-dialogmodal
 prodvana.io##.framer-2ydke7-container
 tomtop.com##.freePointWrap
@@ -41885,7 +41888,6 @@ mustsharenews.com##.hustle-inline
 radaronline.com##.iJCSsk
 insideclimatenews.org##.icn-newsletter-block
 floridianpress.com##.if-signup-sidebar
-christianpost.com##.iframe-popup-full
 informationisbeautiful.net##.iib-signup
 nj.com##.impact-subscribe-cta
 smithsonianmag.com##.in-article-newsletter
@@ -42406,6 +42408,7 @@ leons.ca##.simpleltkmodal-container
 leons.ca##.simpleltkmodal-overlay
 blendernation.com##.simplemodal-container
 blendernation.com##.simplemodal-overlay
+macleans.ca##.single-article-text > blockquote > p
 celebrityaccess.com##.single-footer-subscribe
 hollywoodinsider.com##.single-page-subscription
 reason.com##.single-post-signup-box
@@ -42671,6 +42674,7 @@ expressvpn.com##.wrap-subscribe
 countryviewah.com##.wrap__newsletter
 wwd.com##.wwd-subscribe-now-banner-ad-container
 wwd.com##.wwd-subscribe-now-banner-background
+hereisoregon.com##.yellow-nl
 loyalfordogs.com##.your-help
 bodyweightwarrior.co.uk,brucelee.com,fridaythings.com,paleofuture.com,recoveryguru.com.au,stability.ai,worldofreel.com##.yui-popup-container-node
 culturemap.com##.z-newsletter
@@ -42753,6 +42757,7 @@ bbc.com##img[alt="News Daily banner"]
 michiganmedicine.org##labcoat-promo
 bcg.com##ps-subscription-module
 extremetech.com##section > .mt-8
+christianpost.com##section[class^="inline-newsletter"]
 regain.us##section[data-testid="newsletter-section"]
 !! medium
 codeburst.io,medium.com##[class][style="bottom: 0px;"]
@@ -47224,6 +47229,7 @@ maistre.com.br,providenciadedeus.org.br##.aceite
 lisbonaha.pt##.adp-popup-wrap
 hugocursos.com.br,jogatina.com##.alerta
 curitiba.pr.gov.br,inaciomartins.pr.gov.br##.alertaCookies
+dimed.com.br##.antd-pro-components-cookie-pop-up-index-show_popup
 try.com.br##.bZEgfH
 consul.pt##.background-overlay
 unopar.com.br##.banner-fixed-box
@@ -48130,6 +48136,7 @@ ants.vn##.sg-popup-content
 ||consenttool.haendlerbund.de^
 ||cookies.ptj.de^
 ||cookies.tanke-guenstig.de^
+||einwilligung.net/app.js
 ||elbphilharmonie.de/ep/consent-en.js
 ||electriclove.at/*/api/cookie-settings
 ||emondo.de/wp-content/plugins/borlabs-cookie/

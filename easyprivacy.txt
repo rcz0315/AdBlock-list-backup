@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202403142349
+! Version: 202403152309
 ! Title: EasyPrivacy
-! Last modified: 14 Mar 2024 23:49 UTC
+! Last modified: 15 Mar 2024 23:09 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1292,6 +1292,7 @@
 /log/?pixel=
 /log/analytics
 /log/browser/event
+/log/client/messages
 /log/collect/*
 /log/counter?
 /log/debug?
@@ -2246,6 +2247,7 @@
 /track.ads/*
 /track.ashx?*=http
 /Track.aspx/*
+/track.gif?data=
 /track.png?
 /track.srv.
 /track.v2.js
@@ -3522,7 +3524,6 @@ omni.soundestlink.com$image
 ||adtarget.me^$third-party
 ||adtector.com^$third-party
 ||adtelligence.de^$third-party
-||adtrackers.net^$~script,third-party
 ||adultblogtoplist.com^$third-party
 ||adunity.com^$third-party
 ||advalo.com^$third-party
@@ -12819,12 +12820,14 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-tracking.meetup.com^
 ||analytics-wcms.joins.net^
 ||analytics-zone-1.api.leadfamly.com^
+||analytics.3c5.com^
 ||analytics.academy.com^
 ||analytics.adfreetime.com^
 ||analytics.archive.org^
 ||analytics.brave.com^
 ||analytics.chase.com^
 ||analytics.cookiefirst.dev^
+||analytics.crazygames.com^
 ||analytics.designspiration.com^
 ||analytics.eip.telegraph.co.uk^
 ||analytics.faceitanalytics.com^
@@ -14088,6 +14091,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||upi.com/story/stat/
 ||uprinting.com/muffins/UPTracker-
 ||ups.com/img/icp.gif
+||upstract.com/tokei/
 ||upwork.com/shasta/suit
 ||upwork.com/upi/jslogger
 ||urs.metacritic.com^
