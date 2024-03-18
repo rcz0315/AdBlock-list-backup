@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: q5tZDDytZ37FllrGi3I6jw
-! Version: 202403162340
+! Checksum: MLNyOCjGKUf0DbzDcpY1rA
+! Version: 202403180015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-03-16 23:40 UTC
+! Last modified: 2024-03-18 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36239,6 +36239,7 @@ startpage.com##.a-gl-tp__gcsa
 nzherald.co.nz##.action-bar
 informationweek.com##.announcement
 tmz.com##.browser-notifications-prompt
+romaniajournal.ro##.bs-push-noti
 smocca.jp##.c-box-app_banner
 cnet.com##.c-globalNotification
 techwalla.com##.component-push-notification
@@ -36268,6 +36269,7 @@ gptoday.net##.webpush_popup
 waze.com##.wz-downloadbar
 reddit.com##.xPromoAppStoreFooter
 chrome.google.com##[role="banner"] > div[class][role="dialog"][aria-labelledby="promo-header"]
+wallapop.com##div[class^="app-smart-banner_"]
 !! International
 segre.com###body_modal_5bNRsFSmILUgICbhc8pp
 diarimes.com###body_modal_mLuzd6bcGWwnVCvfwvBU
@@ -36603,7 +36605,7 @@ sportskeeda.com##.sidebar-app-download
 glas-javnosti.rs##.skini
 crypto.com,zacks.com##.smart-banner
 minne.com##.smartAppBanner
-forfun.com,imgur.com,kaltura.com,sowetanlive.co.za,turkishairlines.com##.smartbanner
+forfun.com,imgur.com,kaltura.com,sowetanlive.co.za,turkishairlines.com,yazio.com##.smartbanner
 cnnindonesia.com##.smartbanner_new
 whosampled.com##.spSlot
 amazon.com##.sparkle-container
@@ -37355,6 +37357,7 @@ thenationalpulse.com##.share-layout-stack
 nymag.com,thisismoney.co.uk##.share-link
 thenewstack.io##.share-media
 fintech.tv,war.ukraine.ua##.share-news
+thehackernews.com##.share-open-modal
 ig.com.br,rebelnews.com##.share-page
 commondreams.org,spectrum.ieee.org,theblaze.com##.share-panel
 aajtak.in,gnttv.com,indiatoday.in,indiatodayne.in##.share-social-icons
@@ -37535,6 +37538,7 @@ insidebitcoins.com##.telegrame_cta_content
 decrypt.co##.text-neutral-700
 twitchy.com##.thm-sc
 chinadaily.com.cn##.three-right
+favpng.com##.thumbnail_pinit
 stuff.co.nz##.tik4-sharing
 ncaa.com##.tile-follow
 30seconds.com##.tip-share
@@ -38285,6 +38289,7 @@ mercedesamgf1.com###simplemodal-overlay
 earthcp.com###site-overlay
 openstylelab.org###site-wide-legal-notice
 hidive.com###siteMsgSlideUpBG
+firefly.iota.org###skcm-cookie-disclaimer
 pelican.com###slide-up-container
 bluearan.co.uk###slider
 accu.org,octoparse.com###snackbar
