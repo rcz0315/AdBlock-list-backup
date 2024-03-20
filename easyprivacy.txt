@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202403182227
+! Version: 202403200022
 ! Title: EasyPrivacy
-! Last modified: 18 Mar 2024 22:27 UTC
+! Last modified: 20 Mar 2024 00:22 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -803,6 +803,7 @@
 /estat.js
 /estatistica.js
 /eta/events?
+/eta/guid?
 /eumcollector/beacons/*
 /eva-analytics.min.js
 /event-log?
@@ -1780,6 +1781,7 @@
 /pxrc.php
 /pxre.php
 /pxtrack.js
+/qapcore.js
 /qlitics.js
 /qtracker-v3-min.js
 /quant.js
@@ -50378,6 +50380,7 @@ abema.tv##+js(rmnt, script, NREUM)
 @@||kameleoon.io/ip^$domain=welt.de
 @@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
 @@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
+@@||rackcdn.com/stf.js$script,domain=20min.ch
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
 @@||script-at.iocnt.net/iam.js$domain=oe24.at
 @@||showheroes.com/publishertag.js$domain=rollingstone.de

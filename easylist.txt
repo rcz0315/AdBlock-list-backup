@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202403182227
+! Version: 202403200022
 ! Title: EasyList
-! Last modified: 18 Mar 2024 22:27 UTC
+! Last modified: 20 Mar 2024 00:22 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -622,6 +622,7 @@
 /ban728.html
 /ban728.php
 /ban728x90.
+/banman/ad.aspx
 /banner-ad-
 /banner-ad.$~script
 /banner-ad/*
@@ -966,41 +967,25 @@
 /MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
-/nad_exo.
-/native-ad-
-/native-ads-
-/native_ad/*
 /nativead.
 /nativead/*
-/nativeads.
+/nativeads-v2.js
+/nativeads.js
 /nativeads/*
 /nativebanner/ane-native-banner.js
-/nb/frot_lod.
+/nb/frot_lod.js
 /neverblock/*
 /new/floatadv.js
-/newad.
-/newad?
-/newads.
-/newaff/float
+/ntv.json?key=
 /nugg.min.js
 /Nuggad?
 /nwm-fcn.min.js
 /nwm-pw2.min.js
 /nxst-advertising/dist/htlbid-advertising.min.js
-/oas-config.
-/oas_ad.
-/oas_ad_
-/oas_ads.
-/oascentral.$~object
-/oascentral/*
-/oasconfig/*
-/oiopub-direct/*$~stylesheet
-/oncc-ad.
-/openads.
+/oiopub-direct/js.php
+/oncc-ad.js
+/openads.js
 /openads/*
-/overlay-ad.
-/overlay_ad_
-/overlayads.
 /owa.MessageAdList.
 /p2/ads/*
 /p2ads/*
@@ -1024,7 +1009,6 @@
 /pagepeel.
 /pagepeel/*
 /pagepeelpro.js
-/parking_caf_
 /partner-ad-
 /Partner_Ad/*
 /partner_ads/*
@@ -1511,13 +1495,14 @@
 /wp-content/uploads/useful_banner_manager_banners/*
 /wp-popup-scheduler/*
 /wp-srv/ad/*
-/wp_pro_ad_system/*
-/wpadgu-
+/wp_pro_ad_system/templates/*
+/wpadgu-adblock.js
+/wpadgu-clicks.js
+/wpadgu-frontend.js
 /wpbanners_show.php
-/wppas.
-/wppas/*
-/wppas_
-/wpx-bannerize_
+/wppas.min.css
+/wppas.min.js
+/wpxbz-theme.js
 /wrapper/ads/*
 /www/ad/*
 /www/ad_
@@ -1526,12 +1511,8 @@
 /www/deliverx/*
 /www/delivery/*
 /www/js/ad/*
-/wwwad.
-/wwwads.
 /xads.php
-/xadvertisement.
-/xclicks.
-/xpopunder.
+/xpopunder.js
 /xpopup.js
 /yhs/ads?
 /yume_ad_library_
@@ -1555,6 +1536,7 @@
 ://banners.$third-party
 ://news-*/process.js?id=$third-party
 ://news-*/v2-sw.js$third-party
+://oascentral.
 ://promo.$~media,third-party,domain=~myshopify.com|~promo.com|~shopifycloud.com|~slidely.com
 ://pt.*?psid=$third-party
 =half-page-ad&
@@ -1629,11 +1611,6 @@ _bannerads_
 _bottom_ads.
 _bottom_ads_
 _commonAD.
-_companionad.
-_content_ad.
-_custom_ad.
-_custom_ad_
-_externalad.
 _footer_ad_
 _google_ads.
 _gpt_ads.
@@ -1663,7 +1640,6 @@ _small_ad.
 _square_ad.
 _sticky_ad.
 _StickyAd.
-_survey_ad_
 _text_ads.
 _textads.
 _top_ad.
@@ -21947,6 +21923,7 @@ browsershots.org#@#.advert_area
 ||axiomszanjona.com^
 ||axjfjdm.com^
 ||axkwmsivme.com^
+||axledjuking.com^
 ||axlohcsruwak.com^
 ||axpjzhbh.com^
 ||axscvdcans.xyz^
@@ -23898,6 +23875,7 @@ browsershots.org#@#.advert_area
 ||bwgmymp.com^
 ||bwmvzwkbqlmrz.top^
 ||bwnmwhblsf.com^
+||bwpirrwsh.com^
 ||bwpuoba.com^
 ||bwunebnqdu.com^
 ||bwvqjqmlkezjk.top^
@@ -31017,6 +30995,7 @@ browsershots.org#@#.advert_area
 ||garricketiam.website^
 ||garrisonparttimemount.com^
 ||garthitalici.top^
+||garumkachin.com^
 ||gasasphrad.com^
 ||gaseous-power.com^
 ||gasolinerent.com^
@@ -32195,6 +32174,7 @@ browsershots.org#@#.advert_area
 ||gussame.com^
 ||gussbkpr.website^
 ||gussimsosurvey.space^
+||gustdertrum.com^
 ||gustilyoblate.uno^
 ||gutchauzaugh.com^
 ||gutobtdagruw.com^
@@ -34894,6 +34874,7 @@ browsershots.org#@#.advert_area
 ||jeltoocm.xyz^
 ||jemdexat.xyz^
 ||jemonews.com^
+||jenkincraved.com^
 ||jennyunfit.com^
 ||jennyvisits.com^
 ||jenonaw.com^
@@ -37101,6 +37082,7 @@ browsershots.org#@#.advert_area
 ||loolowhy.com^
 ||looluchu.com^
 ||loomlarynx.com^
+||loomplyer.com^
 ||loomspreadingnamely.com^
 ||loopanews.com^
 ||loopme.me^
@@ -41119,6 +41101,7 @@ browsershots.org#@#.advert_area
 ||ossealatvia.com^
 ||ossgogoaton.com^
 ||osshydreigonan.com^
+||ossifygenial.com^
 ||osskanger.com^
 ||osskugvirs.com^
 ||ossmightyenar.net^
@@ -45420,6 +45403,7 @@ browsershots.org#@#.advert_area
 ||roadmappenal.com^
 ||roadoati.xyz^
 ||roakicat.net^
+||roamapheejub.com^
 ||roambedroom.com^
 ||roamparadeexpel.com^
 ||roarasha.com^
@@ -50686,6 +50670,7 @@ browsershots.org#@#.advert_area
 ||unforgivablegrowl.com^
 ||unfymctyuuuynis.com^
 ||ungillhenbane.com^
+||ungirthranee.com^
 ||ungloomnisnas.com^
 ||ungothoritator.com^
 ||ungoutylensmen.website^
@@ -52862,6 +52847,7 @@ browsershots.org#@#.advert_area
 ||woogoust.com^
 ||woolasib.net^
 ||woolenabled.com^
+||woolensulking.com^
 ||woolsawaq.com^
 ||woopeekip.com^
 ||woopteem.net^
@@ -53435,6 +53421,7 @@ browsershots.org#@#.advert_area
 ||xueserverhost.com^
 ||xuffojr.com^
 ||xuircnbbidmu.com^
+||xukevxdf.com^
 ||xukpresesmr.info^
 ||xuninrfwruoyqb.xyz^
 ||xuosvih.com^
@@ -54278,6 +54265,7 @@ browsershots.org#@#.advert_area
 ||zukore.com^
 ||zukxd6fkxqn.com^
 ||zulindeerosion.top^
+||zuluizeskater.com^
 ||zumfzaamdxaw.com^
 ||zumid.xyz^
 ||zumolery.xyz^
@@ -54753,6 +54741,7 @@ browsershots.org#@#.advert_area
 ||adworldmedia.com^$third-party
 ||adworldmedia.net^$third-party
 ||adx.io^$third-party
+||adx.ws^$third-party
 ||adxoo.com^$third-party
 ||adxpose.com^$third-party
 ||adxpremium.com^$third-party
@@ -64105,6 +64094,7 @@ allthetests.com,bom.gov.au,cadenaazul.com,lapoderosa.com###advertising
 offidocs.com###adxx
 thebugle.co.za###adz
 apkonline.net###adzz
+hindustantimes.com###affiliate-shop-now
 purplepainforums.com,snow-forecast.com###affiliates
 exportfromnigeria.info###affs
 slickdeals.net###afscontainer
@@ -64121,6 +64111,7 @@ ancient-origins.net###ao-article-outbrain
 ancient-origins.net###ao-sidebar-outbrain
 mybanktracker.com###article-content > .lazyloaded
 timesofmalta.com###article-sponsored
+forbes.com###article-stream-1
 brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au###articlePartnerStories
 thehindu.com###articledivrec
 fool.com###articles-incontent2
@@ -65336,6 +65327,7 @@ freepressjournal.in##.ad-slots
 usnews.com##.ad-spacer__AdSpacer-sc-nwg9sv-0
 techinformed.com##.ad-text-styles
 companiesmarketcap.com##.ad-tr
+forbes.com##.ad-unit
 bqprime.com##.ad-with-placeholder-m__place-holder-wrapper__1_rkH
 trueachievements.com##.ad-wrap
 crn.com,smithsonianmag.com,tasty.co##.ad-wrapper
@@ -66410,6 +66402,7 @@ imgur.com##.fast-grid-ad
 thepointsguy.com##.favorite-cards
 futbin.com##.fb-ad-placement
 triangletribune.com##.fba_links
+forbes.com##.fbs-ad--mobile-medianet-wrapper
 forbes.com##.fbs-ad--ntv-deskchannel-wrapper
 forbes.com##.fbs-ad--ntv-home-wrapper
 whatismyipaddress.com##.fbx-player-wrapper
@@ -67106,6 +67099,7 @@ kitco.com##.mining-banner-container
 ar15.com##.minis
 247sports.com##.minutely-wrapper
 revolutionsoccer.net##.mls-o-adv-container
+mmegi.bw##.mmegi-web-banner
 inhabitat.com##.mn-wrapper
 houstonchronicle.com,mysanantonio.com,sfgate.com##.mnh90px
 allrecipes.com##.mntl-jwplayer-broad
@@ -67258,6 +67252,7 @@ designtaxi.com##.nt-displayboard
 newtimes.co.rw##.nt-horizontal-ad
 newtimes.co.rw##.nt-vertical-ad
 english.nv.ua##.nts-video-wrapper
+forbes.com##.ntv-loading
 marineelectronics.com,marinetechnologynews.com##.nwm-banner
 kueez.com,trendexposed.com,wackojacko.com##.nya-slot
 nypost.com##.nyp-s2n-wrapper
@@ -67436,6 +67431,7 @@ theportugalnews.com##.ppp-banner
 theportugalnews.com##.ppp-inner-banner
 check-host.net##.pr-e-lative
 oneesports.gg##.pr-sm-4
+hindustantimes.com##.pramotedWidget
 birdsandblooms.com,familyhandyman.com,rd.com,tasteofhome.com,thehealthy.com##.pre-article-ad
 foxbusiness.com##.pre-content
 sassymamahk.com##.pre_header_widget
@@ -68241,8 +68237,10 @@ mobafire.com##.venatus-responsive-ad
 theloadout.com##.venatus_ad
 fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox6now.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,ktvu.com,q13fox.com,wogx.com##.vendor-unit
 cryptonews.net##.vert-public
+mmegi.bw##.vertical-banner
 radiocity.in##.vertical-big-add
 radiocity.in##.vertical-small-add
+hashrate.no##.verticalAdContainer
 packaginginsights.com##.verticlblk
 forbes.com##.vestpocket
 mirror.co.uk##.vf3-conversations-list__promo
@@ -68502,6 +68500,7 @@ gozofinder.com##[data-testid="advert"]
 coles.com.au##[data-testid="banner-container-desktop"]
 petco.com##[data-testid="citrus-widget"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid="driver"]
+washingtonpost.com##[data-testid="fixed-bottom-ad"]
 sbs.com.au##[data-testid="hbs-widget-skeleton"]
 greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##[data-testid="header-leaderboard"]
 forbes.com##[data-testid="locked-top-ad-container"]
@@ -68861,7 +68860,6 @@ thehackernews.com##div.cf.pp-2
 sbs.com.au##div.css-1wbfa8
 steamgifts.com##div.dont_block_me
 easypet.com##div.kt-inside-inner-col > div.wp-block-kadence-rowlayout
-bitref.com##div.mb-3
 baking-forums.com,windows10forums.com##div.message--post.message
 expedia.at,expedia.be,expedia.ca,expedia.ch,expedia.co.id,expedia.co.in,expedia.co.jp,expedia.co.kr,expedia.co.nz,expedia.co.th,expedia.co.uk,expedia.com,expedia.com.ar,expedia.com.au,expedia.com.br,expedia.com.hk,expedia.com.my,expedia.com.ph,expedia.com.sg,expedia.com.tw,expedia.com.vn,expedia.de,expedia.dk,expedia.es,expedia.fi,expedia.fr,expedia.ie,expedia.it,expedia.mx,expedia.net,expedia.nl,expedia.no,expedia.se,hotels.com,orbitz.com,travelocity.ca,travelocity.com##div.not_clustered[id^="uitk-eg-maps-container-"]
 tld-list.com##div.row > .text-center > .ib
@@ -69290,6 +69288,7 @@ psychcentral.com##aside:has([data-empty])
 vidplay.lol##body > div > div[class][style]:has(> div > div > a[target="_blank"])
 countdown.co.nz##cdx-card:has(product-badge-list)
 creepypasta.com##center:has(+ #ad-container-1)
+hashrate.no##center:has(.sevioads)
 skyscanner.com,skyscanner.net##div > a:has(div[class^="DefaultBanner_sponsorshipRow"])
 inverse.com##div > p + div:has(amp-ad)
 bailagentnetwork.com##div.box-bottom:has(a[rel="noopener nofollow"])
@@ -70442,6 +70441,7 @@ xnxxvideoporn.com##.player_bn
 txxx.com##.polumlluluoopp
 porntrex.com##.pop-fade
 fapnado.com,young-sexy.com##.popup
+javball.com##.popup-box-ads
 pornicom.com##.pre-ad
 porntube.com##.pre-footer
 sleazyneasy.com##.pre-spots
