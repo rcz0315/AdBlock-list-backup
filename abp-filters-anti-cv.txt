@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: intp/vqsqe99rdsfBaLpZQ
-! Version: 202404030051
+! Checksum: /SMeS8Sff9QtB/wNeH2Rng
+! Version: 202404040050
 ! Title: ABP filters
-! Last modified: 03 Apr 2024 00:51 UTC
+! Last modified: 04 Apr 2024 00:50 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -523,7 +523,7 @@ tripadvisor.com#$#hide-if-matches-xpath './/span[@class="listItem"]//div[@data-a
 tripadvisor.com#$#hide-if-matches-xpath './/div[@id="typeahead_results"]//div[contains(text(),"Sponsored")]/ancestor::a[@href]'
 tripadvisor.com#$#hide-if-matches-xpath './/span[contains(text(),"Sponsored")]/ancestor::a[@target="_blank"]/ancestor::li[@class]'
 ! #RM-85
-doordash.com#$#hide-if-matches-xpath '//*[@id="store_feed"]/div[3]/div[1]/div/div//following::span[contains(.,"Sponsored") or contains(.,"Commandité") or contains(.,"Patrocinado")]/ancestor::div[string-length(@class) >= 62][1]'
+doordash.com#$#hide-if-matches-xpath '//a[contains(@data-anchor-id,"store-info")]//following::span[contains(.,"Sponsored") or contains(.,"Commandité") or contains(.,"Patrocinado")]/ancestor::div[string-length(@class) >= 62][1]'
 ! #RM-78
 noon.com#$#hide-if-matches-xpath './/span[@color][contains(text(),"Sponsored")]/ancestor-or-self::div[@class="componentArea-0"]'
 noon.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::a[@href][@id]/ancestor-or-self::div[@class="componentArea-0"]'
@@ -549,9 +549,8 @@ ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsoriz
 ebay.*#$#hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzati|Sponsorowane|G⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|Patrocinado/ div[role]>div 'div[role]>div.recs-item-content * div ^^sh^^ style+span.dsa-label'
 ebay.*#$#hide-if-contains-visible-text /[Ss]ponsored|[Aa]nzeigen|[Ss]ponsorisé|[Ss]ponsorizzat[ie]|[Ss]ponsorowane|[Gg]⁣e⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d|[Pp]atrocinado/ 'div[class^="recs-placement-arrangement"]' 'div.recs-card-container div.recs-header div ^^sh^^ *'
 ebay.*#$#hide-if-matches-xpath './/div[contains(@class,"pd-sponsored")]/parent::div[starts-with(@class,"ads-")]/ancestor::div[@data-testid="x-ads-placements"]'
-ebay.*#$#hide-if-matches-xpath './/canvas[@width][not(@style="display:none")]/ancestor::div[@class="recs-item-content"]/ancestor::li[@style]'
+ebay.*#$#hide-if-matches-xpath '//canvas[@width][@height="20"][not(@style="display:none")]/preceding::div[@class="recs-content-wrap-mot"]/ancestor-or-self::li[@class="carousel__snap-point"][@style]'
 ebay.*#$#hide-if-matches-xpath './/canvas[@width="500" or @width="110"][not(@style="display:none")]/ancestor-or-self::div[@class="recs-placement-arrangement"]'
-ebay.*#$#hide-if-matches-xpath './/canvas[@width][@height="20"]/ancestor::div[@class="recs-item-content"]/ancestor::div[@role="listitem"][@class]'
 ebay.*#$#hide-if-matches-xpath './/canvas[@width]/ancestor::div[@class="recs-item-content"]/preceding::div[@class="recs-grid-header"]//h2[contains(.,"sponsored") or contains(.,"anzeigen") or contains(.,"sponsorisé") or contains(.,"sponsorizzati") or contains(.,"sponsorowane") or contains(.,"ge⁣s⁣p⁣o⁣n⁣s⁣o⁣r⁣d") or contains(.,"patrocinado")]/ancestor-or-self::div[@class="recs-placement-arrangement"]'
 ! sp
 ebay.*#$#race start; hide-if-contains-visible-text /Sponsored|Anzeigen|Sponsorisé|Sponsorizzato|Sponsorowane|Gesponsord|Patrocinado|Anzeige/ 'li.s-item' '* li div>span>div ^^sh^^ span:not([aria-hidden="true"])'; hide-if-contains-and-matches-style /./ li[data-viewport] 'li[data-viewport] .s-item__sep>div ^^sh^^ span' /./ 'overflow-x: visible'; hide-if-contains-visible-text /./ 'li[data-viewport]' '.s-item__sep>div ^^sh^^ span:nth-child(2)'; hide-if-matches-computed-xpath './/div[contains(@class, "s-item__detail")]/span/div[@aria-labelledby = "{{}}"]/ancestor::li' './/style[contains(text(),"size: var")]' /^\\s*div\\.(.*?)_/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/script[contains(text(),"CSSStyleDeclaration")]' /getPropertyValue\\(\\"\\-\\-(.*?)\\"/; hide-if-matches-computed-xpath './/div[contains(@class,"s-item__detail")]/span/span[@aria-labelledby="{{}}"]/ancestor::li' './/style[contains(text(),"div:first-line")]' '/0px;\\s\\-\\-(.*?)\\:/'; race stop;
@@ -778,12 +777,9 @@ music.youtube.com,youtubekids.com#$#override-property-read playerResponse.adPlac
 music.youtube.com,youtubekids.com#$#override-property-read ytInitialPlayerResponse.adPlacements undefined;
 ! Fallback
 youtube.com##div #main-container.style-scope.ytd-promoted-video-renderer
-youtube.com##.ytd-video-masthead-ad-v3-renderer
-youtube.com##.ytd-banner-promo-renderer
 youtube.com##div #root.style-scope.ytd-display-ad-renderer.yt-simple-endpoint
 youtube.com##div #sparkles-container.style-scope.ytd-promoted-sparkles-web-renderer
 youtube.com##div #player-ads.style-scope.ytd-watch-flexy
-youtube.com##.ytd-in-feed-ad-layout-renderer
 ! yt/tv
 www.youtube.com##ytlr-ad-skip-or-preview
 www.youtube.com##.ytlr-watch-default__ad-badge-for-tvae
@@ -1627,7 +1623,7 @@ phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
 sexvietmoi.io,clipsexvietnam.net,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,ww1.phimsexchill.com,gm.phimsexnhanh.tv,phimsexvip.cc,sex.ditnhau.cc,topsexhay.org#$#override-property-read video.adVast ''
 www.iosviet.com#$#override-property-read timer 0
 ! Popup/Popunder/Clickunder
-fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet24h.com,anh.moe,truyenhentaivn.pro#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet1.net,anh.moe,truyenhentaivn.pro#$#abort-on-property-read open
 khophimhd.net,downloadsachmienphi.com,tvhay.top#$#abort-current-inline-script JSON.parse atob
 truyen2u.net#$#abort-current-inline-script eval
 thienhatruyen.net#$#abort-current-inline-script $ pc-popup-2
@@ -1644,7 +1640,7 @@ etellekt.com#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.si,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenat.com,yurineko.net,vlxyz.vc,javhay.in,phimsexhay669.org,cliphot69.blog,doctruyen3q.pro,hentaizz.club,animehay.us,vlxx.xxx,heo69.vc,top1sex.club,lenlut.tv,phimsex.ai,hentaivn.bz,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.one,cdnstream.sbs,javtiful.com,tuoi69.media,quatvn3.club,tenmientruyengi.net,topviet69.com,phim18hd.top,web.sexviet88.day,sexdep9x.pro,demo.14412882.com#$#abort-current-inline-script WebAssembly instantiate
+viet69.si,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenat.com,yurineko.net,vlxyz.tube,javhay.in,phimsexhay669.org,cliphot69.blog,doctruyen3q.pro,hentaizz.club,animehay.us,vlxx.xxx,heo69.vc,top1sex.club,lenlut.tv,phimsex.ai,hentaivn.bz,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.one,cdnstream.sbs,javtiful.com,tuoi69.media,quatvn3.club,tenmientruyengi.net,topviet69.com,phim18hd.top,web.sexviet88.day,sexdep9x.pro,demo.14412882.com,sexhay18.com#$#abort-current-inline-script WebAssembly instantiate
 animevietsub.us#$#abort-current-inline-script document.documentElement break;case
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
