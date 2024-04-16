@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202404142306
+! Version: 202404160039
 ! Title: EasyPrivacy
-! Last modified: 14 Apr 2024 23:06 UTC
+! Last modified: 16 Apr 2024 00:39 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1420,7 +1420,7 @@
 /metrics/event?
 /metrics/ga.js
 /metrics/init?
-/metrics/metrics$domain=~docs.datadoghq.com|~source.dot.net|~spatineo.com
+/metrics/metrics$domain=~docs.datadoghq.com|~github.com|~source.dot.net|~spatineo.com
 /metrics/onload
 /metrics/ping?
 /metrics/rum
@@ -2854,6 +2854,7 @@ _WebVitalsReporter_
 .doubleclick.net/$image
 .duolingo.com/open/
 .efeedbacktrk.com/$third-party
+.elaine-asp.de/action/view/$image
 .email.*/tr/op/$image
 .emltrk.com/
 .epicgames.com/O/
@@ -2971,6 +2972,7 @@ _WebVitalsReporter_
 /gate.amnesty-international.*/open.php?
 /gp/r.html?$image
 /gridinbound.blob.core.
+/i?aid=*&se_ac=open&$image
 /impression?mkevt=
 /inbox.*/imp?$image
 /is-tracking-pixel-
@@ -9358,6 +9360,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||barium.cheezdev.com^
 ||basis.net/assets/up.js
 ||bat.bing.com^
+||bat.bing.net^
 ||baxter.olx.org^
 ||bazaarvoice.com/sid.gif
 ||bb.itwc.ca/js/cube.js
@@ -10296,6 +10299,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||loader.zeroform.com^
 ||location3.com/analytics/
 ||log-*.previewnetworks.com^
+||log-pq.shopfully.cloud^
 ||log.aimtell.com^
 ||log.cookieyes.com^
 ||log.dpa.com^
@@ -12505,6 +12509,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.ceneo.pl^
 ||analytics.greensender.pl^$third-party
 ||ar1.aza.io^
+||ave-caesar-mas.modivo.io^
 ||cafenews.pl/mpl/static/static.js?
 ||cmp.dreamlab.pl^
 ||dsg.interia.pl^
@@ -49823,6 +49828,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ||dxlive.com/js/dtrace.js
 ||eq-beacon.stream.co.jp^
 ||eq-player-log.cdnext.stream.ne.jp^
+||eropuru.com/plugin/tracking/
 ||event.lib.visumo.io/js/hbn_track.js
 ||fensi.plus^*/tracking/
 ||fspark-ap.com/ft/analytics_log
@@ -50663,7 +50669,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ! ! mpsnare.iesnare.com
 @@||mpsnare.iesnare.com^$script,domain=citi.com|citibank.com|jbhifi.com.au|login.skype.com|oreillyauto.com|power.fi|princessauto.com|ringcentral.com|screwfix.com|usbank.com|verkkokauppa.com|vitacost.com|westernunion.com
 ! ! ingest.sentry.io/api/
-@@||ingest.sentry.io/api/$xmlhttprequest,domain=orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
+@@||ingest.sentry.io/api/$xmlhttprequest,domain=core.app|orionprotocol.io|play.tv3.lv|tesco.com|tesco.hu
 ! ! ci-mpsnare.iovation.com
 @@||ci-mpsnare.iovation.com/snare.js$domain=equifax.ca
 ! ! lightning.cnn.com
