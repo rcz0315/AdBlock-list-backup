@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: t3/JSuYweghj0QxYz8/36g
-! Version: 202404220051
+! Checksum: rPn273GQ3pNqeGawg9egyw
+! Version: 202404230051
 ! Title: ABP filters
-! Last modified: 22 Apr 2024 00:51 UTC
+! Last modified: 23 Apr 2024 00:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -517,6 +517,8 @@ dlouha-videa.cz#$#abort-on-property-read _0x4c29
 ajaxshowtime.com#?#div:-abp-properties(content: "Advertentie";)
 ajaxshowtime.com##div.leaderboard_ad + div
 ! *** abp-filters-anti-cv:english.txt ***
+! RM-42
+tesco.com#$#hide-if-contains-visible-text /Sponsored/ ul[class*="grid"]>li 'div>span>span'
 ! RM-114
 ! sp
 target.com#$#hide-if-matches-xpath './/p[text()="Sponsored"]/parent::div[@class]/ancestor::div[contains(@data-test,"ProductCardWrapper")]/parent::div[1]'
@@ -1631,10 +1633,10 @@ vndoc.com#$#override-property-read seconds 0
 phimvuihd.org#$#override-property-read urlAds ''
 thapcam4.net#$#simulate-mouse-event '#modalasd$continue,delay=300'
 phimvietsub.pro,api.anime3s.com,subnhanh.xyz#$#override-property-read maxAds 0
-sexvietmoi.io,clipsexvietnam.net,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,ww1.phimsexchill.com,gm.phimsexnhanh.tv,phimsexvip.cc,web.ditnhau.cc,phim.sexhayvl.org#$#override-property-read video.adVast ''
+web.motsex.net,clipsexvietnam.net,phimsexviet.io,phimsexvietnam.app,clipsex.xxx,web.phimsexnhanh.tv,gm.phimsexnhanh.tv,phimsexvip.cc,mobile.ditnhau.cc,phim.sexhayvl.org#$#override-property-read video.adVast ''
 www.iosviet.com#$#override-property-read timer 0
 ! Popup/Popunder/Clickunder
-fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet2.net,anh.moe,truyenhentaivn.online,maclife.io#$#abort-on-property-read open
+fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet2.net,anh.moe,truyenhentaivn.online,maclife.io,javfc2.net#$#abort-on-property-read open
 khophimhd.net,downloadsachmienphi.com,tvhay.top#$#abort-current-inline-script JSON.parse atob
 truyen2u.net#$#abort-current-inline-script eval
 thienhatruyen.net#$#abort-current-inline-script $ pc-popup-2
@@ -1651,7 +1653,7 @@ etellekt.com#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.vet,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenkq.com,yurineko.net,vlxyz.tube,javhay.in,phimsexhay669.org,cliphot69.blog,doctruyen3qv.pro,hentaizz.cc,animehay.blog,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,sexmup18.net,hentaivn.sh,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.fan,cdnstream.sbs,javtiful.com,tuoi69.viet69.biz,quatvn.fun,tenmientruyengi.net,topviet69.com,phim18hd.top,web.sexviet88.day,3xdam.pro,demo.14412882.com,sexmuptv.pro#$#abort-current-inline-script WebAssembly instantiate
+viet69.vet,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenkq.com,yurineko.net,vlxyz.tube,javhay.click,phimsexhay669.org,cliphot69.blog,doctruyen3qv.pro,hentaizz.cc,animehay.blog,vlxx.xxx,heo69.moe,top1sex.club,lenlut.tv,sexmup18.net,hentaivn.sh,sexvn1.cc,cdn.streamvl.sbs,www.buomtv.app,truyenvn.fan,cdnstream.sbs,javtiful.com,tuoi69.viet69.biz,quatvn.fun,tenmientruyengi.net,topviet69.com,phim18hd.top,web.sexviet88.day,3xdam.pro,demo.14412882.com,sexmuptv.pro#$#abort-current-inline-script WebAssembly instantiate
 animevietsub.day#$#abort-current-inline-script document.documentElement break;case
 phimdinhcao.net,phimlongtieng.net,phimdinhcao.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
