@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202404252338
+! Version: 202404270055
 ! Title: EasyPrivacy
-! Last modified: 25 Apr 2024 23:38 UTC
+! Last modified: 27 Apr 2024 00:55 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -1883,6 +1883,7 @@
 /rwtag.js
 /s-pcjs.php
 /s.gif?
+/s/vestigo/measure
 /s_code_global_context.js
 /s_trans.gif?
 /sa.gif?
@@ -8440,6 +8441,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cr-nielsen.com^$third-party
 ||ctags.cn^$third-party
 ||datayi.cn^$third-party
+||eland-tech.com^$third-party
 ||emarbox.com^$third-party
 ||fraudmetrix.cn^$third-party
 ||ggxt.net^$third-party
@@ -13496,7 +13498,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kck.st/web/track
 ||kgoma.com/v1/stat/
 ||khanacademy.org/api/internal/_analytics/
-||khanacademy.org/api/internal/_bb/
 ||kinesis.us-east-1.analytics.edmentum.com^
 ||kkam.com/rest/high/api/cogitoergosum^
 ||klm.us/CWZUvc/
@@ -50484,6 +50485,7 @@ abema.tv##+js(rmnt, script, NREUM)
 @@||kaxsdc.com/collect/sdk$xmlhttprequest,domain=vanillaereward.com
 @@||kilimall.co.ke/sensorsdata.min.js$~third-party
 @@||kilimall.co.tz/sensorsdata.min.js$~third-party
+@@||kilimall.com&*/js/sensorsdata.min.js$script,domain=kilimall.co.ke
 @@||kohls.com/ecustservice/js/sitecatalyst.js$script,~third-party
 @@||lacoste.com^*/click-analytics.js$~third-party
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
