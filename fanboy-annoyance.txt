@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: IB7YitzvR7nbgD1Vc3/YmA
-! Version: 202404272340
+! Checksum: HMWD4jOxbb4XaK4yOgu3gw
+! Version: 202404282340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-04-27 23:40 UTC
+! Last modified: 2024-04-28 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -40170,6 +40170,8 @@ lovehoney.ca,lovehoney.co.nz,lovehoney.com,lovehoney.eu##.dis_message
 maidenfrance.fr,plurielmedia.com,rencontres-gratuite.fr###headband
 !! PrivacyBanner_
 holidayinnclub.com,payloadcms.com##[class^="PrivacyBanner_"]
+!! #pandectes-banner
+alpkit.com###pandectes-banner
 !! #cookies_acceptance
 courtika.com,essor.ca,groupedpa.com,laturquoise.ca,pmtroy.com,rockebilly.com,tremblayassurance.com,univesta.com###cookies_acceptance
 !! .consent-box
@@ -44119,6 +44121,8 @@ jiji.com###_popIn_recommend_2
 otekomachi.yomiuri.co.jp###_popIn_right
 tv-tokyo.co.jp###bangumi_page_top
 oh-my-teeth.com###cta-sticky-banner
+news.denfaminicogamer.jp###dfng-popup
+dandy-house.co.jp###entryprompt_area
 jti.co.jp###footer-pagetop
 comnico.jp###hs-web-interactives-bottom-anchor
 suumo.jp###js-pageTop
@@ -44156,6 +44160,7 @@ ntv.co.jp##.ntv-pageTop
 realtime-chart.info##.osn_base
 gamespark.jp,response.jp##.page-top
 mobilenews.jp##.pagetop
+dandy-house.co.jp##.post_content > a[href*="?utm_source"] > img
 sofmap.com##.side_bnr
 sports.yahoo.co.jp##.topPage
 video.fc2.com##div[style^="position: fixed; transition: right 1s ease-out 0s; bottom: 165px; padding: 0px; margin: 0px; border: none; z-index: 999;"]
@@ -48226,7 +48231,7 @@ oz.av.tr##.Legal
 columbia.com.tr##.MuiCollapse-wrapperInner
 apigo.com.tr##.ant-notification
 ikonambalaj.com.tr##.bottom-center
-afyonhaberturk.com,agesahayatemeklilik.com.tr,avivasa.com.tr,aydinyeniufuk.com.tr,balikesirartihaber.com,blokhaber.com,bomba15.com,denizli20haber.com,dirilispostasi.com,egegundem.com.tr,eldedemokrasi.com,enpolitik.com,euromsg.com,gazetevatan.com,haberimizvar.net,hedefgazetesi.com.tr,isdunyasindakadin.com,ispartamhaber.com,kahtases.com,kocaelisabah.com,mhrs.gov.tr,offtherecord.com.tr,plastikciyiz.biz,sabancivakfi.org,seffafbelediyecilik.com,tarsusgazetesi.com,vansesigazetesi.com,yenigolcuk.com##.cerez
+afyonhaberturk.com,agesahayatemeklilik.com.tr,avivasa.com.tr,aydinyeniufuk.com.tr,balikesirartihaber.com,blokhaber.com,bomba15.com,denizli20haber.com,dirilispostasi.com,eldedemokrasi.com,enpolitik.com,euromsg.com,gazetevatan.com,haberimizvar.net,hedefgazetesi.com.tr,isdunyasindakadin.com,ispartamhaber.com,kahtases.com,kocaelisabah.com,mhrs.gov.tr,offtherecord.com.tr,plastikciyiz.biz,sabancivakfi.org,seffafbelediyecilik.com,tarsusgazetesi.com,vansesigazetesi.com,yenigolcuk.com##.cerez
 iys.org.tr##.cerezall
 saltur.com.tr##.cerezkullanimi
 bettilt496.com##.consent-modal
