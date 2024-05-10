@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202405090049
+! Version: 202405092226
 ! Title: EasyPrivacy
-! Last modified: 09 May 2024 00:49 UTC
+! Last modified: 09 May 2024 22:26 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -327,6 +327,7 @@
 /api/pagevisits
 /api/ping?$~xmlhttprequest
 /api/pixel?
+/api/reqAnalytic/*
 /api/stat?
 /api/track?guid
 /api/trk?
@@ -6633,6 +6634,7 @@ omni.soundestlink.com$image
 ||etherealripple.com^
 ||evaluateend.com^
 ||evanescentedge.com^
+||evasivejar.com^
 ||eventexistence.com^
 ||exampleshake.com^
 ||exchangedetail.com^
@@ -9834,6 +9836,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ecustomeropinions.com/survey/nojs.php?
 ||ecustomeropinions.com^*/i.php?
 ||edge-hls.doppiocdn.com/ping
+||edge-hls.doppiocdn.live/ping
 ||edge-hls.doppiocdn.org/ping
 ||edge.adobedc.net^
 ||edge.bredg.com^$third-party
@@ -10622,6 +10625,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||photobox.com/logs
 ||phrasetech.com/api/collect
 ||pi.ispot.tv^
+||piano.io/api/v3/customform/log/impression
 ||piano.io/tracker/
 ||pico.tools/metrics/
 ||ping-admin.ru^$third-party
@@ -12477,6 +12481,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||speee-ad.akamaized.net^
 ||spnx.jp/spnx-logger.js
 ||stats.streamhub.io^
+||stlog.d.dmkt-sp.jp^
+||stlog.dmarket.docomo.ne.jp^
 ||storage.googleapis.com/rasin/*/hm.js
 ||sweet-candy.jp/c.php?$third-party
 ||sync.shinobi.jp^
@@ -13902,7 +13908,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.condenastdigital.com^
 ||rum.kobo.com^
 ||rumble.com/l/
-||run.app/events$domain=imgur.com|worldstar.com
+||run.app/events$domain=imgur.com|worldstar.com|worldstarhiphop.com
 ||rv.modanisa.com^$script
 ||rvo-cohesion.healthline.com^
 ||s.gofile.io^
