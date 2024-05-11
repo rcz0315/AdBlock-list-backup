@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WLntsYxBZFGd96EXesqMQg
-! Version: 202405100051
+! Checksum: qZ7pzUfxWHsVZMRXE5y5wA
+! Version: 202405110051
 ! Title: EasyList China+EasyList
-! Last modified: 10 May 2024 00:51 UTC
+! Last modified: 11 May 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2578,6 +2578,16 @@ newduba.cn###jq_youxi
 ||hgidskiu.top^
 ||zwzdjb.xyz^
 ||elvirassb.com^
+||mmgap.cn^
+||yssryr.cn^
+||88lm15.com^
+||iaosua.com^
+||djxzk.top^
+||osmzym.xyz^
+||jyqkijp.icu^
+||qweqd.cn^
+||lixonj.xyz^
+||feptbh.xyz^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -7620,7 +7630,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||baidu.com/api/*/ads/
 ||baidu.com/api/proxyapi?tag=adv&
 ||baidu.com/api/wikiad/
-||baidu.com/api/wikiui/directad?
+||baidu.com^*/directad?
 ||baidu.com/api/wikiui/getasp?
 ||baidu.com/api/wikiui/guesslike?
 ||baidu.com/article/ajax/getmarticlestepdata?
@@ -10333,7 +10343,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||sozi.cn/images/tj/szdown
 ||sozi.cn/templets/sozi/js/js.js
 ||spanking.wiki/morning-bread-
-||speedtest.cn/api/v2/show?
+||speedtest.cn/api/v2/show
 ||speedtest.cn/assets/images/ce_
 ||sportscn.com/js/commerical
 ||spqi.xyz/static/tmp/
@@ -19313,13 +19323,12 @@ fqsousou.com,kengso.com#@#.user-share
 /ad/err?
 /ad/getban?
 /ad/image/*$image
-/ad/images/*$domain=~studiocalling.it
+/ad/images/*$image,domain=~studiocalling.it
 /ad/img/*$image,domain=~jiji.com
 /ad/imp?
 /ad/load_ad?
 /ad/popup.
 /ad/skin-
-/ad/view/*
 /ad300.jpg
 /ad300.js
 /ad300.png
@@ -19435,16 +19444,14 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/banner-
 /ads/banners/*$image
 /ads/bottom.
-/ads/bottom/*
 /ads/cbr.
 /ads/delivery.
-/ads/display/*
 /ads/footer.
 /ads/ga-audiences?
 /ads/gam_prebid-
 /ads/header.
-/ads/image/*
-/ads/images/*
+/ads/image/*$image
+/ads/images/*$image,domain=~eoffcn.com
 /ads/img/*
 /ads/index-
 /ads/index.
@@ -19475,12 +19482,10 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/top-
 /ads/top.
 /ads/tso
-/ads/v/*
 /ads/v2/*
-/ads/video/*
+/ads/video/controller.php
 /ads/view.php
 /ads/xtcore.
-/ads/yahoo/*
 /ads1.
 /ads160.
 /ads3.
@@ -19502,7 +19507,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ads_300.
 /ads_300_
 /ads_assets/*
-/ads_banners/*
+/ads_banners/*$image
 /ads_bg.
 /ads_bottom.js
 /ads_controller.js
@@ -19534,7 +19539,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adsheader.
 /adsimage/*
 /adsimages/*$image,domain=~bdjobstoday.com
-/adsImg/*
+/adsimg/*$image
 /adsinclude.
 /adslide.js
 /AdsLoad.js
@@ -19597,7 +19602,7 @@ fqsousou.com,kengso.com#@#.user-share
 /adverts/*$~xmlhttprequest
 /adverts_
 /advrotator.js
-/advrotator_
+/advrotator_banner_largo.htm
 /advscript.js
 /advtBanner.
 /adx2.
@@ -19605,20 +19610,19 @@ fqsousou.com,kengso.com#@#.user-share
 /adz/js/adz.
 /adzones.js
 /aff-ads.
-/aff/banners/*
+/aff/banners/*$image
 /aff/images/*$image
 /aff_ad?$script
 /aff_banner/*$image
 /aff_banners/*$image
 /affad?
 /affads/*
-/affbanner/*
-/affbanners/*
+/affbanners/*$image
 /affiliate/ad/*$image
 /affiliate/ads/*$image
 /affiliate/banner/*$image
 /affiliate/banners/*$image
-/affiliateads/*
+/affiliateads/*$image
 /affiliates/banner
 /afr.php?
 /afx_prid/*$script
@@ -19673,7 +19677,6 @@ fqsousou.com,kengso.com#@#.user-share
 /banner.asp?$third-party
 /banner.cgi?
 /banner.php
-/banner/ad_
 /banner/affiliate/*$image,subdocument
 /banner/html/zone?zid=
 /banner/sponsors.
@@ -19690,12 +19693,10 @@ fqsousou.com,kengso.com#@#.user-share
 /banners/728$image
 /banners/ads-
 /banners/ads.
-/banners/adv/*
-/banners/adv_
+/banners/adv/*$~xmlhttprequest
 /banners/aff.
-/banners/affil/*
+/banners/affil/*$image
 /banners/affiliate/*$image
-/banners/ffadult/*
 /bannersAds_
 /bottom-ads.jpg
 /bottom-ads.png
@@ -19842,14 +19843,13 @@ fqsousou.com,kengso.com#@#.user-share
 /hserver/site=
 /ht.js?site_
 /image/ad/*$image
-/image/ads/*
+/image/ads/*$image,domain=~edatop.com
 /image/affiliate/*
 /image_ads/*
-/imageads/*
+/imageads/*$image
 /images-ad/*
 /images/ad2/*
 /images/ads-$domain=~ads.com
-/images/adv/*
 /images/adz/*
 /images2/Ads/*$image
 /img/ad/*$~xmlhttprequest
@@ -19870,6 +19870,7 @@ fqsousou.com,kengso.com#@#.user-share
 /inlineads.aspx
 /insertads.js
 /internAds.css
+/istripper.gif
 /jquery.ad.js
 /jquery.adi.js
 /jquery.adx.js
@@ -19921,21 +19922,20 @@ fqsousou.com,kengso.com#@#.user-share
 /mobile-ad.
 /mobile_ad.
 /mobileads.
+/mod_ijoomla_adagency_zone/*$~xmlhttprequest
 /mod_pagepeel_banner/*
 /module-ads-html-$script
 /module-ads/*
 /module/ads/*
 /modules/ad/*
 /modules/ads/*
-/modules/mod_ijoomla_adagency_zone/*
-/moneyball/ads/*
 /MPUAdHelper.js
 /mydirtyhobby.$domain=~mydirtyhobby.com|~mydirtyhobby.de|~mydirtyhobby.to
 /mysimpleads/mysa_output.php
 /nativead.
 /nativeads-v2.js
 /nativeads.js
-/nativeads/script/*
+/nativeads/script/*$script
 /nativebanner/ane-native-banner.js
 /nb/frot_lod.js
 /neverblock/*
@@ -19960,7 +19960,6 @@ fqsousou.com,kengso.com#@#.user-share
 /pagead/1p-user-list/*
 /pagead/ads?
 /pagead/conversion.js
-/pagead/conversion/*
 /pagead/gen_
 /pagead/lvz?
 /pagead/osd.
@@ -19973,15 +19972,13 @@ fqsousou.com,kengso.com#@#.user-share
 /partnerad.
 /partnerads/*
 /partneradwidget.
-/partnerbanner.
-/partnerbanner/*
+/partnerbanner.$domain=~toltech.cn
 /partners/ads/*
 /pcad.js?
 /peel.php?
 /peel_ads/*
-/peelad/*
-/peelads/*
-/pfe/current/*
+/peelads/*$script
+/pfe/current/*$third-party
 /phpads/adx.js
 /phpadsnew/*$image,script
 /phpbb_ads/*
@@ -19993,12 +19990,11 @@ fqsousou.com,kengso.com#@#.user-share
 /pixel/purst?
 /pixel/sbe?
 /placeholder-ad-
-/player/ad/*
 /player/ads/*
 /plugin/ad/*
 /plugins/ad-invalid-click-protector/*$script
 /plugins/adrotate-pro/*
-/plugins/adrotate/library/*
+/plugins/adrotate/*$script
 /plugins/ads-
 /plugins/ads/*
 /plugins/adsanity-
@@ -20011,7 +20007,7 @@ fqsousou.com,kengso.com#@#.user-share
 /plugins/meks-easy-ads-widget/*
 /plugins/mts-wp-in-post-ads/*
 /plugins/page-cornr-
-/plugins/popunderpro/*
+/plugins/popunderpro/*$script
 /plugins/ultimate-popunder/*$~stylesheet
 /plugins/wp-advertising/*
 /plugins/wp-moreads/*$~stylesheet
@@ -20153,7 +20149,6 @@ fqsousou.com,kengso.com#@#.user-share
 /skin3/ads/*
 /skin_ad-
 /skinad.
-/skins/ads/*
 /skyadright.
 /skyscraper_ad_
 /skyscraperad.
@@ -20222,7 +20217,6 @@ fqsousou.com,kengso.com#@#.user-share
 /utx?cb=$third-party
 /v2/a/push/js/*
 /v3/ads?
-/v5/ads/*
 /v7/ads/*
 /valnet-header-ads.
 /vast/?zid=
@@ -20263,7 +20257,6 @@ fqsousou.com,kengso.com#@#.user-share
 /welcome_ad.js
 /widget-advert?
 /widget/ads.
-/widget/ads/*
 /wordpress-ads-plug-in/*
 /wp-ad.min.
 /wp-auto-affiliate-links/*
@@ -20302,7 +20295,7 @@ fqsousou.com,kengso.com#@#.user-share
 /wrapper/ads/*
 /www/deliver/*
 /www/deliverx/*
-/www/delivery/*
+/www/delivery/*$script,subdocument
 /www/js/ad/*
 /xads.php
 /xpopunder.js
@@ -20478,8 +20471,6 @@ _widget_ad.
 ! ezoic
 /cmbdv2.js
 /greenoaks.gif?
-! (NSFW) watchmygf.me/smutr.com/fpo.xxx pre-rollad
-/contents/other/player/*
 ! (NSFW) exoads on donstick.com sites
 /myvids/click/*$script,subdocument
 /myvids/mltbn/*$script,subdocument
@@ -20526,7 +20517,6 @@ _widget_ad.
 /detroitchicago/vpp.gif?
 /detroitchicago/wichita.js
 /edmonton.webp$script
-/ez_aba_load/*
 /ezcl.webp?
 /ezf-min.$script
 /ezo/*$script,~third-party,domain=~yandex.by|~yandex.com|~yandex.kz|~yandex.ru|~yandex.ua
@@ -20624,7 +20614,6 @@ _prebid8.
 /adblockdetection.
 /adBlockDetector/*$script
 /adblocker-leader.
-/adBlockerTrack_
 /adblockkiller.
 /adbuddy.$domain=~adbuddy.be|~adbuddy.beeldstudio.be
 /ads-blocking-detector.
@@ -20832,6 +20821,8 @@ _atblockdetector/
 /80x468_
 /960_60_
 /980x90.
+/w300/h250/*
+/w728/h90/*
 =300x250/
 =336x280,
 =468x60/
@@ -30301,13 +30292,9 @@ _800x80_
 ##.article__adblock
 ##.article__adhesion
 ##.article__adv
-##.article__header-ad-slot
-##.article__inset--margin-ad
-##.article__leaderboard-ad
 ##.article_ad
 ##.article_ad_1
 ##.article_ad_2
-##.article_ad_container2
 ##.article_ad_text
 ##.article_ad_top
 ##.article_adbox
@@ -30327,18 +30314,13 @@ _800x80_
 ##.articleads
 ##.articlebodyad
 ##.articlepage_ads_1
-##.articlepage_ads_top
 ##.articles-ad-block
-##.artist-ad-wrapper
 ##.artnet-ads-ad
-##.artstyle__advertisement
-##.as-admedia
 ##.aside-ad
 ##.aside-ad-space
 ##.aside-ad-wrapper
 ##.aside-ads
 ##.aside-ads-top
-##.aside-collection-ad-slot
 ##.asideAd
 ##.aside_ad
 ##.aside_ad_large
@@ -30380,8 +30362,6 @@ _800x80_
 ##.b_ads_cont
 ##.b_ads_r
 ##.b_ads_top
-##.b_adsen_wrapper
-##.back300ad
 ##.background-ad
 ##.background-ads
 ##.background-adv
@@ -30529,7 +30509,6 @@ _800x80_
 ##.bg_ad
 ##.bg_ads
 ##.bgcolor_ad
-##.bgnavad
 ##.bgr-ad-leaderboard
 ##.bh-ads
 ##.bh_ad_container
@@ -30624,7 +30603,6 @@ _800x80_
 ##.block-openads
 ##.block-openx
 ##.block-pm_doubleclick
-##.block-pt-ads
 ##.block-quartz-ads
 ##.block-reklama
 ##.block-simpleads
@@ -30673,17 +30651,12 @@ _800x80_
 ##.body-top-ads
 ##.bodyAd
 ##.body_ad
-##.body_width_ad
 ##.bodyads
 ##.bodyads2
 ##.bodybannerad
 ##.bodyrectanglead
 ##.bomAd
-##.bonnier-ad
-##.bonnier-ads-middle
-##.bookad
 ##.bordered-ad
-##.bostad
 ##.botAd
 ##.botRectAd
 ##.bot_ad
@@ -30740,7 +30713,6 @@ _800x80_
 ##.bottom_ad_responsive
 ##.bottom_adbreak
 ##.bottom_ads
-##.bottom_ads_wrapper_inner
 ##.bottom_adsense
 ##.bottom_adspace
 ##.bottom_advertise
@@ -30782,20 +30754,15 @@ _800x80_
 ##.box-advertising1
 ##.box-adverts
 ##.box-entry-ad
-##.box-entry-detail--ad
 ##.box-fixed-ads
 ##.box-footer-ad
-##.box-radvert
-##.box-recommend-ad
 ##.boxAd
 ##.boxAdContainer
 ##.boxAdFields
 ##.boxAdMrec
 ##.boxAds
 ##.boxAds2
-##.boxAdsInclude
 ##.boxAdvertisement
-##.boxOuterAD
 ##.boxSponsor
 ##.box_ad
 ##.box_ad_container
@@ -30804,7 +30771,6 @@ _800x80_
 ##.box_ad_spacer
 ##.box_ad_wrap
 ##.box_ads
-##.box_ads728x90_holder
 ##.box_adv
 ##.box_adv1
 ##.box_adv2
@@ -33095,7 +33061,6 @@ _800x80_
 ##.mobads
 ##.mobile-ad
 ##.mobile-ad-container
-##.mobile-ad-nav
 ##.mobile-ad-negative-space
 ##.mobile-ad-placeholder
 ##.mobile-ad-slider
@@ -36345,7 +36310,6 @@ dr.dk#@#.banner-ad-container
 popporn.com#@#.block-ad
 shop.asobistore.jp#@#.block-sponsor
 ixbtlabs.com#@#.bottom_ad_block
-wired.com#@#.box-radvert
 9l.pl#@#.boxAds
 canonsupports.com#@#.box_ads
 stuff.tv#@#.c-ad
@@ -36941,6 +36905,7 @@ browsershots.org#@#.advert_area
 ||42jdbcb.de^
 ||435a63dad5.com^
 ||43bb528775.com^
+||43sjmq3hg.com^
 ||43t53c9e.de^
 ||44288fa514.com^
 ||445c1f5df9.com^
@@ -43331,6 +43296,7 @@ browsershots.org#@#.advert_area
 ||chirppronounceaccompany.com^
 ||chissaibsgirls.com^
 ||chitbillety.website^
+||chitchooms.net^
 ||chitika.net^
 ||chitsnooked.com^
 ||chl7rysobc3ol6xla.com^
@@ -43633,6 +43599,7 @@ browsershots.org#@#.advert_area
 ||clerkrevokesmiling.com^
 ||clerrrep.com^
 ||cleverjump.org^
+||clevernesscolloquial.com^
 ||clevernesswood.com^
 ||clevernt.com^
 ||cleverwebserver.com^
@@ -65162,6 +65129,7 @@ browsershots.org#@#.advert_area
 ||reignprofessionally.com^
 ||reindaks.com^
 ||reinstandpointdumbest.com^
+||reissue2871.xyz^
 ||reitbokgona.com^
 ||reivereme.com^
 ||rejco2.store^
@@ -66974,6 +66942,7 @@ browsershots.org#@#.advert_area
 ||serveforthwithtill.com^
 ||servehub.info^
 ||servenobid.com^
+||server4ads.com^
 ||serverbid.com^
 ||servereplacementcycle.com^
 ||serverfritterdisability.com^
@@ -72041,6 +72010,7 @@ browsershots.org#@#.advert_area
 ||uwadpksbkzp.com^
 ||uwavoptig.com^
 ||uwayemfogibbgh.xyz^
+||uweqsrwoey.com^
 ||uwfcqtdb.xyz^
 ||uwgmguwpzkeudh.com^
 ||uwjhzeb.com^
@@ -77428,6 +77398,7 @@ browsershots.org#@#.advert_area
 ||7fc8.site^$document,popup
 ||8acc5c.site^$document,popup
 ||8bf6c3e9-3f4f-40db-89b3-58248f943ce3.online^$document,popup
+||a67d12.xyz^$document,popup
 ||b211.xyz^$document,popup
 ||b59c.xyz^$document,popup
 ||b714b1e8-4b7d-4ce9-a248-48fd5472aa0b.online^$document,popup
@@ -86062,6 +86033,10 @@ thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-1
 thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-2
 thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-3
 thedailymash.co.uk,thepoke.co.uk,thetab.com###ad-sidebar-4
+stackabuse.com###ad-snigel-1
+stackabuse.com###ad-snigel-2
+stackabuse.com###ad-snigel-3
+stackabuse.com###ad-snigel-4
 wordplays.com###ad-sticky
 agegeek.com,boards.net,freeforums.net,investing.com,mtaeta.info,notbanksyforum.com,pimpandhost.com,proboards.com,realgearonline.com,repairalmostanything.com,timeanddate.com,wordhippo.com,wordreference.com###ad1
 agegeek.com,investing.com,pimpandhost.com###ad2
@@ -86719,6 +86694,7 @@ shine.cn###pdfModal
 investopedia.com###performance-marketing_1-0
 premierguitar.com###pg_leaderboard
 radiocaroline.co.uk###photographsforeverDiv
+accuradio.com###pl_leaderboard
 giantfreakinrobot.com###playwire-homepage-takeover-leaderboard
 issuu.com###playwire-video
 files.im###plyrrr
@@ -86826,6 +86802,7 @@ pocketgamer.com###site-background
 webkinznewz.ganzworld.com###site-description
 dead-frog.com###site_top
 2oceansvibe.com,pocketgamer.biz###skin
+breakingdefense.com###skin-clickthrough
 ebar.com###skin-left
 ebar.com###skin-right
 namemc.com###skin_wrapper
@@ -86983,6 +86960,7 @@ globalwaterintel.com###top-banner-image
 independent.co.uk,the-independent.com###top-banner-wrapper
 missingremote.com###top-bar
 returnyoutubedislike.com###top-donors
+breakingdefense.com###top-header
 openspeedtest.com###top-lb
 capetownmagazine.com###top-leader-wrapper
 austinchronicle.com,carmag.co.za,thegazette.com,vodacomsoccer.com###top-leaderboard
@@ -87741,6 +87719,7 @@ miragenews.com##.attachment-wt450_250
 audiobacon.net##.audio-widget.et_pb_widget
 darko.audio##.audio_widget
 mbl.is##.augl
+thepopverse.com##.autoad
 iai.tv##.auw--container
 theblueoceansgroup.com##.av-label
 hostingreviews24.com##.av_pop_modals_1
@@ -89605,6 +89584,7 @@ oneesports.gg##.pr-sm-4
 hindustantimes.com##.pramotedWidget
 birdsandblooms.com,familyhandyman.com,rd.com,tasteofhome.com,thehealthy.com##.pre-article-ad
 foxbusiness.com##.pre-content
+breakingdefense.com##.pre-footer-menu
 sassymamahk.com##.pre_header_widget
 vivo.sx##.preload
 anfieldwatch.co.uk##.prem-gifts
@@ -89964,6 +89944,7 @@ zap-map.com##.sidebar__advert
 wordcounter.icu##.sidebar__display
 pbs.org##.sidebar__logo-pond
 hepper.com##.sidebar__placement
+breakingdefense.com,medcitynews.com##.sidebar__top-sticky
 snopes.com##.sidebar_ad
 pcgamesn.com##.sidebar_affiliate_disclaimer
 bxr.com##.sidebar_promo
@@ -93043,7 +93024,7 @@ hentaiprn.com,whipp3d.com##.widget_block
 arcjav.com,hotcelebshome.com,jav.guru,javcrave.com,pussycatxx.com##.widget_custom_html
 gifsauce.com##.widget_live
 totsantcugat.info##.widget_meta.widget.col-sm-3
-hentaiblue.com##.widget_text
+hentaiblue.com,pornifyme.com##.widget_text
 xhamster.com##.wio-p
 xhamster.com##.wio-pcam-thumb
 xhamster.com##.wio-psp-b
