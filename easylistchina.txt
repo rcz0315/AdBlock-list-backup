@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 6e8AKQ7cnEZ4uahTXDfZXQ
-! Version: 202405110051
+! Checksum: AsBeoGW1wdCzhCAAYOJ4DA
+! Version: 202405120050
 ! Title: EasyList China
-! Last modified: 11 May 2024 00:51 UTC
+! Last modified: 12 May 2024 00:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -2586,6 +2586,17 @@ newduba.cn###jq_youxi
 ||qweqd.cn^
 ||lixonj.xyz^
 ||feptbh.xyz^
+||igidskio.top^
+||adlhxwb.xyz^
+||6b856ee58e.com^
+||zrdga.cn^
+||lmvotk.cn^
+||cwgucvm.icu^
+||forrzp.xyz^
+||arkkcu.xyz^
+||jgidskia.top^
+||fhvzrr.xyz^
+||mnpzrgz.xyz^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
@@ -10998,8 +11009,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 ||koyso.com/z-
 ||koyso.com/static/js/abc.
+||bcebos.com/24x360x528.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+123pan.com##.ant-carousel
+123pan.com##.banner-container-pc
+123pan.com##.banner-container-h5
+1point3acres.com#?#div[id^="portal_block"]:-abp-has(a[href*="fiverr.com"])
 element-plus.org##.toc-content > div[style="margin-top:16px;"]
 element-plus.org##aside > .page-content-main
 szxx.com.cn###A1
@@ -15938,7 +15954,7 @@ ifeng.com##div[class^="ppx_wrap-"]
 99syy1.com##div[class^="ps_"]
 ifeng.com##div[class^="rightContent-"] a[href^="//health.ifeng."]
 jable.tv##div[class^="root-"]
-qwerwrrt.one,sehuatang.org##div[class^="show-text"]
+kzs1w.com,sehuatang.org##div[class^="show-text"]
 finance.sina.com.cn##div[class^="side-btns-"]
 7654.com##div[class^="sidebarimg"]
 ifeng.com##div[class^="slideBannerBox"]
