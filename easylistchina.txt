@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KFkLQfOG7Z9/wrH8yoh36A
-! Version: 202405210051
+! Checksum: TerIo6WZTr4kMCUCRp5tCQ
+! Version: 202405220051
 ! Title: EasyList China
-! Last modified: 21 May 2024 00:51 UTC
+! Last modified: 22 May 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -22,6 +22,7 @@
 -*-*-*-*.panda^$script,third-party
 -1316632262.cos.
 -1316899192.cos.
+.land/ad/*.gif
 -1688-wp-media/ads/
 -90mh-gg.
 .bid/ads/
@@ -1658,6 +1659,9 @@ newduba.cn###jq_youxi
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
 ##.horizontal-banner
+##.adv-6park
+##.apd-footer
+##a[href^="http"] > img[height="60px"][src*="imgsrc.baidu.com"]
 ##style + .a-loading
 ##style + .need_grid_img
 ##style + .vdgdo
@@ -2684,11 +2688,30 @@ newduba.cn###jq_youxi
 ||jy147a.com^
 ||rayajmp.icu^
 ||ca2686564a.com^
+||dpedrt.xyz^
+||csylief.top^
+||yhgfoe.xyz^
+||kytbxcl.cn^
+||sahqoo.com^
+||bxlmrl.xyz^
+||kyokglm.icu^
 ||zuvbzl.xyz^
 ||zwdtvx.xyz^
 ||zwxxcb.icu^
 ||zxfdbr.xyz^
 ||zxqiwe.cn^
+||555bbb777www.com^
+||66308888.com^
+||666bbb888www.com^
+||777aa888bb.com^
+||888aa111bb.com^
+||888aa222bb.com^
+||mito03.top^
+||mttpsy6666.cc^
+||w7044.com^
+||yuanpinghengkangfuyouxiangongsi.top^
+||efs604.top^
+||692881.com^
 !
 ##a[href*=".337771.xyz"]
 ##a[href*=".337772.xyz"]
@@ -11097,10 +11120,13 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||koyso.com/z-
 ||koyso.com/static/js/abc.
 ||bcebos.com/24x360x528.gif
+||chengzijianzhan.cc^$third-party,subdocument
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+douyin.com###videoSideBar iframe
+douyin.com#?#.xgplayer>div[class]:-abp-has(svg[height="16"][width="30"])
+czys.top#?#.swiper-slide:-abp-has(.coveimg[src*=".gif"])
 raenonx.cc##.main_ads-content + div
-douyin.com#?#.page-recommend-container:-abp-has(span[style^="background"]:-abp-contains(广告))
 cnbeta.com.tw##.article-global
 hupu.com##div[class*="-banner_"]
 wenxuecity.com###gg_multitext
@@ -16881,6 +16907,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||9zvip.net^$elemhide
 @@||a.alimama.cn/tkapi$domain=ieeee.com
 @@||abchina.com^*ad
+@@||mobinovels.com^$generichide
 @@||aboluowang.com^$generichide
 @@||acgbenzi.com//dist/images/top.png
 @@||acgdraw.com/ad$xmlhttprequest
