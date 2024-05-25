@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202405240034
+! Version: 202405250021
 ! Title: EasyList
-! Last modified: 24 May 2024 00:34 UTC
+! Last modified: 25 May 2024 00:21 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -2907,8 +2907,6 @@ _800x80_
 ###ad_xrail_top
 ###ad_zone
 ###adaptvcompanion
-###adb-top
-###adbForum
 ###adb_bottom
 ###adbackground
 ###adbanner-container
@@ -2923,7 +2921,6 @@ _800x80_
 ###adblade
 ###adblade_ad
 ###adblkad
-###adblock-300x250
 ###adblock-big
 ###adblock-leaderboard
 ###adblock-small
@@ -3011,10 +3008,8 @@ _800x80_
 ###adm-inline-article-ad-1
 ###adm-inline-article-ad-2
 ###admain
-###admaintop
 ###admasthead
 ###admid
-###admiddleCenter
 ###admobilefoot
 ###admobilefootinside
 ###admobilemiddle
@@ -3047,10 +3042,7 @@ _800x80_
 ###adposition3
 ###adposition4
 ###adpositionbottom
-###adpostloader
-###adpromo
 ###adrect
-###adrig
 ###adright
 ###adright2
 ###adrightbottom
@@ -3087,7 +3079,6 @@ _800x80_
 ###ads-blog
 ###ads-bot
 ###ads-bottom
-###ads-by-google
 ###ads-col
 ###ads-container
 ###ads-container-2
@@ -3096,7 +3087,6 @@ _800x80_
 ###ads-container-top
 ###ads-content
 ###ads-content-double
-###ads-div2
 ###ads-footer
 ###ads-footer-inner
 ###ads-footer-wrap
@@ -3168,7 +3158,6 @@ _800x80_
 ###adsContainer
 ###adsContent
 ###adsDisplay
-###adsHeadLine
 ###adsHeader
 ###adsHeading
 ###adsLREC
@@ -3190,7 +3179,6 @@ _800x80_
 ###adsZone
 ###adsZone1
 ###adsZone2
-###ads_01
 ###ads_0_container
 ###ads_160
 ###ads_3
@@ -3200,7 +3188,6 @@ _800x80_
 ###ads_728
 ###ads_728x90
 ###ads_728x90_top
-###ads_back
 ###ads_banner
 ###ads_banner1
 ###ads_banner_header
@@ -6971,7 +6958,6 @@ _800x80_
 ##.ad-d
 ##.ad-decoration
 ##.ad-defer
-##.ad-description
 ##.ad-desktop
 ##.ad-desktop-in-content
 ##.ad-desktop-legacy
@@ -8704,33 +8690,25 @@ _800x80_
 ##.adace-slot-wrapper
 ##.adace-sponsors-box
 ##.adace-vignette
-##.adadded
-##.adageunicorns
 ##.adalert-overlayer
 ##.adalert-toplayer
 ##.adamazon
 ##.adarea
 ##.adarea-long
 ##.adarticle
-##.adb-728x90
-##.adb-bottom-outer
-##.adbTrkWt
+##.adb-top
 ##.adback
 ##.adban
-##.adban-hold-narrow
 ##.adband
 ##.adbanner-300-250
 ##.adbanner-bottom
 ##.adbanner1
-##.adbanner2nd
 ##.adbannerbox
-##.adbanneriframe
 ##.adbannerright
 ##.adbannertop
 ##.adbase
 ##.adbbox
 ##.adbckgrnd
-##.adbelowfirstpost
 ##.adbetween
 ##.adbetweenarticles
 ##.adbkgnd
@@ -8738,9 +8716,6 @@ _800x80_
 ##.adblade-container
 ##.adbladeimg
 ##.adblk
-##.adblock-240-400
-##.adblock-300-300
-##.adblock-600-120
 ##.adblock-bottom
 ##.adblock-header
 ##.adblock-header1
@@ -8751,7 +8726,6 @@ _800x80_
 ##.adblock-wide
 ##.adblock300
 ##.adblock300250
-##.adblock300x250Spot1
 ##.adblock728x90
 ##.adblock__banner
 ##.adblock_noborder
@@ -15876,6 +15850,9 @@ _800x80_
 ##span[id^="ezoic-pub-ad-placeholder-"]
 ##topadblock
 ##zeus-ad
+! 247slots.org/247checkers.com/247backgammon.org/247hearts.com etc
+##.aspace-300x169
+##.aspace-300x250
 ! actvid.com,f2movies.to,fmovies.ink,fmovies.ps,fmoviesto.cc,himovies.to,movies2watch.tv,moviesjoy.to,soap2day.rs
 ###hgiks-middle
 ###hgiks-top
@@ -18926,6 +18903,7 @@ browsershots.org#@#.advert_area
 ||allnesskepped.com^
 ||allocatelacking.com^
 ||allodiafeveret.life^
+||allodsubussu.com^
 ||alloha.tv^
 ||allotnegate.com^
 ||allotupwardmalicious.com^
@@ -21001,6 +20979,7 @@ browsershots.org#@#.advert_area
 ||belovedset.com^
 ||beloveupcreep.com^
 ||beltarklate.live^
+||beltwaythrust.com^
 ||beludicolor.com^
 ||belwrite.com^
 ||bemachopor.com^
@@ -34281,6 +34260,7 @@ browsershots.org#@#.advert_area
 ||jajrlsaiboswdab.xyz^
 ||jakescribble.com^
 ||jakeycorkage.digital^
+||jalapamaro.com^
 ||jaletemetia.com^
 ||jalewaads.com^
 ||jalwhftxnl.com^
@@ -38807,6 +38787,7 @@ browsershots.org#@#.advert_area
 ||muirpekvl.com^
 ||mujilora.com^
 ||mukhtarproving.com^
+||mulaukso.com^
 ||mulberryay.com^
 ||mulberrydoubloons.com^
 ||mulberryresistoverwork.com^
@@ -41393,6 +41374,7 @@ browsershots.org#@#.advert_area
 ||outyanmegaom.com^
 ||ouveelsa.xyz^
 ||ouvrestance.com^
+||ouwhejoacie.xyz^
 ||ouxvgihpkjfkhs.xyz^
 ||ouyoqudevfal.com^
 ||ouzavamt.com^
@@ -51399,6 +51381,7 @@ browsershots.org#@#.advert_area
 ||uabpuwz.com^
 ||uads.cc^
 ||uads.digital^
+||uads.guru^
 ||uads.info^
 ||uads.pw^
 ||uads.space^
@@ -51575,6 +51558,7 @@ browsershots.org#@#.advert_area
 ||ulmoyc.com^
 ||ulmpyqgfqkffe.com^
 ||ulmujev.com^
+||ulnaswotter.top^
 ||ulngjwvbhyyfkum.com^
 ||ulnhlnsw.com^
 ||ulnidkdlaxclpo.com^
@@ -51993,6 +51977,7 @@ browsershots.org#@#.advert_area
 ||upsidecopiedcraft.com^
 ||upsidesheminee.com^
 ||upskittyan.com^
+||upspewsafener.com^
 ||upspinarakor.com^
 ||upstagecarvers.cfd^
 ||upstandhurls.website^
@@ -57615,6 +57600,7 @@ browsershots.org#@#.advert_area
 ||b59c.xyz^$document,popup
 ||b714b1e8-4b7d-4ce9-a248-48fd5472aa0b.online^$document,popup
 ||b9f25b.site^$document,popup
+||bc98ad.xyz^$document,popup
 ||bcbe.site^$document,popup
 ||ca3d.site^$document,popup
 ||ca9246.xyz^$document,popup
@@ -62906,6 +62892,7 @@ browsershots.org#@#.advert_area
 ||ifoneunlock.com/*_banner_
 ||imsynthesis.pro/banners/$third-party
 ||in.com/common/script_catch.js
+||inbound-step.heavenmedia.com^$third-party
 ||incrementxplay.com/api/adserver/
 ||indeed.fr/ads/
 ||infibeam.com/affiliate/
@@ -67151,6 +67138,7 @@ sun-sentinel.com###stnWrapperDiv
 westernjournal.com###stnvideo
 rawstory.com###story-top-ad
 healthshots.com###storyBlockOne
+krunker.io###streamContainer
 web-capture.net###stw_ad
 arenaev.com,gsmarena.com###subHeader
 macrotrends.net###subLeaderboardTag
@@ -67246,6 +67234,8 @@ nytimes.com,nytimesn7cgmftshazwhfgzm37qxb44r64ytbb2dj3x62d2lljsciiyd.onion###top
 investing.com###topBroker
 digitalartsonline.co.uk###topLeaderContainer
 mautofied.com###topLeaderboard
+krunker.io###topLeftAdHolder
+krunker.io###topRightAdHolder
 forum.wordreference.com###topSupp
 walterfootball.com###top_S
 utne.com###top_advertisement
@@ -67349,7 +67339,7 @@ hellomagazine.com##.-variation-robapaginas
 yelp.com##.ABP
 gamesadshopper.com##.AD
 advfn.com##.APS_TOP_BANNER_468_X_60_container
-buzzfeed.com,gamedeveloper.com,imgur.io,iotworldtoday.com,sevendaysvt.com,tasty.co,tucsonweekly.com##.Ad
+buzzfeed.com,darkreading.com,gamedeveloper.com,imgur.io,iotworldtoday.com,sevendaysvt.com,tasty.co,tucsonweekly.com##.Ad
 deseret.com##.Ad-space
 jagranjosh.com##.Ad720x90
 thingiverse.com##.AdBanner__adBanner--GpB5d
@@ -67523,10 +67513,11 @@ swarajyamag.com##._1eNH8
 gadgetsnow.com##._1edxh
 gadgetsnow.com##._1pjMr
 afkgaming.com##._2-COY
-brisbanetimes.com.au,smh.com.au,watoday.com.au##._2gSkZ
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##._2gSkZ
 jeffdornik.com##._2kEVY
 gadgetsnow.com##._2slKI
 coderwall.com##._300x250
+brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##._34z61
 timesnownews.com##._3n1p
 thequint.com##._4xQrn
 outlook.live.com##._BAY1XlyQSIe6kyKPlYP
@@ -68629,6 +68620,7 @@ nettv4u.com##.desk_only
 newindian.in##.deskad
 cardealermagazine.co.uk##.desktop
 livesoccertv.com##.desktop-ad-container
+vitalmtb.com##.desktop-header-ad
 rok.guide##.desktop-promo-banner
 tiermaker.com##.desktop-sticky
 buzzfeed.com,buzzfeednews.com##.desktop-sticky-ad_desktopStickyAdWrapper__a_tyF
@@ -70733,6 +70725,7 @@ letterboxd.com##.upgrade-kicker
 upworthy.com##.upworthy_infinite_scroll_ad
 upworthy.com##.upworthy_infinte_scroll_outer_wrap
 vervetimes.com##.uyj-before-header
+vitalmtb.com##.v-ad-slot
 surinenglish.com##.v-adv
 militarywatchmagazine.com##.v-size--x-small.theme--light
 tetris.com##.vAxContainer-L
@@ -70973,6 +70966,7 @@ mydramalist.com##[class^="zrsx_"]
 newspointapp.com##[ctn-style]
 flatpanelshd.com##[data-aa-adunit]
 dribbble.com##[data-ad-data*="ad_link"]
+androidauthority.com##[data-ad-type]
 gamelevate.com##[data-adpath]
 builtbybit.com##[data-advertisement-id]
 timesofindia.indiatimes.com##[data-aff-type]
@@ -71230,6 +71224,7 @@ infotel.ca##[src^="https://infotel.ca/absolutebm/"]
 exportfromnigeria.info##[src^="https://storage.proboards.com/"]
 exportfromnigeria.info##[src^="https://storage2.proboards.com/"]
 buzzly.art##[src^="https://submissions.buzzly.art/CANDY/"]
+manhwabtt.com##[style$="min-height: 250px;"]
 circleid.com##[style*="300px;"]
 circleid.com##[style*="995px;"]
 coolors.co##[style*="position:absolute;top:20px;"]
@@ -71903,7 +71898,6 @@ bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 freshdirect.com##[class*="ProductsGrid_grid_item_"]:has([data-qa="tile_marketing_tag"])
 popularmechanics.com##[class] > :has(> #article-marketplace-horizontal)
 popularmechanics.com##[class] > :has(> #gpt-ad-vertical-bottom)
-brisbanetimes.com.au,smh.com.au,theage.com.au,watoday.com.au##[class] > :has(> .adWrapper)
 fortune.com##[class]:has(> #Leaderboard0)
 petco.com##[class^="citrus-carousel-"]:has([class^="carousel__Sponsored"])
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
@@ -71947,6 +71941,7 @@ outlook.live.com##div:has(> div > div.fbAdLink)
 tripadvisor.com##div:has(> div > div[class="ui_column ovNFo is-3"])
 tripadvisor.com##div:has(> div[class="ui_columns is-multiline "])
 heb.com##div:has(> div[id^="hrm-banner-shotgun"])
+androidauthority.com##div:not([class]) > div[class^="_--_-___"]:has(> div[data-ad-type="leaderboard_atf"])
 webtools.fineaty.com##div[class*=" hidden-"]:has(.adsbygoogle)
 aliexpress.com,aliexpress.us##div[class*="search-item-card-wrapper-"]:has(span[class^="multi--ad-"])
 qwant.com##div[class="_2NDle"]:has(div[data-testid="advertiserAdsDisplayUrl"])
