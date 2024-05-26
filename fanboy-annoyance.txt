@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GRgPItRj3rp+bDJmY3wa3Q
-! Version: 202405250040
+! Checksum: Ulo7LX8N4LjIqdPBprDszg
+! Version: 202405260040
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-05-25 00:40 UTC
+! Last modified: 2024-05-26 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -28431,6 +28431,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.m-privacy-consent
 ##.m-privacy-lightbox
 ##.m-privacy-options
+##.m-privacy-policy-pop
 ##.m-react-ccm__settings-layer
 ##.m-stripe--cookie
 ##.m-tracking-banner
@@ -38464,6 +38465,7 @@ support.nordvpn.com##.ConsentWidget__container
 weverse.io##.CookieAgreeView_container__qYaK3
 radioplayer.vistaradio.ca##.CookieBanner-module__wrap--1QK9t
 dashfight.com##.CookieBox_safety__pt5AH
+push.org##.CookieComponent__CookieContainer-sc-thf5lr-0
 tsi.com##.CookieConsent > .o-container
 elitesingles.com##.CookieConsent_cookie-consent__nuLuI
 russellandbromley.co.uk##.CookieControl
@@ -40996,7 +40998,6 @@ gcds.com,great.gov.uk,make.org,oralb.ca,swapcard.com,tommy.com##.ReactModal__Ove
 twitter.com,x.com###react-root > div > div > .rn-gvpnoh
 twitter.com,x.com##[data-reactroot] > [class] + [class]:last-child
 ! twitter.com##.r-13qz1uu.r-tvv088.css-1dbjc4n
-twitter.com,x.com##.css-175oi2r.r-12vffkv[style*="position: absolute; bottom: 0px; width: 100%; transition:"]
 twitter.com,x.com##.css-1dbjc4n.r-12vffkv > .r-12vffkv > .css-1dbjc4n[data-testid="BottomBar"] > .css-1dbjc4n.r-1awozwy.r-1sw30gj.r-15ce4ve
 twitter.com,x.com##.r-13qz1uu.r-1f1sjgu.r-ymttw5.r-1d7fvdj.r-18u37iz.r-15ce4ve.r-1sw30gj.r-1awozwy.css-1dbjc4n
 twitter.com,x.com##.r-13qz1uu.r-1f1sjgu.r-ymttw5.r-1d7fvdj.r-18u37iz.r-9hvr93.r-1m3jxhj.r-1awozwy.css-1dbjc4n
@@ -45145,6 +45146,7 @@ blogsicilia.it##div[style="margin-top: 15px;display: block;padding-left: 18px;fo
 ||imyfone.com/assets/js/media_share/
 ||ministop.co.jp/site_common/js/sns_
 ||plugins.mixi.jp/favorite.pl?$third-party
+||taishurx.jp/js/web/sns_header.js
 !
 !---------- Japanese Site Specific Hiding Rules ----------
 !
@@ -47308,6 +47310,7 @@ tokyotokyo.jp##.annotation-area
 knb.ne.jp##.atention_cookie
 nhk.or.jp##.bottom_optout_announce
 ebarafoods.com##.consent_c
+more.hpplus.jp##.cookie-inquiry
 camp-fire.jp##.cookie-policy-agreement-notification
 his-mobile.com##.cookieagree
 kani-honke.co.jp##.cookiediag
@@ -47332,6 +47335,7 @@ hicbc.com##.optinfo
 mamastar.jp##.personalInfo__area
 fincity.tokyo##.policy
 ferrotec.co.jp##.policyFix
+eclat.hpplus.jp##.popup_banner
 layers.co.jp##.r-footer-cookie
 osaki.co.jp##.reuse-component
 picrew.me##.st-Terms_Wrapper
@@ -49168,6 +49172,7 @@ fluidtravel.it#@##cookie-wrapper
 evaair.com#@##cookie.cookie
 birdpix.nl,nederpix.nl#@##cookieAccept
 smartcentres.com#@##cookieAcceptBar
+portal.payment.eltax.lta.go.jp#@##cookieAgree
 cam.start.canon#@##cookieArea
 chipkinspuratos.co.za,golnanpuratos.com,puratos.at,puratos.be,puratos.bg,puratos.ca,puratos.ch,puratos.cl,puratos.cn,puratos.co.cr,puratos.co.id,puratos.co.jp,puratos.co.kr,puratos.co.th,puratos.co.uk,puratos.com.ar,puratos.com.au,puratos.com.br,puratos.com.mx,puratos.com.my,puratos.com.ph,puratos.com.tr,puratos.com.ua,puratos.cz,puratos.de,puratos.dk,puratos.ee,puratos.es,puratos.fr,puratos.gr,puratos.hu,puratos.in,puratos.it,puratos.lt,puratos.lv,puratos.md,puratos.nl,puratos.pe,puratos.pl,puratos.pt,puratos.ro,puratos.rs,puratos.ru,puratos.us,puratos.uy,puratosgrandplace.com#@##cookieBannerModal
 ad.win.nl,auszug.at,berlinartweek.de,gov.lv,humboldtforum.org,kulturprojekte.berlin,search.itaa.be#@##cookieConsent
@@ -49275,6 +49280,7 @@ calameo.com#@#.consent.cookies
 amp.cnn.com#@#.consentPopup
 iledefrance-mobilites.fr#@#.content-cookies
 bitburger-braugruppe.de#@#.cookie-age
+portal.payment.eltax.lta.go.jp#@#.cookie-agree
 praca.by#@#.cookie-agreement
 calameo.com#@#.cookie-alert-container
 kaputt.de#@#.cookie-backdrop
@@ -49478,7 +49484,7 @@ baden-wuerttemberg.de,calameo.com#@#div.cookie-alert
 autohaus24.de,cera.coop,channel4.com,chipkinspuratos.co.za,golnanpuratos.com,intersport.de,puratos.at,puratos.be,puratos.bg,puratos.ca,puratos.ch,puratos.cl,puratos.cn,puratos.co.cr,puratos.co.id,puratos.co.jp,puratos.co.kr,puratos.co.th,puratos.co.uk,puratos.com.ar,puratos.com.au,puratos.com.br,puratos.com.mx,puratos.com.my,puratos.com.ph,puratos.com.tr,puratos.com.ua,puratos.cz,puratos.de,puratos.dk,puratos.ee,puratos.es,puratos.fr,puratos.gr,puratos.hu,puratos.in,puratos.it,puratos.lt,puratos.lv,puratos.md,puratos.nl,puratos.pe,puratos.pl,puratos.pt,puratos.ro,puratos.rs,puratos.ru,puratos.us,puratos.uy,puratosgrandplace.com#@#div.cookie-banner
 epochtimes.it,onnibus.com,stilord.com,stilord.de,stilord.fr,stilord.pl#@#div.cookie-bar
 praca.by#@#div.cookie-confirm
-booking.reederei-zingst.de,booking.weisse-flotte.de,booking2.reederei-hiddensee.de,dovoba.de,forcetools-kepmar.eu,kund.bliwa.se,linkedin.com,moreincommon.de#@#div.cookie-consent
+booking.reederei-zingst.de,booking.weisse-flotte.de,booking2.reederei-hiddensee.de,dovoba.de,forcetools-kepmar.eu,kund.bliwa.se,linkedin.com,moreincommon.de,portal.payment.eltax.lta.go.jp#@#div.cookie-consent
 solcom.de#@#div.cookie-consent-banner
 sevdesk.de#@#div.cookie-consent-modal
 ieatfoodtours.co.uk,onceinrome.com,weliketuscany.it#@#div.cookie-consent-popup
@@ -49613,7 +49619,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||cloudflare.com^*/cookieconsent.min.js$domain=cards.thm.de|ehftv.com|pixelexperience.org|pixieset.com|rijbewijskeuringennederland.nl|sammobile.com|xnview.com
 @@||cloudfront.net^*/lib.f-cookie-banner.$script,domain=just-eat.co.uk|just-eat.es|just-eat.ie|justeat.it
 @@||cmp-consent-tool.privacymanager.io^$subdocument,domain=dailybuzz.nl|esquire.de|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kleinezeitung.at|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|plusonline.nl|profil.at|rtvnoord.nl|vesti.bg|weeronline.nl|weerplaza.nl
-@@||cmp.osano.com^$script,domain=lucidchart.com|meeting.guidepoint.com
+@@||cmp.osano.com^$script,domain=lucidchart.com|meeting.guidepoint.com|scribd.com
 @@||computerbase.de^*/consent/$script,xmlhttprequest
 @@||computerbase.de^*/scripttemplates/$script,xmlhttprequest
 @@||consent.cmp.oath.com^$script,domain=cyclingnews.com|express.co.uk|techcrunch.com
