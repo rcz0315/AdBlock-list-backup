@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: RL0aocqGP821T1qM5weAnA
-! Version: 202405310050
+! Checksum: PjREuT1wo7WrGQO4+pzlyg
+! Version: 202406010050
 ! Title: EasyList China
-! Last modified: 31 May 2024 00:50 UTC
+! Last modified: 01 Jun 2024 00:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -20,6 +20,7 @@
 -*-*-*-*.alpha^$script,third-party
 -*-*-*-*.as^$script,third-party
 -*-*-*-*.panda^$script,third-party
+ws://*/api/wss/GetNotReadCount$third-party
 -1316632262.cos.
 -1316899192.cos.
 .top/ad/
@@ -1745,6 +1746,11 @@ newduba.cn###jq_youxi
 ||dfgfdffg.cn^
 ||xwdjnj.xyz^
 ||bfjsliv.top^
+||sseudorassb.com^
+||fdswrgg.cn^
+||vutjnt.xyz^
+||mgmuye.xyz^
+||zqgixxp.icu^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -11218,6 +11224,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||e.so.com/search/pcnew?
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+mydrivers.com##.vwE9JmqU
+mydrivers.com##.yTv3AMqP
+mydrivers.com#?#li:-abp-has(>.titl+:-abp-contains(推广))
 iqiyi.com##div[class^="video-slide_threeImagePages"]>a[href^="http"]:not([href*="iqiyi.com"])>div
 iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"]) div[class^="video-slide_row"]
 iqiyi.com##div[class^="video-slide_normal"]>a[href^="http"]:not([href*="iqiyi.com"])>div>img

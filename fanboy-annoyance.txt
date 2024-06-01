@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: OoDTMf+nPVTtcNUvgeqoVA
-! Version: 202405310040
+! Checksum: 5M5XPGstAcWsfYU+SII7Og
+! Version: 202406010040
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-05-31 00:40 UTC
+! Last modified: 2024-06-01 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -34091,6 +34091,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||facebook.com^*/plugins/page.php?$third-party
 ||facebook.com^*/plugins/share_button.php?$third-party
 ||fark.com^$script,third-party
+||feedgrabbr.com/widget/
 ||feedly.com/img/follows/$third-party
 ||figshare.com^$third-party
 ||filamentapp-assets.s3.amazonaws.com^$third-party
@@ -36323,11 +36324,11 @@ google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,
 vietnamairlines.com###store-notify
 newsgram.com###sw-wrapper
 observer-reporter.com###tncms-block-689490
-facebook.com##.##.bottom.fixed-container[data-actual-height="66"]
 imgur.io##.Ad
 redfin.com##.AppInstallBannerWrapper
 reddit.com##.AppSelectorModal__body
 ganganonline.com##.Base_banner__UbMI_
+viu.com##.Box-root.css-1bp9apo
 yandex.com##.Distribution-Popup
 metservice.com##.Footer-section-image
 minne.com##.MinneAppBanner_root__di0Qk
@@ -36408,6 +36409,7 @@ banggood.com##.bottom-app-contain
 map.baidu.com##.bottom-banner-float
 commaful.com##.bottom-section-signup
 ixigo.com##.bottom-sheet
+m.facebook.com##.bottom.fixed-container[data-actual-height="66"]
 al-monitor.com##.breaking-news-alert
 smocca.jp##.c-box-app_banner
 warbyparker.com##.c-hYggeK
@@ -38526,7 +38528,6 @@ bbb.org##.MuiDrawer-root
 tryzapp.com##.MuiGrid-align-items-xs-center
 tvtv.us##.MuiPaper-elevation6[role="alert"]
 app.matchit.me##.MuiPaper-elevation7
-calorieking.com##.MuiPaper-elevation8
 account.samsung.com##.MuiPaper-root[style="transform: none; transition: transform 225ms cubic-bezier(0, 0, 0.2, 1) 0ms;"]
 demo.yubico.com##.MuiSnackbarContent-root[role="alert"]
 gpic.com##.MyConsent_Outer
@@ -49487,6 +49488,7 @@ metallica.com#@#.privacy_policy_message_box
 online.no,telenor.no#@#.privacy_prompt
 uniroyal.pl#@#.privacyhint
 seb.se,sebgroup.com#@#.pw-cookie-consent-v2
+pohjanmaanhyvinvointi.fi#@#.pwd-cookie-consent-customize
 unicredit.it#@#.pws_cookie_bar
 motofaktor.pl#@#.rodo-accept
 farmacja.pl#@#.rodo-modal
@@ -49653,6 +49655,9 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||cloudflare.com^*/cookieconsent.min.js$domain=cards.thm.de|ehftv.com|pixelexperience.org|pixieset.com|rijbewijskeuringennederland.nl|sammobile.com|xnview.com
 @@||cloudfront.net^*/lib.f-cookie-banner.$script,domain=just-eat.co.uk|just-eat.es|just-eat.ie|justeat.it
 @@||cmp-consent-tool.privacymanager.io^$subdocument,domain=dailybuzz.nl|esquire.de|futurezone.at|geenstijl.nl|gids.tv|kinuskikissa.fi|kleinezeitung.at|kurier.at|lablue.de|nettivuokraus.com|omroepbrabant.nl|parra.nu|plusonline.nl|profil.at|rtvnoord.nl|vesti.bg|weeronline.nl|weerplaza.nl
+@@||cmp.inmobi.com/GVL-v3/$domain=dailystar.co.uk|mirror.co.uk|video.lacnews24.it
+@@||cmp.inmobi.com/tcfv2/$domain=dailystar.co.uk|mirror.co.uk|video.lacnews24.it
+@@||cmp.inmobi.com^*/choice.js$domain=dailystar.co.uk|mirror.co.uk|video.lacnews24.it
 @@||cmp.osano.com^$script,domain=everand.com|lucidchart.com|meeting.guidepoint.com|scribd.com
 @@||computerbase.de^*/consent/$script,xmlhttprequest
 @@||computerbase.de^*/scripttemplates/$script,xmlhttprequest
@@ -49753,6 +49758,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||ozracing.com/templates/oz/js/vendor/cookies-enabler.min.js
 @@||parastorage.com/services/wix-thunderbolt/dist/cookiesManager.
 @@||playoverwatch.com/static/externals/cookie-consent-filter-compat.js
+@@||pohjanmaanhyvinvointi.fi^*/pwd-cookie-consent.
 @@||policy.app.cookieinformation.com^$domain=altibox.no|elkjop.no|fdm-travel.dk|jysk.nl|power.no|skousen.dk|skousen.no|whiteaway.com|whiteaway.no|whiteaway.se
 @@||portal-frontend.plarium.com/client/cookiesbanner.js$script,~third-party
 @@||portal.aae.at^*/cookieconsent.js$script,~third-party
