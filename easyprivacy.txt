@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202405312241
+! Version: 202406011431
 ! Title: EasyPrivacy
-! Last modified: 31 May 2024 22:41 UTC
+! Last modified: 01 Jun 2024 14:31 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -5493,6 +5493,7 @@ omni.soundestlink.com$image
 ||surveyscout.com^$third-party
 ||surveywriter.com^$third-party
 ||survicate.com^$third-party
+||sweetgum.io^$third-party
 ||swetrix.org^$third-party
 ||swiss-counter.com^$third-party
 ||synergy-e.com^$third-party
@@ -6810,6 +6811,7 @@ omni.soundestlink.com$image
 ||gondolagnome.com^
 ||gorgeousedge.com^
 ||gorgeousground.com^
+||gracefulmilk.com^
 ||gracefulsock.com^
 ||grainmass.com^
 ||grandfatherguitar.com^
@@ -7313,6 +7315,7 @@ omni.soundestlink.com$image
 ||quaintcan.com^
 ||quaintlake.com^
 ||quantumlagoon.com^
+||quantumshine.com^
 ||quarterbean.com^
 ||queenskart.com^
 ||questionableobservation.com^
@@ -7946,6 +7949,7 @@ omni.soundestlink.com$image
 ||voyagepotato.com^
 ||vq1qi.pw^
 ||waggishpig.com^
+||waitingnumber.com^
 ||wakefulcook.com^
 ||wantingwindow.com^
 ||warmafterthought.com^
@@ -50516,7 +50520,7 @@ abema.tv##+js(rmnt, script, NREUM)
 ! -----------------------Allowlists to fix broken sites------------------------!
 ! *** easylist:easyprivacy/easyprivacy_allowlist.txt ***
 @@/cgi-bin/counter_module?action=list_models$subdocument,~third-party
-@@||1.1.1.1/cdn-cgi/trace$xmlhttprequest,domain=myair.resmed.com
+@@||1.1.1.1/cdn-cgi/trace$xmlhttprequest,domain=myair.resmed.com|one.one.one.one
 @@||1001trackstats.com/api/$xmlhttprequest,domain=songstats.com
 @@||1trackapp.com/static/tracking/$script,stylesheet,~third-party
 @@||8tm.net/static/img/fbpixel.png$~third-party
