@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: aWv9sWrhDXj3esy2b87JSw
-! Version: 202406100051
+! Checksum: p8AlVlcO73BfUUiKAaoodw
+! Version: 202406110050
 ! Title: EasyList China+EasyList
-! Last modified: 10 Jun 2024 00:51 UTC
+! Last modified: 11 Jun 2024 00:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1650,6 +1650,7 @@ newduba.cn###jq_youxi
 ##dl#listwoBox
 ##img#GGADIMG
 ##img#adv1
+##.yueduad1
 ##img[data-link][data-src*="/u/"]:not([data-link*="/i/"])
 ##img[data-src*=".alicdn.com/img/ibank/"][src="/static/images/loadingerror.gif"]
 ##img[onclick*=".qq.com/doc/"]
@@ -1668,6 +1669,8 @@ newduba.cn###jq_youxi
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
 ##script + #coupletBox
 ##script + #rbbox
+##.infomation + #notice_container > .event-notice
+##.gotoclick[adv_id]
 ##script + .header_rmb
 ##script + a[href] > img[src*="lbsugc.cdn.bcebos.com"]
 ##script + a[target="_bank"] > img[src*=".c-ctrip.com"][style="width:100%;height:auto;"]
@@ -1693,6 +1696,17 @@ newduba.cn###jq_youxi
 ||23.231.151.252^
 ||cupfox.app^$third-party
 !
+||auislq.top^
+||taproximo.com^
+||twqtf.boats^
+||kjipko.xyz^
+||wfjslie.top^
+||pztezl.xyz^
+||rqnefp.xyz^
+||retrefsf.cn^
+||hsoubnp.icu^
+||binga03.shop^
+||jcfnbhqo.icu^
 ||ligfdjnfd.cn^
 ||ozykeor.icu^
 ||yxkbgg.xyz^
@@ -11316,8 +11330,15 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zztongyun.com/static/js/sh.
 ||zzz4.com/JS_AD/
 ||zzzyk.com/js/
+||hb8g86k.mom/mz.js
 !------------------------Specific element hiding rules------------------------!
 chongbuluo.com##.search > div[style="width: 607px;margin-top:30px;"]
+qciss.net##.d1
+qciss.net###lightbox
+qciss.net###lightbox1
+360kuai.com##.marketing-box
+mnews.tw##.ad-container-pc
+mnews.tw##.ad-container-pc-only
 szxx.com.cn###A0
 szxx.com.cn###A1
 szxx.com.cn###A2
@@ -11741,7 +11762,6 @@ hexieshe.cn###custom_html-2
 24kplus.com###custom_html-3
 tmioe.com###custom_html-4
 18avinin.com,27ka.cn,sunnylife.tw###custom_html-5
-vikacg.com###custom_html-9
 makaidong.com###cyWallsplugin
 eworldship.com###d1
 eworldship.com###d2
@@ -12045,7 +12065,6 @@ duote.com###hengfu
 hexun.com###hexunCouplet01
 eepw.com.cn###hiddenLayer
 yxdown.com###highdown
-vikacg.com###home-row-lunbo
 wacowla.com###home-top-narrow
 t.qq.com###homeBannerNew
 bjhockey.org###homeVideoModal
@@ -13864,7 +13883,6 @@ epinv.com##.epinv_f
 shulink.com##.er_g
 sinolub.com##.erjlogo > .fl + .fl
 bilibili.com##.eva-banner
-zztt11.com,zztt24.com##.event-notice
 2345.com##.event1-hasList
 58.com##.ewmAdNew
 8264.com##.ewmbox
@@ -14082,7 +14100,6 @@ jandan.net##.goods2-list
 kkbox.com##.google-ad-manager
 techbang.com##.google-dfp
 i-part.com.tw##.googleAD160x600
-zztt11.com,zztt24.com##.gotoclick
 cmhello.com##.gpost-above
 agentm.tw##.gpt-ad-slot
 cool3c.com##.gpt-new
@@ -14735,7 +14752,6 @@ mamecn.com##.njjGsxzLeft > dl > .cont1
 mamecn.com##.njjGsxzRight
 dyhjw.com##.nn_link
 pornbest.org,pornlulu.com,ptt.sex##.no-gutters
-zztt11.com,zztt24.com##.no-mask
 prts.wiki##.nomobile[style*="810px;height:240"]
 zhicheng.com##.normal-banner
 admin5.com##.notice
@@ -15980,7 +15996,7 @@ chinacsbs.com##a[href^="/plus/view.php?aid="]
 fx112.com##a[href^="/union."]
 jr22.xyz##a[href^="ad."]
 boniu123.cc##a[href^="http"] > img[src*="/bn_"]
-vikacg.com##a[href^="http"] > img[src^="/assets/main/"]
+vikacg.com,vikacg.xyz##a[href^="http"] > img[src^="/assets/main/"]
 yigujin.cn##a[href^="http"]:not([href$=".html"]) > img[src*="/tp/"]
 55188.com##a[href^="http"]:not([href*=".55188."]) > img[src*="/portal/"]
 90oo.com##a[href^="http"]:not([href*=".90oo."]) > img[src*="/tp/"]
@@ -16382,7 +16398,6 @@ bmcx.com##div[id^="ggwz"]
 fx110.com,fx110.uk##div[id^="ghz"]
 so.com##div[id^="guang-"]
 hinews.cn##div[id^="hi_gg_"]
-vikacg.com##div[id^="home-row-ads"]
 fx678.com##div[id^="hta_"]
 wenku.baidu.com##div[id^="html-reader-AD-"]
 wenku.baidu.com##div[id^="html-reader-banner-"]
@@ -16936,6 +16951,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle[data-ad-slot]
 !---------------------------------URL Whitelist-------------------------------!
 @@.adserver.$domain=litv.tv
+@@||sovrn.com^$domain=mens1069.com
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -19792,6 +19808,7 @@ fqsousou.com,kengso.com#@#.user-share
 /Ads/sponsor.$stylesheet
 /ads/square-
 /ads/square.
+/ads/ta_wppas/*
 /ads/targeted|
 /ads/top-
 /ads/top.
@@ -26805,6 +26822,7 @@ _800x80_
 ##.ad-single-bottom
 ##.ad-sitewide
 ##.ad-size-300x600
+##.ad-size-728x90
 ##.ad-size-landscape
 ##.ad-size-leaderboard
 ##.ad-size-medium-rectangle
@@ -75122,6 +75140,7 @@ browsershots.org#@#.advert_area
 ||adspeed.com^$third-party
 ||adspruce.com^$third-party
 ||adsquirrel.ai^$third-party
+||adsreference.com^$third-party
 ||adsring.com^$third-party
 ||adsrv4k.com^$third-party
 ||adsrvmedia.com^$third-party
@@ -75150,7 +75169,6 @@ browsershots.org#@#.advert_area
 ||adteractive.com^$third-party
 ||adthrive.com^$third-party
 ||adtival.network^$third-party
-||adtraction.com^$third-party
 ||adtrix.com^$third-party
 ||adultadworld.com^$third-party
 ||adultimate.net^$third-party
@@ -76228,6 +76246,7 @@ browsershots.org#@#.advert_area
 ||295c.site^$document,popup
 ||2aeabdd4-3280-4f03-bc92-1890494f28be.xyz^$document,popup
 ||3a2e.site^$document,popup
+||420db600.xyz^$document,popup
 ||485728.xyz^$document,popup
 ||48a16802.site^$document,popup
 ||4a0e.xyz^$document,popup
@@ -83783,6 +83802,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||startpage.com/sp/cdn/*/TotalAdBlockAdultWidget.js
 ||startpage.com/sp/Tgz1k/adsense/
 ||static.fastpic.org^$subdocument
+||static.getmodsapk.com/cloudflare/ads-images/
 ||staticflickr.com/ap/build/javascripts/prbd-$script,domain=flickr.com
 ||steamanalyst.com/steeem/delivery/
 ||storage.googleapis.com/cdn.newsfirst.lk/advertisements/$domain=newsfirst.lk
@@ -84936,6 +84956,7 @@ utne.com###URTK_Bottom_728x90
 utne.com###URTK_Middle_300x250
 utne.com###URTK_Right_300x600
 scrabble-solver.com###Upper
+breakingnews.ie###\30 _pweumum7
 turbobit.net###__bgd_link
 news-daily.com,outlookindia.com,stripes.com###_snup-rtdx-ldgr1
 ytmp3.cc###a-320-50
@@ -84958,6 +84979,7 @@ usatoday.com###acm-ad-tag-lawrence_dfp_desktop_arkadium_after_share
 nextdoor.com,sptfy.be###ad
 touchdownwire.usatoday.com###ad--home-well-wrapper
 lasvegassun.com###ad-colB-
+getmodsapk.com###ad-container
 retrostic.com,sickchirpse.com,thetimes.co.uk###ad-header
 livescore.com###ad-holder-gad-news-article-item
 healthbenefitstimes.com###ad-image-below
@@ -86034,6 +86056,7 @@ thingiverse.com##.AdBanner__adBanner--GpB5d
 surfline.com##.AdBlock_modal__QwIcG
 jagranjosh.com##.AdCont
 topgear.com##.AdContainer-sc-cy9ye3-4
+tvnz.co.nz##.AdOnPause
 racingamerica.com##.AdPlacement
 petfinder.com##.AdUnitParagraph-module--adunitContainer--2b7a6
 therealdeal.com##.AdUnit_adUnitCenter__FKOWE
@@ -87042,6 +87065,7 @@ stuff.tv##.c-ad--leftpageskin
 stuff.tv##.c-ad--mpu-bottom
 stuff.tv##.c-ad--mpu-top
 stuff.tv##.c-ad--rightpageskin
+theglobeandmail.com##.c-ad-sticky
 globalnews.ca##.c-adChoices
 zdnet.com##.c-adDisplay_container_incontent-all-top
 legit.ng,tuko.co.ke##.c-adv
@@ -87903,6 +87927,7 @@ careerindia.com,oneindia.com##.inhouse-content
 asheville.com##.injected-ads
 bestlifeonline.com,eatthis.com##.inline
 manitobacooperator.ca##.inline--2
+pexels.com##.inline-ads
 forbes.com##.inline-article-ed-placeholder
 cochranenow.com,discoverhumboldt.com,portageonline.com,swiftcurrentonline.com##.inline-billboard
 dexerto.com##.inline-block
@@ -90010,6 +90035,7 @@ presearch.com##[x-data*="kwrdAdFirst"]
 mobiforge.com##a > img[alt="Ad"]
 eztv.tf,eztv.yt##a > img[alt="Anonymous Download"]
 cript.to##a.btn[target="_blank"][href^="https://cript.to/"]
+infowars.com##a.css-1yw960t
 darkreader.org##a.logo-link[target="_blank"]
 facebook.com,facebookwkhpilnemxj7asaniu7vnjjbiltxjqhye3mhbshg7kx5tfyd.onion##a[ajaxify*="&eid="] + a[href^="https://l.facebook.com/l.php?u="]
 newstalkflorida.com##a[alt="Ad"]
@@ -91119,15 +91145,15 @@ bing.com##div[class="ins_exp tds"]
 bing.com##div[class="ins_exp vsp"]
 bing.com##li[data-idx]:has(#mm-ebad)
 ! kayak
-checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##.CarResultsList > div > div.Dp1L[role=tab]
-checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##.ejnn-results-list-wrap div.YTRJ[role="button"][tabindex="0"] > .yuAt-pres-rounded
 checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##.ev1_-results-list > div > div > div > div.G-5c[role="tab"][tabindex="0"] > .yuAt-pres-rounded
 checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##.ev1_-results-list > div > div > div > div[data-resultid$="-sponsored"]
 checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##.nqHv-pres-three:has(div.nqHv-logo-ad-wrapper)
 checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##.resultsList > div > div > div > div.G-5c[role="tab"][tabindex="0"] > .yuAt-pres-rounded
 checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##.resultsList > div > div > div > div[data-resultid$="-sponsored"]
 checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##.yPOz-adInner
+checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##div.Dp1L[role=tab]
 checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##div.PzK0-pres-default
+checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##div.YTRJ[role="button"][tabindex="0"] > .yuAt-pres-rounded
 checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##div[class$="-adInner"]
 checkfelix.com,kayak.ae,kayak.bo,kayak.ch,kayak.cl,kayak.co.cr,kayak.co.id,kayak.co.in,kayak.co.jp,kayak.co.kr,kayak.co.th,kayak.co.uk,kayak.co.ve,kayak.com,kayak.com.ar,kayak.com.au,kayak.com.br,kayak.com.co,kayak.com.do,kayak.com.ec,kayak.com.gt,kayak.com.hk,kayak.com.hn,kayak.com.mx,kayak.com.my,kayak.com.ni,kayak.com.pa,kayak.com.pe,kayak.com.ph,kayak.com.pr,kayak.com.py,kayak.com.sv,kayak.com.tr,kayak.com.uy,kayak.de,kayak.dk,kayak.es,kayak.fr,kayak.ie,kayak.it,kayak.nl,kayak.no,kayak.pl,kayak.pt,kayak.sa,kayak.se,kayak.sg,swoodoo.com##div[data-resultid]:has(a.IZSg-adlink)
 ! *** easylist:easylist/easylist_specific_hide_abp.txt ***
@@ -92920,6 +92946,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||ads-i.org/images/ads3.jpg$~third-party
 @@||ads-twitter.com/oct.js$domain=ncsoft.jp
 @@||ads-twitter.com/uwt.js$domain=factory.pixiv.net
+@@||adtraction.com^$image,domain=ebjudande.se
 @@||aiasahi.jp/ads/$image,domain=japan.techrepublic.com|japan.zdnet.com
 @@||amebame.com/pub/ads/$image,domain=abema.tv|ameba.jp|ameblo.jp
 @@||api.friends.ponta.jp/api/$~third-party
