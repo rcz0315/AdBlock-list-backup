@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: EBVjp++I62D/Ut8MZm8YLg
-! Version: 202406130015
+! Checksum: uKr5oIO+RMCsvNcSyLkkUA
+! Version: 202406140040
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-06-13 00:15 UTC
+! Last modified: 2024-06-14 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -32722,8 +32722,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.newsletter1
 ##.newsletterArticle
 ##.newsletterBg1
-##.newsletterBlock
-##.newsletterBox
+! ##.newsletterBlock
+! ##.newsletterBox
 ##.newsletterBtn
 ##.newsletterCallout
 ##.newsletterCassetto
@@ -32739,16 +32739,16 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.newsletterForm-exitIntent
 ##.newsletterHead
 ##.newsletterInbodyContent
-##.newsletterLink
-##.newsletterModal
+! ##.newsletterLink
+! ##.newsletterModal
 ##.newsletterPlacement
 ##.newsletterPrompt
 ##.newsletterQRWrapper
-##.newsletterSection
+! ##.newsletterSection
 ##.newsletterSidebar
 ##.newsletterSidebarContainer
 ##.newsletterSignup-wrapper
-##.newsletterSignupBox
+! ##.newsletterSignupBox
 ##.newsletterSingle
 ##.newsletterSlideIn
 ##.newsletterSub
@@ -32775,15 +32775,15 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.newsletter_banner_inline
 ##.newsletter_bar
 ##.newsletter_bg
-##.newsletter_block
-##.newsletter_box
+! ##.newsletter_block
+! ##.newsletter_box
 ##.newsletter_callout
 ##.newsletter_callout_box
 ##.newsletter_center_form
 ##.newsletter_email
 ##.newsletter_footer
 ##.newsletter_footer_container
-##.newsletter_form
+! ##.newsletter_form
 ##.newsletter_formBlock
 ##.newsletter_holder
 ##.newsletter_home
@@ -32815,14 +32815,14 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.newsletter_subscription_top_embed
 ##.newsletter_testo
 ##.newsletter_widget
-##.newsletter_wrapper
+! ##.newsletter_wrapper
 ##.newsletterban
 ##.newsletterbg
 ##.newsletterbloc
 ##.newsletterbottom
-##.newsletterbox
+! ##.newsletterbox
 ##.newslettercapping
-##.newsletterdiv
+! ##.newsletterdiv
 ##.newsletterform_wrap
 ##.newslettergf_wrapper
 ##.newsletterlinebox
@@ -32830,8 +32830,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.newslettermultiple
 ##.newsletteronpage
 ##.newsletterpop_dialog_background
-##.newsletters-form
-##.newsletters-signup
+! ##.newsletters-form
+! ##.newsletters-signup
 ##.newsletters-subscribe-form-ajax
 ##.newsletters-widget
 ##.newsletters__response
@@ -33286,10 +33286,10 @@ dashboard.razorpay.com#@##credential_picker_container
 ##journey-inline-newsletter
 ! div elements
 ##div#NewsletterPromo
-##div#block-newsletter
-##div#box_newsletter
+! ##div#block-newsletter
+! ##div#box_newsletter
 ##div#enewsletter
-##div#fixed-newsletter
+! ##div#fixed-newsletter
 ##div#formNewsLetters-block
 ##div#inline-newsletter
 ##div#newsletter-subscribe-box
@@ -33297,21 +33297,21 @@ dashboard.razorpay.com#@##credential_picker_container
 ##div#newsletterSignupBox
 ##div#newsletterSubscribe
 ##div#newsletter_block
-##div#newsletter_signup
+! ##div#newsletter_signup
 ##div#newsletter_signup_article
 ##div#newsletter_signup_form
 ##div#newsletter_subscribe
 ##div#newsletter_subscription
-##div#newsletter_wrapper
+! ##div#newsletter_wrapper
 ##div#newsletterblock
 ##div#sign-up-newsletter
 ##div#subscription_box
 ##div.InArticleSignup
 ##div.InlineNewsletter
-##div.NewsletterBox
-##div.NewsletterSignUp
-##div.NewsletterSignUp_container
-##div.NewsletterSignup
+! ##div.NewsletterBox
+! ##div.NewsletterSignUp
+! ##div.NewsletterSignUp_container
+! ##div.NewsletterSignup
 ##div.NewsletterSignupBlock
 ##div.NewsletterSignupForm
 ##div.article-newsletter
@@ -33321,8 +33321,8 @@ dashboard.razorpay.com#@##credential_picker_container
 ##div.aside-newsletter-box
 ##div.bloc-newsletter
 ##div.bloc_newsletter
-##div.box-newsletter
-##div.box_newsletter
+! ##div.box-newsletter
+! ##div.box_newsletter
 ##div.bs-mailchimp-newsletter
 ##div.c-newsletter-article
 ##div.c-newsletterSignup
@@ -33347,9 +33347,9 @@ dashboard.razorpay.com#@##credential_picker_container
 ##div.newsletter-subscribe-widget
 ##div.newsletter-subscription-inline
 ##div.newsletter-subscription-module
-##div.newsletter.row
-##div.newsletter.section
-##div.newsletter.signup
+! ##div.newsletter.row
+! ##div.newsletter.section
+! ##div.newsletter.signup
 ##div.newsletter_single
 ##div.promo-newsletter
 ##div.promo-subscribe
@@ -34735,6 +34735,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||irishstar.com/newsletter-preference-centre
 ||listrakbi.com^$script,domain=ruralking.com
 ||loader.wisepops.com^$domain=grist.org
+||news.atptour.com/p/$subdocument
 ||newsletter.bdnews24.com^
 ||nscreenmedia.com/wp-content/uploads/subscribe-nscreen-newsletter.jpg
 ||p.ynet.co.il^$subdocument
@@ -36400,6 +36401,7 @@ qatarairways.com##.appstore
 ny1.com##.article-app-prompt
 msn.com##.articlePage_continueReadingButtonPrimary-DS-EntryPoint1-1
 nltimes.nl##.ath-phone
+atptour.com##.atp_apps
 bing.com##.b_bnp_bopc
 castbox.fm##.banner
 gibiru.com##.banner-button
@@ -36634,6 +36636,7 @@ wpxi.com##[href="/mobile-apps/"]
 ctvnews.ca##[href="https://www.ctvnews.ca/app"]
 theapplepost.com##[href^="https://apps.apple.com/app/"]
 sherbrookerecord.com##[href^="https://apps.apple.com/ca/app/the-record-news/"]
+atptour.com##[href^="https://www.atptour.com/en/apps"]
 temu.com##[js-selector="mobile-download-ui"]
 reddit.com##[slot="use-app"]
 ozmall.co.jp##[style="display:table;background:#f3f3f3;padding:3%;"]
@@ -37186,6 +37189,7 @@ noisypixel.net##.hw-toolbar-navplus
 dictionary.cambridge.org##.i-facebook
 dictionary.cambridge.org##.i-twitter
 insideclimatenews.org##.icn-share-holder
+atptour.com##.icon-email
 cookieandkate.com##.icon-font
 hakaimagazine.com##.icon-icons_twitter-top-share
 manutd.com##.icon-share-card-lite
@@ -39199,6 +39203,7 @@ tiktok.com##.e1ynhqbi1
 rockstargames.com##.e43d3b99d34fff780c89
 creelighting.com##.e4bq44o2
 thestandardatcollegestation.residentportal.com##.e4xblt30
+airportweather.com##.e8pxw9i0
 hiab.com##.eCqAjI
 yourstory.com##.eHPTvF
 arc.dev##.eJWPZO
@@ -45760,6 +45765,7 @@ diyanet.tv##.sosyal-alt-ust
 ! ---------- German ----------
 !
 flvw.de###ConsentMsg
+uncutnews.ch###CooDialog
 wiki.resolution.de###Cookie-pop-up
 azubiheft.de###CookieModal
 hoklartherm.de###Cookie_content
@@ -48681,7 +48687,7 @@ oz.av.tr##.Legal
 columbia.com.tr##.MuiCollapse-wrapperInner
 apigo.com.tr##.ant-notification
 ikonambalaj.com.tr##.bottom-center
-afyonhaberturk.com,agesahayatemeklilik.com.tr,avivasa.com.tr,aydinyeniufuk.com.tr,balikesirartihaber.com,blokhaber.com,bomba15.com,denizli20haber.com,dirilispostasi.com,eldedemokrasi.com,enpolitik.com,euromsg.com,gazetevatan.com,haberimizvar.net,hedefgazetesi.com.tr,isdunyasindakadin.com,ispartamhaber.com,kahtases.com,kocaelisabah.com,mhrs.gov.tr,offtherecord.com.tr,sabancivakfi.org,seffafbelediyecilik.com,tarsusgazetesi.com,vansesigazetesi.com,yenigolcuk.com##.cerez
+afyonhaberturk.com,agesahayatemeklilik.com.tr,avivasa.com.tr,aydinyeniufuk.com.tr,balikesirartihaber.com,blokhaber.com,bomba15.com,denizli20haber.com,dirilispostasi.com,eldedemokrasi.com,enpolitik.com,euromsg.com,gazetevatan.com,haberimizvar.net,hedefgazetesi.com.tr,isdunyasindakadin.com,ispartamhaber.com,kahtases.com,kocaelisabah.com,mhrs.gov.tr,offtherecord.com.tr,sabancivakfi.org,seffafbelediyecilik.com,tarsusgazetesi.com,yenigolcuk.com##.cerez
 iys.org.tr##.cerezall
 saltur.com.tr##.cerezkullanimi
 bettilt496.com##.consent-modal
