@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202406280033
+! Version: 202406282327
 ! Title: EasyPrivacy
-! Last modified: 28 Jun 2024 00:33 UTC
+! Last modified: 28 Jun 2024 23:27 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -3347,6 +3347,7 @@ omni.soundestlink.com$image
 ||seadform.net^
 ||selphiu.com^
 ||seoab.io^
+||sf-insights.io^
 ||sgstats.com^
 ||site24x7rum.eu^
 ||sitecounter.site^
@@ -3858,6 +3859,7 @@ omni.soundestlink.com$image
 ||chartaca.com^$third-party
 ||chartbeat.com^$third-party
 ||chartbeat.net^$third-party
+||checkreferrer.io^$third-party
 ||checkstat.nl^$third-party
 ||christiantop1000.com^$third-party
 ||christmalicious.com^$third-party
@@ -9621,6 +9623,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||click.appinthestore.com^
 ||click360v2-ingest.azurewebsites.net^
 ||clickdimensions.com/ts.js
+||clickiocdn.com/clickiotag_log/
+||clickiocdn.com/consent/log/
+||clickiocdn.com/utr/
 ||clicks.dealer.com^
 ||clicks.tyuwq.com^
 ||clickthru.lefbc.com^$third-party
