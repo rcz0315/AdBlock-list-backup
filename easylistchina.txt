@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: o93Onvzd4TpaViEMW5yW5w
-! Version: 202407050051
+! Checksum: UeEpvM4ZbldaBsD+xHGPsA
+! Version: 202407060050
 ! Title: EasyList China
-! Last modified: 05 Jul 2024 00:51 UTC
+! Last modified: 06 Jul 2024 00:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -657,6 +657,7 @@
 /template/paody/aaaa/all-top.js
 /template/shoujigg/*
 /template/znfls/asd/*
+/template/zsy_badian/js/stui_
 /template/zsy_badian/dddytt-gg/*
 /templates/*/js/_banner.js
 /templates/bootadult4/js/bottom.js
@@ -1741,6 +1742,18 @@ newduba.cn###jq_youxi
 ||baijs06.xyz^
 ||doujs06.xyz^
 ||urtlist.top^
+||ortlisk.top^
+||dmnxkj.cn^
+||gw2cddpt2hao.cloud^
+||gw2cddpt2hao.site^
+||fgwuw.com^
+||febtzd.xyz^
+||olgcpwc.icu^
+||gsywcc.xyz^
+||iptuy.cn^
+||kyislod.top^
+||lijlrz.xyz^
+||sprewcereous.com^
 ||0uyt5b.cn^
 ||0v1syj.cn^
 ||1028images.com^
@@ -11224,7 +11237,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||voc.com.cn/adsClick/
 ||voc.com.cn/js/xc/
 ||voc.com.cn/static/web/js/creattwo11.js
-||vodttdy.com/template/zsy_badian/js/stui_
 ||vps234.com/resources/images/hosting-promotion/
 ||vrrw.net//templets/default/js/ad.js
 ||vsping-*.myqcloud.com/ggw/
@@ -11599,6 +11611,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||zzzyk.com/js/
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+baidu.com##.result-op[tpl="vmp_strengthen_brand"]
 szxx.com.cn###A1
 szxx.com.cn###A2
 yahoo.com###ACT_crazy
