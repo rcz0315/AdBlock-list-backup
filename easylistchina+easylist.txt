@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: dA77tYwQiAbRXJV0vciRcw
-! Version: 202407080050
+! Checksum: olhiOZz93RixsVSTQ2Rm9Q
+! Version: 202407090051
 ! Title: EasyList China+EasyList
-! Last modified: 08 Jul 2024 00:50 UTC
+! Last modified: 09 Jul 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1712,6 +1712,16 @@ newduba.cn###jq_youxi
 ||lgpjw.cn^
 ||eqkvks.xyz^
 ||sdipsumb.top^
+||wuisaq.top^
+||jgvkxp.xyz^
+||mrtlisx.top^
+||fbqrt.cn^
+||edipsumw.top^
+||tvgkatu.icu^
+||snux.cn^
+||qpigoa.xyz^
+||vihqpr.xyz^
+||goodvibe1.com^
 ##a[href*=".68hantang.com"]
 ##a[href*=".asd245796.com:"]
 ##a[href*=".asd252466.com:"]
@@ -28555,6 +28565,7 @@ _800x80_
 ##.adheightpromo
 ##.adheighttall
 ##.adherebox
+##.adhesion
 ##.adhesion-block
 ##.adhesion-header
 ##.adhesiveAdWrapper
@@ -35602,6 +35613,7 @@ developers.google.com#@##google-ads
 plaza.rakuten.co.jp#@##headerAd
 airplaydirect.com,zeirishi-web.com#@##header_ad
 665.jp#@##leftad
+si.com#@##mplayer-embed
 tei-c.org#@##msad
 suntory.co.jp#@##page_ad
 box10.com#@##prerollAd
@@ -75852,6 +75864,7 @@ browsershots.org#@#.advert_area
 ||ec44.site^$document,popup
 ||f090.site^$document,popup
 ||f2f8.xyz^$document,popup
+||f33d11b5.xyz^$document,popup
 ||f417a726.xyz^$document,popup
 ||f4c9a0fb.xyz^$document,popup
 ||f6176563.site^$document,popup
@@ -84472,6 +84485,7 @@ fanlesstech.com###HTML6 > .widget-content
 breitbart.com###HavDW
 semiconductor-today.com###Header-Standard-Middle-Evatec
 sitelike.org###HeaderAdsenseCLSFix
+kstp.com###Header_1
 stockinvest.us###IC_d_300x250_1
 stockinvest.us###IC_d_728x90_1
 messitv.net###Image5
@@ -85088,7 +85102,7 @@ open.spotify.com###leaderboard-ad-element
 thebaltimorebanner.com###leaderboard-ad-v2
 vocm.com###leaderboard-area
 bbc.com###leaderboard-aside-content
-abbynews.com,biv.com,lakelandtoday.ca,orilliamatters.com,reddeeradvocate.com,sootoday.com,theprogress.com,time.com,timescolonist.com,vancouverisawesome.com,vicnews.com###leaderboard-container
+abbynews.com,biv.com,kelownacapnews.com,lakelandtoday.ca,orilliamatters.com,reddeeradvocate.com,sootoday.com,theprogress.com,time.com,timescolonist.com,vancouverisawesome.com,vicnews.com###leaderboard-container
 farooqkperogi.com###leaderboard-content
 variety.com###leaderboard-no-padding
 alternet.org###leaderboard-placeholder
@@ -87432,6 +87446,7 @@ knowyourmeme.com##.header-unit-wrapper
 maketecheasier.com##.header-widget
 hd-trailers.net##.header-win
 gelbooru.com##.headerAd
+dailytrust.com##.header__advert
 gautengnewspaper.co.za##.header__banner
 thehits.co.nz##.header__main
 gifcompressor.com,heic2jpg.com,jpg2png.com,png2jpg.com,webptojpeg.com,wordtojpeg.com##.header__right
@@ -89461,7 +89476,7 @@ trakt.tv##[data-snigel-id]
 amp.theguardian.com##[data-sort-time="1"]
 vrbo.com##[data-stid="meso-ad"]
 etherscan.io##[data-t8xt5pt6kr-seq="0"]
-swimsuit.si.com##[data-target="ad"]
+si.com##[data-target="ad"]
 coingecko.com##[data-target="ads.banner"]
 the-express.com##[data-tb-non-consent]
 woot.com##[data-test-ui^="advertisementLeaderboard"]
@@ -89778,6 +89793,7 @@ techporn.ph##a[href][target*="blank"]
 rarbgaccess.org,rarbgmirror.com,rarbgmirror.org,rarbgproxy.com,rarbgproxy.org,rarbgunblock.com,rarbgunblocked.org##a[href][target="_blank"] > button
 tractorbynet.com##a[href][target="_blank"] > img[class^="attachment-large"]
 codapedia.com##a[href^="/ad-click.cfm"]
+bestoftelegram.com##a[href^="/ads/banner_ads?"]
 graphic.com.gh##a[href^="/adverts/"]
 audiobookbay.is##a[href^="/dl-14-days-trial"]
 kickasstorrents.to##a[href^="/download/"]
@@ -92495,6 +92511,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||v.fwmrm.net/ad/g/1?csid=vcbs_cbsnews_desktop_$xmlhttprequest
 @@||v.fwmrm.net/ad/p/1?$domain=cc.com|channel5.com|cmt.com|eonline.com|foodnetwork.com|nbcnews.com|ncaa.com|player.theplatform.com|simpsonsworld.com|today.com
 @@||v.fwmrm.net/crossdomain.xml$xmlhttprequest
+@@||vms-players.minutemediaservices.com^$script,domain=si.com
+@@||vms-videos.minutemediaservices.com^$xmlhttprequest,domain=si.com
 @@||warpwire.com/AD/
 @@||warpwire.net/AD/
 @@||web-ads.pulse.weatherbug.net/api/ads/targeting/$domain=weatherbug.com
