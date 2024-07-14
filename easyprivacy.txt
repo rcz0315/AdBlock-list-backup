@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202407122341
+! Version: 202407140042
 ! Title: EasyPrivacy
-! Last modified: 12 Jul 2024 23:41 UTC
+! Last modified: 14 Jul 2024 00:42 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -10386,7 +10386,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||l.player.ooyala.com^
 ||l.sharethis.com^
 ||l.typesquare.com^
-||lambda-url.us-east-1.on.aws^
 ||laurel.macrovision.com^
 ||laurel.rovicorp.com^
 ||lciapi.ninthdecimal.com^
@@ -51651,6 +51650,8 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 ||bukalapak.com/track_external.json
 ||ktracker.kumparan.com^
 ||t.bukalapak.com^
+||ta.tokopedia.com/promo/v1/views
+||tokopedia.com/helios-client/client-log
 ! Italian
 /~shared/do/~/count/?$image
 ||alfemminile.com/logpix.php
