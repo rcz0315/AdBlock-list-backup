@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202407160010
+! Version: 202407170051
 ! Title: EasyPrivacy
-! Last modified: 16 Jul 2024 00:10 UTC
+! Last modified: 17 Jul 2024 00:51 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -259,6 +259,7 @@
 /analytics.gif?
 /analytics.html?
 /analytics.js/v1/*
+/analytics.plausible.js
 /analytics.prod.$domain=~fifteen.eu
 /analytics.sitecatalyst.js
 /analytics.v1.js
@@ -1907,6 +1908,7 @@
 /scmetrics.*/b/ss/*
 /screencount?vcid=
 /scribd_events?
+/script.pageview-props.js
 /script.tagged-events.outbound-links.js
 /script.tagged-events.pageview-props.js
 /script/pixel.js
@@ -1999,6 +2001,10 @@
 /sluurpy_track.js
 /smart-pixel.min.js
 /smartpixel-1.js
+/taboola-header.js
+/taboola.js
+/taboola/loader.js
+/taboolaHead.js
 /smartpixel.$domain=~smartpixel.com|~smartpixel.tv
 /smartTag.bundle.js
 /smarttag/smarttag-
@@ -6372,6 +6378,7 @@ omni.soundestlink.com$image
 ||capablecup.com^
 ||capriciouscorn.com^
 ||capsquirrel.com^
+||captivatingcanyon.com^
 ||carefuldolls.com^
 ||carelesshat.com^
 ||caringcast.com^
@@ -6776,6 +6783,7 @@ omni.soundestlink.com$image
 ||flimsythought.com^
 ||floodprincipal.com^
 ||flourishingcollaboration.com^
+||flourishinginnovation.com^
 ||flourishingpartnership.com^
 ||flowersornament.com^
 ||flowerstreatment.com^
@@ -9532,6 +9540,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bc0a.com/be_ixf_js_sdk.js
 ||bc0a.com/marvel.js
 ||bdg.com/event?
+||beacon-v2.helpscout.net^
 ||beacon.adelphic.com^
 ||beacon.affil.walmart.com^
 ||beacon.aimtell.com^
@@ -10259,7 +10268,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hits.dealer.com^
 ||hits.getelevar.com^
 ||hits.informer.com^
-||hk-trc-events.taboola.com^
 ||hktracker.hankookilbo.com^
 ||hm.baidu.com^$third-party
 ||hocalwire.com/tracking-
@@ -10407,6 +10415,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||l.ooyala.com^
 ||l.player.ooyala.com^
 ||l.sharethis.com^
+||taboola.com^$third-party
+||taboolasyndication.com^$third-party
 ||l.typesquare.com^
 ||lambda-url.us-east-1.on.aws/chug/event
 ||laurel.macrovision.com^
@@ -11878,24 +11888,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! ||supercalifragilisticexpialidocious.co.uk^
 ! ||xip.io^
 ! ||yoogle.com^
-! taboola
-||am-vid-events.taboola.com^
-||convsgmp.taboola.com^
-||la-sync.taboola.com^
-||nr-events.taboola.com^
-||opps.taboola.com^
-||sync.taboola.com^
-||taboola.com/?uid=
-||taboola.com/libtrc/
-||taboola.com/tb?
-||taboola.com^*/json?tim=
-||taboola.com^*/log/
-||taboola.com^*/notify-impression?$third-party
-||taboolasyndication.com/log/
-||taboolasyndication.com^*/log/
-||urc.taboolasyndication.com^
-||vidstat.taboola.com^
-||wf.taboola.com^
 ! Ad-Shield
 ! https://github.com/uBlockOrigin/uAssets/issues/9717
 /^https:\/\/cdn\.jsdelivr\.net\/npm\/[-a-z_]{4,22}@latest\/dist\/script\.min\.js$/$script,third-party
@@ -14691,6 +14683,69 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ! Site specific elements (due to EP)
 ###cxense-recs-in-article
 ##.embed-responsive-trendmd
+! Taboola
+###block-taboolablock
+###js-Taboola-Container-0
+###moduleTaboolaRightRail
+###possible_taboola
+###taboola
+###taboola-above-homepage-thumbnails
+###taboola-below-article-thumbnails
+###taboola-below-article-thumbnails-2
+###taboola-below-disco-board
+###taboola-below-homepage-thumbnails-2
+###taboola-below-homepage-thumbnails-3
+###taboola-below-main-column
+###taboola-belowarticle
+###taboola-bottom
+###taboola-bottom-main-column
+###taboola-div
+###taboola-homepage-thumbnails
+###taboola-homepage-thumbnails-desktop
+###taboola-horizontal-toolbar
+###taboola-in-feed-thumbnails
+###taboola-mid-main-column-thumbnails
+###taboola-native-right-rail-thumbnails
+###taboola-right-rail
+###taboola-right-rail-text-right
+###taboola-right-rail-thumbnails
+###taboola-right-rail-thumbnails-2nd
+###taboola-text-2-columns-mix
+###taboola-vid-container
+###taboola-widget-wrapper
+###taboola_bottom
+###taboola_side
+###taboola_wrapper
+##.divider-taboola
+##.js-taboola
+##.m-article-taboola
+##.slottaboola
+##.taboola
+##.taboola-banner
+##.taboola-bottom-adunit
+##.taboola-container
+##.taboola-frame
+##.taboola-inbetweener
+##.taboola-like-block
+##.taboola-module
+##.taboola-recommends
+##.taboola-sidebar
+##.taboola-sidebar-container
+##.taboola-skip-wrapper
+##.taboola-thumbnails-container
+##.taboola-vertical
+##.taboola-wrapper
+##.taboolaDiv
+##.taboola_module
+##.mc-column-Taboola
+##.taboolaloader
+##.trc-first-recommendation
+##.trc-spotlight-first-recommendation
+##.trc_excludable
+##.trc_spotlight_item
+##[data-taboola-options]
+! Site specific
+atlasobscura.com##.ProgrammaticMembershipCallout--taboola-member-article-container
 ! Aliexpress
 ||aliyuncs.com/r.png
 ||gj.mmstat.com^
@@ -14805,6 +14860,7 @@ $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|t
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
 ! *** easylist:easyprivacy/easyprivacy_specific_perimeterx.txt ***
 ! easyprivacy_specific_perimeterx.txt
+||alaskaair.com/AlXMT4Ma/init.js
 ||anthropologie.com/XgWM9nuH/init.js
 ||apartmenttherapy.com/jAYekY18/init.js
 ||arcteryx.com/943r4Fb8/init.js
@@ -52303,6 +52359,7 @@ phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
 @@||adobedtm.com^*/launch-$script,xmlhttprequest
 @@||adobedtm.com^*/s-code-$script
 @@||adobedtm.com^*/satellite-$script
+@@||taboola.com/libtrc/*/loader.js$domain=dailymail.co.uk|foxsports.com
 @@||aeries.net^*/require/analytics/views/$script,~third-party
 @@||ajio.com/static/assets/vendors~static/chunk/common/libraries/fingerprintjs2.$script,~third-party
 @@||akamaihd.net/nbad/player/*/appmeasurement.js$domain=watch.nba.com
