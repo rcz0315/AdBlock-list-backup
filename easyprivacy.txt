@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202407180020
+! Version: 202407182236
 ! Title: EasyPrivacy
-! Last modified: 18 Jul 2024 00:20 UTC
+! Last modified: 18 Jul 2024 22:36 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -13496,6 +13496,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||edge.staging.fullstory.com^
 ||edisound.com/api/p/stats
 ||eec.crunchyroll.com^
+||effect.habr.com^
 ||eharmony.ca/fd/
 ||eharmony.co.uk/bd/
 ||eighten-bloc-party.thebrowser.company/script.js
@@ -13858,6 +13859,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||logx.optimizely.com^
 ||lolwot.com/B5xaqzSGvMTM.js
 ||lookawoman.com/t/
+||loom.com/insights-api/graphql
+||loom.com/metrics/graphql
 ||lowes.com/gauge/
 ||lyft.com/api/track
 ||lyngsat.com/system/loadclick.js
@@ -14274,6 +14277,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.codeur.com^
 ||stats.davidickedelivery.com^
 ||stats.gateio.ch^
+||stats.habr.com^
 ||stats.ibtimes.co.in^
 ||stats.ibtimes.sg^
 ||stats.justpaste.it^
@@ -52636,6 +52640,7 @@ e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !importa
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
 @@||tunein.com/api/v1/comscore$~third-party
 @@||userapi.com^*.gif?extra=$image,domain=vk.com
+@@||usplastic.com/js/hawk.js
 @@||uwufufu.com/_nuxt/mixpanel.$~third-party
 @@||vast.com/vimpressions.js$domain=everycarlisted.com
 @@||vidible.tv^*/ComScore.StreamSense.js
