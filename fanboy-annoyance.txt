@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Iz+4SjKZXhdJcXcWXhQDZQ
-! Version: 202407222340
+! Checksum: tRC/c/QDE9uzoVut3xttMA
+! Version: 202407240015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-07-22 23:40 UTC
+! Last modified: 2024-07-24 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -31207,7 +31207,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##div.privacy-modal
 ##div.privacy-module
 ##div.privacy-note
-##div.privacy-notice
 ##div.privacy-overlay
 ##div.privacy-police
 ##div.privacy-popup-container
@@ -33158,6 +33157,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||formilla.com/remoteAssets/media/
 ||fxcity.pl/images/mp4/$media
 ||goftino.com/static/assets/$media
+||gofundme.com/*/widget/$subdocument,third-party
 ||gubagoo.io/v4/media/
 ||helpscout.net/static/ui-sounds/
 ||intelliticks.com/prod/common/$media
@@ -35949,6 +35949,7 @@ speedtest.net##.mobile-pretest-2
 reddit.com##.mobile-web-redirect-bar
 soundcloud.com##.mobileApps
 malaysiaairlines.com##.mobileapp
+homes.co.jp##.mod-smartAppBanner
 airtelkenya.com##.modal-content-popup
 speedtest.net##.modal-overlay
 moovitapp.com##.moovit-banner
@@ -36353,7 +36354,6 @@ news.artnet.com##.author-links
 secretchicago.com##.author-share-buttons
 proprivacy.com##.author-social-icons
 adweek.com##.aw-social-share-container
-digitaltrends.com##.b-share
 bnnbloomberg.ca##.b-share-bar
 protos.com##.b-sharers
 spokesman.com##.ba
@@ -40852,6 +40852,7 @@ momontimeout.com###newsbox
 getprice.com.au,keshaofficial.com,lepoint.fr,messengernews.net,tennismajors.com###newsletter
 empr.com,endocrinologyadvisor.com,hematologyadvisor.com,mcknights.com,mcknightshomecare.com,medicalbag.com,neurologyadvisor.com,ophthalmologyadvisor.com,optometryadvisor.com,thecardiologyadvisor.com###newsletter-asset
 foodandwaterwatch.org###newsletter-block-bottom
+governing.com###newsletter-bottom-box
 austinchronicle.com###newsletter-box
 sltrib.com###newsletter-embed
 lapresse.ca###newsletter-hub-promo-box
@@ -41055,7 +41056,7 @@ aeon.co##.NLFormInsertFromCMS
 jagranjosh.com##.NewsLetterInlineHome
 earth.com##.NewsSubscribeLg_main__3THYS
 thefinancialdiet.com##.NewslBanner
-govtech.com,i-d.vice.com,who.com.au##.Newsletter
+governing.com,govtech.com,i-d.vice.com,who.com.au##.Newsletter
 axial.acs.org##.NewsletterCTA_inner__8UZPJ
 newscientist.com##.NewsletterPromotion
 cltampa.com##.NewsletterSignup
@@ -41167,6 +41168,7 @@ brownstone.org##.astra-advanced-hook-7207
 atavist.com##.atavist-mailchimp
 winnipegfreepress.com##.atf-signup
 peoplesworld.org##.attachment-full
+digitaltrends.com##.b-in-content-shortcode
 cyberdaily.au##.b-sideSub
 thewildest.com##.bJ_pf
 processengineering.co.uk##.background--dark
@@ -42606,6 +42608,7 @@ heraldextra.com#?#h3.section_name:-abp-contains(Newsletter)
 notthebee.com#?#.bg-gray-50:-abp-contains(Want to stay informed)
 reclaimthenet.org#?#.elementor-section:-abp-contains(Subscribe for)
 reclaimthenet.org#?#.elementor-widget-container:-abp-contains(tired of censorship)
+skepticalraptor.com#?#.wp-block-group__inner-container:-abp-contains(Discover)
 taskandpurpose.com#?#.wp-block-quote:-abp-contains(inbox daily)
 theatlantic.com#?#.LostInventoryMessage_root__YllYq:-abp-contains(newsletter)
 theguardian.com#?#[data-testid="contributions-liveblog-epic"]:-abp-contains(daily newsletter)
@@ -49208,7 +49211,6 @@ goape.co.uk#@#div.eupopup
 coastalliving.com,commercialtrucktrader.com,cookinglight.com,efarma.com,esselunga.it,essence.com,ew.com,fix-price.com,food.com,fortune.com,gct.com,golf.com,greenhouse.io,health.com,hellogiggles.com,instyle.com,metallica.com,mirjan24.pl,my.games,ochotnicy.waw.pl,people.com,realsimple.com,ria.com,si.com,slovnaftludom.sk,smooth-on.com,southernliving.com,time.com,touchnote.com,travelandleisure.com,zulily.com#@#div.gdpr
 nutaku.net#@#div.js-disclaimer
 dbschenker.com#@#div.privacy-modal
-etrodo.de,linkezeitung.de,securiti.ai,skfbearingselect.com#@#div.privacy-notice
 online.no,telenor.no#@#div.privacy_prompt
 arzagagolf.it#@#div.v-cookie
 inspirock.com,loxam.com#@#div.with-cookie
