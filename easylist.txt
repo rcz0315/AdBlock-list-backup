@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202408132206
+! Version: 202408141324
 ! Title: EasyList
-! Last modified: 13 Aug 2024 22:06 UTC
+! Last modified: 14 Aug 2024 13:24 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -48,7 +48,6 @@
 -popunder.
 -publicidad.
 -right-ad.
--side-ad.
 -sidebar-ad.
 -sponsor-ad.
 -sticky-ad-
@@ -1013,7 +1012,6 @@
 /weborama.js
 /welcome_ad.js
 /widget-advert?
-/widget/ads.
 /wordpress-ads-plug-in/*$script,stylesheet
 /wp-ad.min.
 /wp-auto-affiliate-links/*$script,stylesheet
@@ -5683,7 +5681,9 @@ _800x80_
 ###td_adunit2
 ###td_sponsorAd
 ###team_ad
-###teaser3
+###teaser1[style^="width:autopx;"]
+###teaser2[style^="width:autopx;"]
+###teaser3[style^="width:autopx;"]
 ###text-ad
 ###text-ads
 ###text-intext-ads
@@ -16176,8 +16176,8 @@ accuweather.com#@#.connatix-player
 huffpost.com#@#.connatix-wrapper
 player.ex.co,theautopian.com#@#.pbs__player
 ! ! ins.adsbygoogle
-advancedrenamer.com,androidrepublic.org,anonymousemail.me,apkmirror.com,cdromance.com,demos.krajee.com,epicbundle.com,korail.pe.kr,nextbigtrade.com,phcorner.net,pixiz.com,spoilertv.com,teemo.gg,willyoupressthebutton.com#@#ins.adsbygoogle[data-ad-client]
-advancedrenamer.com,androidrepublic.org,anonymousemail.me,apkmirror.com,cdromance.com,demos.krajee.com,epicbundle.com,korail.pe.kr,nextbigtrade.com,phcorner.net,pixiz.com,spoilertv.com,teemo.gg,willyoupressthebutton.com#@#ins.adsbygoogle[data-ad-slot]
+advancedrenamer.com,androidrepublic.org,anonymousemail.me,apkmirror.com,cdromance.com,demos.krajee.com,epicbundle.com,korail.pe.kr,nextbigtrade.com,phcorner.net,pixiz.com,skmedix.pl,spoilertv.com,teemo.gg,willyoupressthebutton.com#@#ins.adsbygoogle[data-ad-client]
+advancedrenamer.com,androidrepublic.org,anonymousemail.me,apkmirror.com,cdromance.com,demos.krajee.com,epicbundle.com,korail.pe.kr,nextbigtrade.com,phcorner.net,pixiz.com,skmedix.pl,spoilertv.com,teemo.gg,willyoupressthebutton.com#@#ins.adsbygoogle[data-ad-slot]
 ! ! .adslot
 apkmirror.com,tuxpi.com#@#.adslot
 ! ! .adverts
@@ -16738,6 +16738,7 @@ browsershots.org#@#.advert_area
 ||5cbbdb4434.com^
 ||5cf8606941.com^
 ||5d8dd0486a.com^
+||5e1b8e9d68.com^
 ||5e6ef8e03b.com^
 ||5eef1ed9ac.com^
 ||5f5d4f39c.com^
@@ -17224,6 +17225,7 @@ browsershots.org#@#.advert_area
 ||absoluteroute.com^
 ||absolvecarriagenotify.com^
 ||absolveparticlesanti.com^
+||absolvewednesday.com^
 ||absorbedscholarsvolatile.com^
 ||absorbedswept.com^
 ||absorbinginject.com^
@@ -22201,6 +22203,7 @@ browsershots.org#@#.advert_area
 ||cdn28786515.ahacdn.me^
 ||cdn2cdn.me^
 ||cdn2reference.com^
+||cdn2up.com^
 ||cdn3.hentaihaven.fun^
 ||cdn3reference.com^
 ||cdn44221613.ahacdn.me^
@@ -30987,6 +30990,7 @@ browsershots.org#@#.advert_area
 ||hrtvluy.com^
 ||hrtyc.com^
 ||hrtye.com^
+||hruwegwayoki.com^
 ||hrxjqyxvdqidpv.com^
 ||hsateamplayeranydw.info^
 ||hsdaknd.com^
@@ -32481,6 +32485,7 @@ browsershots.org#@#.advert_area
 ||javpremium11.fun^
 ||javtrouble11.fun^
 ||javtype.fun^
+||javunaware11.fun^
 ||jawinfallible.com^
 ||jawlookingchapter.com^
 ||jawsspecific.com^
@@ -38984,6 +38989,7 @@ browsershots.org#@#.advert_area
 ||oyyihttyklfwcgy.xyz^
 ||ozationsuchasric.org^
 ||ozayvgkqpymt.com^
+||ozbvlfiggzpxb.com^
 ||ozectynptd.com^
 ||ozesrbglrp.com^
 ||ozgqwv.xyz^
@@ -43674,6 +43680,7 @@ browsershots.org#@#.advert_area
 ||santosfeltmanager.com^
 ||santosmiddle.com^
 ||santtacklingallaso.com^
+||santuao.xyz^
 ||sapfailedfelon.com^
 ||saplvvogahhc.xyz^
 ||saptiledispatch.com^
@@ -44199,6 +44206,7 @@ browsershots.org#@#.advert_area
 ||settledchagrinpass.com^
 ||settlepineapple.com^
 ||settrogens.com^
+||setupad.net^
 ||setupdeliveredteapot.com^
 ||setupslum.com^
 ||seullocogimmous.com^
@@ -47256,6 +47264,7 @@ browsershots.org#@#.advert_area
 ||toawaups.net^
 ||toawhulo.com^
 ||tobaccocentgames.com^
+||tobaccoearnestnessmayor.com^
 ||tobaitsie.com^
 ||tobaltoyon.com^
 ||toboads.com^
@@ -51433,6 +51442,7 @@ browsershots.org#@#.advert_area
 ||yjrlciff.com^
 ||yjuxkncvy.com^
 ||yjvuthpuwrdmdt.xyz^
+||yjvyyndre.com^
 ||yjxhxctqq.com^
 ||ykakassg.com^
 ||ykbwiiafufwke.com^
@@ -54180,6 +54190,7 @@ browsershots.org#@#.advert_area
 ||a5d2d040.xyz^$document,popup
 ||a67d12.xyz^$document,popup
 ||a8b68645.xyz^$document,popup
+||a908a849.xyz^$document,popup
 ||acf705ad.xyz^$document,popup
 ||af6937a2.live^$document,popup
 ||b0eb63.xyz^$document,popup
@@ -54295,6 +54306,7 @@ browsershots.org#@#.advert_area
 ||188.42.84.162^
 ||188.42.84.21^
 ||188.42.84.23^
+||194.26.232.61^
 ||203.195.121.0^
 ||203.195.121.103^
 ||203.195.121.119^
@@ -60712,8 +60724,10 @@ browsershots.org#@#.advert_area
 ||4tube.com/iframe/$third-party
 ||69games.xxx/ajax/skr?
 ||a.fimoa.xyz^
+||a.groox.xyz^
 ||a.herto.xyz^
 ||a.lakmus.xyz^
+||a.q2b2n4y4ghu320.shop^
 ||a.xvidxxx.com^
 ||a1tb.com/300x250$subdocument
 ||adult.xyz^$script,third-party
@@ -60743,6 +60757,7 @@ browsershots.org#@#.advert_area
 ||avatraffic.com/b/
 ||awempt.com/embed/
 ||awestat.com^*/banner/
+||b.xlineker.com^
 ||babes-mansion.s3.amazonaws.com^
 ||bangdom.com^$third-party
 ||banner.themediaplanets.com^
@@ -62086,6 +62101,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||4tube.com/nyordo.js
 ||4wank.com/bump/
 ||4wank.net/bump/
+||61serve.everydayporn.co^
 ||8boobs.com/flr.js
 ||8muses.com/banner/
 ||absoluporn.com/code/script/

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: kOQBnmuO7iUiQyxbe+fU/w
-! Version: 202408140051
+! Checksum: D9DmXkFIOUvWAfZQ2TcUhA
+! Version: 202408150050
 ! Title: EasyList China
-! Last modified: 14 Aug 2024 00:51 UTC
+! Last modified: 15 Aug 2024 00:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1715,6 +1715,10 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
 !
+||wnstug.xyz^
+||shbzhkj.cn^
+||jrjtibez.icu^
+||bowoprf.icu^
 ||pxqqytk.icu^
 ||dshjbn.xyz^
 ||shbzjkj.cn^
@@ -1728,6 +1732,9 @@ newduba.cn###jq_youxi
 ||vzdkngmf.icu^
 ||iqgessh.icu^
 ||5891344.xn--j1amh^
+||shbzkgs.cn^
+||srutvncb.top^
+||uumnxiet.top^
 ||weagehn.icu^
 ||eqygki.xyz^
 ||shbzjgs.cn^
@@ -10465,6 +10472,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||pfkgl.top/images/*.gif
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+wenxuecity.com##DIV[class^="Inarticle_"]
 18183.com##.ad1
 supercloudsms.com##.container > div > a[id]
 tmioe.com##.singlegg
