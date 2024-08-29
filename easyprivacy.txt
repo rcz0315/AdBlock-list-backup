@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202408272341
+! Version: 202408281932
 ! Title: EasyPrivacy
-! Last modified: 27 Aug 2024 23:41 UTC
+! Last modified: 28 Aug 2024 19:32 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -14375,6 +14375,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sa.uswitch.com^
 ||saa.insideedition.com^
 ||samsung.com/us/web/internal/logger
+||sapi.tremendous.com^
 ||sapphire-api.target.com^
 ||sciencechannel.com/events/
 ||scloud.online/stat/
@@ -15216,8 +15217,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||pcoptimizedsettings.com/wp-content/plugins/koko-analytics/$script,redirect=noop.js,important
 ||pcoptimizedsettings.com/wp-content/uploads/breeze/google/gtag.js$script,redirect=noop.js,important
 ! GPC
-kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
-kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
+engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ! chartbeat.js redirect
 ||static.chartbeat.com/js/chartbeat_mab.js$script,redirect=chartbeat.js
 ||static.chartbeat.com/js/chartbeat.js$script,redirect=chartbeat.js
@@ -52814,6 +52815,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||qm.redbullracing.com/gtm.js$~third-party
 @@||quantcast.com/wp-content/themes/quantcast/$domain=quantcast.com
 @@||quickmath.com/js/r/web-vitals.js$script,~third-party
+@@||rcb-gis.maps.arcgis.com/apps/instant/minimalist/*/AppMeasurement.js$script,~third-party
 @@||reactandshare.com^$domain=maanmittauslaitos.fi
 @@||realclearpolitics.com/esm/assets/js/admiral.js$~third-party
 @@||realclearpolitics.com/esm/assets/js/analytics/chartbeat.js$~third-party
