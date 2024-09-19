@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8OA1r7DBonzf02ZgGzcVaA
-! Version: 202409180015
+! Checksum: r9WayoIJbDSEJ+BVd2H0og
+! Version: 202409190040
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-09-18 00:15 UTC
+! Last modified: 2024-09-19 00:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14580,7 +14580,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###banner-gdpr-palazzina-container
 ###banner-lgpd
 ###banner-politica-cookies
-###banner-privacy
 ###banner.cookies
 ###bannerCNIL
 ###bannerCnil
@@ -34544,6 +34543,7 @@ scribd.com##div[data-testid="sticky-wrapper"]
 softwarekeep.com##img[alt="Banner"]
 gettr.com##img[alt="GETTR coin"]
 ! :has
+nzherald.co.nz##.element-action-button:has-text(SHARE YOUR STORY)
 laravel-news.com##.mt-10:has-text(Laravel Jobs)
 dailysignal.com#?#.tds-content > p:-abp-contains(Donate now)
 positive.news#?#.pb--medium:-abp-contains(Be part of the solution)
@@ -39527,7 +39527,7 @@ editorji.com##div[class^="cookie-banner_"]
 7news.com.au,atlasvpn.com,sortter.com,stylewe.com##div[class^="cookie-consent"]
 perfectcorp.com##div[class^="cookie-statement"]
 hype4.academy,opensource.fb.com##div[class^="cookieBanner_"]
-seexh.com,valuexh.life,xhamster.com,xhamster1.desi,xhamster19.com,xhamster2.com,xhamster3.com,xhamster42.desi,xhchannel.com,xhchannel2.com,xhopen.com,xhtab4.com,xhwebsite5.com,xhwide5.com##div[class^="cookiesAnnounce-"]
+seexh.com,valuexh.life,xhaccess.com,xham.live,xhamster.com,xhamster.desi,xhamster1.desi,xhamster19.com,xhamster2.com,xhamster3.com,xhamster42.desi,xhamsterlive.com,xhchannel.com,xhchannel2.com,xhdate.world,xhopen.com,xhspot.com,xhtab4.com,xhwebsite5.com,xhwide5.com##div[class^="cookiesAnnounce-"]
 bbtv.com##div[class^="index-module--cookiebanner-"]
 skissan.com##div[class^="index-module--overlay"]
 lbank.com##div[class^="index_cookies-"]
@@ -46055,6 +46055,7 @@ maxifoot.fr###mfcok1
 fidinn.com,hairprice.fr,lorexfor-bois-de-chauffage.com,novastore.fr,pfhts.com,tec-racing.fr###mi-container
 pss-archi.eu###miam_div
 lepointdevente.com###modal-background
+jsresine.fr###modal-consent
 jobijoba.com###modal-cookies-wrapper
 lepointdevente.com###modal-overlay
 revmed.ch###ng-cc
@@ -47010,7 +47011,6 @@ riprovelox.it##._12d97
 riprovelox.it##._2mmyb
 oddschecker.com##._3uX5Ds
 abruzzo24ore.tv,capoluogo.com,economia24ore.it,energiarinnovabile.org,fosse-biologiche.it,gossip24ore.it,il24ore.it,ilmeteo24ore.it,matrimony.it,occhioallook.it,recensioni.tv,tuttosport24ore.it##._CL_main
-arbitrobancariofinanziario.it##.abf-no-cookie::after
 maiescort.com##.accetta_cookies_me
 cerit.it,meteoeradar.it##.active
 intimerie.com##.alert-info

@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qV7/xrvlQ9BtYUTDXOxpdw
-! Version: 202409180051
+! Checksum: G4WUBIN4FN/LhgnOqihiHA
+! Version: 202409190051
 ! Title: EasyList China+EasyList
-! Last modified: 18 Sep 2024 00:51 UTC
+! Last modified: 19 Sep 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1646,6 +1646,7 @@ newduba.cn###jq_youxi
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##div#ad_id
+##a[href*="bjty"] > img[src*="imgsrc.baidu.com"]
 ##.ads_topBanner
 ##div#xinxi
 ##div[bannerlist]
@@ -1721,6 +1722,22 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
 !
+||csdcfvgf4.fun^
+||megydyk.icu^
+||quyuancn.com^$third-party
+||szapaqi.cn^
+||zjsnhl.xyz^
+||dscds111.fun^
+||qrwcss.xyz^
+||tkiteri.top^
+||cdunwi.xyz^
+||sfesdef6.fun^
+||pcxnrd.xyz^
+||wlkukrv.icu^
+||jy08.shop^
+||fq06.shop^
+||qkitery.top^
+||oqaejin.icu^
 ||koytqo.xyz^
 ||wkitere.top^
 ||dsukqsx.icu^
@@ -10194,6 +10211,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 /mpc/*$domain=52xkdy.com|fydy8.com
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+raenonx.cc##div[style="display: flex; justify-content: center; align-items: center; position: relative;"] > iframe
 wantgoo.com##.fab-ad
 wantgoo.com##div[type="adv"]
 tmioe.com##.tphf
@@ -16593,7 +16611,7 @@ guailie.com#@#.google-ad
 18-comicfrieren.xyz,18comic.org,18comic.vip#?#:-abp-has(>script+ins)
 18-comicfrieren.xyz,18comic.org,18comic.vip#?#:not(body):-abp-has(>script[src*=".realsrv.com"])
 18-comicfrieren.xyz,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > [style*="back"]
-18-comicfrieren.xyz,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > div[style^="display: block;"]
+18-comicfrieren.xyz,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > div[style]
 18-comicfrieren.xyz,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img
 18-comicfrieren.xyz,18comic.org,18comic.vip##a[href*="//"]:not([href*="comic."]) > img + [style]
 18-comicfrieren.xyz,18comic.org,18comic.vip##style + div[style="cursor: pointer; position: relative;"]
@@ -18088,7 +18106,7 @@ theporn.cc##.toolbar-gg
 !#torrentkitty
 ###vpnModal.nordvpn-popup
 ##.nordvpn-popup + .sidebar-vpn
-$script,third-party,domain=torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
+$script,third-party,domain=torrentkitty.one|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.se|torrentkitty.tv|torrkitty.com
 .tor*/js/jquery.bpopup.
 /nordvpn/autoptimize_
 torkitty.com,torrentkitty.app,torrentkitty.io,torrentkitty.lol,torrentkitty.net,torrentkitty.se,torrentkitty.tv##a[href*="/aff_"]
@@ -18649,7 +18667,7 @@ fqsousou.com,kengso.com#@#.user-share
 /ads/serve?
 /ads/show.$script
 /ads/slideup.$script
-/ads/spacer.
+/ads/spacer.$image
 /Ads/sponsor.$stylesheet
 /ads/square-$image,domain=~spoolimports.com
 /ads/ta_wppas/*$third-party
@@ -18899,7 +18917,7 @@ fqsousou.com,kengso.com#@#.user-share
 /include/ad/*$script
 /includes/ads/*$script
 /index-ad-$stylesheet
-/index-ad.js
+/index-ad.js$script
 /index_ad/*$image
 /index_ads.js$script
 /infinity.js.aspx?
@@ -19043,7 +19061,7 @@ fqsousou.com,kengso.com#@#.user-share
 /puff_ad?
 /push/p.js?
 /rad_singlepageapp.js$script
-/RdmAdFeed.js
+/RdmAdFeed.js$script
 /rdrr/renderer.js$third-party
 /RealMedia/ads/*$~xmlhttprequest
 /redirect/?spot_id=
@@ -37221,6 +37239,7 @@ browsershots.org#@#.advert_area
 ||appnow.sbs^
 ||appoineditardwide.com^
 ||appointedchildorchestra.com^
+||appointeeivyspongy.com^
 ||appollo-plus.com^
 ||appraisalaffable.com^
 ||apprefaculty.pro^
@@ -42068,6 +42087,7 @@ browsershots.org#@#.advert_area
 ||ctengine.io^
 ||cteozuek9.com^
 ||cteripre.com^
+||cthbkxcvksx.com^
 ||cthisismoych.com^
 ||cthkgodgy.com^
 ||ctiarbwaxam.com^
@@ -42548,6 +42568,7 @@ browsershots.org#@#.advert_area
 ||debutpanelquizmaster.com^
 ||decademical.com^
 ||decadenceestate.com^
+||decatyldecane.com^
 ||decaytreacherous.com^
 ||decbusi.com^
 ||deceittoured.com^
@@ -46969,6 +46990,7 @@ browsershots.org#@#.advert_area
 ||germmasonportfolio.com^
 ||geruksom.net^
 ||gesanbarrat.com^
+||gestatebuxomly.com^
 ||get-gx.net^
 ||get-here-click.xyz^
 ||get-me-wow.
@@ -49181,6 +49203,7 @@ browsershots.org#@#.advert_area
 ||hvdmwhnawvhbejv.com^
 ||hvikgqco.com^
 ||hvkwmvpxvjo.xyz
+||hvmmtuxtgaw.com^
 ||hvmsmoiejaqb.com^
 ||hvooyieoei.com^
 ||hvpguevleand.com^
@@ -50824,6 +50847,7 @@ browsershots.org#@#.advert_area
 ||jnlldyq.com^
 ||jnnjthg.com^
 ||jnovoksjreeyrpm.xyz^
+||jnpwkazdss.com^
 ||jnqkvgkm.com^
 ||jnrgcwf.com^
 ||jnrtavp2x66u.com^
@@ -54366,6 +54390,7 @@ browsershots.org#@#.advert_area
 ||mphkwlt.com^
 ||mpk01.com^
 ||mplayeranyd.info^
+||mpljrzsdufq.com^
 ||mploymehnthejuias.info^
 ||mpnrs.com^
 ||mpougdusr.com^
@@ -55330,6 +55355,7 @@ browsershots.org#@#.advert_area
 ||noodledbulky.top^
 ||noodledesperately.com^
 ||noodokod.xyz^
+||nooglaug.net^
 ||noojoomo.com^
 ||nookwiser.com^
 ||nooloqfzdta.com^
@@ -59844,6 +59870,7 @@ browsershots.org#@#.advert_area
 ||quxtpanaxd.com^
 ||quxuejhcaz.com^
 ||quxwpwcwmmx.xyz^
+||quzwteqzaabm.com^
 ||qvgkwcarqmhw.com^
 ||qvikar.com^
 ||qvjqbtbt.com^
@@ -60081,6 +60108,7 @@ browsershots.org#@#.advert_area
 ||raugovicoma.com^
 ||raujouca.com^
 ||raunooligais.net^
+||raupasee.xyz^
 ||raupsica.net^
 ||rausfml.com^
 ||rausougo.net^
@@ -64146,6 +64174,7 @@ browsershots.org#@#.advert_area
 ||surgicaljunctiontriumph.com^
 ||surgicallonely.com^
 ||surhaihaydn.com^
+||suriquesyre.com^
 ||surlydancerbalanced.com^
 ||surmitmegbote.top^
 ||surmountpeel.com^
@@ -66465,6 +66494,7 @@ browsershots.org#@#.advert_area
 ||unmeltsavaged.click^
 ||unmightboxen.com^
 ||unmisdreavusom.com^
+||unmownpirated.shop^
 ||unnaturalstring.com^
 ||unnecessarydispleasedleak.com^
 ||unnish.com^
@@ -67176,6 +67206,7 @@ browsershots.org#@#.advert_area
 ||viapizza.online^
 ||viatechonline.com^
 ||viatepigan.com^
+||vibanioa.com^
 ||vibetrogue.click^
 ||vibrantvale.com^
 ||vibrateapologiesshout.com^
@@ -72298,6 +72329,7 @@ browsershots.org#@#.advert_area
 ||6a6672.xyz^$document,popup
 ||70b927c8.live^$document,popup
 ||72075223.xyz^$document,popup
+||72356275.xyz^$document,popup
 ||72560514.xyz^$document,popup
 ||72716408.xyz^$document,popup
 ||74142961.xyz^$document,popup
@@ -77206,7 +77238,10 @@ browsershots.org#@#.advert_area
 ||10945-5.s.cdn15.com^
 ||1116283932.rsc.cdn77.org^
 ||1136707664.rsc.cdn77.org^
+||1157433411.rsc.cdn77.org^
+||1167965905.rsc.cdn77.org^
 ||1187531871.rsc.cdn77.org^
+||1205088249.rsc.cdn77.org^
 ||1208344341.rsc.cdn77.org^
 ||1228540867.rsc.cdn77.org^
 ||123-stream.org^
@@ -77224,6 +77259,7 @@ browsershots.org#@#.advert_area
 ||1693418686.rsc.cdn77.org^
 ||1710712823.rsc.cdn77.org^
 ||1736253261.rsc.cdn77.org^
+||1860610788.rsc.cdn77.org^
 ||1866741353.rsc.cdn77.org^
 ||1918837748.rsc.cdn77.org^
 ||1wnurc.com^
@@ -81105,7 +81141,6 @@ teamfortress.tv###aw
 gulte.com###awt_landing
 filext.com###b1c
 filext.com###b2c
-filext.com###b3c
 filext.com###b4c
 filext.com###ba1c
 encycarpedia.com###baa
@@ -82500,7 +82535,7 @@ emojiphrasebook.com##.adBottom
 bigislandnow.com##.adBreak
 kijiji.ca##.adChoices-804693302
 economist.com##.adComponent_advert__kPVUI
-m.economictimes.com,someecards.com,trailspace.com,wabetainfo.com##.adContainer
+forums.sufficientvelocity.com,m.economictimes.com,someecards.com,trailspace.com,wabetainfo.com##.adContainer
 etymonline.com##.adContainer--6CVz1
 graziadaily.co.uk##.adContainer--inline
 hellomagazine.com##.adContainerClass_acvudum
@@ -85752,6 +85787,7 @@ steelersdepot.com##.theiaStickySidebar
 serverhunter.com##.this-html-will-keep-changing-these-ads-dont-hurt-you-advertisement
 gearspace.com##.thread__sidebar-ad-container
 geeksforgeeks.org##.three90RightBarBanner
+nzherald.co.nz##.ticker-banner
 aardvark.co.nz##.tinyprint
 blendernation.com##.title
 cryptocompare.com##.title-hero
