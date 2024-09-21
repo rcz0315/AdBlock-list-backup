@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 2ghzGDK9SUYgsjEn4vsaHA
-! Version: 202409200051
+! Checksum: RZ5/COQI08emwo0uah1vPg
+! Version: 202409210051
 ! Title: EasyList China+EasyList
-! Last modified: 20 Sep 2024 00:51 UTC
+! Last modified: 21 Sep 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1722,6 +1722,16 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
 !
+||agufoi.xyz^
+||sdss99.fun^
+||xwbmjb.xyz^
+||zzohucf.icu^
+||cysgcm.xyz^
+||ibqmey.xyz^
+||reqwevf3.fun^
+||blasedustin.shop^
+||aushaq.top^
+||bkiterv.top^
 ||pmzlnt.xyz^
 ||imusye.xyz^
 ||bgbg00.fun^
@@ -1729,6 +1739,10 @@ newduba.cn###jq_youxi
 ||vvadz.cc^
 ||wpsbaq.xyz^
 ||blinxmi.icu^
+||pjaihds.icu^
+||lkiterl.top^
+||dkstrtss.xyz^
+||csdsa22.fun^
 ||dasda64.fun^
 ||iffobi.xyz^
 ||jauql.top^
@@ -10222,8 +10236,10 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ufile.cc/pps.js
 ||dajiadu8.com/17mb/script/ad.js
 /mpc/*$domain=52xkdy.com|fydy8.com
+||ads.yeeyi.com^
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+yeeyi.com##.js_handle_right
 raenonx.cc##div[style="display: flex; justify-content: center; align-items: center; position: relative;"] > iframe
 wantgoo.com##.fab-ad
 wantgoo.com##div[type="adv"]
@@ -15438,7 +15454,6 @@ rfidworld.com.cn##div[style="width: 100%;position: fixed;top: 0;margin:0;"]
 hz66.com##div[style="width: 300px; height: 250px; float: left; position: relative;"]
 eastmoney.com##div[style="width: 300px; height: 250px; margin-top: 10px;"]
 zol.com.cn##div[style="width: 300px; height: 250px; position: fixed; right: 0px; bottom: 0px; z-index: 9999; display: block;"]
-yeeyi.com##div[style="width: 300px; margin-right: -30px; position: relative; top: 0px;"] > a
 tuwan.com##div[style="width: 360px;margin-top:10px;"]
 1point3acres.com##div[style="width: 450px; min-height: 210px;"]
 jijidown.com##div[style="width: 500px;"]:last-child
@@ -15869,6 +15884,7 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle[data-ad-slot]
 !---------------------------------URL Whitelist-------------------------------!
 @@.adserver.$domain=litv.tv
+@@||javedit.com/d/js/acmsd/thea0.
 @@.com/adv/$domain=my.ctrip.com
 @@.gif#$domain=b168.net|cnprint.org|huhupan.com|tgfcer.com|wgun.net
 @@.jpg#$domain=huhupan.com
@@ -34961,6 +34977,7 @@ browsershots.org#@#.advert_area
 ||5cf8606941.com^
 ||5e1b8e9d68.com^
 ||5e6ef8e03b.com^
+||5ed55e7208.com^
 ||5eef1ed9ac.com^
 ||5f6dmzflgqso.com^
 ||5f6efdfc05.com^
@@ -38277,6 +38294,7 @@ browsershots.org#@#.advert_area
 ||baiweero.com^
 ||baiweluy.com^
 ||baiwhuga.net^
+||bajowsxpy.com^
 ||bakabok.com^
 ||bakatvackzat.com^
 ||bakeronerousfollowing.com^
@@ -46597,6 +46615,7 @@ browsershots.org#@#.advert_area
 ||fundingexceptingarraignment.com^
 ||funestjacket.shop^
 ||fungiaoutfame.com^
+||fungidcolder.com^
 ||fungus.online^
 ||funjoobpolicester.info^
 ||funklicks.com^
@@ -47782,6 +47801,7 @@ browsershots.org#@#.advert_area
 ||greenads.org^
 ||greenfox.ink^
 ||greenlinknow.com^
+||greenmortgage.pro^
 ||greenpaperlist.com^
 ||greenplasticdua.com^
 ||greenrecru.info^
@@ -51579,6 +51599,7 @@ browsershots.org#@#.advert_area
 ||kliqz.com^
 ||klisejrwgir.com^
 ||klixfeed.com^
+||klmmnd.com^
 ||klmrgtvjeiea.com^
 ||klonedaset.org^
 ||kloperd.com^
@@ -54487,6 +54508,7 @@ browsershots.org#@#.advert_area
 ||mucinyak.com^
 ||muckilywayback.top^
 ||mucopussamkhya.com^
+||mucvvcbqrwfmir.com^
 ||mudbankoxfords.top^
 ||muddiedbubales.com^
 ||muddyharold.com^
@@ -56679,6 +56701,7 @@ browsershots.org#@#.advert_area
 ||ossyfirecpo.com^
 ||ostazvtx.com^
 ||ostensiblecompetitive.com^
+||ostfuwdmiohg.com^
 ||ostilllookinga.cc^
 ||ostlon.com^
 ||ostrichmustardalloy.com^
@@ -59480,6 +59503,7 @@ browsershots.org#@#.advert_area
 ||pweabzcatoh.com^
 ||pwmctl.com^
 ||pwrgrowthapi.com^
+||pwuzvbhf.com^
 ||pwwjuyty.com^
 ||pwwqkppwqkezqer.site^
 ||pwxerujvl.com^
@@ -59799,6 +59823,7 @@ browsershots.org#@#.advert_area
 ||qualifiedhead.pro^
 ||qualifyundeniable.com^
 ||qualitiesstopsallegiance.com^
+||qualityadverse.com^
 ||qualitydestructionhouse.com^
 ||qualityremaining.com^
 ||qualitysquashwin.com^
@@ -60833,6 +60858,7 @@ browsershots.org#@#.advert_area
 ||revolutionpersuasive.com^
 ||revolvemockerycopper.com^
 ||revolveoppress.com^
+||revolvingshine.pro^
 ||revopush.com^
 ||revresponse.com^
 ||revrtb.com^
@@ -68288,6 +68314,7 @@ browsershots.org#@#.advert_area
 ||whoognoz.com^
 ||whookrair.xyz^
 ||whookroo.com^
+||whoolrulr.net^
 ||whoomseezesh.com^
 ||whoopblew.com^
 ||whoostoo.net^
@@ -69713,6 +69740,7 @@ browsershots.org#@#.advert_area
 ||ywhowascryin.com^
 ||ywmvppnlwwxkgt.com^
 ||ywopyohpihnkppc.xyz^
+||ywpdobsvqlchvrl.com^
 ||ywronwasthetron.com^
 ||ywrvpmapjcg.xyz^
 ||ywsxqrcfrtsnfa.com^
@@ -72258,6 +72286,7 @@ browsershots.org#@#.advert_area
 ||04424170.xyz^$document,popup
 ||05751c.site^$document,popup
 ||072551.xyz^$document,popup
+||07421283.xyz^$document,popup
 ||076f66b2.live^$document,popup
 ||07c225f3.online^$document,popup
 ||07e197.site^$document,popup
@@ -72363,6 +72392,7 @@ browsershots.org#@#.advert_area
 ||7e809ed7-e553-4e29-acb1-4e3c0e986562.site^$document,popup
 ||7fc8.site^$document,popup
 ||814272c4.xyz^$document,popup
+||83409127.xyz^$document,popup
 ||83761158.xyz^$document,popup
 ||83887336.xyz^$document,popup
 ||84631949.xyz^$document,popup
@@ -75363,6 +75393,7 @@ browsershots.org#@#.advert_area
 ||qr-captcha.com^$popup
 ||qrlsx.com^$popup
 ||qrprobopassor.com^$popup
+||qualityadverse.com^$popup
 ||qualitydating.top^$popup
 ||quarrelaimless.com^$popup
 ||questioningexperimental.com^$popup
@@ -75436,6 +75467,7 @@ browsershots.org#@#.advert_area
 ||refpa4293501.top^$popup
 ||refpabuyoj.top^$popup
 ||refpaikgai.top^$popup
+||refpamjeql.top^$popup
 ||refpasrasw.world^$popup
 ||refpaxfbvjlw.top^$popup
 ||refundsreisner.life^$popup
@@ -85076,7 +85108,6 @@ kompass.com##.prodListBanner
 ecosia.org##.product-ads-carousel
 skinstore.com##.productSponsoredAdsWrapper
 letsgodigital.org##.product__wrapper
-pbs.org##.production-and-funding
 nymag.com##.products-package
 nymag.com##.products-package_single
 kohls.com##.products_grid.sponsored-product
@@ -87271,6 +87302,7 @@ woolworths.com.au##.product-grid-v2--tile:has(.sponsored-text)
 meijer.com##.product-grid__product:has(.product-tile__sponsored)
 chaussures.fr,eapavi.lv,ecipele.hr,ecipo.hu,eobuv.cz,eobuv.sk,eobuwie.com.pl,epantofi.ro,epapoutsia.gr,escarpe.it,eschuhe.at,eschuhe.ch,eschuhe.de,eskor.se,evzuttya.com.ua,obuvki.bg,zapatos.es##.product-item:has(.sponsored-label)
 maxi.ca##.product-tile-group__list__item:has([data-track-products-array*="sponsored"])
+pbs.org##.production-and-funding:has(.sponsor-info-link)
 ksl.com##.queue:has(.sponsored)
 olx.com.pk##.react-swipeable-view-container:has([href*="http://onelink.to"])
 laravel-news.com##.relative:has([wire\:key="article-ad-card"])
@@ -89286,8 +89318,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
 @@||ads.rubiconproject.com/prebid/$script,domain=drudgereport.com|everydayhealth.com
 @@||ads3.xumo.com^$domain=2vnews.com|redbox.com
-@@||adsafeprotected.com/iasPET.$script,domain=independent.co.uk|reuters.com
-@@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com
+@@||adsafeprotected.com/iasPET.$script,domain=independent.co.uk|reuters.com|wjs.com
+@@||adsafeprotected.com/vans-adapter-google-ima.js$script,domain=gamingbible.co.uk|ladbible.com|reuters.com|wjs.com
 @@||adsales.snidigital.com/*/ads-config.min.js$script
 @@||adserver.skiresort-service.com/www/delivery/spcjs.php?$script,domain=skiresort.de|skiresort.fr|skiresort.info|skiresort.it|skiresort.nl
 @@||adswizz.com/adswizz/js/SynchroClient*.js$script,third-party,domain=jjazz.net
