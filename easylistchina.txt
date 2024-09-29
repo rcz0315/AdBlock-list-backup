@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: QfrCkp5PXx4PvGrw5eMP+Q
-! Version: 202409280051
+! Checksum: Dc3Uug9f/1ur6IbB5JDq8Q
+! Version: 202409290051
 ! Title: EasyList China
-! Last modified: 28 Sep 2024 00:51 UTC
+! Last modified: 29 Sep 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1260,6 +1260,7 @@ newduba.cn###jq_youxi
 ##.couplet_9cb0d
 ##.coupletad
 ##.ctm_ad
+##.pggf > .ng-star-inserted
 ##.cui-pt-item[data-qhb]
 ##.d_banner_inner
 ##.dabc > .ng-star-inserted
@@ -1644,6 +1645,7 @@ newduba.cn###jq_youxi
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
 ##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##div#ad_id
+###kp-mid-sport.fed-back-whits
 ##a[href*="bjty"] > img[src*="imgsrc.baidu.com"]
 ##.ads_topBanner
 ##div#xinxi
@@ -1720,6 +1722,16 @@ newduba.cn###jq_youxi
 ||67.21.92.*.gif
 ||cupfox.app^$third-party
 !
+||ayebsc.xyz^
+||enokouv.icu^
+||cdszgg.xyz^
+||yzldy.info^
+||teryt111.fun^
+||itqwesk.icu^
+||heryt111.fun^
+||cfdvd779.fun^
+||dajs001.shop^
+||kfocken.icu^
 ||qeeocy.xyz^
 ||dopklb.xyz^
 ||reryt111.fun^
@@ -9221,8 +9233,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||pixfs.net/module/fullPage/dist/ad-full-page-enter-fly.
 ||pixfs.net/module/fullPage/dist/ad-full-page.
 ||pjtime.com/js/show_ad
-||pki.net.cn/public/*/plugins/
-||pki.net.cn/public/1/assets/js/custom/tt.
+||szaction.cc/public/*/plugins/
+||szaction.cc/public/1/assets/js/custom/tt.
 ||pkvs.com/public/300/
 ||pkvs.com/public/as.js
 ||play6111.com/js/
