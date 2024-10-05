@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: behcViGYghJRtQ4t/IaaCw
-! Version: 202410040051
+! Checksum: 9wcRKAwKDdjRhWW+gtjMgg
+! Version: 202410050051
 ! Title: EasyList China
-! Last modified: 04 Oct 2024 00:51 UTC
+! Last modified: 05 Oct 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1621,6 +1621,7 @@ newduba.cn###jq_youxi
 ##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
 ##a[href="/ht.html"]
+##.xzad-list
 ##a[href="javascript:;"][onclick^="iwjfewufewekjr"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
@@ -1726,6 +1727,21 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||yfoega.xyz^
+||chooncv.icu^
+||mvcngm.xyz^
+||eaqgsw.xyz^
+||pakaujf.icu^
+||ntpnfyga.icu^
+||prtfpl.xyz^
+||absalomcsa.com^
+||sjezce.xyz^
+||twurseri.top^
+||d2tf0.icu^
+||bedzbu.xyz^
+||baigh8eosmgie02.site^
+||hongi7ie8owiie02.site^
+||loveameng.top^
 ||mgqtcs.xyz^
 ||hhrerv.xyz^
 ||aeryt111.fun^
@@ -1733,6 +1749,9 @@ newduba.cn###jq_youxi
 ||kossog.xyz^
 ||meryt111.fun^
 ||ntiutox.icu^
+||qwursery.top^
+||hauqou.top^
+||qqryt111.fun^
 ##a[href*=".asd257642.com:"]
 ##a[href*=".bjty7.vip"]
 ##a[href*=".hg63222.com"]
@@ -18108,6 +18127,7 @@ smjb.net##div[style*="height: 50%"]
 ||zanghaihua.org/js/
 ||zhenben.cc/2000/
 ! General rules for Novels
+://*.*ryt111.fun/$script,third-party
 ###downdiv > .downcode
 ###gudingweiDiv
 ###my_dp_a
