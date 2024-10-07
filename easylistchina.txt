@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KpmadEfKbf5I6VjUiOL+MQ
-! Version: 202410060051
+! Checksum: DEs8Wnc4O7VzFe0ajohYLA
+! Version: 202410070051
 ! Title: EasyList China
-! Last modified: 06 Oct 2024 00:51 UTC
+! Last modified: 07 Oct 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1727,12 +1727,24 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||edadmy.xyz^
+||kgymoc.xyz^
+||xlxehr.xyz^
+||2efgcdcjr000.fun^
+||clmcam.xyz^
+||bmqulua.icu^
+##a[href*=".nhjhu25hd.com:"]
+||6efgcdcjr000.fun^
+||bwurserv.top^
+||imndl.icu^
 ||yuayku.xyz^
 ||srmsii.xyz^
 ||qzorwe.xyz^
 ||avqdhss.icu^
 ||pbvdlb.xyz^
 ||itakrid.icu^
+||plfwxtgu.icu^
+||lwurserl.top^
 ||bxqgk.icu^
 ||owurserk.top^
 ||uwursert.top^
@@ -18136,6 +18148,7 @@ smjb.net##div[style*="height: 50%"]
 ||zanghaihua.org/js/
 ||zhenben.cc/2000/
 ! General rules for Novels
+://*.*fgcdcjr000.fun/$script,third-party
 ://*.*ryt111.fun/$script,third-party
 ###downdiv > .downcode
 ###gudingweiDiv
