@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: rPJJ4jp1zPRR8DG/Ttekiw
-! Version: 202410110051
+! Checksum: KuYmWe8MHKlCw/592lAJpA
+! Version: 202410120051
 ! Title: EasyList China
-! Last modified: 11 Oct 2024 00:51 UTC
+! Last modified: 12 Oct 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1729,12 +1729,18 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||sbovgy.xyz^
+||myqmgm.xyz^
+||sgsosi.xyz^
+||rnwenpn.icu^
+||vjharl.xyz^
 ||amsbce.xyz^
 ||ygipjqf.icu^
 ||gpqkeq.xyz^
 ||yugqqqq.icu^
 ||yuuaos.xyz^
 ||nzfcvv.xyz^
+||hp8g6.icu^
 ||oauqyw.xyz^
 ||hauqks.top^
 ||jsgapai.icu^
@@ -7653,7 +7659,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||dagumanhua.com/style/mdagu.js
 ||dailynews.sina.com/gb/ads/
 ||dajiadu8.com/17.js
-||dajiadu8.com/17mb/script/ad.js
+||dajiadu8.com/17mb/script/ad*.js
 ||dajiazhao.com/login/reg.js
 ||dalipan.com/api/taobao
 ||dangdang.com/adall.
