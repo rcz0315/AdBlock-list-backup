@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202410120039
+! Version: 202410122331
 ! Title: EasyPrivacy
-! Last modified: 12 Oct 2024 00:39 UTC
+! Last modified: 12 Oct 2024 23:31 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -125,12 +125,12 @@
 /a8c-analytics.js
 /aap/stats
 /abc.gif?
-/acc/acctag.js
 /access.php?referrer=
 /accessanalyzer/tracker?
 /AccessCounter/index.cgi?
 /accesstracking/*
 /acclog.cgi?
+/acctag.js
 /acecounter/*
 /acecounter_
 /acounter.php?
@@ -3132,6 +3132,7 @@ omni.soundestlink.com$image
 ||apharponloun.com^
 ||apxl.io^
 ||as3.io^
+||aseads.com^
 ||australiarevival.com^
 ||avads.net^
 ||awmonitor.com^
