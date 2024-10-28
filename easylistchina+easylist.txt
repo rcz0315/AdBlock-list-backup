@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: F4cC+lDldEMVvH5pOVuGIQ
-! Version: 202410270001
+! Checksum: X4ZPgDhbu4QKIuIWVGMJhQ
+! Version: 202410280051
 ! Title: EasyList China+EasyList
-! Last modified: 27 Oct 2024 00:01 UTC
+! Last modified: 28 Oct 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1124,7 +1124,7 @@ newduba.cn###jq_youxi
 ##.a_oscar1
 ##.a_pb
 ~05wang.com##.a_pr
-~88liu.com,~briian.com##.a_pt
+~fishmsg.net,~briian.com##.a_pt
 ##.a_ssk_cn
 ##.a_sxc
 ##.a_xsfl
@@ -1735,10 +1735,19 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||1gmzo.icu^
+||crnmyrk.icu^
+||hdxyj.icu^
+||jowkkzx.icu^
+||obwnaon.icu^
+||zrtlvtsy.xyz^
 ||qnqtgyq.icu^
 ||sjluuom.icu^
 ||8gra3.icu^
 ||5z2oy.icu^
+||qqganna.icu^
+||uouvxlit.top^
+||dfhgry.com^
 ||itjcqlp.icu^
 ||xxqmtod.icu^
 ||qouvxliy.top^
@@ -18406,10 +18415,6 @@ $image,third-party,domain=258zw.com
 /sfsafsadfjbbj-dsafjnb-1321533417.
 /socket?platform=*&href=$third-party,websocket
 /svr/*.aspx?placeid=$third-party
-/timer.aspx?481$script,~third-party
-/timer.aspx?568$script,~third-party
-/timer.aspx?649$script,~third-party
-/timer.aspx?719$script,~third-party
 /tops/fmt.js?v=
 /vbvb_*_pmpm.js
 /vjioew-1322507002.
@@ -18424,6 +18429,7 @@ $image,third-party,domain=258zw.com
 /xxgg/xsggs.js
 ://*:*/chunyu.html?k=$csp=script-src
 ://*:*/yeyue.html?k=$csp=script-src
+.*ouvxli*.top/$script,third-party
 :6607/qy/$script,third-party
 _rony.js$script,third-party
 ||lalabaos10*.top/$script,third-party
@@ -45435,6 +45441,7 @@ browsershots.org#@#.advert_area
 ||fvckeip.com^
 ||fvgxfupisy.com^
 ||fvohyywkbc.com^
+||fwbejnuplyuxufm.xyz^
 ||fwbntw.com^
 ||fwealjdmeptu.com^
 ||fwelbbhdlxmn.com^
@@ -47776,6 +47783,7 @@ browsershots.org#@#.advert_area
 ||iekrtaas.com^
 ||ieldrjjkxwo.com^
 ||ielmzzm.com^
+||ieluqiqttdwv.com^
 ||ieo8qjp3x9jn.pro^
 ||ieqmxymlyz.com^
 ||iessjhfdsyn.com^
@@ -48731,6 +48739,7 @@ browsershots.org#@#.advert_area
 ||japegr.click^
 ||japw.cloud^
 ||jaqxaqoxwhce.com^
+||jareechargu.xyz^
 ||jargonwillinglybetrayal.com^
 ||jarguvie.xyz^
 ||jarsoalton.com^
@@ -50221,6 +50230,7 @@ browsershots.org#@#.advert_area
 ||lightsriot.com^
 ||lightssyrupdecree.com^
 ||ligninenchant.com^
+||ligvraojlrr.com^
 ||liivhntsu.com^
 ||lijjk.space^
 ||lijybcfgnjh.com^
@@ -50965,6 +50975,7 @@ browsershots.org#@#.advert_area
 ||malthaeurite.com^
 ||maltohoo.xyz^
 ||maltunfaithfulpredominant.com^
+||mamaunweft.click^
 ||mamblubamblua.com^
 ||mamluksburion.com^
 ||mammaclassesofficer.com^
@@ -52011,6 +52022,7 @@ browsershots.org#@#.advert_area
 ||multstorage.com^
 ||mumintend.com^
 ||mummydiverseprovided.com^
+||mumoartoor.net^
 ||munilf.com^
 ||munpracticalwh.info^
 ||munqb.xyz^
@@ -67519,6 +67531,7 @@ browsershots.org#@#.advert_area
 ||56514411.xyz^$document,popup
 ||58e0.site^$document,popup
 ||59644010.xyz^$document,popup
+||59768910.xyz^$document,popup
 ||5ab2f817.xyz^$document,popup
 ||5afc476a.xyz^$document,popup
 ||5cc3ac02.xyz^$document,popup
@@ -69800,6 +69813,7 @@ browsershots.org#@#.advert_area
 ||mallettraumatize.com^$popup
 ||mallur.net^$popup
 ||maltunfaithfulpredominant.com^$popup
+||mamaunweft.click^$popup
 ||mammaldealbustle.com^$popup
 ||mamoth-deals.com^$popup
 ||manbycus.com^$popup
