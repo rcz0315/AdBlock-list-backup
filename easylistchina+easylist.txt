@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: CfYXNScQWKpGM3KLuHmHTQ
-! Version: 202411030051
+! Checksum: eYHW6Sgu9+YANicsxnNPUA
+! Version: 202411040050
 ! Title: EasyList China+EasyList
-! Last modified: 03 Nov 2024 00:51 UTC
+! Last modified: 04 Nov 2024 00:50 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1735,10 +1735,18 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||vsojfsoj.com^
+||ezrcowa.icu^
+||uwsaqoi.icu^
+||ipqajyy.icu^
 ||imniel.com^
 ||kiolpia.icu^
 ||bdcmwcl.icu^
 ||urpkktc.icu^
+||dsfh2.icu^
+||toublii.top^
+||uoublit.top^
+||7f7rt.icu^
 ||qoubliy.top^
 ||vuirssd.icu^
 ||kjnsgqe.icu^
@@ -10709,6 +10717,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||imgdb.cn/item/66a73333d9c307b7e9dbb6ef.jpg
 !------------------------Specific element hiding rules------------------------!
 szxx.com.cn###A0
+happymh.com##a[href*=".taobao.com"]
 dk95.com##.advs
 element-plus.org##.page-sidebar-row
 cnblogs.com###blog_c1
@@ -29681,6 +29690,8 @@ _800x80_
 ##.box-advertisement
 ##.box-advertising
 ##.box-adverts
+##.box-bannerads
+##.box-bannerads-leaderboard-fallback
 ##.box-entry-ad
 ##.box-fixed-ads
 ##.box-footer-ad
@@ -35491,6 +35502,7 @@ browsershots.org#@#.advert_area
 ||7jrahgc.de^
 ||7lyonline.com^
 ||7me0ssd6.de^
+||7ng6v3lu3c.execute-api.us-east-1.amazonaws.com^
 ||7nt9p4d4.de^
 ||80055404.vtt^
 ||81438456aa.com^
@@ -37157,6 +37169,7 @@ browsershots.org#@#.advert_area
 ||anatomybravely.com^
 ||anattospursier.com^
 ||anaxialaphonia.com^
+||ancamcdu.com^
 ||anceenablesas.com^
 ||anceenablesas.info^
 ||ancestor3452.fun^
@@ -37949,6 +37962,7 @@ browsershots.org#@#.advert_area
 ||avbang3431.fun^
 ||avbulb3431.fun^
 ||avdebt3431.fun^
+||avecmessougnauy.net^
 ||avenaryconcent.com^
 ||aveneverseeno.info^
 ||avengeburglar.com^
@@ -39121,6 +39135,7 @@ browsershots.org#@#.advert_area
 ||boffinsoft.com^
 ||boffoadsfeeds.com^
 ||bofhlzu.com^
+||bogletdent.shop^
 ||bogrodius.com^
 ||bogus-disk.com^
 ||boharaf.com^
@@ -40090,6 +40105,7 @@ browsershots.org#@#.advert_area
 ||cdnvideo3.com^
 ||cdnware.com^
 ||cdnware.io^
+||cdoqjxlnegnhm.com^
 ||cdosagebreakfast.com^
 ||cdrvrs.com^
 ||cdryuoe.com^
@@ -41789,6 +41805,7 @@ browsershots.org#@#.advert_area
 ||dallavel.com^
 ||dallthroughthe.info^
 ||daltongrievously.com^
+||daly2024.com^
 ||dalyai.com^
 ||dalyio.com^
 ||dalymix.com^
@@ -43469,6 +43486,7 @@ browsershots.org#@#.advert_area
 ||eetsooso.net^
 ||eewhapseepoo.net^
 ||eeycumpmwy.com^
+||eeyrfrqdfey.xyz^
 ||eeywmvwaqqrrl.top^
 ||eezavops.net^
 ||eezegrip.net^
@@ -47632,6 +47650,7 @@ browsershots.org#@#.advert_area
 ||humanjeep.com^
 ||humiliatemoot.com^
 ||hummingexam.com^
+||hummockpenner.shop^
 ||humoralpurline.com^
 ||humpdecompose.com^
 ||humplollipopsalts.com^
@@ -49017,6 +49036,7 @@ browsershots.org#@#.advert_area
 ||joachoag.xyz^
 ||joaglouwulin.com^
 ||joagroamy.com^
+||joajazaicoa.xyz^
 ||joanneehretia.com^
 ||joaqaylueycfqw.xyz^
 ||joastaca.com^
@@ -49685,6 +49705,7 @@ browsershots.org#@#.advert_area
 ||kquptfjubrbp.xyz^
 ||kquzgqf.com^
 ||kqzyfj.com^
+||kra18.com^
 ||krankenwagenmotor.com^
 ||kraoqsvumatd.com^
 ||krazil.com^
@@ -56435,6 +56456,7 @@ browsershots.org#@#.advert_area
 ||qroagwadndwy.com^
 ||qrprobopassor.com^
 ||qrredraws.com^
+||qrroyrdbjeeffw.com^
 ||qrrqysjnwctp.xyz^
 ||qrubv.buzz^
 ||qrwkkcyih.xyz^
@@ -71103,6 +71125,7 @@ browsershots.org#@#.advert_area
 ||tonefuse.com^$popup
 ||tooaastandhei.info^$popup
 ||tookiroufiz.net^$popup
+||toonujoops.net^$popup
 ||toopsoug.net^$popup
 ||toothcauldron.com^$popup
 ||top-performance.best^$popup
@@ -75483,6 +75506,7 @@ $popup,domain=07c225f3.online|content-loader.com|css-load.com|html-load.cc|html-
 ||bodsforthemods.com/srennab/
 ||bootyheroes.com//static/assets/img/banners/
 ||boyfriend.show/widgets/Spot
+||boyfriendtv.com/ads/
 ||boyfriendtv.com/bftv/b/
 ||boyfriendtv.com/bftv/www/js/*.min.js?url=
 ||boysfood.com/d5.html
@@ -79166,6 +79190,8 @@ romaniajournal.ro##.geoc-container
 geo-fs.com##.geofs-adbanner
 livescores.biz##.get-bonus
 thingstodovalencia.com##.get-your-guide
+getcomics.org##.getco-content
+getcomics.org##.getco-content_2
 flickr.com##.getty-search-view
 flickr.com##.getty-widget-view
 marketsfarm.com##.gfm-ad-network-ad
@@ -79292,6 +79318,7 @@ revolt.tv##.header-banner-wrapper
 mercurynews.com,nssmag.com##.header-banners
 amazonadviser.com,apptrigger.com,fansided.com,hiddenremote.com,lastnighton.com,lawlessrepublic.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,stormininnorman.com,winteriscoming.net##.header-billboard
 lyricsmode.com##.header-block
+historiccity.com##.header-block-1
 worldpress.org##.header-bnr
 kveller.com##.header-bottom
 counterpunch.org##.header-center
@@ -81739,7 +81766,7 @@ filecrypt.cc,filecrypt.co##[onclick^="var lj"]
 transfermarkt.co.uk##[referrerpolicy]
 appleinsider.com,dappradar.com,euroweeklynews.com,sitepoint.com,tld-list.com##[rel*="sponsored"]
 warecracks.com,websiteoutlook.com##[rel="nofollow"]
-metro.co.uk##[rel="sponsored"]
+metro.co.uk,wccftech.com##[rel="sponsored"]
 myanimelist.net##[src*="/c/img/images/event/"]
 audioz.download##[src*="/promo/"]
 transfermarkt.com##[src*="https://www.transfermarkt.com/image/"]
@@ -83281,6 +83308,7 @@ xpaja.net###advertisement
 milffox.com###advertising
 instantfap.com###af
 pervclips.com###after-adv
+cockdude.com###after-boxes-ver2
 str8ongay.com###alfa_promo_parent
 sunporno.com###atop
 literotica.com###b-top
@@ -84345,6 +84373,7 @@ pornlib.com##a[href*="/linkout/"]
 mansurfer.com##a[href*="/out/"]
 avgle.com##a[href*="/redirect"]
 4tube.com,fux.com,pornerbros.com,porntube.com##a[href*="/redirect-channel/"]
+cockdude.com##a[href*="/tsyndicate.com/"]
 youpornzz.com##a[href*="/videoads.php?"]
 pornhub.com,pornhubpremium.com,pstargif.com,spankbang.com,sxyprn.com,tube8.com,tube8vip.com,xozilla.com,xxxymovies.com##a[href*="?ats="]
 adultdvdempire.com##a[href*="?partner_id="][href*="&utm_"]
@@ -84375,6 +84404,7 @@ sexhd.pics##a[href^="https://go.stripchat.com/"]
 imgsen.com##a[href^="https://hardcoreincest.net/"]
 adultgamesworld.com##a[href^="https://joystick.tv/t/?t="]
 yaoimangaonline.com##a[href^="https://l.hyenadata.com/"]
+gayforfans.com##a[href^="https://landing.mennetwork.com/"]
 trannygem.com##a[href^="https://landing.transangelsnetwork.com/"]
 datingpornstar.com##a[href^="https://mylinks.fan/"]
 mrdeepfakes.com##a[href^="https://pages.faceplay.fun/ds/index-page?utm_"]
