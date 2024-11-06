@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: PZbnKf7Qoz/HeXH8fMeYJQ
-! Version: 202411050040
+! Checksum: Ni7PJw0J/FtWbBx0dHvhBQ
+! Version: 202411052340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2024-11-05 00:40 UTC
+! Last modified: 2024-11-05 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -31901,6 +31901,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||channel.io/plugin/$media
 ||chat.octadesk.services/embed/static/media/$media
 ||chatango.com/pcache/sounds/
+||chatbot.denizbank.com/Content/media/$media
 ||chatplus.jp/app/s/sound/
 ||cleversite.ru/client/default/sound/
 ||cliengo.com^$media
@@ -36332,9 +36333,9 @@ jagranjosh.com##ul[class^="Details_Social_"]
 dailymail.co.uk,thisismoney.co.uk##ul[class^="linksHolder-"]
 !! :has
 ruwix.com##.widget-title:has-text(Share this page!)
-neon.tech#?#.justify-between.items-center:-adp-contains(Share:)
-newskarnataka.com#?#.elementor-button-wrapper:-adp-contains(Social Media)
-newsroom.ucla.edu#?#.promo-card-muted:-adp-contains(RSS feed)
+neon.tech#?#.justify-between.items-center:-abp-contains(Share:)
+newskarnataka.com#?#.elementor-button-wrapper:-abp-contains(Social Media)
+newsroom.ucla.edu#?#.promo-card-muted:-abp-contains(RSS feed)
 openculture.com#?#.execphpwidget:-abp-contains(FREE UPDATES!)
 !! .social-sharing
 byjus.com,commentpicker.com,hakaimagazine.com,hollywoodlife.com,homemark.co.za,ilgiornale.it,malaymail.com,maxabout.com,ncbi.nlm.nih.gov,news24.com,nu.nl,politico.eu,thepostmillennial.com##.social-sharing
@@ -39124,7 +39125,7 @@ roninwear.com,roninwear.de,roninwear.fi,roninwear.fr,roninwear.hu,roninwear.it,r
 !! .adn-message
 aperitif.no,byggmesteren.as,cosmosmagazine.com,estatenyheter.no,forskning.no,forsvaretsforum.no,journalisten.no,khrono.no,m24.no,sciencenordic.com,sciencenorway.no##.adn-message
 !! __tealiumGDPRcpPrefs
-comparethemarket.com###__tealiumGDPRcpPrefs
+comparethemarket.com,pepperl-fuchs.com###__tealiumGDPRcpPrefs
 !! .cookiebar
 ammeraalbeltech.com##.cookiebar
 !! #cliSettingsPopup
@@ -39625,7 +39626,7 @@ alfred.com,amino.dk,gigaom.com,gq.com.au,henrilloyd.com,hesapkurdu.com,hvylya.ne
 !! #privacy-policy
 104.ua,bostools.nl,planetfitness.com,wccaviation.com###privacy-policy
 !! cdk-overlay-container
-afiklmem.com,antenne.at,ars.particify.de,betsafe.ee,betsafe.lv,biblio.cyldigital.es,canadasbusinessregistries.ca,casino.dk,clashapp.co,collibris-app.com,earnweb.com,educont.ru,ekuriren.se,eqmac.app,flyingblue.us,fr.vanguard,iconnectfx.com,inshared.nl,it.vanguard,jobsforgeek.com,jobware.de,kauppakeskuswilla.fi,kkuriren.se,mediaportal.regione.lombardia.it,mobilbahis623.com,nl.vanguard,nordicbet.dk,nordpoolgroup.com,rekonise.com,rsu.de,shopstyle.co.uk,skiclub-villingen.de,spedition.de,tacobot.tf,townsmith.de,vanguard.co.uk,vanguardmexico.com##.cdk-overlay-container
+afiklmem.com,antenne.at,ars.particify.de,betsafe.ee,betsafe.lv,biblio.cyldigital.es,canadasbusinessregistries.ca,casino.dk,clashapp.co,collibris-app.com,earnweb.com,educont.ru,ekuriren.se,eprimego.com,eqmac.app,flyingblue.us,fr.vanguard,iconnectfx.com,inshared.nl,it.vanguard,jobsforgeek.com,jobware.de,kauppakeskuswilla.fi,kkuriren.se,mediaportal.regione.lombardia.it,mobilbahis623.com,nl.vanguard,nordicbet.dk,nordpoolgroup.com,rekonise.com,rsu.de,shopstyle.co.uk,skiclub-villingen.de,spedition.de,tacobot.tf,townsmith.de,vanguard.co.uk,vanguardmexico.com##.cdk-overlay-container
 !!  #cdk-overlay-0
 cs.android.com,source.chromium.org###cdk-overlay-0
 !! .trackingmanager
@@ -48140,7 +48141,7 @@ oz.av.tr##.Legal
 columbia.com.tr##.MuiCollapse-wrapperInner
 apigo.com.tr##.ant-notification
 ikonambalaj.com.tr##.bottom-center
-afyonhaberturk.com,aydinyeniufuk.com.tr,balikesirartihaber.com,blokhaber.com,bomba15.com,denizli20haber.com,dirilispostasi.com,eldedemokrasi.com,euromsg.com,haberimizvar.net,hedefgazetesi.com.tr,isdunyasindakadin.com,ispartamhaber.com,kocaelisabah.com,mhrs.gov.tr,offtherecord.com.tr,sabancivakfi.org,seffafbelediyecilik.com,tarsusgazetesi.com,yenigolcuk.com##.cerez
+aydinyeniufuk.com.tr,balikesirartihaber.com,blokhaber.com,bomba15.com,denizli20haber.com,dirilispostasi.com,eldedemokrasi.com,euromsg.com,haberimizvar.net,hedefgazetesi.com.tr,isdunyasindakadin.com,ispartamhaber.com,kocaelisabah.com,mhrs.gov.tr,offtherecord.com.tr,sabancivakfi.org,seffafbelediyecilik.com,tarsusgazetesi.com,yenigolcuk.com##.cerez
 iys.org.tr##.cerezall
 saltur.com.tr##.cerezkullanimi
 bettilt496.com##.consent-modal
