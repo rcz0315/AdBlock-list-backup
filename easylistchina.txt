@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uxdK69cO6xHRFoZCa3Uihw
-! Version: 202411200050
+! Checksum: fe+Tdj/0CHbkwuJTc8JRbg
+! Version: 202411210051
 ! Title: EasyList China
-! Last modified: 20 Nov 2024 00:50 UTC
+! Last modified: 21 Nov 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1736,10 +1736,22 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||nois5gj.xyz^
+||qhestrad.com^
+||vkbxaixl.icu^
+||daiitmk.cn^
+||syfgtby.cn^
 ||ilzies.com^
 ||cdlekgr.icu^
 ||cxvyk.com^
 ||990215.xyz^
+||ao1120kas.top^
+||aoao11201iis.top^
+||feubgzfx.icu^
+||1buo.icu^
+||olgrae.com^
+||3sas.icu^
+||cweizaf.top^
 ||gritoils.com^
 ||thacreks.com^
 ||snnmgdt.icu^
@@ -12861,8 +12873,8 @@ baidu.com##.b2c-universal-card-product-item-wrapper
 miliav.com##.b300
 pinshan.com##.b_adv
 pinshan.com##.b_adv2
-cn.bing.com##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
-cn.bing.com##.b_algo:has(.rms_img[src*="=AdsPlus"])
+bing.com##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
+bing.com##.b_algo:has(.rms_img[src*="=AdsPlus"])
 cn.bing.com##.b_bza_pole
 120ask.com##.b_right > div[style]
 168gamer.com,168gamer.net##.b_tad
