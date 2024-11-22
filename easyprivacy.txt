@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202411210018
+! Version: 202411212317
 ! Title: EasyPrivacy
-! Last modified: 21 Nov 2024 00:18 UTC
+! Last modified: 21 Nov 2024 23:17 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -11775,6 +11775,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||userway.org/api/v1/stats
 ||usizy.com/external/pageview
 ||usr.interactiveone.com^
+||utics.nodejibi.in^
 ||utils.global-e.com/set?
 ||utt.pm/utm/
 ||v.shopify.com^
@@ -13815,6 +13816,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||events-tracker.deliveroo.net^
 ||events.api.godaddy.com^
 ||events.baselime.io^
+||events.bsky.app^
 ||events.character.ai^
 ||events.clips4sale.com^
 ||events.framer.com^
@@ -13964,6 +13966,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||goodreads.com/report_metric
 ||goodreads.com/track/
 ||google.com/ads/measurement/
+||google.com/async/ddllog
 ||google.com/dssw.js
 ||google.com/images/phd/px.gif
 ||google.com/log?
@@ -47131,6 +47134,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! ||wl.spotify.com^
 ! ||go.playbackbone.com^
 ! ||t.ac.pandora.com^
+! ||stream.9now.com.au^
 ! 
 ! Company name: Branch.io
 ! 
@@ -51050,7 +51054,6 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||stg-deeplink.ring.md^
 ||store.echovisuals.com^
 ||store.esquirrel.at^
-||stream.9now.com.au^
 ||studio.joinsalut.com^
 ||subito.openapp.link^
 ||summary.instaread.co^
