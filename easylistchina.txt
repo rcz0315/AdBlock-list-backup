@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 8u+4NNmEK3wBcX9l6RSKfg
-! Version: 202411220051
+! Checksum: NuD8V0yhGaURMc3sJ1ZYWQ
+! Version: 202411230051
 ! Title: EasyList China
-! Last modified: 22 Nov 2024 00:51 UTC
+! Last modified: 23 Nov 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1709,6 +1709,7 @@ newduba.cn###jq_youxi
 ##script[src="/js/sy2.js"] + div[align="center"]
 ##span[title="neteasefooter"]
 ##style + .a-loading
+##.horizontal-banner + .post-content
 ##style + .need_grid_img
 ##.player-rm > a[href*=".umtrack.com"]
 ##style + .vdgdo
@@ -1738,6 +1739,16 @@ newduba.cn###jq_youxi
 !
 ||oqipegjz.icu^
 ||izuts.com^
+||jweizaa.top^
+||31up.icu^
+||ao1122kas.top^
+||drenqils.com^
+||kweizad.top^
+||tukveks.com^
+||hwplypbn.icu^
+||zmrmbc.xyz^
+||ao1123kas.top^
+||cukuix.com^
 ||aoao11211iis.top^
 ||luunels.com^
 ||qcixkb1.xyz^
@@ -18658,9 +18669,10 @@ $image,third-party,domain=258zw.com
 :6607/qy/$script,third-party
 _rony.js$script,third-party
 ||lalabaos1*.top/$script,third-party
+||ao11*kas.top/$script,third-party
 /\.[a-z]oubli[a-z].top\//$script,third-party
 /\.[a-z]yjqgp[a-z].top\//$script,third-party
-.aoao11*iis.top/$script,third-party
+||aoao11*iis.top/$script,third-party
 /\.[a-z]weisi[a-z].top\//$script,third-party
 !
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
