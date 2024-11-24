@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202411230024
+! Version: 202411232309
 ! Title: EasyPrivacy
-! Last modified: 23 Nov 2024 00:24 UTC
+! Last modified: 23 Nov 2024 23:09 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -7597,6 +7597,7 @@ omni.soundestlink.com$image
 ||rapidkittens.com^
 ||rarestcandy.com^
 ||raresummer.com^
+||razzweb.com^
 ||reactjspdf.com^
 ||readgoldfish.com^
 ||readingguilt.com^
@@ -7771,6 +7772,7 @@ omni.soundestlink.com$image
 ||shakyseat.com^
 ||shakysurprise.com^
 ||shakytaste.com^
+||shallowart.com^
 ||shallowblade.com^
 ||shallowsmile.com^
 ||shamerain.com^
@@ -9678,6 +9680,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||assets.yumpu.com/release/*/tracking.js
 ||assistant.watson.appdomain.cloud/analytics/
 ||asterpix.com/tagcloudview/
+||at.cbsi.com/lib/api/client-info
 ||at.cbsi.com^*/event?
 ||atcdn.co.uk/frostbite/
 ||atgsvcs.com/js/atgsvcs.js
@@ -14336,6 +14339,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.ctpost.com/article?
 ||p.hentaiforce.net^
 ||p.minds.com^
+||p.ost2.fyi/courses/*/save_user_state
+||p.ost2.fyi/event^
 ||p.sfx.ms/is/invis.gif
 ||pac.thescottishsun.co.uk^
 ||pac.thesun.co.uk^
