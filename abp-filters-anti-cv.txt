@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: wwx/F3zSjCqKTq4rJgm86g
-! Version: 202411250050
+! Checksum: OMUGNteepEsf1rgUtPt6Mw
+! Version: 202411260051
 ! Title: ABP filters
-! Last modified: 25 Nov 2024 00:50 UTC
+! Last modified: 26 Nov 2024 00:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -558,11 +558,10 @@ tripadvisor.com#$#hide-if-matches-xpath './/span[@class="listItem"]//div[@data-a
 tripadvisor.com#$#hide-if-matches-xpath './/div[@id="typeahead_results"]//div[contains(text(),"Sponsored")]/ancestor::a[@href]'
 tripadvisor.com#$#hide-if-matches-xpath './/span[contains(text(),"Sponsored")]/ancestor::a[@target="_blank"]/ancestor::li[@class]'
 ! HP & BA
-tripadvisor.*#$#hide-if-matches-xpath './/div/span[contains(., "Sponsored")]//ancestor::a[@target]/parent::div[1]'
-tripadvisor.com#$#hide-if-matches-xpath './/div[.//span[contains(text(), "SPONSORED")]][not(@id) and not(@data-test-target) and not(ancestor::nav) and not(ancestor::header)]'
+tripadvisor.com#$#hide-if-matches-xpath './/span[contains(text(), "SPONSORED")]/ancestor-or-self::a[@target="_blank"][@href]/parent::div[1]'
 tripadvisor.com#$#hide-if-matches-xpath './/div/span[contains(text(), "Sponsored")]/ancestor::section'
 tripadvisor.com#$#hide-if-matches-xpath './/div[@data-curated-shelf-id and .//div[contains(text(), "Sponsored by")]]/self::div[1]'
-tripadvisor.com#$#hide-if-matches-xpath './/div[.//div[contains(text(), "Sponsored by")]][not(@id) and not(@data-test-target) and not(ancestor::nav) and not(ancestor::header)]'
+tripadvisor.com#$#hide-if-matches-xpath './/div[.//div[contains(text(), "Sponsored by")]]/ancestor-or-self::div[@class]/parent::span[1]'
 ! #RM-85
 ! #RM-78
 noon.com#$#hide-if-matches-xpath './/span[@color][contains(text(),"Sponsored")]/ancestor-or-self::div[@class="componentArea-0"]'
@@ -1205,6 +1204,7 @@ datanodes.to#$#hide-if-matches-xpath './/a[@rel][@target="_blank"]/img[@alt="Wat
 fmovies.*#$#hide-if-matches-xpath '//div[starts-with(@style, "position: fixed; inset: 0px; z-index: 2147483647; background: black; opacity: 0.01;")]';
 pixhost.to#$#prevent-listener getexoloader;
 gogoanimes.*#$#abort-current-inline-script Math break;case $.
+||kemono.su^$csp=script-src-attr 'none'
 ! Video ads
 ||content.sinpartycdn.com/*pre-roll-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
 ||content.sinpartycdn.com/videos-ads/*$media,rewrite=abp-resource:blank-mp4,domain=sinparty.com
@@ -1771,7 +1771,7 @@ aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
 watchsb.com#$#abort-on-property-read __Y
 tinsoikeo.live#$#abort-on-property-read sessionStorage;abort-current-inline-script $ window.open
-motchill.now,ohaytv.my#$#abort-on-property-read sessionStorage
+motchill.bot,ohaytv.my#$#abort-on-property-read sessionStorage
 plvb.xyz,rk.plcdn.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
 hh3dhay.life,hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
 luotphim1.net,mephim.ink,cdnwp.icu#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
@@ -1793,7 +1793,7 @@ cliphot69.pics#$#override-property-read a_vid 0
 ! Popup/Popunder/Clickunder
 fembed.com,femax20.com,m.blogtruyenvn.org,viettoons.tv,vinaurl.net,animet3.info,anh.moe,maclife.io,xemphimjav.com,hoctot.hocmai.vn,motchilltv.la,cdn2.blueskychilling.online,ohaha79xxx.site,fastscans4.net,herotruyen.com#$#abort-on-property-read open
 tvhay.top#$#abort-current-inline-script JSON.parse atob
-truyen2u.vip#$#abort-current-inline-script eval
+truyen247.top#$#abort-current-inline-script eval
 thienhatruyen3.com#$#abort-current-inline-script $ pc-popup-2
 sexphimhd.net,www.gvnvh.net#$#abort-current-inline-script Math
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
@@ -1806,7 +1806,7 @@ xoilacxj.cc#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.moi,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenomega.com,yurineko.moe,vlxyz.tube,hd.javhay.site,phimsexhay669.pro,cliphot69.skin,doctruyen3qk.pro,ihentai.chat,animehay.ink,jav.vc,top1sex.me,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.io,truyenvn.vin,cdnstream.sbs,javtiful.com,sex.tuoi69.store,quatvn.fit,tenmientruyengi.net,topviet69.vip,phim18hd.sex,web.sexviet88.xyz,nungmup.net,demo.14412882.com,nungmup.net,ungtycomicsvip.org,xemphim18.vip,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx#$#abort-current-inline-script WebAssembly instantiate
+viet69.ec,ungtycomicsvip.com,truyengihotqua.net,truyengihotqua.com,truyengihotdo.net,truyengihotnha.com,truyengihotnha.net,truyengihotnay.com,dualeotruyenomega.com,yurineko.moe,vlxyz.tube,hd.javhay.site,phimsexhay669.pro,cliphot69.skin,doctruyen3qk.pro,ihentai.chat,animehay.ink,jav.vc,top1sex.me,sexmup18.com,hentaivn.today,sexvn1.cc,streamvl.top,www.buomtv.io,truyenvn.vin,cdnstream.sbs,javtiful.com,sex.tuoi69.store,quatvn.fit,tenmientruyengi.net,topviet69.me,phim18hd.sex,web.sexviet88.xyz,nungmup.net,demo.14412882.com,nungmup.net,ungtycomicsvip.org,xemphim18.vip,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx#$#abort-current-inline-script WebAssembly instantiate
 phimtuoitho.site#$#abort-current-inline-script document.documentElement break;case
 phimdinhcao.net,phimlongtieng.net,www.phimdinhcaoz.com#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
@@ -1823,7 +1823,7 @@ animehay.ink#$#abort-current-inline-script document.addEventListener window.open
 audiotruyenfull.com#$#abort-on-property-read adpiaListUrl
 vailonxx.vip,phimlongtieng.com,phimlongtieng.net#$#abort-current-inline-script jQuery window.open
 tctruyen.cc,abtruyenmoi.com#$#abort-current-inline-script $ popup
-truyenqq2.com,viet69.town#$#abort-current-inline-script Promise break;case
+truyenqq5.com,viet69.gold#$#abort-current-inline-script Promise break;case
 holyfilm.org#$#abort-current-inline-script window.addEventListener window.open
 www.nettruyenupp.com#$#abort-on-property-read sp
 phimtho.net#$#abort-current-inline-script $ p0pUpRandom

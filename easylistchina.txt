@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: KW6ANtC8EBGx3Z2ZArGKpQ
-! Version: 202411250050
+! Checksum: M+6pXioNTeV/fpd3oDYbkw
+! Version: 202411260051
 ! Title: EasyList China
-! Last modified: 25 Nov 2024 00:50 UTC
+! Last modified: 26 Nov 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1738,9 +1738,16 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||khastreol.com^
+||gokrafxr.icu^
 ||uldaens.com^
 ||qidzwhfp.icu^
 ||aizhantj.com^
+||g41i.icu^
+||tweizai.top^
+||wcwkcus.top^
+||brulpha.com^
+||uweizat.top^
 ||lipheak.com^
 ||xcwdcynb.icu^
 ||wweizae.top^
@@ -10908,7 +10915,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||twkan.com/js/otherad
 ||element-plus.org/images/sponsors/
 !------------------------Specific element hiding rules------------------------!
-cn.bing.com##.b_algo:has(p[class^="b_lineclamp2 b_algoSlug "])
+cn.bing.com#?#.b_algo:-abp-has(p[class^="b_lineclamp2 b_algoSlug "])
 szxx.com.cn###A0
 131400.best,vikacg.com,vikacg.xyz##.post-card-list > a
 appinn.com##a[href*=".houdeyun.cn"]
