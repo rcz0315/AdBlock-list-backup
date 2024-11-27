@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202411260051
+! Version: 202411262230
 ! Title: EasyPrivacy
-! Last modified: 26 Nov 2024 00:51 UTC
+! Last modified: 26 Nov 2024 22:30 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -10991,6 +10991,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||photobox.com/logs
 ||phrasetech.com/api/collect
 ||pi.ispot.tv^
+||pi.pardot.com/analytics?
 ||piano.io/api/v3/customform/log/impression
 ||piano.io/tracker/
 ||pico.tools/metrics/
@@ -14769,6 +14770,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||thesun.co.uk/assets/client/newrelicExperimentTracking~
 ||thesun.ie/track?
 ||thetimes.co.uk/track?
+||thetruth.com/pd.js
 ||thewindowsclub.com/wp-content/themes/genesis/lib/js/skip-links.min.js
 ||thisiswhyimbroke.com/api/user/gift-guide-thumbnail-homepage/tracking
 ||thisiswhyimbroke.com/api/user/tracking
@@ -15415,16 +15417,6 @@ abema.tv##^script:has-text(NREUM)
 ! #else
 abema.tv##+js(rmnt, script, NREUM)
 ! #endif
-://coomer.su^$xhr,method=patch|post
-://kemono.su^$xhr,method=patch|post
-@@/^https:\/\/coomer\.su\/api\/v1\/(?:fansly|onlyfans)\/user\/[-.0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xhr,1p,match-case,method=post
-@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/creator\/(?:fansly|onlyfans)\/[-.0-9A-Z_a-z]+$/$xhr,1p,match-case,method=post
-@@/^https:\/\/coomer\.su\/api\/v1\/favorites\/post\/(?:fansly|onlyfans)\/[-.0-9A-Z_a-z]+\/\d+$/$xhr,1p,match-case,method=post
-@@/^https:\/\/kemono\.su\/api\/v1\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/user\/[-.0-9A-Z_a-z]+\/post\/[-0-9A-Za-z]+(?:\/flag)?$/$xhr,1p,match-case,method=post
-@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/creator\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[-.0-9A-Z_a-z]+$/$xhr,1p,match-case,method=post
-@@/^https:\/\/kemono\.su\/api\/v1\/favorites\/post\/(?:afdian|boosty|discord|dlsite|fan(?:box|tia)|gumroad|onlyfans|patreon|subscribestar)\/[-.0-9A-Z_a-z]+\/[0-9A-Za-z]+$/$xhr,1p,match-case,method=post
-@@||coomer.su/.well-known/ddos-guard/mark/|
-@@||kemono.su/.well-known/ddos-guard/mark/|
 ! phileweb.com
 ||clarity.ms/tag/$script,domain=phileweb.com,important
 phileweb.com##+js(set-attr, span[class] img.lazyload[width], src, [data-src])
