@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202412142337
+! Version: 202412152158
 ! Title: EasyPrivacy
-! Last modified: 14 Dec 2024 23:37 UTC
+! Last modified: 15 Dec 2024 21:58 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -318,6 +318,7 @@
 /api/adplogger/*
 /api/async.php?t=user&m=pagehits&
 /api/bfb_write_log
+/api/click/*?c=
 /api/cmp_tracker|
 /api/drpStats
 /api/event-rfkj/*
@@ -2639,7 +2640,7 @@
 /wp-slimstat.min.js
 /wp-statistics-tracker.min.js
 /wp-statistics/assets/js/tracker.js
-/wp-statistics/v2/hit?
+/wp-statistics/v2/hit
 /wp-stats-manager/js/wsm_new.js
 /wp-useronline/useronline.js
 /wp_stat.php?
@@ -9033,6 +9034,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||gsspcln.jp^$third-party
 ||gyro-n.com^$third-party
 ||h-cast.jp^$third-party
+||hebiichigo.com^$third-party
 ||hitgraph.jp^$third-party
 ||i-mobile.co.jp^$third-party
 ||i2ad.jp^$third-party
@@ -11222,6 +11224,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.pinimg.com/ct/core.js
 ||s.srvsynd.com^
 ||s.vibe.co^
+||s3.amazonaws.com/www.audiencenetwork.ai/
 ||sa.scorpion.co^
 ||saasexch.com/bapi/fe/usd/report/
 ||safe-iplay.com/logger
@@ -13147,6 +13150,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||kvartirant.ru/counter.php?
 ||likemore-go.imgsmail.ru^$image
 ||linestudio.ru/counter/
+||logs.adplay.ru^
 ||logs.viavideo.digital^
 ||mail.ru/cm.gif?
 ||mango-office.ru/calltracking/
@@ -13181,6 +13185,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||st.hbrd.io^
 ||stainlesssteel.ru/counter.php?
 ||stat.eagleplatform.com^
+||stat.fly.codes^
 ||stat.rum.cdnvideo.ru^
 ||stat.sputnik.ru^
 ||stat.tvigle.ru^
@@ -15414,8 +15419,10 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||pcoptimizedsettings.com/wp-content/plugins/koko-analytics/$script,redirect=noop.js,important
 ||pcoptimizedsettings.com/wp-content/uploads/breeze/google/gtag.js$script,redirect=noop.js,important
 ! GPC
-porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
-porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
+visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
+! Clear GPC storage item
+visible.com##+js(set-local-storage-item, browser-ids, $remove$)
 ! server-side GTM
 bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ! chartbeat.js redirect
@@ -52275,6 +52282,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||eq-beacon.stream.co.jp^
 ||eq-player-log.cdnext.stream.ne.jp^
 ||eropuru.com/plugin/tracking/
+||esports-world.jp/js/banner.event.js
 ||event.lib.visumo.io/js/hbn_track.js
 ||fensi.plus^*/tracking/
 ||fspark-ap.com/ft/analytics_log
@@ -53220,7 +53228,7 @@ mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! ! omtrdc.net
 @@||omtrdc.net^*/mbox/json?$xmlhttprequest,domain=absa.co.za|att.com|pnc.com|vodafone.it
 ! ! tags.tiqcdn.com
-@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|vmware.com
+@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
 ! statcounter.com charts https://github.com/uBlockOrigin/uAssets/issues/11321
 @@||gs.statcounter.com/chart.php$script,third-party
 @@||statcounter.com/js//fusioncharts.charts.js
