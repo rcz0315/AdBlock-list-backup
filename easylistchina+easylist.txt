@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9dT3JTGtpK68L0MYkg78xA
-! Version: 202412180051
+! Checksum: oEnO67Gr8j4np1pYfe+cTw
+! Version: 202412181501
 ! Title: EasyList China+EasyList
-! Last modified: 18 Dec 2024 00:51 UTC
+! Last modified: 18 Dec 2024 15:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1749,6 +1749,16 @@ newduba.cn###jq_youxi
 ||screspoy.com^
 ||ua2.icu^
 ||ttimiyi.top^
+||elloisny.com^
+||zabpgtjh.icu^
+||utimiyt.top^
+||ee5.icu^
+||pofbpx.icu^
+||sckyf.com^
+||ppio12181ios.top^
+||stongors.com^
+||4we.icu^
+||otimiyk.top^
 ||qonbibff.icu^
 ||n7a.icu^
 ||craegvin.com^
@@ -20481,7 +20491,7 @@ _atblockdetector/
 /468-60-
 /468-60.
 /468-60_
-/468_60.
+/468_60.$image
 /468_60_
 /468_80.
 /468_80/*
@@ -20534,7 +20544,7 @@ _atblockdetector/
 /728_90/*
 /728_90_
 /728x90-
-/728x90.
+/728x90.$image
 /728x90/*
 /728x90_
 /750-100.
@@ -34482,6 +34492,9 @@ _800x80_
 ##.vidible-wrapper
 ##.wps-player-wrap
 ##[class^="s2nPlayer"]
+! hianime.to
+##.pizza-x.pizza
+##.pizza-y.pizza
 ! Outbrain
 ###around-the-web
 ###g-outbrain
@@ -42699,6 +42712,7 @@ browsershots.org#@#.advert_area
 ||dovictinian.com^
 ||down1oads.com^
 ||download-adblock-zen.com^
+||download-privacybear.com^
 ||download-ready.net^
 ||download4.cfd^
 ||download4allfree.com^
@@ -63231,6 +63245,7 @@ browsershots.org#@#.advert_area
 ||donkstar1.online^$document
 ||donkstar2.online^$document
 ||doostozoa.net^$document
+||download-privacybear.com^$document
 ||downloading-addon.com^$document
 ||downloading-extension.com^$document
 ||downlon.com^$document
@@ -72135,6 +72150,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||expats.cz/images/amedia/
 ||f1tcdn.net/images/banners/$domain=f1technical.net
 ||facebook.com/network_ads_common
+||faceitanalyser.com/static/stats/i/sponsors/
 ||familylawweek.co.uk/bin_1/
 ||fastapi.tiangolo.com/img/sponsors/$image
 ||fauceit.com/Roulette-(728x90).jpg
@@ -78424,6 +78440,7 @@ cnn.com##.stack__ads
 barrons.com##.standard__AdWrapper-sc-14sjre0-6
 gameworldobserver.com##.start-popup
 geoguessr.com##.start__display-ad
+sourceforge.net##.sterling
 bostonglobe.com##.stick_1200--tablet
 ar15.com##.stickers
 kathmandupost.com##.sticky--bottom
