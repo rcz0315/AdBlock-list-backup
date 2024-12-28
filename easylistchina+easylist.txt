@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: D7QlBEv3nkzN5utkh0PalQ
-! Version: 202412270050
+! Checksum: GrSjXwM9IGtM2r7NSdsO2g
+! Version: 202412280051
 ! Title: EasyList China+EasyList
-! Last modified: 27 Dec 2024 00:50 UTC
+! Last modified: 28 Dec 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1748,8 +1748,17 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||noslugut.com^
+||rklzpo.com^
+||mwilmix.top^
 ||ncvwnp.icu^
 ||sachaits.com^
+||fzdwtage.icu^
+||gw8.icu^
+||bwilmiv.top^
+||gmso12271oka.top^
+||screddoit.com^
+||n8u.icu^
 ||pzzedx.icu^
 ||owilmik.top^
 ||jy7.icu^
@@ -10115,6 +10124,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||httpcn.com^*950-120
 !------------------------Specific element hiding rules------------------------!
 85po.com##.asside-link
+ip138.com###banana
 appinn.com###sidebar > .widget_block > a
 jnhulz5yys.shop,wuwuplus.shop##.small-icon-container
 52asus.com###AsusMall-contain
@@ -17864,6 +17874,7 @@ _rony.js$script,third-party
 /\.[a-z]oubli[a-z].top\//$script,third-party
 /\.[a-z]yjqgp[a-z].top\//$script,third-party
 ||aoao1*iis.top/$script,third-party
+||gmso1*oka.top/$script,third-party
 /\.[a-z]weisi[a-z].top\//$script,third-party
 !
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
@@ -34335,6 +34346,7 @@ browsershots.org#@#.advert_area
 ||291hkcido.de^
 ||295a9f642d.com^
 ||2989f3f0ff.com^
+||29a7397be5.com^
 ||29apfjmg2.de^
 ||29b124c44a.com^
 ||29s55bf2.de^
@@ -34618,6 +34630,7 @@ browsershots.org#@#.advert_area
 ||5ea36e0eb5.com^
 ||5ed55e7208.com^
 ||5eef1ed9ac.com^
+||5f631bb110.com^
 ||5f6dmzflgqso.com^
 ||5f6efdfc05.com^
 ||5f93004b68.com^
@@ -34873,6 +34886,7 @@ browsershots.org#@#.advert_area
 ||a5jogo.biz^
 ||a5jogo.club^
 ||a64x.com^
+||a67c5c438d.com^
 ||a6dc99d1a8.com^
 ||a700fb9c8d.com^
 ||a717b6d31e.com^
@@ -38224,6 +38238,7 @@ browsershots.org#@#.advert_area
 ||bonyspecialist.pro^
 ||bonzai.ad^
 ||boodaisi.xyz^
+||boodiecawquaw.top^
 ||boogopee.com^
 ||bookadil.com^
 ||bookbannershop.com^
@@ -42308,6 +42323,7 @@ browsershots.org#@#.advert_area
 ||embogsoarers.com^
 ||embowerdatto.com^
 ||embracetrace.com^
+||embrawnseeping.top^
 ||embtrk.com^
 ||embwmpt.com^
 ||emediate.dk^
@@ -45067,6 +45083,7 @@ browsershots.org#@#.advert_area
 ||hadtwobr.info^
 ||hadute.xyz^
 ||haffnetworkmm.com^
+||hafhwagagswy.com^
 ||hafonmadp.com^
 ||hagdenlupulic.top^
 ||hagdispleased.com^
@@ -53015,6 +53032,7 @@ browsershots.org#@#.advert_area
 ||principledecliner.info^
 ||principlessilas.com^
 ||pringed.space^
+||prinkergp.top^
 ||prinksdammit.com^
 ||printaugment.com^
 ||printerswear.com^
@@ -58916,6 +58934,7 @@ browsershots.org#@#.advert_area
 ||uads.guru^
 ||uads.space^
 ||uafkcvpvvelp.com^
+||uahosnnx.com^
 ||uaiqkjkw.com^
 ||uavbgdw.com^
 ||uawvmni.com^
@@ -61528,6 +61547,7 @@ browsershots.org#@#.advert_area
 ||zealsalts.com^
 ||zebeaa.click^
 ||zeebestmarketing.com^
+||zeecajichaiw.net^
 ||zeechoog.net^
 ||zeechumy.com^
 ||zeeduketa.net^
@@ -72393,6 +72413,7 @@ passwordsgenerator.net###ADCENTER
 passwordsgenerator.net###ADTOP
 advfn.com###APS_300_X_600
 advfn.com###APS_BILLBOARD
+thetvdb.com###ATF
 seafoodsource.com###Ad1-300x250
 seafoodsource.com###Ad2-300x250
 seafoodsource.com###Ad3-300x250
@@ -72403,7 +72424,7 @@ ranker.com###BLOG_AD_SLOT_1
 weegy.com###BannerDiv
 80.lv###Big_Image_Banner
 citynews.ca###Bigbox_300x250
-calculatorsoup.com###Bottom
+calculatorsoup.com,thetvdb.com###Bottom
 coincheckup.com###CCx5StickyBottom
 chicagoprowrestling.com###Chicagoprowrestling_com_Top
 gayemagazine.com###Containera2sdv > div > div > div[id^="comp-"]
@@ -75988,6 +76009,7 @@ news12.com##.kBEazG
 ticketmaster##.kOwduY
 easypet.com##.kadence-conversion-inner
 plagiarismchecker.co##.kaka
+piokok.com##.kaksgon
 hellogiggles.com##.karma_unit
 koreaboo.com##.kba-container
 kimcartoon.li##.kcAds1
@@ -77975,6 +77997,7 @@ etherscan.io##[data-t8xt5pt6kr-seq="0"]
 si.com##[data-target="ad"]
 coingecko.com##[data-target="ads.banner"]
 the-express.com##[data-tb-non-consent]
+drivencarguide.co.nz##[data-test-ui="outbrain-suggestions"]
 woot.com##[data-test-ui^="advertisementLeaderboard"]
 target.com##[data-test="featuredProducts"]
 zillow.com##[data-test="search-list-first-ad"]
