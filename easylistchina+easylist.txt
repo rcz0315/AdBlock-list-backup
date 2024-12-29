@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GrSjXwM9IGtM2r7NSdsO2g
-! Version: 202412280051
+! Checksum: wFDKfeBiGLDo85V2qW3cxw
+! Version: 202412290051
 ! Title: EasyList China+EasyList
-! Last modified: 28 Dec 2024 00:51 UTC
+! Last modified: 29 Dec 2024 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1748,9 +1748,19 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||iemhotqk.com^
+||rvxmlj.icu^
+||vjzvgvgz.icu^
 ||noslugut.com^
 ||rklzpo.com^
 ||mwilmix.top^
+||tsbrzz.icu^
+||trjfoagf.icu^
+||sn9.icu^
+||cclimif.top^
+||8cp.icu^
+||hclimiu.top^
+||relgrads.com^
 ||ncvwnp.icu^
 ||sachaits.com^
 ||fzdwtage.icu^
@@ -6370,7 +6380,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||99496.com/v9/head.js
 ||999meiju.com/js/tj
 ||99danji.com/kchtml/
-||99kubo.tv/static/img/adsfree.png
 ||99lb.net/index_files/*/970
 ||99mst.com/upfiles/adv/main02.jpg
 ||99nets.com/kfb/index.html
@@ -10122,6 +10131,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||twkan.com/js/otherad
 ||element-plus.org/images/sponsors/
 ||httpcn.com^*950-120
+||aatv.app/sport/sport.js
 !------------------------Specific element hiding rules------------------------!
 85po.com##.asside-link
 ip138.com###banana
@@ -14606,7 +14616,6 @@ wdzzz.com##.zz_nr
 3g.baidu.com,m.baidu.com,m5.baidu.com,www.baidu.com#?#div:-abp-has(>div[id$="_1"]+div[id$="_5"])
 423down.com#?#.post-related > ul > li:-abp-has(> a[href^="http"]:not([href*="423down."]))
 423down.com#?#li:-abp-has(> .pic[href^="http"]:not([href*="423down."]))
-99kubo.tv#?#div[style*="width"]:-abp-has(> div[style] > img[src="/static/img/adsfree.png"])
 sina.com.cn##:not(.BigPic) > a[href*="sax.sina.com.cn/click?"]
 iqiyi.com##:not(.qy-index-page) > div[id^="100000"]
 1111.baidu.com,bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##:not(.tbui_slideshow_slide) > div[data-daid]
@@ -14771,7 +14780,7 @@ guilinlife.com##a[href*="adclicks&"]
 159i.com##a[href*="ai69"]
 v.qq.com##a[href*="amway.com.cn"]
 kanqiuba.net##a[href*="bet"]
-141jj.com,99kubo.tv,jumi.su,preface.ai,r3sub.com##a[href*="bit.ly"]
+141jj.com,jumi.su,preface.ai,r3sub.com##a[href*="bit.ly"]
 6park.com##a[href*="bpropolis."]
 dapenti.com##a[href*="cashier.iqiyi.com"]
 editcode.net,itboth.com,itkeyword.com,ruyo.net,zhanzhangb.com##a[href*="cloud.tencent.com"]
@@ -15406,7 +15415,6 @@ gfan.com##div[style="width:960px;height:90px;margin-top:10px;"]
 youth.cn##div[style="width:960px;height:90px;margin:0 auto;"]
 plus28.com##div[style="width:960px;margin: auto;"]
 se533.com##div[style="width:960px;margin:0 auto;text-align:center;"]
-99kubo.tv##div[style="width:970px; height:250px;"]
 codeceo.com##div[style="width:970px;margin:0 auto"]
 cool3c.com##div[style="width:98%;border:1px solid #ddd;padding:5px;margin-top:5px;"]
 6parknews.com##div[style="width:990px;height:140px;margin-left:auto;margin-right:auto;text-align:center;"]
@@ -15619,8 +15627,6 @@ cartoonmad.com##table[width="950"] > tbody > tr > td > table[width="210"] > tbod
 16sucai.com,bbxxbbs.net##table[width="960"]
 esnai.com##table[width="960"] > tbody > tr > td[height="90"]
 fpdisplay.com##table[width="960"][height="110"]
-99kubo.tv##table[width="970"][height="260"]
-99kubo.tv##table[width^="9"][height="90"]
 taobao.com#?#.item-ad
 51credit.com,hkepc.com##tbody[id^="normalthread_"] + tbody:not([id])
 cartoonmad.com##td[align="center"][height="102"]
@@ -33195,6 +33201,7 @@ _800x80_
 ##a[href^="https://go.xxxjmp.com"]
 ##a[href^="https://go.xxxvjmp.com/"]
 ##a[href^="https://golinks.work/"]
+##a[href^="https://helmethomicidal.com/"]
 ##a[href^="https://hot-growngames.life/"]
 ##a[href^="https://in.rabbtrk.com/"]
 ##a[href^="https://intenseaffiliates.com/redirect/"]
@@ -34669,6 +34676,7 @@ browsershots.org#@#.advert_area
 ||64580df84b.com^
 ||65wenv5f.xyz^
 ||665166e5a9.com^
+||6657e4f5c2.com^
 ||66a3413a7e.com^
 ||67trackdomain.com^
 ||68069795d1.com^
@@ -37547,6 +37555,7 @@ browsershots.org#@#.advert_area
 ||bdxhujrned.buzz^
 ||be-frioaj.love^
 ||be30660063.com^
+||be51586160.com^
 ||bea988787c.com^
 ||beachanatomyheroin.com^
 ||beakerweedjazz.com^
@@ -43097,6 +43106,7 @@ browsershots.org#@#.advert_area
 ||fc7c8be451.com^
 ||fc861ba414.com^
 ||fccinteractive.com^
+||fceedf7652.com^
 ||fckmedate.com^
 ||fcwlctdg.com^
 ||fd2cd5c351.com^
@@ -45346,6 +45356,7 @@ browsershots.org#@#.advert_area
 ||heliumwinebluff.com^
 ||hellominimshanging.com^
 ||helltraffic.com^
+||helmethomicidal.com^
 ||helmetregent.com^
 ||helmfireworkssauce.com^
 ||helmingcensers.shop^
@@ -45751,6 +45762,7 @@ browsershots.org#@#.advert_area
 ||hotkabachok.com^
 ||hotlinedisappointed.com^
 ||hotnews1.me^
+||hottedholster.com^
 ||hottercensorbeaker.com^
 ||hotwords.com^
 ||houdodoo.net^
@@ -46893,6 +46905,7 @@ browsershots.org#@#.advert_area
 ||jbm6c54upkui.com^
 ||jbrlsr.com^
 ||jbtul.com^
+||jbvoejzamqjzl.top^
 ||jbwiujl.com^
 ||jbzmwqmqwowaz.top^
 ||jc32arlvqpv8.com^
@@ -49795,6 +49808,7 @@ browsershots.org#@#.advert_area
 ||muriheem.net^
 ||murkybrashly.com^
 ||murkymouse.online^
+||murolwsi.com^
 ||musclesadmonishment.com^
 ||musclesprefacelie.com^
 ||muscularcopiedgulp.com^
@@ -54084,6 +54098,7 @@ browsershots.org#@#.advert_area
 ||rapepush.net^
 ||raphanysteers.com^
 ||raphidewakener.com^
+||rapidfoxengine.com^
 ||rapidhits.net^
 ||rapidhunchback.com^
 ||rapidlypierredictum.com^
@@ -56712,6 +56727,7 @@ browsershots.org#@#.advert_area
 ||spo-play.live^
 ||spoiledpresence.com^
 ||spoilmagicstandard.com^
+||spokanchap.com^
 ||spokesperson254.fun^
 ||spondeekitling.top^
 ||spongecell.com^
@@ -59783,6 +59799,7 @@ browsershots.org#@#.advert_area
 ||vihub.ru^
 ||viiavjpe.com^
 ||viibest.com^
+||viibmmqc.com^
 ||viicylmb.com^
 ||viiczfvm.com^
 ||viiddai.com^
@@ -65709,6 +65726,7 @@ browsershots.org#@#.advert_area
 ||heefothust.net^$popup
 ||heeraiwhubee.net^$popup
 ||hehighursoo.com^$popup
+||helmethomicidal.com^$popup
 ||hentaifap.land^$popup
 ||heptix.net^$popup
 ||heratheacle.com^$popup
@@ -67743,6 +67761,7 @@ browsershots.org#@#.advert_area
 ||viewlnk.com^$popup
 ||vigorouslymicrophone.com^$popup
 ||viiavjpe.com^$popup
+||viibmmqc.com^$popup
 ||viicasu.com^$popup
 ||viiczfvm.com^$popup
 ||viidirectory.com^$popup
@@ -81137,8 +81156,8 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com,youp
 @@||ads.adthrive.com/sites/$script,domain=adamtheautomator.com|mediaite.com|packhacker.com|packinsider.com
 @@||ads.freewheel.tv/|$media,domain=cnbc.com|fxnetworks.com|my.xfinity.com|nbc.com|nbcsports.com
 @@||ads.kbmax.com^$domain=adspipe.com
-@@||ads.pubmatic.com/adserver/js/$script,domain=zeebiz.com
-@@||ads.pubmatic.com/AdServer/js/pwtSync/$script,subdocument,domain=dnaindia.com|independent.co.uk|wionews.com
+@@||ads.pubmatic.com/adserver/js/$script,domain=wionews.com|zeebiz.com
+@@||ads.pubmatic.com/AdServer/js/pwtSync/$script,subdocument,domain=dnaindia.com|independent.co.uk
 @@||ads.roblox.com/v1/sponsored-pages$xmlhttprequest,domain=roblox.com
 @@||ads.rogersmedia.com^$subdocument,domain=cbc.ca
 @@||ads.rubiconproject.com/prebid/$script,domain=drudgereport.com|everydayhealth.com
