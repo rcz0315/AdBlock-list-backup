@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: yb6Ih8aQrE7vVt65Xhtoxg
-! Version: 202501020040
+! Checksum: CCYju4WpMhc5jtpO4sOvhA
+! Version: 202501022340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-02 00:40 UTC
+! Last modified: 2025-01-02 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36301,6 +36301,7 @@ neuralink.com##._cookiePopup_hshe1_11
 bitvavo.com##._cookiePresenter_isjkl_1
 pixiv.net##._gdpr-notify-header
 dic.pixiv.net##._gdpr-notify-header_replace
+getblock.io##._getblock_ui_cookie_1m598_1
 instagram.com##._he402
 my.macpaw.com##._notification_qpb1z_1
 abplive.com##._p_policy
@@ -36696,7 +36697,7 @@ rdu.com##.cookie-panel-wrapper
 evocsports.com##.cookie-permission-overlay
 mindworks-creative.com##.cookie-permission-popup
 oddsscanner.com##.cookie-policy-pop-up
-revolutionrace.com##.cookie-popup
+nobliecustomknives.com,revolutionrace.com,teemill.com##.cookie-popup
 slidelizard.com##.cookie-popup-dialog
 revolutionrace.com##.cookie-popup__content
 acquire.io,dfine.at,esim.guru##.cookie-popup_component
@@ -36865,7 +36866,6 @@ lovehoney.co.uk,lovehoney.com.au##.dis_message
 btlaw.com##.disclaimer-container
 taste.com.au##.disclaimer-note
 armdocs.com##.disclaimer-notice
-cheynecapital.com##.disclaimer-overlay
 news.com.au##.disclaimer-text
 joom.com##.disclaimer___z2DLJ
 xmarkets.db.com##.disclaimer_web
@@ -38234,7 +38234,7 @@ freshcart.se,ninelife.no,store.pw.live##.FeatureBar_root___INU8
 !! .v-overlay
 abnt.org.br,adressen.schober.de,andyguitar.co.uk,bimedis.ru,ichbindeinauto.de,mp.cz,order.fiveguys.fr,promotionbasis.de,rypsv.scot,trustpid.com##.v-overlay
 !! .cky-consent-container
-abels.co.uk,beebeeboard.com,cetpenedes.cat,christmasworld.net,coolmaterial.com,cvonline.varbamisteenused.ee,eurooptions.co.uk,saperesalute.it,wintermeeting.escrs.org##.cky-consent-container
+abels.co.uk,beebeeboard.com,cetpenedes.cat,christmasworld.net,coolmaterial.com,cvonline.varbamisteenused.ee,eurooptions.co.uk,saperesalute.it,usavellino1912.com,wintermeeting.escrs.org##.cky-consent-container
 !! Cookie_
 appmetrica.yandex.com,sook.space##[class^="Cookie_"]
 !! .tws-accept-cookies--wrapper
@@ -38461,6 +38461,8 @@ aminarubinacci.it,astromagazin.ro,atlasstoked.com,avlonbg.com,butor-mirjan24.hu,
 bargainmax.co.uk,cam4.com,ddctoolbox.com,pusher.com##div[class^="CookiesConsent"]
 !! class*="CookieConsent"
 bungie.net,certik.com,etonshirts.com,footshop.com,forzafootball.com,get-in-engineering.de,heavenhr.com,mec.ca,penpot.app,pictogrammers.com,podimo.com,prezly.com,print24.com,repvue.com,scmagazine.com,scworld.com,sierranevada.es,visitstockholm.com,zilliz.com##div[class*="CookieConsent"]
+!! .disclaimer-overlay
+cheynecapital.com,community.hero-wars.com##.disclaimer-overlay
 !! .consent-banner
 answers.unity.com,fox.com.tr,gameduell.de,interchalet.de,iziwork.com,jrc.cz,justwatch.com,loudwire.com,navicat.com,nowtv.com.tr,ring.com,screencrush.com,smarty.cz,stromvergleich.de,twitch.tv##.consent-banner
 !! .dialog-lightbox-message
@@ -43103,6 +43105,7 @@ homap.fr##.share_content_button
 rtl.fr##.shared-logo
 boursedirect.fr##.slide-share
 nawaat.org##.social-list-single
+agroligne.com##.social-media-inner
 phonandroid.com##.social-networks
 francetvinfo.fr##.social-zone__wrapper
 pix-geeks.com##.social_icons
@@ -44758,7 +44761,7 @@ apec.fr##.info-sanitaire
 toulousemetro3.fr##.janusbanner
 grand-hotel-dieu.com##.jinLyg
 bricomarche.com##.js-GlobalPopin
-bernard.fr##.js-otsdk
+bernard.fr,jpg.fr##.js-otsdk
 inshallah.com##.jss125
 aromatech.fr##.layout-cookies
 aromatech.fr##.layout-cookies__notice
@@ -47645,7 +47648,7 @@ comicsands.com#@#.sticky-share
 tmstor.es#@#.top_social
 nothiefsallowed.com#@#.twitter-timeline
 google.com#@#SHARE-BUTTON
-geki-cine.jp,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp#@#a[href^="https://twitter.com/intent/tweet?"]
+geki-cine.jp,hypnosismic-anime.com,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp#@#a[href^="https://twitter.com/intent/tweet?"]
 petsmart.com#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
 playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"]
 ! easylist_cookie_allowlist_general_hide.txt
