@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VCPqN5mAK5YuMAHYBmhMdg
-! Version: 202501060051
+! Checksum: WRxmGWC5Fq/pDsvy3IWkQQ
+! Version: 202501070051
 ! Title: EasyList China+EasyList
-! Last modified: 06 Jan 2025 00:51 UTC
+! Last modified: 07 Jan 2025 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1735,10 +1735,17 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||jfrrnf.icu^
 ||jjplaqyo.icu^
 ||tixoilll.com^
 ||hitalsli.com^
 ||lcvwdn.icu^
+||1tp.icu^
+||jdyurlia.top^
+||orcinhyi.com^
+||thruksyq.com^
+||z4v.icu^
+||kdyurlid.top^
 ||lirretsn.com^
 ||nmzbrd.icu^
 ||hrjciqyu.icu^
@@ -9710,6 +9717,9 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||dangbei.net/2022/dbhezi.
 !------------------------Specific element hiding rules------------------------!
 85po.com##.asside-link
+333ood.com###appBox
+333ood.com##div[style$="display: block;"]
+baidu.com##.tieba-pause-ad-container
 laozuo.org###focusslide
 laozuo.org##.container[style="margin-bottom: 3px;"]
 laozuo.org##.widget_ui_orbui
@@ -15334,6 +15344,7 @@ huawei.com#@#.ad-wrap:not(#google_ads_iframe_checktag)
 bitauto.com#@#a[href^="http://ad.doubleclick.net/"]
 brandsales.58.com#@#div[id^="ad_"]
 gohome.com.hk#@#div[id^="div-gpt-ad"]
+333ood.com#@#.ad-box:not(#ad-banner):not(:empty)
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle[data-ad-slot]
 !---------------------------------URL Whitelist-------------------------------!
@@ -18424,7 +18435,7 @@ fqsousou.com,kengso.com#@#.user-share
 /popunder1000.js$script
 /popunder2.js$script
 /popunder?
-/popup-domination/*$~stylesheet
+/popup-domination/*$script
 /popup2.js$script
 /popup3.js$script
 /popup_ad.js$script
@@ -34369,6 +34380,7 @@ browsershots.org#@#.advert_area
 ||9cd76b4462bb.com^
 ||9d2cca15e4.com^
 ||9d603009eb.com^
+||9d87b35397.com^
 ||9dccbda825.com^
 ||9dmnv9z0gtoh.com^
 ||9e3810a418.com^
@@ -73760,7 +73772,6 @@ kentonline.co.uk##.PSDRGC
 govtech.com##.Page-billboard
 afar.com##.Page-header-hat
 apnews.com##.Page-header-leaderboardAd
-quora.com##.PageContentsLayout___StyledBox-d2uxks-0 > .q-box > .q-sticky > .qu-pb--medium
 chronicle.com##.PageHeaderMegaHat
 ask.com##.PartialKelkooResults
 hbr.org##.PartnerCenter-module_container__w6Ige
@@ -76683,6 +76694,7 @@ breakingnews.ie,canberratimes.com.au,theland.com.au##.py-2.bg-gray-100
 fastcompany.com##.py-8
 onlyinyourstate.com##.py-8.md\:flex
 pymnts.com##.pymnt_ads
+quora.com##.q-sticky[style*="box-sizing: border-box; position: sticky;"]
 euronews.com##.qa-dfpLeaderBoard
 infoq.com##.qcon_banner
 thegatewaypundit.com##.qh1aqgd
@@ -79701,7 +79713,6 @@ coinlisting.info#?#.panel:-abp-has(h3:-abp-contains(Sponsored Ad))
 coolors.co#?#a:-abp-has(div:last-child:-abp-contains(Hide))
 neowin.net#?#.ipsColumns_collapsePhone.classes:-abp-contains(Our Sponsors)
 amusingplanet.com#?#.blockTitle:-abp-contains(Advertisement)
-quora.com#?#.q-sticky:-abp-contains(Advertisement)
 corvetteblogger.com#?#aside.td_block_template_1.widget.widget_text:-abp-has(> h4.block-title > span:-abp-contains(Visit Our Sponsors))
 cruisecritic.co.uk,cruisecritic.com#?#div[role="group"]:-abp-contains(Sponsored)
 deccanherald.com#?#div#container-text:-abp-contains(ADVERTISEMENT)
