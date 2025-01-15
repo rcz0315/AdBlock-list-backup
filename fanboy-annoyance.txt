@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: UueLmv/E0xTcfW1KdUGPag
-! Version: 202501132340
+! Checksum: 6llJ0uoDEJKeUpCoSymgiQ
+! Version: 202501150015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-01-13 23:40 UTC
+! Last modified: 2025-01-15 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -17777,7 +17777,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###gdprCookie
 ###gdprCookieBanner
 ###gdprCookieBanner--custom
-###gdprCookieConsentManagedSummary
 ###gdprCookieLaw
 ###gdprCookiePolicy
 ###gdprCookiePopup
@@ -17788,7 +17787,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###gdprHeader
 ###gdprLPDialog
 ###gdprLPDialog_modal
-###gdprLegalNotification
 ###gdprMessage
 ###gdprNotice
 ###gdprNotification
@@ -21529,7 +21527,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.boxContentCookie
 ##.box_Cookie
 ##.box_cookie
-##.box_cookie_allow
 ##.box_cookies
 ##.boxzilla-cookies-popup
 ##.bp-cookie-banner
@@ -22366,7 +22363,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie-bottom-layer
 ##.cookie-bottom-main
 ##.cookie-bottom-place
-##.cookie-box
 ##.cookie-box-en
 ##.cookie-box-wrapper
 ##.cookie-box__overlay
@@ -24855,7 +24851,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.eula-cookie-banner
 ##.eulawbox
 ##.eupopup-background
-##.eupopup-container
 ##.eupopup-container-bottomright
 ##.eupopup-containereu
 ##.eurocookie
@@ -25253,7 +25248,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.gdprCookieLaw
 ##.gdprCookieWrapper
 ##.gdprForm
-##.gdprLegalNotification
 ##.gdprManagerMessage
 ##.gdprMessage
 ##.gdprNotice
@@ -28644,7 +28638,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##div.eu-overlay
 ##div.eu_cookie
 ##div.euconsent
-##div.eupopup
 ##div.ezmob-footer
 ##div.gdpr-bottom
 ##div.gdpr-confirm
@@ -32484,6 +32477,7 @@ gettr.com##img[alt="GETTR coin"]
 airfry.pro##.bg-gradient-to-br:has-text(Cookbook)
 nzherald.co.nz##.element-action-button:has-text(SHARE YOUR STORY)
 laravel-news.com##.mt-10:has-text(Laravel Jobs)
+twitch.tv##.player-overlay-background:has-text(Consider Turbo)
 theintercept.com##.text-\[18px\]:has-text(Support Us)
 twitter.com,x.com##aside[role="complementary"]:has(> a[href="/i/premium_sign_up"])
 dailysignal.com#?#.tds-content > p:-abp-contains(Donate now)
@@ -34824,7 +34818,7 @@ carnewschina.com##.telegram-scrolling
 asiaone.com##.telegram-share-wrapper
 insidebitcoins.com##.telegrame_cta_content
 decrypt.co##.text-neutral-700
-bitcoinsensus.com##.the_champ_sharing_container
+bitcoinsensus.com,cnio.es##.the_champ_sharing_container
 twitchy.com##.thm-sc
 chinadaily.com.cn##.three-right
 favpng.com##.thumbnail_pinit
@@ -35602,6 +35596,7 @@ life.wolt.com###modal-root
 whenavailable.com###modalConsent
 umm.nordpoolgroup.com###modalMain
 shellsmart.com###modal_container
+cnio.es###moove_gdpr_cookie_info_bar
 eurocirc.org###msgBox_error
 solicitor.info###msgbg
 betsson.com###msgwrapper
@@ -42607,7 +42602,6 @@ mastory.jp##.qualvaBtn
 news.yahoo.co.jp##.riff-BackTop__root
 sp.nicovideo.jp##.searchResult-nicoadNicodicItem
 sofmap.com##.side_bnr
-nicovideo.jp##div[class*="anim-n_slideFadeInFromBottom"]:not([aria-label]):has(a[data-anchor-area$="floating_premium_banner"])
 qiita.com##div[data-testid="popup-login"]
 ||amazonaws.com/cdn.ma-site.com/common/chatbots.js$domain=mastory.jp
 ||api.popin.cc^$third-party
@@ -45557,6 +45551,7 @@ narita-koi.com##.CookieConfirm
 tokyotokyo.jp##.annotation-area
 knb.ne.jp##.atention_cookie
 nhk.or.jp##.bottom_optout_announce
+moresco.co.jp##.box_cookie_allow
 ebarafoods.com##.consent_c
 more.hpplus.jp##.cookie-inquiry
 camp-fire.jp##.cookie-policy-agreement-notification
@@ -45929,6 +45924,7 @@ webprojekt.biz##.ppc
 hejto.pl##.py-4.px-6.items-center
 rankomat.pl##.rank-cookie-bar
 prk24.pl##.rk-cookie-overlay
+alloc.pl,bagpolska.pl,dzieciwnature.pl,ecowater.md,ecowater.sk,ecowatersystems.cz,genesis.pl,mikolaj.org.pl,pkf.org.pl,teologiapolityczna.pl,yourcityguides.com##.rodopolicy
 scanner.com.pl##.rstboxes
 home.pl##.sc-1ykjjm8-0.lofKxQ
 cire.pl##.sc-btewqU
@@ -47937,6 +47933,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||kuechencenterweber.de/js/cookiebanner.js$~third-party
 @@||lacoste.com^*/cookie-consent.js
 @@||leanlibrary.com/wp-content/plugins/complianz-gdpr/assets/js/cookieconsent.min.js$~third-party
+@@||learn.inesdi.com/webapps/privacy-disclosure/js/cookieconsent.js$~third-party
 @@||lecourrier-du-soir.com^*/uk-cookie-consent-js
 @@||lightningmaps.org^*/cookieconsent.$script,stylesheet
 @@||lockwood-avenue.com^*/cookielaw/$~third-party
