@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /M0HfL0pnziLuPiJUfXp5Q
-! Version: 202502080050
+! Checksum: U/SjOJ27vEe0k5NOVSaGFw
+! Version: 202502090051
 ! Title: EasyList China
-! Last modified: 08 Feb 2025 00:50 UTC
+! Last modified: 09 Feb 2025 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1738,7 +1738,14 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||tmvirr.icu^
+||udinmat.top^
 ||vjzqfh.icu^
+||8ff0.cn^
+||tdinmai.top^
+||ddc888.com^
+||draktash.com^
+||bildrat.com^
 ||xtdvvp.icu^
 ||vbllxaaj.icu^
 ||apk02070oo.xyz^
@@ -17665,6 +17672,8 @@ _rony.js$script,third-party
 /\.[a-z]dyurli[a-z].top\//$script,third-party
 /\.[a-z]domsi[a-z].top\//$script,third-party
 .okpp1*.xyz/$script,third-party
+.cn/TA390hz2.js$script,third-party
+.cn/by389.js$script,third-party
 .fun/TA390hz2.js
 .fun/by389.js
 .pw/TA390hz2.js
