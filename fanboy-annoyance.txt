@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: nOgmVsqoGYnlYaNELhlGRQ
-! Version: 202502180040
+! Checksum: xAj+0s8V3FQo2GfWIs1BgQ
+! Version: 202502182340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-02-18 00:40 UTC
+! Last modified: 2025-02-18 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -12715,7 +12715,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###Cookie-Popup
 ###Cookie-container_outer
 ###Cookie-scrolldown
-###CookieAccept
 ###CookieAcceptContainer
 ###CookieAcceptLayer
 ###CookieAcceptance
@@ -21752,7 +21751,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cg-cookie-policy-disclaimer
 ##.cg-cookie-warning
 ##.cg-cookies-banner
-##.ch-cookie-consent
 ##.change-cookie-settings
 ##.check-accept-google-analytics
 ##.chimunthu-lgpd-bar-main
@@ -32035,6 +32033,7 @@ kyivindependent.com##.ukraine-daily-side-banner
 flightradar24.com##.upgrade-button
 app.fastmail.com##.v-ReferralsSource
 vigilantcitizen.com##.vigil-after-article
+apkpure.com##.vip-subscribe-pop
 techguide.com.au##.w-nt.h-ni
 w2g.tv##.w2g-doit
 w2g.tv##.w2g-top-message-small
@@ -34971,6 +34970,7 @@ cmegroup.com###cmePermissionQuestion
 c3ny.org,means-of-production.com###cnb
 cnbc.com###cnbcgdpr
 courier.net###cnetc
+williamsburgcinemas.com###cnotify
 dnaindia.com,india.com###co-container
 apmhealtheurope.com###coConsent
 gamblingcommission.gov.uk###cocc-banner
@@ -37891,7 +37891,7 @@ bitkubnft.com,bloomberglaw.com,dopper.com,engen.co.za,insailing.ru,kentik.com,ne
 !! CookiesNoti
 dryg.pl##div[class^="CookiesNoti"]
 !! .cookie-notice
-acidcow.com,amaze.org,artdentis.com,bankofengland.co.uk,breadandbutter.ru,castlefineart.com,drgerard.eu,ecosia.org,estately.com,harveynichols.com,jetset-hairextensions.nl,kappahl.com,mageba-group.com,mashable.com,motocard.com,nc-planica.si,ncfu.ru,onlinedrugtraining.com,pagetiger.com,pryor.com,publicpositions.com,rex-royal.ch,tvsquared.com,viboom.com,vidal.ru,vixx.nl,worldtestchampionship.com,xtreme.pt,zonstudio.nl##.cookie-notice
+acidcow.com,amaze.org,artdentis.com,bankofengland.co.uk,breadandbutter.ru,candaceowens.com,castlefineart.com,drgerard.eu,ecosia.org,estately.com,harveynichols.com,jetset-hairextensions.nl,kappahl.com,mageba-group.com,mashable.com,motocard.com,nc-planica.si,ncfu.ru,onlinedrugtraining.com,pagetiger.com,pryor.com,publicpositions.com,rex-royal.ch,tvsquared.com,viboom.com,vidal.ru,vixx.nl,worldtestchampionship.com,xtreme.pt,zonstudio.nl##.cookie-notice
 !! #cookie-notice
 aschendorff-buchverlag.de,avm-verlag.de,bahai-verlag.de,blog.oup.com,dersportverlag.de,epoch.ai,foodbloggermania.it,kaliscan.com,kaliscan.io,kaliscan.me,ketteler-verlag.de,kuehlen-verlag.de,laaber-verlag.de,mangabuddy.com,mangamirror.com,measurementlab.net,mgjinx.com,novelbuddy.com,sax-verlag.de,skatedeluxe.com,storyblok.com###cookie-notice
 !! #toast-container
@@ -40089,7 +40089,7 @@ foreigndesknews.com,hackread.com##.pk-subscribe-form-wrap
 ny1.com##.playerBlocker
 crikey.com.au##.pm-todays-newsletter-block
 dot.la##.pop-up-content
-intergameonline.com,pbs.org##.popup
+intergameonline.com##.popup
 commondreams.org##.popup--backdrop
 thecooldown.com,wanderlust.co.uk##.popup-box
 busbeestyle.com##.popup-modal
@@ -40414,7 +40414,6 @@ iflscience.com##.subscribeBox
 zookeys.pensoft.net##.subscribeForEmail
 controleng.com##.subscribePromo
 bartendersbusiness.com##.subscribeToOurNewsletter
-pbs.org##.subscribe__box
 thejc.com##.subscribe__footer
 dualipa.com##.subscribe__form
 pbs.org##.subscribe__form-wrapper
@@ -40800,6 +40799,7 @@ thecooldown.com##.has-medium-font-size:has-text(Join our free newsletter)
 comicbook.com##.has-primary-dark-background-color:has-text(Sign up)
 thebarbedwire.com##.has-secondary-background-color:has-text(Subscribe)
 babylonbee.com##.hidden:has-text(Fake news)
+esports.gg##.inset-0.fixed:has-text(Sign up)
 autonews.com##.lg\:u-max-w-\[345px\]:has-text(Sign up)
 mensjournal.com##.m-detail--body > p:has-text(Sign up for the)
 commoncog.com##.md\:px-2.py-10:has-text(Subscribe to the newsletter)
@@ -47679,6 +47679,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||rtlplay.be/oneTrust-$~third-party
 @@||rtlplusz.hu/oneTrust-$script,~third-party
 @@||salonkee.cloud/data/other/js/cookie-consent-
+@@||sandisk-cashback.de/bundles/chcookieconsent/js/cookie_consent.js$~third-party
 @@||santepubliquefrance.fr/rgpd/smarttag.js$script,~third-party
 @@||schibsted.io^*/gdpr-bundle.js
 @@||sdk.privacy-center.org^$script,domain=20minutos.es|24sata.hr|abc.es|allocine.fr|as.com|atresplayer.com|auto.it|autopista.es|beinsports.com|belfasttelegraph.co.uk|bfmtv.com|bonduelle.it|ciclismoafondo.es|cnews.fr|corrieredellosport.it|decathlon.pl|dnevnik.hr|dumpert.nl|dziennikwschodni.pl|dziennikzachodni.pl|ebuyclub.com|edreams.de|edreams.net|elcomercio.es|elconfidencial.com|elespanol.com|eltiempo.es|euronews.com|europe1.fr|filmweb.pl|fip.fr|flair.be|france24.com|franceculture.fr|franceinter.fr|francetvinfo.fr|frandroid.com|funradio.fr|gamepro.de|gamestar.de|giphy.com|gloswielkopolski.pl|gofeminin.de|goplay.be|gva.be|hbvl.be|ivoox.com|jeanmarcmorandini.com|jeuxvideo.com|jofogas.hu|krone.at|kurier.at|ladepeche.fr|lalibre.be|lasexta.com|lasprovincias.es|lavanguardia.com|leboncoin.fr|leparisien.fr|lequipe.fr|marca.com|marianne.net|mein-mmo.de|melty.fr|metronieuws.nl|mitula.pt|motociclismo.es|mountainbike.es|movilzona.es|mundo-geo.es|mundodeportivo.com|mundogravel.es|na.se|naszemiasto.pl|nicematin.com|nieuwsblad.be|numerama.com|ondacero.es|onmeda.de|opodo.ch|opodo.co.uk|opodo.com|opodo.com.au|opodo.de|opodo.dk|opodo.es|opodo.fi|opodo.fr|opodo.it|opodo.nl|opodo.no|opodo.pl|opodo.se|otempo.pt|podcasts.leparisien.fr|profil.at|publicsenat.fr|rainberrytv.com|recup.paylib.fr|revistaoxigeno.es|rfi.fr|rmcbfmplay.com|rtbf.be|rtl.be|rtl.fr|science-et-vie.com|sensacine.com|serially.it|sfgame.net|sncf-connect.com|softonic.com|soycorredor.es|sportlife.es|standaard.be|strefabiznesu.pl|telegraaf.nl|trailrun.es|triatlonweb.es|tuttosport.com|vecernji.hr|video-streaming.orange.fr|xataka.com
