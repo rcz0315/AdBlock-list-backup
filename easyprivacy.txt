@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202502260042
+! Version: 202502270026
 ! Title: EasyPrivacy
-! Last modified: 26 Feb 2025 00:42 UTC
+! Last modified: 27 Feb 2025 00:26 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -3651,7 +3651,6 @@ omni.soundestlink.com$image
 ||adsave.co^$third-party
 ||adsensedetective.com^$third-party
 ||adsmatcher.com^$third-party
-||adsrvr.org^$third-party
 ||adtarget.me^$third-party
 ||adtector.com^$third-party
 ||adtelligence.de^$third-party
@@ -10881,7 +10880,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mon.domdog.io^
 ||monitor-api.blackcrow.ai^
 ||monitor-frontend-collector.a.bybit-aws.com^
-||monitor.azure.com^
 ||monitoring.iraiser.eu^
 ||monorail-edge.shopifysvc.com^
 ||mormont.gamer-network.net^
@@ -53085,7 +53083,6 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com|live.griiip.com
 @@||js.datadome.co/tags.js$script,domain=monster.ca|sso.garena.com|thefork.com
-@@||js.monitor.azure.com/scripts/$script,domain=genya.it|microsoft.com|rubex.efilecabinet.net
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
