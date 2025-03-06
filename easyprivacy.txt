@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202503050051
+! Version: 202503060052
 ! Title: EasyPrivacy
-! Last modified: 05 Mar 2025 00:51 UTC
+! Last modified: 06 Mar 2025 00:52 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -3104,6 +3104,7 @@ _WebVitalsReporter_
 /T/OFC4/*$image
 /track.interestingfacts.com/?xol=
 /track.octanemail.in/sapi/*$image
+/track.sp.actionkit.com/*
 /track/open.php?
 /track/open/*$image
 /track/open?
@@ -11508,6 +11509,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||streamtheworld.com/imp?
 ||stripe.com/?event=
 ||sts.eccmp.com^
+||ststandard.com/ping
 ||stylitics.com/api/engagements
 ||su.pr/hosted_js$third-party
 ||sulia.com/papi/sulia_partner.js/$third-party
@@ -13049,6 +13051,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker.shanon-services.com^
 ||tracker.smartseminar.jp^
 ||trk.fensi.plus^
+||tver-metrics.streaks.jp^
 ||uh.nakanohito.jp^
 ||ukw.jp/taglog/
 ||userdive.com^$third-party
@@ -53123,6 +53126,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 @@||lr-ingest.io/LogRocket.min.js$domain=smartcare.com
 @@||m1tm.insideevs.com/gtm.js$~third-party
 @@||magento-recs-sdk.adobe.net/v2/index.js$script,domain=superbrightleds.com
+@@||main.govpilot.com/jet/js/newrelic.js$~third-party
 @@||mapquestapi.com/logger/$domain=hertz.com
 @@||maps.arcgis.com/apps/*/AppMeasurement.js$~third-party
 @@||maptiles.ping-admin.ru^$image,domain=ping-admin.com
@@ -53519,6 +53523,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 @@||pv.sohu.com/cityjson$domain=ems.com.cn
 @@||statics.zcool.com.cn/track/sensors.$script,~third-party
 @@||tianyancha.com^*/sensorsdata.$script,~third-party
+@@||tracklog.58.com/referrer_ershouche_m_Now.js$domain=m.renrenche.com
 ! 
 ! ---------- Czech ----------
 ! 
