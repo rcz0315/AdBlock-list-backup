@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: eX4eXccS4SRK3u/5Fn83xA
-! Version: 202503080015
+! Checksum: TX2YNQ2ZzePF0UIi1qN3Bg
+! Version: 202503082340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-03-08 00:15 UTC
+! Last modified: 2025-03-08 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14291,7 +14291,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###consent-cookie
 ###consent-footer
 ###consent-management-alert
-###consent-manager
 ###consent-manager-backdrop
 ###consent-manager-overlay
 ###consent-mgmt-banner
@@ -14472,7 +14471,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ###cookie-bar-2019
 ###cookie-bar-bottom
 ###cookie-bar-fixed
-###cookie-bar-main
 ###cookie-bar-message
 ###cookie-bar-mob
 ###cookie-bar-module
@@ -22627,7 +22625,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie-policy-alert
 ##.cookie-policy-area
 ##.cookie-policy-banner-bar
-##.cookie-policy-bar
 ##.cookie-policy-bar-base
 ##.cookie-policy-bar-bottom
 ##.cookie-policy-belt
@@ -22819,7 +22816,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie-window-overlay-no-settings
 ##.cookie-window-select
 ##.cookie-wr
-##.cookie-wrap
 ##.cookie-wrap-content
 ##.cookie-wrap-tip
 ##.cookie-wrapp
@@ -23709,13 +23705,11 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookies-layer
 ##.cookies-layout-module
 ##.cookies-layout-pagina
-##.cookies-left
 ##.cookies-legislation
 ##.cookies-lightbox
 ##.cookies-lightbox-accept
 ##.cookies-line
 ##.cookies-lista
-##.cookies-main
 ##.cookies-main-banner
 ##.cookies-main-overlay
 ##.cookies-management-bar
@@ -23806,8 +23800,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookies-sec
 ##.cookies-second
 ##.cookies-section
-##.cookies-settings
-##.cookies-settings-box
 ##.cookies-slide
 ##.cookies-statement
 ##.cookies-sticker
@@ -29612,6 +29604,7 @@ dashboard.razorpay.com#@##credential_picker_container
 ||addinto.com^$third-party
 ||adobe-campaign.com^$third-party
 ||advantagemedia.com^$third-party
+||affilizz.com^$third-party
 ||allpass.salemwebnetwork.com^$third-party
 ||amazonaws.com/fby.js
 ||amazonaws.com/fby/
@@ -31635,6 +31628,7 @@ ourworldindata.org##.donate-footer
 dailyartmagazine.com##.donate-row
 mprnews.org##.donateAsk
 democracynow.org##.donate_banner
+thenationalpulse.com##.donate_button
 peoplesworld.org##.donate_strip
 audubon.org##.donation
 catholicnewsagency.com##.donation-box
@@ -31772,6 +31766,7 @@ bizpacreview.com##.membership-appeal-top
 daily.jstor.org##.membership-incontent-banner
 birdwatchingdaily.com##.membership-promotion-header-banner
 euobserver.com##.membership-upsell
+thenationalpulse.com##.menu-top-bar-trending-container
 bakusai.com##.menuTopAds
 eurogamer.net,rockpapershotgun.com,vg247.com##.merch_component
 miraheze.org##.mh-notice
@@ -36436,7 +36431,7 @@ themeflood.com##.gatewayContainer
 outdoorgb.com##.gb_cookie_info
 greatbigcanvas.com##.gbc-notifications
 audi.com##.gbp-overlay
-gallup.com,strengthsquest.com##.gcb_35556
+strengthsquest.com##.gcb_35556
 leapyear.io##.gdpr--modal
 principledtechnologies.com##.gdpr-check
 fast-poll.com##.gdpr-cookie-message-wrapper
@@ -36444,6 +36439,7 @@ advocate.com##.gdpr-cookie-wrapper
 epaper.patrika.com##.gdpr-inner
 3dexperience.3ds.com##.gdpr-modal
 uvm.edu##.gdpr-module--gdpr--908b1
+keyboard.cool##.gdpr-nag
 ecwid.com,liberties.eu##.gdpr-window
 doteasy.com,mochahost.com##.gdprTheme
 shop.animalbiome.com##.gdpr__holder
@@ -37527,8 +37523,8 @@ pacificpower.net,rockymountainpower.net##wcss-cookie-banner
 web.dev##web-snackbar
 wirexapp.com##wx-cookie-policy-notification
 ! levoissuzuki.co.uk
-levoissuzuki.co.uk##.cookie-overlay
-levoissuzuki.co.uk##.cookie-policy-bar
+levoissuzuki.co.uk,northridgecars.com##.cookie-overlay
+levoissuzuki.co.uk,northridgecars.com##.cookie-policy-bar
 ! Just Eat
 just-eat.co.uk,just-eat.es,justeat.it##div[data-cookie-consent-overlay]
 just-eat.dk##div[data-qa="granular-privacy-settings"]
@@ -37557,7 +37553,7 @@ sogeti.*###popup-cookieConsent
 ! wayfair
 wayfair.co.uk,wayfair.de,wayfair.ie##.FooterPopups
 !! .consent-banner-root
-geowgs84.com,thegnet.org,wernergevers.be##.consent-banner-root
+abrahamartimpressions.com,geowgs84.com,thegnet.org,wernergevers.be##.consent-banner-root
 !! #cookiescript_injected
 amministrazionicomunali.it,rual-travel.com###cookiescript_injected
 !! #cookiescript_injected_wrapper
@@ -40136,6 +40132,7 @@ thebrokebackpacker.com##.post-form-cta
 tasteofhome.com##.post-nl-promo
 earthsky.org,kitchentreaty.com##.post-subscribe
 readtangle.com##.post-subscribe-cta-wrapper
+thenationalpulse.com##.post__newsletter
 thenationalpulse.com##.post_home__newsletter
 gwaramedia.com##.poster-wrap--subscribe-news
 everythinglifestyle.ca,fraservalleytoday.ca##.pp-btn-container
@@ -41107,6 +41104,7 @@ citoyens.com###nlsubscribe
 croq-kilos.com###popinCK
 sanctuary.fr###popup_actu
 brgm.fr###spb-block-popinnewsletter
+zdnet.fr###zdnet_newsletter_inread
 lopinion.fr##.PromoFooter
 lopinion.fr##.User-subscription-form
 ecommercemag.fr##.bandeau-abo-nl
@@ -41441,7 +41439,6 @@ edikted.com###SMSBump-Modal
 mercato.com###ZipEmailModal
 shop.ordnancesurvey.co.uk###_lpSurveyPopover
 celticwebmerchant.co.uk###abandonednewsletter
-nfm.com###att_lightbox_email
 gpulive.com###automizely_marketing_popup_bars
 misterworker.com###block_footer_custom
 thegoodguys.com.au###catalogueDrawer
@@ -43719,6 +43716,7 @@ fussballmafia.de###fbm_ga_dlg
 femundo.de###femundo-cookie-bar
 gutfried.de###fog
 apotal.de###footer
+dubaro.de###gdpr-cookie-message
 pokewiki.de###gl-topbar-bg
 antonius.de###google-splash-screen
 rapool.de,softwarenetz.de###grayout
@@ -47301,7 +47299,6 @@ allocine.fr#@##didomi-host
 abc.es,as.com,auto.it,corrieredellosport.it,elcomercio.es,elconfidencial.com,elindependiente.com,seguro.elespanol.com,tuttosport.com#@##didomi-notice
 onlinelekarna.cz#@##dm-cookie-popup-container
 kalenderwoche.de#@##gdpr-consent
-deleteme.com#@##gdpr-cookie-message
 ing.jobs#@##gdprconsent
 kwizard.hr,rodicycling.com#@##moove_gdpr_cookie_info_bar
 xsports.lv#@##notice-cookie-block
@@ -47579,7 +47576,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||cdn.clarip.com/frontier/cookieconsent/$domain=flyfrontier.com
 @@||cdn.jsdelivr.net/combine/$script,domain=softube.com
 @@||cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js$script,domain=inkblot.art
-@@||cdn.jsdelivr.net^*/cookie-consent.js$domain=notdiamond.ai|webtic.it
+@@||cdn.jsdelivr.net^*/cookie-consent.js$domain=fluentify.com|notdiamond.ai|webtic.it
 @@||cdn.jsdelivr.net^*/cookieconsent.min.js$domain=electrobueno.com|papekenworth.com
 @@||cdn.opencmp.net/tcf-v2/cmp-latest.js$script,domain=foraum.de
 @@||cdn.opencmp.net/tcf-v2/cmp-stub-latest.js$script,domain=idowa.de
