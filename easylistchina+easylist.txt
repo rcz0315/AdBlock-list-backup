@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: /mOEDcyBagPDmQQcvDx7+w
-! Version: 202503100051
+! Checksum: G6EzG2Oe6qXa0En5uK4TNQ
+! Version: 202503110051
 ! Title: EasyList China+EasyList
-! Last modified: 10 Mar 2025 00:51 UTC
+! Last modified: 11 Mar 2025 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1743,6 +1743,10 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||dtjcvd.icu^
+||vragridsn.com^
+||tpkv.cn^
+||jhrulp.icu^
 ||qtbo.cn^
 ||hnhmxj.icu^
 ||fbphnn.icu^
@@ -1754,6 +1758,8 @@ newduba.cn###jq_youxi
 ||fqnhjt.icu^
 ||lelczf.icu^
 ||shelluiqy.com^
+||ejti.cn^
+||pgyfzyv.top^
 ||thustilpn.com^
 ||nrgv.cn^
 ||hltpdd.icu^
@@ -18376,9 +18382,9 @@ _reklama_$domain=~youtube.com
 ?bd=ppd&r=$document
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
-!://www.*.xyz/contents/*/-1/$script,subdocument,third-party,xmlhttprequest
-!://www.*.xyz/contents/*?h=$script,third-party
-!wss://www.*.xyz/ws^$third-party
+://www.*.xyz/contents/*/-1/$script,subdocument,third-party,xmlhttprequest
+://www.*.xyz/contents/*?h=$script,third-party
+wss://www.*.xyz/ws^$third-party
 ! https://github.com/easylist/easylist/issues/11123
 .com/ed/java.js$script
 /ed/fol457.$script
@@ -35772,6 +35778,7 @@ browsershots.org#@#.advert_area
 ||ascactaqf.com^
 ||asccdn.com^
 ||asce.xyz^
+||ascensionnoosebra.com^
 ||ascensionunfinished.com^
 ||ascentflabbysketch.com^
 ||ascentloinconvenience.com^
@@ -37424,6 +37431,7 @@ browsershots.org#@#.advert_area
 ||brodieoccurs.shop^
 ||brodmn.com^
 ||brodownloads.site^
+||broganswangun.shop^
 ||brogetcode1s.com^
 ||brogetcode4s.cc^
 ||broghpiquet.com^
@@ -37744,6 +37752,7 @@ browsershots.org#@#.advert_area
 ||calamitydisc.com^
 ||calamityfortuneaudio.com^
 ||calasterfrowne.info^
+||calcescutler.shop^
 ||calcpol.com^
 ||calculateproducing.com^
 ||calculatingvoice.com^
@@ -38292,6 +38301,7 @@ browsershots.org#@#.advert_area
 ||chiwaiwhor.xyz^
 ||chl7rysobc3ol6xla.com^
 ||chloredenpia.shop^
+||chmnebon.top^
 ||chmnscaurie.space^
 ||cho7932105co3l2ate3covere53d.com^
 ||choachim.com^
@@ -39483,6 +39493,7 @@ browsershots.org#@#.advert_area
 ||cyg-byzlgtns.world^
 ||cygnetgeorama.shop^
 ||cygnus.com^
+||cyksmcjfyyxxu.rocks^
 ||cylnkee.com^
 ||cyneburg-yam.com^
 ||cynem.xyz^
@@ -39529,6 +39540,7 @@ browsershots.org#@#.advert_area
 ||d33u55zn5p3wfg.cloudfront.net^
 ||d34s743ec78v2w.cloudfront.net^
 ||d35nmq1qnoxdb9.cloudfront.net^
+||d3boleenfhg2gk.cloudfront.net^
 ||d3edbb478c.com^
 ||d3lppnezw695ey.cloudfront.net^
 ||d3vvrup2jpfiep.cloudfront.net^
@@ -39797,6 +39809,7 @@ browsershots.org#@#.advert_area
 ||decossee.com^
 ||decpo.xyz^
 ||decreasetome.com^
+||decreesafrasia.top^
 ||decrepitgulpedformation.com^
 ||decswci.com^
 ||dedicatedmedia.com^
@@ -40338,6 +40351,7 @@ browsershots.org#@#.advert_area
 ||divisionprogeny.com^
 ||divorcebelievable.com^
 ||divotmassage.top^
+||divtqucu.xyz^
 ||divvyprorata.com^
 ||dizzy-drag.pro^
 ||dizzyporno.com^
@@ -41070,6 +41084,7 @@ browsershots.org#@#.advert_area
 ||effeminatecementsold.com^
 ||efficiencybate.com^
 ||efficientorbit.co^
+||eflewroundand.com^
 ||eforhedidnota.com^
 ||efrnedmiralpenb.info^
 ||efyglwbapki.com^
@@ -43073,6 +43088,7 @@ browsershots.org#@#.advert_area
 ||gillsisabellaunarmed.com^
 ||gillspaste.com^
 ||gillynn.com^
+||gilsiwhisopaum.net^
 ||gimme-promo.com^
 ||gimpsgenips.com^
 ||ginbabxfjs.com^
@@ -43367,6 +43383,7 @@ browsershots.org#@#.advert_area
 ||gohere.pl^
 ||goingkinch.com^
 ||goingtoothachemagician.com^
+||golanconcludedrecognize.com^
 ||gold2762.com^
 ||golden-gateway.com^
 ||goldinnips.top^
@@ -44315,6 +44332,7 @@ browsershots.org#@#.advert_area
 ||hjrvsw.info^
 ||hjsvhcyo.com^
 ||hjuswoulvp.xyz^
+||hjuyqckbskoupuf.com^
 ||hjvvk.com^
 ||hjxajf.com^
 ||hkaphqknkao.com^
@@ -44544,6 +44562,7 @@ browsershots.org#@#.advert_area
 ||hsnskx.care^
 ||hsrvz.com^
 ||hsxtmfaoqis.com^
+||hsyoinxsbi.com^
 ||htanothingfruit.com^
 ||htdvt.com^
 ||htfpcf.xyz^
@@ -45920,6 +45939,7 @@ browsershots.org#@#.advert_area
 ||jvcjnmd.com^
 ||jvmbgorjhyyao.click^
 ||jvmhtxiqdfr.xyz^
+||jvnpnyqoxoqx.com^
 ||jwalf.com^
 ||jwalkin.com^
 ||jwamnd.com^
@@ -46784,6 +46804,7 @@ browsershots.org#@#.advert_area
 ||lidsaich.net^
 ||lieforepawsado.com^
 ||liegelygosport.com^
+||lifadfxkid.com^
 ||lifeboatdetrimentlibrarian.com^
 ||lifeimpressions.net^
 ||lifelettrilogy.shop^
@@ -47722,6 +47743,7 @@ browsershots.org#@#.advert_area
 ||mechanicalcardiac.com^
 ||medalslumut.shop^
 ||medbroadcast.com^
+||medbzvejdlkxe.today^
 ||meddlespeckers.top^
 ||meddlingwager.com^
 ||medfoodsafety.com^
@@ -48688,6 +48710,7 @@ browsershots.org#@#.advert_area
 ||ndpugkr.com^
 ||ndqkxjo.com^
 ||ndroip.com^
+||ndroundhertouc.com^
 ||ndvqhobnheivh.club^
 ||ndymehnthakuty.com^
 ||ndzksr.xyz^
@@ -50812,6 +50835,7 @@ browsershots.org#@#.advert_area
 ||phidianowlet.com^
 ||phiduvuka.pro^
 ||philadelphiadip.com^
+||philadelphiastudentsgame.com^
 ||phillfogon.shop^
 ||philosophicalurgegreece.com^
 ||philosophydictation.com^
@@ -54029,6 +54053,7 @@ browsershots.org#@#.advert_area
 ||securesmrt-dt.com^
 ||securesurf.biz^
 ||sedatingnews.com^
+||sedativebitty.com^
 ||sedodna.com^
 ||seduceeunrests.shop^
 ||seducinglabourer.com^
@@ -54741,6 +54766,7 @@ browsershots.org#@#.advert_area
 ||smokedbluish.com^
 ||smokedcards.com^
 ||smokeorganizervideo.com^
+||smooth-street.pro^
 ||smoothenglishassent.com^
 ||smothercontinuingsnore.com^
 ||smotherpeppermint.com^
@@ -56345,6 +56371,7 @@ browsershots.org#@#.advert_area
 ||thruvgyving.top^
 ||thruwaybasqued.shop^
 ||thsantmirza.shop^
+||thubanoa.com^
 ||thudonanselsaps.net^
 ||thudsurdardu.net^
 ||thugjudgementpreparations.com^
@@ -56523,6 +56550,7 @@ browsershots.org#@#.advert_area
 ||togemantedious.top^
 ||togenron.com^
 ||togetherballroom.com^
+||toggledmouton.com^
 ||toglooman.com^
 ||togothitaa.com^
 ||tohechaustoox.net^
@@ -57091,6 +57119,7 @@ browsershots.org#@#.advert_area
 ||twinadsrv.com^
 ||twinboutjuly.com^
 ||twinfill.com^
+||twingesvampers.top^
 ||twinkle-fun.net^
 ||twinpinenetwork.com^
 ||twinrdack.com^
@@ -57256,6 +57285,7 @@ browsershots.org#@#.advert_area
 ||ukedrevenue.com^
 ||ukenthasmeetu.com^
 ||ukentsiwoulukdlik.info^
+||uketbrlm.com^
 ||ukindwouldmeu.com^
 ||ukloxmchcdnn.com^
 ||ukmlastityty.info^
@@ -58088,6 +58118,7 @@ browsershots.org#@#.advert_area
 ||visitedquarrelsomemeant.com^
 ||visithaunting.com^
 ||visitingheedlessexamine.com^
+||visitorscholar.com^
 ||visitpipe.com^
 ||visitstats.com^
 ||visitstrack.com^
@@ -58274,6 +58305,7 @@ browsershots.org#@#.advert_area
 ||vupteerairs.net^
 ||vuqufo.uno^
 ||vursoofte.net^
+||vutkaqlakbp.com^
 ||vuvacu.xyz^
 ||vv8h9vyjgnst.com^
 ||vvpojbsibm.xyz^
@@ -58563,6 +58595,7 @@ browsershots.org#@#.advert_area
 ||weirddistribution.pro^
 ||wejeestuze.net^
 ||wel-wel-fie.com^
+||welbljlvmmyek.top^
 ||welcomeargument.com^
 ||welcomeneat.pro^
 ||welcomevaliant.com^
@@ -59037,6 +59070,7 @@ browsershots.org#@#.advert_area
 ||wpcjyxwdsu.xyz^
 ||wpfly-sbpkrd.icu^
 ||wpiajkniqnty.com^
+||wpiohdquqo.com^
 ||wpncdn.com^
 ||wpnetwork.eu^
 ||wpnjs.com^
@@ -59667,6 +59701,7 @@ browsershots.org#@#.advert_area
 ||zabanit.xyz^
 ||zacleporis.com^
 ||zaemi.xyz^
+||zaffirclopped.com^
 ||zagtertda.com^
 ||zagvee.com^
 ||zaibeevaimi.net^
@@ -59845,6 +59880,7 @@ browsershots.org#@#.advert_area
 ||zokaukree.net^
 ||zombyfairfax.com^
 ||zonealta.com^
+||zoneremeriti.top^
 ||zonupiza.com^
 ||zooglaptob.net^
 ||zoogripi.com^
@@ -59863,6 +59899,7 @@ browsershots.org#@#.advert_area
 ||zounokawewoaru.com^
 ||zouphuru.net^
 ||zoustara.net^
+||zouzeeps.net^
 ||zouzougri.net^
 ||zovidree.com^
 ||zpbpenn.com^
@@ -63373,6 +63410,7 @@ browsershots.org#@#.advert_area
 ||ddbhm.pro^$popup
 ||dddomainccc.com^$popup
 ||debaucky.com^$popup
+||debausouseets.net^$popup
 ||deckedsi.com^$popup
 ||dedating.online^$popup
 ||dedispot.com^$popup
@@ -72536,6 +72574,7 @@ ndtvprofit.com##.ad-with-placeholder-m__place-holder-wrapper__--JIw
 bqprime.com##.ad-with-placeholder-m__place-holder-wrapper__1_rkH
 trueachievements.com##.ad-wrap
 smithsonianmag.com,tasty.co##.ad-wrapper
+uncrate.com##.ad-wrapper-970
 insurancebusinessmag.com##.ad-wrapper-billboard-v2
 gamingdeputy.com##.ad-wrapper-parent-video
 allscrabblewords.com,famously-dead.com,famouslyarrested.com,famouslyscandalous.com,gamesadshopper.com,iamgujarat.com,lolcounter.com,mpog100.com,newszop.com,samayam.com,timesofindia.com,vijaykarnataka.com##.ad1
