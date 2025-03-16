@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202503142036
+! Version: 202503152128
 ! Title: EasyPrivacy
-! Last modified: 14 Mar 2025 20:36 UTC
+! Last modified: 15 Mar 2025 21:28 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -12915,6 +12915,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ad.daum.net^
 ||admin.blog.fc2.com/dctanalyzer.php
 ||affiliate.rakuten.co.jp^$script,third-party
+||amazonaws.com/default/tracking?url=
 ||analytics-beacon.p.uliza.jp^
 ||analytics.contents.by-fw.jp^
 ||analytics.liveact.cri-mw.jp^
@@ -13560,6 +13561,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.tomato.gg^
 ||analytics.tradedoubler.com^
 ||analytics.vedantu.com^
+||analytics.viture.dev^
 ||analytics.vortexscans.com^
 ||analytics.wavebox.io^
 ||analytics.yugen.to^
@@ -52473,6 +52475,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||nikkei.com/.resources/tracking/
 ||nvapi.nicovideo.jp/v1/bandit-machine/
 ||odsyms15.com/impression?
+||oita-press.co.jp/js2020/analytics.js
 ||portal.kotodaman.jp/api/otel/v1/logs
 ||pvtag.yahoo.co.jp^
 ||pw.gigazine.net^
