@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202503182314
+! Version: 202503191713
 ! Title: EasyList
-! Last modified: 18 Mar 2025 23:14 UTC
+! Last modified: 19 Mar 2025 17:13 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -781,7 +781,9 @@ _reklama_$domain=~youtube.com
 ! Ad-Shield
 /ad-shield/e/*$script,third-party
 ://www.*.xyz/contents/*/-1/$script,subdocument,third-party,xmlhttprequest
+://www.*.xyz/contents/*/a/$subdocument,third-party
 ://www.*.xyz/contents/*?h=$script,third-party
+://www.*.xyz/script/*.com.js|$script,third-party
 wss://www.*.xyz/ws^$third-party
 ! https://github.com/easylist/easylist/issues/11123
 .com/ed/java.js$script
@@ -19268,6 +19270,7 @@ browsershots.org#@#.advert_area
 ||bewoobaton.com^
 ||bewperspiths.top^
 ||beyanmaan.com^
+||beylicbesmile.com^
 ||beyourxfriend.com^
 ||bf-ad.net^
 ||bfast.com^
@@ -19296,6 +19299,7 @@ browsershots.org#@#.advert_area
 ||biaseddocumentationacross.com^
 ||biasedpushful.com^
 ||biaxalstiles.com^
+||bibbysilkmen.com^
 ||bibitheedseck.net^
 ||biblecollation.com^
 ||biblesausage.com^
@@ -19583,6 +19587,7 @@ browsershots.org#@#.advert_area
 ||bobgames-prolister.com^
 ||bobpiety.com^
 ||bobqucc.com^
+||bockouphourgait.net^
 ||bodegaseikon.shop^
 ||bodieshomicidal.com^
 ||bodilypotatoesappear.com^
@@ -21314,6 +21319,7 @@ browsershots.org#@#.advert_area
 ||comurbate.com^
 ||comymandars.info^
 ||conative.network^
+||concavobegan.shop^
 ||concealedcredulous.com^
 ||concealmentmimic.com^
 ||concedederaserskyline.com^
@@ -23988,6 +23994,7 @@ browsershots.org#@#.advert_area
 ||ethelbrimtoe.com^
 ||ethelvampirecasket.com^
 ||etherart.online^
+||etherolasqueal.com^
 ||ethicbecamecarbonate.com^
 ||ethicel.com^
 ||ethichats.com^
@@ -24361,6 +24368,7 @@ browsershots.org#@#.advert_area
 ||farfeljabots.top^
 ||fargwyn.com^
 ||farmmandatehaggard.com^
+||farmyengrail.top^
 ||farteniuson.com^
 ||fartmoda.com^
 ||fascespro.com^
@@ -26891,6 +26899,7 @@ browsershots.org#@#.advert_area
 ||hoaxviableadherence.com^
 ||hobbiesshame.online^
 ||hobbleobey.com^
+||hobitsaffined.com^
 ||hockeycomposure.com^
 ||hockeyhavoc.com^
 ||hockeysacredbond.com^
@@ -34505,6 +34514,7 @@ browsershots.org#@#.advert_area
 ||ptbrdg.com^
 ||ptcdwm.com^
 ||pteekauksaupt.net^
+||pteemsoansouthe.net^
 ||pteemsolrirgegi.com^
 ||pteemteethu.net^
 ||pteeptamparg.xyz^
@@ -35698,6 +35708,7 @@ browsershots.org#@#.advert_area
 ||reticencecarefully.com^
 ||reticencevaliddecoction.com^
 ||retimedtactor.shop^
+||retinaspealer.com^
 ||retintsmillion.com^
 ||retinueabash.com^
 ||retiringspamformed.com^
@@ -41317,6 +41328,7 @@ browsershots.org#@#.advert_area
 ||welllwrite.com^
 ||wellmov.com^
 ||wellpdy.com^
+||wellworn-lead.com^
 ||welved.com^
 ||wembybuw.xyz^
 ||wemmyoolakan.shop^
@@ -41852,6 +41864,7 @@ browsershots.org#@#.advert_area
 ||wuczmaorkqaz.com^
 ||wudr.net^
 ||wuefmls.com^
+||wuftaustee.net^
 ||wugoughurtaitsu.net^
 ||wugroansaghadry.com^
 ||wumufama.com^
@@ -43598,6 +43611,7 @@ browsershots.org#@#.advert_area
 ||adfinity.pro^$third-party
 ||adfinix.com^$third-party
 ||adforgames.com^$third-party
+||adforge.io^$third-party
 ||adfrika.com^$third-party
 ||adgage.es^$third-party
 ||adgatemedia.com^$third-party
@@ -44900,6 +44914,7 @@ browsershots.org#@#.advert_area
 ||79180284.xyz^
 ||79391192.xyz^
 ||79582961.xyz^
+||79870085.xyz^
 ||79893962.xyz^
 ||7fc8.site^
 ||80133082.xyz^
@@ -50251,6 +50266,7 @@ browsershots.org#@#.advert_area
 ||tech426.com/pub/
 ||textlinks.com/images/banners/
 ||thefreesite.com/nov99bannov.gif
+||thelotter-affiliates.com^$third-party
 ||themespixel.net/banners/
 ||thscore.fun/mn/
 ||ti.tradetracker.net^
@@ -52329,6 +52345,7 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||lifehack.org/Tm73FWA1STxF.js
 ||linkedin.com/tscp-serving/
 ||linkhub.icu/vendors/h.js
+||links.duckduckgo.com/d.js?q=
 ||linkshare.pro/img/btc.gif
 ||linuxtracker.org/images/dw.png
 ||livescore.az/images/banners
@@ -55092,6 +55109,7 @@ inverness-courier.co.uk,johnogroat-journal.co.uk,stamfordmercury.co.uk##.MPU
 abergavennychronicle.com,tenby-today.co.uk##.MPUstyled__MPUWrapper-sc-1cdmm4p-0
 engadget.com##.Mih\(90px\)
 medievalists.net##.Mnet_TopLeft_970x250
+wired.com##.MobileProductCardOuter-kMqsSf
 accuradio.com##.MobileSquareAd__Container-sc-1p4cjdt-0
 metservice.com##.Mrec-min-height
 boardgameoracle.com##.MuiContainer-root > .jss232
