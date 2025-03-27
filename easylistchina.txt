@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: mBwFqGenbujDXf2o0CkhTA
-! Version: 202503260051
+! Checksum: Id0bb/41dqx0SDtDR+o8wg
+! Version: 202503270051
 ! Title: EasyList China
-! Last modified: 26 Mar 2025 00:51 UTC
+! Last modified: 27 Mar 2025 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1743,8 +1743,13 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||vraataidz.com^
 ||dhaaralzz.com^
 ||gqoi.cn^
+||drlzlc.top^
+||yugjwgg.icu^
+||vytn.cn^
+||teeniaole.com^
 ||phorralut.com^
 ||pqav.cn^
 ||fsjfnp.top^
@@ -9491,7 +9496,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||youtube.com/embed/wqLWTeNBEEQ?
 ||youtube.com/iframe_api$domain=nownews.com
 ||youxi.baidu.com/tips/bdtips_min.js
-||youyiya.com/Tpl/mobile/js/you
 ||youzhan.org/img/aliyun-
 ||yrr56.com/mp4/pt_720.
 ||ysxs8.vip/ysgg/
@@ -15245,6 +15249,7 @@ brandsales.58.com#@#div[id^="ad_"]
 android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.tw,epinv.com,ff14angler.com,fxpan.com,haoweichi.com,logi.im,lspdfrcn.com,moa.tw,moe48.com,numberempire.com,playok.com,reh.tw,shenfendaquan.com,vaptcha.com#@#ins.adsbygoogle[data-ad-slot]
 !---------------------------------URL Whitelist-------------------------------!
 @@.adserver.$domain=litv.tv
+@@||jinritemai.com^$generichide
 @@||linetv.tw^$generichide
 @@||googleads.g.doubleclick.net^$domain=wandhi.com
 @@||am730.com.hk^$generichide
