@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: sQprh4PAYfQZn5hFmrwjIQ
-! Version: 202503280051
+! Checksum: QshjbpUWQTe84jZ5RX3iUQ
+! Version: 202503290051
 ! Title: EasyList China
-! Last modified: 28 Mar 2025 00:51 UTC
+! Last modified: 29 Mar 2025 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1743,10 +1743,16 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||giphaudoq.com^
+||jdqmhay.icu^
 ||eildralfl.com^
 ||liqw.cn^
 ||hptidc.top^
 ||uposnmb.icu^
+||td86hsmlmggym.top^
+||vqaj6smlmtpym.top^
+||vuhf.cn^
+||truuhmoen.com^
 ||vraataidz.com^
 ||fqnojp.top^
 ||wnvu.cn^
@@ -5755,7 +5761,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||58avgo.*/AirADPic/
 ||58cdn.com.cn/ds/tgbrand/*.js
 ||58cdn.com.cn/ds/zhuangxiu/jzad-
-||58cdn.com.cn/nowater/webim/big/n_v2e722db7ca7f1458d92b7d6e57f833548.
 ||58file.com/down/xyk.
 ||591hx.com/images/0000.jpg
 ||591hx.com/js/floatbox.js
@@ -9176,7 +9181,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||tv99.tv/wp-content/uploads/pum/
 ||tvsou.com/js/360ad.js
 ||tvyan.com/images/jscss/tv-
-||tvyb03.com/template/mytheme/statics/js/layer/
+||tvyun07.com/template/mytheme/statics/js/layer/
 ||tw.beanfun.com/bfweb/NEW/commonlogin
 ||tw.buy.yahoo.com/?z=
 ||tw.partner.buy.yahoo.com^$domain=cool3c.com
@@ -9655,6 +9660,8 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||ttdm.me/upload/files/sss/
 !------------------------Specific element hiding rules------------------------!
 ttdm.me##.dds_w
+jin10.com##.tradinghero
+jin10.com##.quoted-price__pro
 fhxy-a.top##.sd_recpic
 2345.com##.search-right-swiper-news
 2345.com##._isFirstAd
@@ -9798,7 +9805,6 @@ uc123.com###J_shoppingPush
 chem99.com###J_tcode
 2345.com###J_tip_stopXP
 61.iqiyi.com,v.61.com###J_videoBox > .view
-jin10.com###J_wdgg_t
 qzwb.com###Javascript\.RightDiv
 pconline.com.cn###JdlFixed
 pconline.com.cn###JrightSideFocus
@@ -12752,10 +12758,6 @@ iqiyi.com##.kwltp-rightgg
 ctwant.com##.l-ad__article
 ctwant.com##.l-ad__wrapper
 baidu.com##.l-header-ad
-jin10.com##.l-main > div > .jin-timeline
-jin10.com##.l-main > div > div[class^="jin-"] > .jin-timeline > div[class^="jin-1"]
-www.jin10.com##.l-main_body > div[class]:not(.jin-timeline)
-www.jin10.com##.l-main_info > div[class]:not(.jin-declaration):not(.jin-qq-cooperation)
 ahtv.cn,sexbarss.net##.l1
 ltaaa.com##.lAds
 chinatimes.com##.l_ad
@@ -13760,7 +13762,6 @@ meizhou.com##.top + .w1000
 2345.com##.top > .fred
 toolfk.com##.top > div[style="font-size: 12px;text-align: center;margin-top:6px;"]
 midifan.com##.top-aaa
-jin10.com##.top-ad
 10jqka.com.cn##.top-ad-box
 baidu.com##.top-ad-cont
 85wp.com##.top-ad-img
@@ -14673,7 +14674,6 @@ ganji.com##div[id^="GcnADId"]
 tigtag.com##div[id^="Home942x70_"]
 2345.com##div[id^="J_Topic"]
 2345.com##div[id^="J_micro_zhuanti-"]
-jin10.com##div[id^="J_wdgg_"]
 stock87.com##div[id^="Javascript"]
 tzfdc.com.cn##div[id^="LMT_"]
 360che.com##div[id^="PAGE_AD_"]
@@ -14898,7 +14898,7 @@ a-i-l-s-a.com,buscodepto.com##div[style^="position: fixed;"]
 chineseinla.com##div[style^="position:absolute;"][style$=":0px;top:30px;"]
 52youpiao.com##div[style^="position:fixed; right:40px;"]
 jinbaodm.com##div[style^="position:fixed; top"]
-tvyb03.com,yemancomic.com,zkk78.com##div[style^="position:fixed;"]
+tvyun07.com,yemancomic.com,zkk78.com##div[style^="position:fixed;"]
 mydrivers.com##div[style^="position:fixed;left:50%;bottom:200px;"]
 stock87.com##div[style^="position:relative;width:1000px;height:90px;"]
 v.163.com##div[style^="width: 140px; height: 199px;"]
@@ -14981,7 +14981,6 @@ itdog.cn#?#.card:-abp-has(.partner>a[href*=".jimcloud.net"])
 ithome.com#?#.placeholder:-abp-has(> a > .plc-con > .plc-footer > .tip-gray)
 ithome.com#?#li:-abp-has(>.block a[href*="/lapin."])
 jianshu.com#?#div[id]:-abp-has(> .ad-badge)
-jin10.com#?#.jin-timeline:-abp-has(.jin-tag)
 kostool.cn#?#div:-abp-has(> h1:-abp-contains(推广))
 wenxuecity.com##label[style*="darkgrey"]
 ldqk.xyz,masuit.com#?#.panel:-abp-has(>.panel-body>a>img)
@@ -15700,7 +15699,6 @@ android-doc.com,apk.tw,chaojizhibo.net,chtoen.com,dizhishengcheng.com,doitwell.t
 @@||jd.com/adclick?$popup,~third-party
 @@||jd.com/adclick?$~third-party
 @@||jiav000.com^$generichide
-@@||jin10.com^$generichide
 @@||jinyongci.com^$generichide
 @@||jjjgame.com/plus/ad_
 @@||jjkmn.com^$generichide
@@ -16058,13 +16056,14 @@ guailie.com#@#.google-ad
 !#7
 !#8
 !#91porny.com
-91porny.org,jstv600.com,x9av7.com###main > div[id^="rd"]
+91porny.org,jiuse100.cc,jstv600.com,x9av7.com##.footer + .block
+91porny.org,jiuse100.cc,jstv600.com,x9av7.com#?#.card:-abp-has(>.card-image>a[href^="http"])
+91porny.org,jiuse100.cc,jstv600.com,x9av7.com###main > div[id^="rd"]
+!
 ###playerJsvLayer.jsv-layer
 91porny.com##.container-fluid.p-0[class*="mb-"]
 ##.fixed-bottom.jsv.jsv-g1
-91porny.org,jstv600.com,x9av7.com##.footer + .block
 91porny.com##.jsv-g1
-91porny.org,jstv600.com,x9av7.com#?#.card:-abp-has(>.card-image>a[href^="http"])
 ##header + #main:nth-child(n+4) .container-fluid.mb-0.p-0
 ##header + #main:nth-child(n+4) .container-fluid.mb-3.p-0
 ##header + #main:nth-child(n+4) > div[id^="po-s"]:not(#po-shd)
