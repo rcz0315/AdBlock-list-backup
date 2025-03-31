@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +aRZHZlwoNHOjXF2fNwbRw
-! Version: 202503300051
+! Checksum: ZT3Mooauehv9MmxImqisWw
+! Version: 202503310051
 ! Title: EasyList China
-! Last modified: 30 Mar 2025 00:51 UTC
+! Last modified: 31 Mar 2025 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -23,6 +23,7 @@
 .xyz:*?x=$script,third-party
 .xyz:*?c=$script,third-party
 -*-*-*-*.panda^$script,third-party
+/haijiao3/*/popup.
 .tv/gg/
 .top/api.php?mod=ad&
 /webAdvert.php?ad_name=
@@ -1743,7 +1744,15 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||yasorlbeu.com^
+||jtdltu.top^
+||xsti.cn^
+||onwnomv.icu^
 ||lubrzh.top^
+||hrwbeqv.icu^
+||vqle.cn^
+||hevepyrmt.com^
+||piln.cn^
 ||giphaudoq.com^
 ||jdqmhay.icu^
 ||uivc.cn^
@@ -9665,6 +9674,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||2345.com/guess/v1/adList
 ||ttdm.me/upload/files/sss/
 !------------------------Specific element hiding rules------------------------!
+oibdgtxw.com#?#.xqbj-list-rows:-abp-has(img[z-image-loader-url*=".gif"])
 ttdm.me##.dds_w
 jin10.com##.tradinghero
 jin10.com##.quoted-price__pro
@@ -17355,6 +17365,8 @@ _rony.js$script,third-party
 .com:3*/static/lbsite/*/*.js?v=$script,third-party
 .cn/In390hG2.js$script,third-party
 .cn/nd389.js$script,third-party
+.cn/FI390rd2.js$script,third-party
+.cn/Zg389.js$script,third-party
 _vwnrsbjs?
 _vwisbjs?
 !
