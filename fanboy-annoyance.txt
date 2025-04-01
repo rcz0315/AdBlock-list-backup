@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 0etpGhhaFaLKizqyBZbTVg
-! Version: 202503310040
+! Checksum: +W14ZEK0WFtWht2/nhYQPw
+! Version: 202503312340
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-03-31 00:40 UTC
+! Last modified: 2025-03-31 23:40 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -26576,7 +26576,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.privacy-policy-prompt--modal
 ##.privacy-policy-toast
 ##.privacy-policyis-sticky
-##.privacy-popup
 ##.privacy-popup-overlay
 ##.privacy-popup-wrapper
 ##.privacy-prompt-wrapper
@@ -30864,14 +30863,14 @@ dashboard.razorpay.com#@##credential_picker_container
 ||omnisnippet1.com^$domain=miuratakuya.store|yourcelebritymagazines.com
 ||p.ynet.co.il^$subdocument
 ||p2a.co/embed/widget/app/$domain=thefire.org
-||piano.io^$domain=bbc.com|bbcgoodfood.com|billboard.com|deadline.com|nationalobserver.com|npr.org|prospectmagazine.co.uk|rawstory.com|refinery29.com|rollingstone.com|sifted.eu|telegraph.co.uk|the42.ie|thedailybeast.com|theintercept.com|thelogic.co|thenation.com|wwd.com
+||piano.io^$domain=artnews.com|bbc.com|bbcgoodfood.com|billboard.com|deadline.com|nationalobserver.com|npr.org|prospectmagazine.co.uk|rawstory.com|refinery29.com|rollingstone.com|sifted.eu|telegraph.co.uk|the42.ie|thedailybeast.com|theintercept.com|thelogic.co|thenation.com|wwd.com
 ||researchnews.cc/subscribe.html
 ||scmp.com/misc/inkstone_sub_widget/
 ||sibforms.com/serve/$domain=maidenhead-advertiser.co.uk|sloughexpress.co.uk
 ||subscriptions.cbc.ca^$xmlhttprequest
 ||theintercept.com/xbuilder/$script
 ||thejewishstar.com/images/enews-ad.png
-||tinypass.com^$domain=bbc.com|bbcgoodfood.com|billboard.com|deadline.com|nationalobserver.com|npr.org|prospectmagazine.co.uk|rawstory.com|refinery29.com|rollingstone.com|sifted.eu|telegraph.co.uk|the42.ie|thedailybeast.com|theintercept.com|thelogic.co|thenation.com|wwd.com
+||tinypass.com^$domain=artnews.com|bbc.com|bbcgoodfood.com|billboard.com|deadline.com|nationalobserver.com|npr.org|prospectmagazine.co.uk|rawstory.com|refinery29.com|rollingstone.com|sifted.eu|telegraph.co.uk|the42.ie|thedailybeast.com|theintercept.com|thelogic.co|thenation.com|wwd.com
 ||waterfordwhispersnews.com/wp-content/themes/therex-child/js/_newsletter-article-signup.js
 ||wisepops.com^$domain=grist.org|prospect.org
 ! fanboy_newsletter_shopping_specific_block.txt
@@ -33041,6 +33040,7 @@ google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,
 reddit.com##bottom-bar[app-link-params]
 areena.yle.fi##button[aria-label="Jaa ohjelma"]
 cvs.com##cvs-smart-app-banner
+trademe.co.nz##div.responsive-wrapper[aria-label="App promotion banner"]
 m.bilibili.com##div[class*="-openapp"]
 genius.com##div[class*="AndroidBannermobile_"]
 thescore.com##div[class*="GetTheAppModal_"]
@@ -39656,6 +39656,7 @@ businessinsider.com,ekathimerini.com,insider.com##.inline-newsletter-form
 bloomberg.com##.inline-newsletter-top
 themarshallproject.org,utilitydive.com##.inline-signup
 emergingtechbrew.com##.inline-subscribe
+wealthsimple.com##.inlineEmailCta
 technologynetworks.com##.inner_content_lazy_load_content_divider
 coleycooks.com,skinnyspatula.com##.inpost-save
 amgreatness.com,bookmundi.com##.inset-0.fixed
@@ -45545,7 +45546,6 @@ eteacher.pl,speedtest.pl,wirtualis.pl###info_container
 webelite.pl###infobar
 motomoto.pl###itlbox
 flatart.pl###kekse
-lotto.pl###klauzula_informacyjna_nakladka
 berdsen.pl###kqs-box-tlo
 berdsen.pl###kqs-tlo
 borelioza.vegie.pl###menubar
@@ -45648,7 +45648,6 @@ ercomer.pl,miodykrupiec.pl,motohid.pl,planszostrefa.pl,questsport.shop,skarbyroz
 isystemy.pl##.cookie-div-main
 pyszne.pl##.cookie-overlay
 bezpiecznedane.gov.pl##.cookie-popup-modal
-lotto.pl##.cookie-wall
 ksiazece.pl,lech.pl,lechpils.pl,tyskie.pl,zubr.pl##.cookies--cloak
 uzdrowiskociechocinek.pl##.cookies-at
 uzdrowiskociechocinek.pl##.cookies-at-overlay
@@ -45694,7 +45693,7 @@ bhp-inka.pl##.js-modal-cookies
 ohmydev.pl##.jss256
 funclub.pl##.jss359
 praca.gov.pl##.klauzula-background-wyszarzony
-oferta.lotto.pl,raportdekra.pl##.landend-infobar-light
+raportdekra.pl##.landend-infobar-light
 mediaexpert.pl##.layout > .wrapper
 rejestracja.makro.pl##.layout-mask
 onholidays.pl##.layout_cookiesRule__2QouX
