@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +W14ZEK0WFtWht2/nhYQPw
-! Version: 202503312340
+! Checksum: TJp4k2o2kdcmcgeGGBrw3g
+! Version: 202504020015
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-03-31 23:40 UTC
+! Last modified: 2025-04-02 00:15 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -22727,7 +22727,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie-warning-modal--ribbon
 ##.cookie-warning-panel
 ##.cookie-warning-popup
-##.cookie-warning-wrapper
 ##.cookie-warning__overlay
 ##.cookie-warning__wrapper
 ##.cookie-warning_show
@@ -23035,7 +23034,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie__column
 ##.cookie__consent
 ##.cookie__container
-##.cookie__content
 ##.cookie__div
 ##.cookie__flex
 ##.cookie__float--container
@@ -23059,7 +23057,6 @@ dashboard.razorpay.com#@##credential_picker_container
 ##.cookie__warn__wrap
 ##.cookie__warning-messaging
 ##.cookie__window
-##.cookie__wrap
 ##.cookie__wrapper_noneuuk
 ##.cookie_accept_notebox
 ##.cookie_acceptance
@@ -31836,6 +31833,7 @@ cryptorank.io##.styled__Wrapper-sc-1xbee9a-0
 lareviewofbooks.org##.styles_cta__rFpfQ
 lareviewofbooks.org##.styles_membershipContainer__10uhb
 nowpatient.com##.su-advertisement-wrapper
+yahoo.com##.subs-upsell
 currentaffairs.org##.subscribe-block
 newsweek.com##.subscribe-block-wrapper
 nautil.us##.subscribe-cta
@@ -32681,6 +32679,7 @@ cbsnews.com,yelp.com###smart-banner
 m.jpost.com,tandem.net###smartBanner
 deviantart.com,dw.com,eurosport.com,kompas.com,nzherald.co.nz,photobucket.com,spiegel.de,tvnz.co.nz###smartbanner
 mail.google.com###speedbump
+reddit.com###xpromo-bottom-sheet[aria-label*="See Reddit in..."]
 msn.com##views-promo-card
 ! google.ad,google.ae,google.al,google.am,google.as,google.at,google.az,google.ba,google.be,google.bf,google.bg,google.bi,google.bj,google.bs,google.bt,google.by,google.ca,google.cat,google.cd,google.cf,google.cg,google.ch,google.ci,google.cl,google.cm,google.cn,google.co.ao,google.co.bw,google.co.ck,google.co.cr,google.co.id,google.co.il,google.co.in,google.co.jp,google.co.ke,google.co.kr,google.co.ls,google.co.ma,google.co.mz,google.co.nz,google.co.th,google.co.tz,google.co.ug,google.co.uk,google.co.uz,google.co.ve,google.co.vi,google.co.za,google.co.zm,google.co.zw,google.com,google.com.af,google.com.ag,google.com.ai,google.com.ar,google.com.au,google.com.bd,google.com.bh,google.com.bn,google.com.bo,google.com.br,google.com.bz,google.com.co,google.com.cu,google.com.cy,google.com.do,google.com.ec,google.com.eg,google.com.et,google.com.fj,google.com.gh,google.com.gi,google.com.gt,google.com.hk,google.com.jm,google.com.kh,google.com.kw,google.com.lb,google.com.ly,google.com.mm,google.com.mt,google.com.mx,google.com.my,google.com.na,google.com.nf,google.com.ng,google.com.ni,google.com.np,google.com.om,google.com.pa,google.com.pe,google.com.pg,google.com.ph,google.com.pk,google.com.pr,google.com.py,google.com.qa,google.com.sa,google.com.sb,google.com.sg,google.com.sl,google.com.sv,google.com.tj,google.com.tr,google.com.tw,google.com.ua,google.com.uy,google.com.vc,google.com.vn,google.cv,google.cz,google.de,google.dj,google.dk,google.dm,google.dz,google.ee,google.es,google.fi,google.fm,google.fr,google.ga,google.ge,google.gg,google.gl,google.gm,google.gp,google.gr,google.gy,google.hn,google.hr,google.ht,google.hu,google.ie,google.im,google.iq,google.is,google.it,google.je,google.jo,google.kg,google.ki,google.kz,google.la,google.li,google.lk,google.lt,google.lu,google.lv,google.md,google.me,google.mg,google.mk,google.ml,google.mn,google.ms,google.mu,google.mv,google.mw,google.ne,google.nl,google.no,google.nr,google.nu,google.pl,google.pn,google.ps,google.pt,google.ro,google.rs,google.ru,google.rw,google.sc,google.se,google.sh,google.si,google.sk,google.sm,google.sn,google.so,google.sr,google.st,google.td,google.tg,google.tk,google.tl,google.tm,google.tn,google.to,google.tt,google.vg,google.vu,google.ws###stUuGf
 vietnamairlines.com###store-notify
@@ -35090,7 +35089,7 @@ wallarm.com###gdpr_banner_container
 flooringsuppliescentre.co.uk###gdpr_cookie-mainWrapp
 fawesome.tv###gdpr_cookie_info_bar-wr
 myedit.online###gdpr_notes
-jagranjosh.com,mid-day.com###gdprbx
+jagran.com,jagranjosh.com,mid-day.com###gdprbx
 lloyd.com###globalerror
 draeger.com###globalnotification
 freebcc.com###google_cookie_box_bottom
@@ -36646,6 +36645,7 @@ vallartasupermarkets.com##.mb-accept-cookies-banner
 mbc.net##.mbc-policy
 unono.net##.mceRow--relative
 microchip.com##.mchp-cookie
+langchain-ai.github.io##.md-consent
 materialdistrict.com##.md-modal-wrap
 3dprinting.com##.mdl-js-bigsnackbar
 fifa.com##.mdl-overlay
@@ -38361,7 +38361,7 @@ yogainternational.com##div[class^="elements__Banner-"]:has(> div > a[href$="-pri
 ! googlefunding consent warning
 ##div[style*="box-shadow: rgb(136, 136, 136) 0px 0px 12px; color: "]
 ! medium blogs
-blog.discord.com,codeburst.io,eand.co,infosecwriteups.com,medium.com,medium.engineering,netflixtechblog.com,plainenglish.io,primegaming.blog,towardsdatascience.com,uxdesign.cc,windscribe.com##body > div:not([class]):not([id]) > div[class*=" "]:has(> div > div > div[class] > a[href^="https://policy.medium.com/medium-privacy-policy-"])
+blog.discord.com,codeburst.io,doublepulsar.com,eand.co,infosecwriteups.com,medium.com,medium.engineering,netflixtechblog.com,plainenglish.io,primegaming.blog,towardsdatascience.com,uxdesign.cc,windscribe.com##body > div:not([class]):not([id]) > div[class*=" "]:has(> div > div > div[class] > a[href^="https://policy.medium.com/medium-privacy-policy-"])
 blog.discord.com,codeburst.io,eand.co,infosecwriteups.com,medium.com,medium.engineering,netflixtechblog.com,plainenglish.io,primegaming.blog,towardsdatascience.com,uxdesign.cc,windscribe.com##div:has(div[role='alert'] > a[href^="https://policy.medium.com/medium-privacy-policy-"])
 ! Used with generichide
 guicheweb.com.br,mercadolibre.com###alert_cookie
@@ -38567,6 +38567,7 @@ openspeedtest.com###footBox3
 aulart.com###footer-aulart-newsletter
 agfundernews.com###footer-cta-wrapper
 nomadicmatt.com###footer-email
+engadget.com###footer-newsletter
 independent.co.uk###footerPrompt
 glutenfreepalate.com###form-subscribe
 blogs.nvidia.com###formWidget
@@ -38598,6 +38599,7 @@ blog.plerion.com,zaui.com###hs-web-interactives-bottom-anchor
 collato.com,karryon.com.au,phillymag.com###hs-web-interactives-top-anchor
 entrepreneur.com###hsNewletterFooterSub-container
 thehustle.co###hs_cos_wrapper_blog_post_simple_sticky_cta
+financialexpress.com###id_newsletter_subscription_popup
 insider-gaming.com###ig-newsletter-holder
 asia.nikkei.com###in-article-newsletter-signup
 theblaze.com###inarticle-sponsored-headline
@@ -39364,6 +39366,7 @@ geneticliteracyproject.org##.elementor-element-1922719
 energy-storage.news##.elementor-element-20eaf3b
 geneticliteracyproject.org##.elementor-element-241f781c
 bingehulu.com##.elementor-element-2db20597
+tvtonight.com.au##.elementor-element-2f8c0be2
 analyticsindiamag.com##.elementor-element-36dbceb
 hiresaudiocentral.com##.elementor-element-3b03fc7c
 loyaltylobby.com##.elementor-element-515d4e87
@@ -39706,7 +39709,7 @@ draxe.com##.ju_overlay
 newstatesman.com##.july22-newsletter
 qz.com##.kHmXgL
 christinacooks.com##.kadence-conversion-wrap
-beautifulpublicdata.com,blog.privacyguides.org,codereliant.io,evinfocus.com,gkogan.co,micahflee.com,overkill.wtf,oxfordclarion.uk,scarletink.com##.kg-signup-card
+beautifulpublicdata.com,blog.privacyguides.org,codereliant.io,evinfocus.com,gkogan.co,micahflee.com,newslttrs.com,overkill.wtf,oxfordclarion.uk,scarletink.com##.kg-signup-card
 disconnect.blog##.kg-signup-card-content
 digitalocean.com##.khfYvn
 klima101.rs##.klima-subscribe
@@ -40834,6 +40837,7 @@ ctpost.com##.px20.pb32:has-text(Sign up for)
 aarp.org##.recommendationSection:has-text(Newsletter)
 cjr.org##.row > .entry-content > p:has-text(daily newsletter)
 brooklynvegan.com##.sidebar-form:has-text(Sign Up For Our Newsletter)
+axios.com##.sm\:my-10.xs\:my-6:has-text(Sign up for)
 interestingengineering.com##.t-bg-surface-zero.t-p-6:has-text(Newsletter)
 heatpumped.org##.text-wt-background:has-text(Subscribe)
 autonews.com##.u-space-y-6.u-items-center:has-text(Staying current)
@@ -45495,6 +45499,7 @@ tvgo.orange.pl###analyticsModal
 fitnessclubs4.pl,myfitnessplace.pl,zdrofit.pl,zdrofitzdrowemiejsce.pl###backdrop
 amarone.pl###bannerMSG
 codziennikfeministyczny.pl###bazinga-muffin-container
+helukabel.pl###bc-popup-container
 posilkiwchorobie.pl###blur
 alipaczka.pl###bottom-charm
 zgrzyt.info###box-polityka-pr
@@ -47670,6 +47675,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||files.bbci.co.uk^*/cookie-banner/$script,domain=bbc.co.uk
 @@||finnishdesignshop.fi^*/onetrust-consent$script,domain=finnishdesignshop.fi
 @@||fitnessfirst.upfit.de/wp-content/cache/min/209/cs/iubenda_cs.js$script,~third-party
+@@||forbo.com/scripts/cookieconsent.min.js$~third-party
 @@||fordblueadvantage.com/cars-for-sale/client/js/cookiebanner.$~third-party
 @@||fourseasons.com/alt/apps/fshr/shared/gdpr-banner.$~third-party
 @@||fourseasons.com/alt/fshr/shared/$~third-party
