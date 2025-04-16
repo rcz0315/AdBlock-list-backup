@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: wqO5J9hwgddNSWcnAmhC6A
-! Version: 202504150051
+! Checksum: LbMIUGLdHmPsz8J9IxfUkw
+! Version: 202504160051
 ! Title: EasyList China
-! Last modified: 15 Apr 2025 00:51 UTC
+! Last modified: 16 Apr 2025 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1747,10 +1747,19 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||vunqrotm.com^
+||ghrs.cn^
+||pjbbhj.icu^
+||wucnmte.top^
+||dgjhrv.top^
+||nl2cq0jr.xyz^
 ||thricrulnf.com^
 ||rtfgvz.icu^
 ||pekr.cn^
 ||bhdnti.top^
+||bvcnmtv.top^
+||iiyurraeoh.com^
+||mnrz.cn^
 ||ergiekszra.com^
 ||txvq.cn^
 ||tqjojh.icu^
@@ -5752,7 +5761,6 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||6park.com/img/*0.gif
 ||6park.com/parks/$script
 ||6vhao.tv/d/
-||6yso.com/wp-content/uploads/*-300-x-
 ||70.86.24.120:8060/
 ||70822.com/agfile/
 ||7160.com/js/tiaozhuanquanju.js
@@ -9600,6 +9608,7 @@ hxsame.hexun.com$domain=~quote.hexun.com
 ||xmcdn.com/storages/f651-customerservice/E3/40/GAqhntALzRUHAAJ3LgOTtToZ.
 !------------------------Specific element hiding rules------------------------!
 sojson.com##.a-d-img
+sixyin.com##.widget_custom_html
 baidu.com##a[class*="fengchaoContainer"]
 hcbbs.com##.pcbanner
 yalishi.com##.ad
