@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202504160031
+! Version: 202504170016
 ! Title: EasyPrivacy
-! Last modified: 16 Apr 2025 00:31 UTC
+! Last modified: 17 Apr 2025 00:16 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -19,6 +19,7 @@
 &&sub19=undefined&sub20=undefined
 &action=js_stats
 &ev=PageView&
+&event_name=view_item_list&
 &EventType=DataDealImpression&
 &EventType=Impression&
 &hitType=pageview&
@@ -108,6 +109,7 @@
 /__utm.gif
 /__utm.js
 /__wsm.gif
+/_assets/oply/public/*
 /_blazor/*$ping
 /_ga?send&
 /_ga?sponsor_pixel=
@@ -1496,6 +1498,7 @@
 /ms-widgets/tracking-cookies/*
 /ms.analytics-web-3.min.js
 /mtc.js
+/mtifonttracker.js
 /mtiFontTrackingCode.js
 /mtracking.gif?
 /mtvi_reporting.js
@@ -2224,6 +2227,7 @@
 /tagAnalyticscnil.php
 /tagCNIL.js
 /tagcommander/prd/*
+/tagging?env=
 /tagmanager/event?
 /tagmanager/pptm.js
 /tags.js?org_id=
@@ -2343,6 +2347,7 @@
 /tracker.ga.
 /tracker.gif?
 /tracker/?key=
+/tracker/base_wp/*
 /tracker/event?
 /tracker/imp?
 /tracker_async.js
@@ -9845,6 +9850,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||arkoselabs.com/metrics/
 ||asayer.io/tracker.js
 ||assets.apollo.io/micro/website-tracker/
+||assets.hearstapps.com/commerce/release/affiliate-bundle.
 ||assets.moneymade.io/js/fp.min.js
 ||assets.yumpu.com/release/*/tracking.js
 ||assistant.watson.appdomain.cloud/analytics/
@@ -11110,6 +11116,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||openpanel.dev/op1.js
 ||openxcdn.net^$third-party
 ||opinary.com/v1/events
+||oply.hearstapps.com^
 ||optimeeze.appspot.com^
 ||optmn.cloud/hb/
 ||ora.tv/j/ora_evttracking.js
@@ -11277,6 +11284,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.fbot.me/track/
 ||publicbroadcasting.net/analytics/
+||pulse.ecmapps.com^
 ||pulse.shopflo.com^
 ||purevideo.com^*/pvshim.gif?
 ||pushly.com/pushly-event-tracker
@@ -12864,6 +12872,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||adult-trade.nl/lo/track.php
 ||amazonaws.com/prod/v1/track$domain=ixxi.com
 ||analytics.belgacom.be^
+||analytics.hatech.dev^
 ||apm.tnet.nl^
 ||bbvms.com/zone/js/zonestats.js
 ||bol.com/click/
@@ -52652,6 +52661,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||businessinsider.nl^*/tr.php
 ||c.vrt.be^
 ||coolblue.nl/monitoring/
+||e428.tio.nl^
 ||events.reclamefolder.nl^
 ||expert.nl/daix.js
 ||fd.nl/pixel/
@@ -52666,6 +52676,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||marktplaats.nl/metrics/
 ||marktplaats.nl/px/
 ||metrics.nu.nl^
+||metrics.pazzox.be^
 ||njam.tv/tracking/
 ||npo-data.nl/tag/v3/npotag.js
 ||npo-data.nl/tags/tag.min.js
@@ -52680,6 +52691,8 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||rtl.nl/system/track/
 ||sanoma.nl/pixel/
 ||sat.sanoma.fi^
+||sliponline.nl/tracker/
+||sst.babypark.nl^
 ||statistiek.rijksoverheid.nl^
 ||stats.fd.nl^
 ||t.ad.nl^$image
@@ -52691,6 +52704,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||t.hln.be^$image
 ||t.pzc.nl^$image
 ||t.tubantia.nl^$image
+||tagging.sliponline.nl^
 ||tijd.be/fb/?
 ||tijd.be/fb2?
 ||tijd.be/track/
@@ -52699,6 +52713,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ||tracking.voordeeluitjes.nl^
 ||tvgids.nl/collect
 ||tweakers.nl/track/
+||two.tio.nl^
 ||txrx.bol.com^
 ||u299.libelle-lekker.be^
 ||vinted.nl/relay/events
