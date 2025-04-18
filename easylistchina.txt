@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: JVyX9CdG37MAUIUxrl4Y0w
-! Version: 202504170051
+! Checksum: mCgWN4p+GlHVvqrqAD2VYg
+! Version: 202504180051
 ! Title: EasyList China
-! Last modified: 17 Apr 2025 00:51 UTC
+! Last modified: 18 Apr 2025 00:51 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1747,10 +1747,22 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||afvrolvial.com^
+||jcfbgdbd.top^
+||wigk.cn^
+||henqnv.top^
 ||ewdk.cn^
 ||fflbpi.top^
 ||hbeafcac.top^
+||stildreans.com^
+||uucnmtt.top^
+||iwcnmto.top^
+||dighavrap.com^
+||chienzul.com^
+||qjuy.cn^
+||oucnmtk.top^
 ||vunqrotm.com^
+||lkmgjfkhfh.top^
 ||ghrs.cn^
 ||pjbbhj.icu^
 ||wucnmte.top^
@@ -17317,6 +17329,7 @@ _vwisbjs?
 .cc/js/dj1*.js
 .cc/js/dj2*.js
 /js/pfad*.js
+wss://*.top/|
 !
 $script,subdocument,~third-party,websocket,xmlhttprequest,domain=m.6666xsw.com|m.chenkuan.com|m.jmshuwu.net|wodexiaoshuoh.com
 $csp=script-src 'self' * 'unsafe-inline',domain=1kans.net|aidu123.com|biquluo.info|bqgh.com|jmshuwu.net|maxshuku.com|shukuge.com|sthuojia.net|tvyun07.com|zk01.net
