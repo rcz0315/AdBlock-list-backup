@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202504212307
+! Version: 202504222044
 ! Title: EasyList
-! Last modified: 21 Apr 2025 23:07 UTC
+! Last modified: 22 Apr 2025 20:44 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -744,7 +744,7 @@
 ://ad-api-
 ://ad1.
 ://adn.*/zone/$subdocument
-://ads.$~image,~xmlhttprequest,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.axon.ai|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.cafebazaar.ir|~ads.chewy.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.finance|~ads.fund|~ads.google.cn|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.luarmor.net|~ads.magalu.com|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.mojagazetka.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.pinterest.com|~ads.realizeperformance.com|~ads.remix.es|~ads.rohlik.cz|~ads.rohlik.group|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.siriusxmmedia.com|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.tuver.ru|~ads.twitter.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.watson.ch|~ads.x.com|~ads.yandex|~reempresa.org
+://ads.$~image,~xmlhttprequest,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.axon.ai|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.cafebazaar.ir|~ads.chewy.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.finance|~ads.fund|~ads.google.cn|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kazakh-zerno.net|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.luarmor.net|~ads.magalu.com|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.mojagazetka.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.pinterest.com|~ads.realizeperformance.com|~ads.remix.es|~ads.rohlik.cz|~ads.rohlik.group|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.siriusxmmedia.com|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.tuver.ru|~ads.twitter.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.vk.ru|~ads.watson.ch|~ads.x.com|~ads.yandex|~reempresa.org
 ://ads2.
 ://adsbb.
 ://adserving.
@@ -782,6 +782,9 @@ _reklama_$domain=~youtube.com
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
 ||online.*/promoredirect?key=
+! strat-talk.com forum and others
+/render-ad.php?ad_id=
+/render-sidebar-ad.php?ad_id=
 ! Filemoon
 ?bd=ppd&r=$document
 ! Ad-Shield
@@ -7821,7 +7824,6 @@ _800x80_
 ##.ad_horizontal
 ##.ad_hover_href
 ##.ad_iframe2
-##.ad_image
 ##.ad_img
 ##.ad_imgae_150
 ##.ad_in_article
@@ -11918,7 +11920,6 @@ _800x80_
 ##.imagead
 ##.imageads
 ##.img-advert
-##.img_ad
 ##.img_ads
 ##.imgad
 ##.in-article-ad
@@ -15600,7 +15601,6 @@ naver.com#@#.head_ad
 infosecurity-magazine.com#@#.header-ad-row
 mobiili.fi#@#.header_ad
 iedrc.org#@#.home-ad
-tpc.googlesyndication.com#@#.img_ad
 thelincolnite.co.uk#@#.inline-ad
 elektro.info.pl,mashingup.jp#@#.is-sponsored
 gizmodo.jp#@#.l-ad
@@ -16163,6 +16163,7 @@ browsershots.org#@#.advert_area
 ||4armn.com^
 ||4b6994dfa47cee4.com^
 ||4bad5cdf48.com^
+||4c81b78eca.com^
 ||4c935d6a244f.com^
 ||4co7mbsb.de^
 ||4d33a4adbc.com^
@@ -16298,6 +16299,7 @@ browsershots.org#@#.advert_area
 ||6zy9yqe1ew.com^
 ||7-7-7-partner.com^
 ||70b7d98dec.com^
+||71df446534.com^
 ||721ffc3ec5.com^
 ||72hdgb5o.de^
 ||730fcb332f.com^
@@ -17570,6 +17572,7 @@ browsershots.org#@#.advert_area
 ||aj2532.bid^
 ||aj2550.bid^
 ||aj2555.bid^
+||aj2627.bid^
 ||aj2635.bid^
 ||ajestigie.com^
 ||ajillionmax.com^
@@ -20491,6 +20494,7 @@ browsershots.org#@#.advert_area
 ||cbro.win^
 ||cbyqzt.xy^
 ||cc-dt.com^
+||cc33b86bbf.com^
 ||ccaa0e51d8.com^
 ||ccc9c93083.com^
 ||cchdbond.com^
@@ -22830,6 +22834,7 @@ browsershots.org#@#.advert_area
 ||dmavtliwh.global^
 ||dmetherearlyinhes.info^
 ||dmeukeuktyoue.info^
+||dmgsymwgj.com^
 ||dmhbbivu.top^
 ||dmhclkohnrpvg.com^
 ||dmiredindeed.com^
@@ -24040,6 +24045,7 @@ browsershots.org#@#.advert_area
 ||excessiveunwind.com^
 ||excessstumbledvisited.com^
 ||exchange-traffic.com^
+||excitablepass.com^
 ||excitead.com^
 ||excitementcolossalrelax.com^
 ||excitementoppressive.com^
@@ -28191,6 +28197,7 @@ browsershots.org#@#.advert_area
 ||jqueryoi.com^
 ||jqueryserve.org^
 ||jqueryserver.com^
+||jrbbavbvqmbzl.top^
 ||jrfngdrodrdop.icu^
 ||jriortnf.com^
 ||jrolyrlabybmz.top^
@@ -28440,6 +28447,7 @@ browsershots.org#@#.advert_area
 ||keepinfit.net^
 ||keepsosto.com^
 ||keeraiwhum.com^
+||keethoostoaps.net^
 ||keewoach.net^
 ||keewophakimy.net^
 ||kegimminent.com^
@@ -28579,6 +28587,7 @@ browsershots.org#@#.advert_area
 ||kkeugrilxgql.com^
 ||kkieeoxcjpqah.vip^
 ||kkmacsqsbf.info^
+||kknkcyrkvoqsqa.com^
 ||kkoacpohjomc.com^
 ||kkqcnrk.com^
 ||kkvesjzn.com^
@@ -30845,6 +30854,7 @@ browsershots.org#@#.advert_area
 ||mutinygrannyhenceforward.com^
 ||mutsjeamenism.com^
 ||mutteredadisa.com^
+||muyusaitcze.com^
 ||muzarabeponym.website^
 ||muzikguide.com^
 ||muzoohat.net^
@@ -31029,6 +31039,7 @@ browsershots.org#@#.advert_area
 ||naukegainok.net^
 ||naulageaortas.com^
 ||naulme.info^
+||naunoniwaimoo.net^
 ||naupsakiwhy.com^
 ||naupseko.com^
 ||naupsithizeekee.com^
@@ -31522,6 +31533,7 @@ browsershots.org#@#.advert_area
 ||nqowmugodougu.com^
 ||nqrkzcd7ixwr.com^
 ||nqslmtuswqdz.com^
+||nqucjilr.com^
 ||nqvi-lnlu.icu^
 ||nrcykmnukb.com^
 ||nrdpfnpqunyle.rocks^
@@ -32275,6 +32287,7 @@ browsershots.org#@#.advert_area
 ||opclumbcuqze.com^
 ||opcnflku.com^
 ||opcpicocja.com^
+||opcqrorr.com^
 ||opdomains.space^
 ||opdxpycrizuq.com^
 ||opeanresultanc.com^
@@ -32802,6 +32815,7 @@ browsershots.org#@#.advert_area
 ||pafiptuy.net^
 ||pagejunky.com^
 ||pagemystery.com^
+||pagerrentablespotlight.com^
 ||paginaewakens.shop^
 ||paginaltreitre.shop^
 ||pagnawhouk.net^
@@ -33262,6 +33276,7 @@ browsershots.org#@#.advert_area
 ||phautchiwaiw.net^
 ||phburwtzjusbh.site^
 ||pheasantarmpitswallow.com^
+||phechiptupti.pro^
 ||phecoungaudsi.net^
 ||phee1oci.com^
 ||pheedsoan.com^
@@ -36013,6 +36028,7 @@ browsershots.org#@#.advert_area
 ||rzneekilff.com^
 ||rzobsgow.com^
 ||rzuokcobzru.com^
+||rzxxflvdnvtws.vip^
 ||s-adzone.com^
 ||s0-greate.net^
 ||s0cool.net^
@@ -36298,6 +36314,7 @@ browsershots.org#@#.advert_area
 ||scriptcdn.net^
 ||scriptvealpatronage.com^
 ||scritchmaranta.shop^
+||scriveaerocar.top^
 ||scrollye.com^
 ||scruboutdoorsoffensive.com^
 ||scruftsurface.top^
@@ -36791,6 +36808,7 @@ browsershots.org#@#.advert_area
 ||shussausach.com^
 ||shutesaroph.com^
 ||shvnfhf.com^
+||shvsrrpkgjcuk.life^
 ||shydastidu.com^
 ||shyrepair.pro^
 ||sialsizably.shop^
@@ -37808,6 +37826,7 @@ browsershots.org#@#.advert_area
 ||stupid-luck.com^
 ||stupidityscream.com^
 ||stupidspaceshipfestivity.com^
+||stupsouchig.com^
 ||sturtsbabassu.shop^
 ||stutchoorgeltu.net^
 ||stuwhost.net^
@@ -39349,6 +39368,7 @@ browsershots.org#@#.advert_area
 ||tvoiioftvfzzc.buzz^
 ||tvpnnrungug.xyz^
 ||tvprocessing.com^
+||twaglurtuh.xyz^
 ||twazzyoidwlfe.com^
 ||tweakarrangement.com^
 ||tweelessatic.co.in^
@@ -39836,6 +39856,7 @@ browsershots.org#@#.advert_area
 ||urbanjazzsecretion.com^
 ||urechar.com^
 ||urgentlyfeerobots.com^
+||urgentlyrightypast.com^
 ||urgentprotections.com^
 ||urimnugocfr.com^
 ||urinebladdernovember.com^
@@ -40065,6 +40086,7 @@ browsershots.org#@#.advert_area
 ||vbhuivr.com^
 ||vbmjlevwwvyzj.top^
 ||vbptgoyketwhv.global^
+||vbqrzzrzazaew.top^
 ||vbrusdiifpfd.com^
 ||vbtrax.com^
 ||vcdc.com^
@@ -40936,6 +40958,7 @@ browsershots.org#@#.advert_area
 ||whoisezh.com^
 ||whoksoadousto.net^
 ||wholituaten.com^
+||whollyindependentlylooking.com^
 ||whollyneedy.com^
 ||whomcomposescientific.com^
 ||whomsudsikaxu.com^
@@ -46854,6 +46877,7 @@ browsershots.org#@#.advert_area
 ||pa5ka.com^$popup
 ||paeastei.net^$popup
 ||paehceman.com^$popup
+||pagerrentablespotlight.com^$popup
 ||paikoasa.tv^$popup
 ||paizowheefash.net^$popup
 ||palmmalice.com^$popup
@@ -47726,6 +47750,7 @@ browsershots.org#@#.advert_area
 ||traffrout.com^$popup
 ||trafyield.com^$popup
 ||trakaff.net^$popup
+||traktortds.com^$popup
 ||traktrafficflow.com^$popup
 ||trandlife.info^$popup
 ||trapexpansionmoss.com^$popup
@@ -51722,8 +51747,6 @@ asgg.php$domain=ghostbin.me|paste.fo
 ||thedailysheeple.com/images/banners/
 ||thedailysheeple.com/wp-content/plugins/tds-ads-plugin/assets/js/campaign.js
 ||thefinancialexpress.com.bd/images/rocket-250-250.png
-||thegearpage.net/board/render-ad.php
-||thegearpage.net/board/render-sidebar-ad.php
 ||theindependentbd.com/assets/images/banner/
 ||thephuketnews.com/photo/banner/
 ||theplatform.kiwi/ads/
@@ -53036,6 +53059,7 @@ interest.co.nz###banner-ad-wrapper
 bbcamerica.com,ifc.com,sundancetv.com,wetv.com###banner-bottom
 hypergames.top,op.gg,thecarconnection.com###banner-container
 battlefordsnow.com,cfjctoday.com,chatnewstoday.ca,ckpgtoday.ca,everythinggp.com,huskiefan.ca,larongenow.com,meadowlakenow.com,nanaimonewsnow.com,northeastnow.com,panow.com,rdnewsnow.com,sasknow.com,vernonmatters.ca###banner-header
+uhdmovies.tips###banner-section
 sourceforge.net###banner-sterling
 israelnationalnews.com###banner-sticky
 bbcamerica.com,ifc.com,onlinesearches.com,sundancetv.com,wetv.com###banner-top
