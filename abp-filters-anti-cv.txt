@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: ElrNwMswhKtUuFdHafgO3A
-! Version: 202504240051
+! Checksum: Wc+Pn3oX7+uWQfF3EWk5zQ
+! Version: 202504250051
 ! Title: ABP filters
-! Last modified: 24 Apr 2025 00:51 UTC
+! Last modified: 25 Apr 2025 00:51 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -868,6 +868,8 @@ instacart.ca,instacart.com#$#race start; hide-if-matches-xpath './/img[@alt="Thi
 ! mc
 instacart.ca,instacart.com#$#race start; hide-if-matches-xpath './/img[@alt="This is an advertisement"]/parent::div/ancestor::a/parent::div'; hide-if-matches-xpath './/img[@alt="This is an ad!"]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt="This is an advertisement."]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt="This is an advertisement!"]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt="Advertisers paid to promote this product"]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt="This is an ad.."]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt="This is an ad!!!!!"]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt="This is a sponsored ad."]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt="This is a sponsored ad"]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt="This is a sponsored ad!"]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt="This is a sponsored ad!!"]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt="This is a sponsored ad!!!"]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt="This is a sponsored ad!!!!!"]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt="This is a sponsored ad.."]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt][contains(@src,"spon_s_or_ed_badge_text-")]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt][contains(@src,"promoted_badge_text-")]/ancestor-or-self::div[@data-testid="shoppable-list-container"]';  hide-if-matches-xpath './/img[@alt][contains(@src,"sponsored_badge_text-")]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt][contains(@src,"ad_badge_text")]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt][contains(@src,"disclaimer")]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt][contains(@src,"featured")]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt][contains(@src,"adge")]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt][contains(@src,"dge")]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt][contains(@src,"label")]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt][contains(@src,"sp_text")]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt][contains(@src,"promotional_information_text")]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; hide-if-matches-xpath './/img[@alt][contains(@src,"promotion_info_text")]/ancestor-or-self::div[@data-testid="shoppable-list-container"]'; race stop;
 instacart.com,instacart.ca#$#abort-on-property-write window.ADBLOCK_DETECTED
+! tp
+instacart.ca,instacart.com#$#hide-if-matches-xpath './/img[@alt][contains(@src,"promotion_info_text")]/preceding::div[text()="Top picks from other aisles"]/ancestor-or-self::h2/ancestor-or-self::div[@class="e-1yrpusx"]'
 ! #RM-3
 ! PP
 lowes.com#$#hide-if-matches-xpath './/div[@class][contains(text(),"Sponsored")]/ancestor::div[@class="carousel-inner-container "]/preceding::h2[@class][@role][contains(text(),"Sponsored")]/ancestor-or-self::div[contains(@class,"recommended")][1]'
@@ -1869,7 +1871,7 @@ aoe.vn#$#abort-on-property-read parseInt
 gametv.vn#$#abort-current-inline-script $ homeModal
 watchsb.com#$#abort-on-property-read __Y
 tinsoikeo.live#$#abort-on-property-read sessionStorage;abort-current-inline-script $ window.open
-motchill.fit,ohaytv.fit#$#abort-on-property-read sessionStorage
+motchill.how,ohaytv.fit#$#abort-on-property-read sessionStorage
 plvb.xyz,rk.plcdn.xyz#$#abort-on-property-read adsTvc; abort-on-property-read adsPlayer; abort-on-property-read ads; abort-on-property-read keyPlayer; abort-on-property-read adsPopupPlayer;
 hh3dhay.life,hh3dhay.xyz#$#abort-current-inline-script document.createElement /break|case/
 luotphim1.net#$#json-prune '0.time_mobile 0.time 0.link_video 0.link_video_mobile 0.link 0.link_mobile 1.time_mobile 1.time 1.link_video 1.link_video_mobile 1.link 1.link_mobile'
@@ -1897,14 +1899,14 @@ truyen247.pro#$#abort-current-inline-script eval
 www.gvnvh.net#$#abort-current-inline-script Math
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-truyensieuhay.com,quangcaoyenbai.com,phimmoi.ing,phimchill.life,thuvienhd.biz,tv.tvhayhd.org,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,sexhihizz.pro,anime47.ink,teamlanhlung3.shop#$#abort-on-property-read document.cookie
+truyensieuhay.com,quangcaoyenbai.com,phimmoi.ing,phimchill.life,thuvienhd.biz,tv.tvhayhd.org,thefaplive.com,mv.dailyphimz.com,mv.phimbathu.one,sexhihizz.pro,anime47.lat,teamlanhlung3.shop#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 aluminiuminsider.com#$#abort-on-property-read adsRedirectPopups
 sexdiaryz.us#$#abort-on-property-read parseInt
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad;abort-on-property-read pushOnPageGala
 javnong.cc#$#abort-on-property-read Math.round
-viet69.sb,truyengihotnay.com,dualeotruyenhi.com,yurineko.my,xemsex.tax,phimsexhay669.pro,cliphot69.cool,doctruyen3qui8.pro,ihentai.city,animehay.page,hentaivc.com,streamvl.top,www.buomtv.org,truyenvn.ac,javtiful.com,quatvn.love,tenmientruyengi.net,top1phimsex.com,phim18hd.in,vip.sexviet88.xyz,demo.14412882.com,sextv18.pro,ungtycomicsvip.org,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenhay.com,damconuong.live#$#abort-current-inline-script WebAssembly instantiate
+viet69.sb,truyengihotnay.com,dualeotruyenhi.com,yurineko.my,xemsex.tax,phimsexhay669.pro,cliphot69.cool,doctruyen3qui8.pro,ihentai.city,animehay.bid,hentaivc.com,streamvl.top,buomtv.blog,truyenvn.ac,javtiful.com,quatvn.love,tenmientruyengi.net,top1phimsex.com,phim18hd.in,live.sexviet88.wiki,demo.14412882.com,sextv18.pro,ungtycomicsvip.org,cliphot69.pics,hhtq5.vip,sexdiary.club,vn2.xvideos69.xxx,umetruyenhay.com,damconuong.me#$#abort-current-inline-script WebAssembly instantiate
 phimtuoitho.site#$#abort-current-inline-script document.documentElement break;case
 www.phimdinhcao.online,www.motchill72.com,www.motchill72.com,xnhau.im,teamlanhlung3.shop#$#abort-on-property-read localStorage
 phimgichill.net#$#abort-current-inline-script jQuery popurl
@@ -1916,7 +1918,7 @@ dualeotruyenhi.com,m.blogtruyenmoi.com#$#abort-current-inline-script document.ad
 lxmanga.help#$#abort-current-inline-script $ PopUnder
 truyen35.shop#$#abort-current-inline-script jQuery click_ads
 www.toptruyentv6.pro#$#abort-current-inline-script Promise instance
-animehay.page#$#abort-current-inline-script document.addEventListener window.open
+animehay.bid#$#abort-current-inline-script document.addEventListener window.open
 audiotruyenfull.com#$#abort-on-property-read adpiaListUrl
 vailonxx.vip,www.motchill72.com,www.motchill72.com#$#abort-current-inline-script jQuery window.open
 tctruyen1.com#$#abort-current-inline-script $ popup
@@ -1935,9 +1937,9 @@ phimmoi.sale,motphimww.biz#$#abort-current-inline-script addEvent popu
 freeplayervideo.com,abysscdn.com,player-cdn.com,playhydrax.com#$#override-property-read open noopFunc
 freeplayervideo.com,abysscdn.com,player-cdn.com,playhydrax.com#$#abort-current-inline-script document.getElementById openPop
 nettruyenr.com#$#abort-on-property-read links
-goctruyentranhvuiaa.com,mobiblog.win,truyenqqgo.co,sextop1.show,hhvsub.com,sayhentai.one,vip.sexviet88.xyz#$#abort-current-inline-script WebAssembly globalThis
+goctruyentranhvuiaa.com,mobiblog.win,truyenqqgo.co,sextop1.show,hhvsub.com,sayhentai.one,live.sexviet88.wiki#$#abort-current-inline-script WebAssembly globalThis
 hh3dhay.life#$#abort-current-inline-script Symbol break;case
-animehay.page#$#abort-current-inline-script Number ;break;case
+animehay.bid#$#abort-current-inline-script Number ;break;case
 gocmod.com#$#abort-current-inline-script jQuery popup
 10gb.vn#$#abort-current-inline-script Promise detectedAdblock
 animevietsubs.net#$#abort-on-property-read _0x3f9b
