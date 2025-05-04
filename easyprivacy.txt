@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505030046
+! Version: 202505040050
 ! Title: EasyPrivacy
-! Last modified: 03 May 2025 00:46 UTC
+! Last modified: 04 May 2025 00:50 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -352,6 +352,7 @@
 /api/track?guid
 /api/trk?
 /api/v1/EndpointTracker
+/api/v1/firehose/batch
 /api/v1/firehose?_
 /api/v1/metrics
 /api/v1/reportData/*
@@ -2327,6 +2328,7 @@
 /track/cm?
 /track/component/*
 /track/event/*
+/track/go.php?*&referer_url=
 /track/hit.gif
 /track/identity?
 /track/imp?
@@ -3252,7 +3254,6 @@ omni.soundestlink.com$image
 ||bluekai.com^
 ||blueoyster.click^
 ||bonne-terre-data-layer.com^
-||boomtrain.com^
 ||bounceexchange.com^
 ||bouncex.net^
 ||bqstreamer.com^
@@ -9441,6 +9442,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bumlam.com^$third-party
 ||checkru.net^$third-party
 ||cityua.net^$third-party
+||click.ru^$third-party
 ||clubcollector.com^$third-party
 ||cnstats.ru^$third-party
 ||comagic.ru^$third-party
@@ -10045,6 +10047,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bolt.com/v1/log?
 ||bonfire.spklw.com^
 ||booking.com/pxpixel.html
+||boomtrain.com/identify/resolve?
 ||botdetection.hbrsd.com^
 ||bpath.com/count.dll?
 ||bpi.zip.co/trx/
@@ -10870,6 +10873,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jsrdn.com/s/1.js
 ||jst.ai/vck.js
 ||jtracking-gate.lulusoft.com^
+||juicer.io/api/page_views
 ||k.keyade.com^
 ||k.streamrail.com^
 ||kalstats.kaltura.com^
@@ -11098,6 +11102,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mql5.com/tr?
 ||mrf.io/statics/marfeel-sdk.js
 ||mrf.io/statics/marfeel/chunks/metrics-
+||mrkhub.com/sks/js/sks_track.js
 ||ms-trackingapi.phenompeople.com^
 ||msadsscale.azureedge.net^
 ||msecnd.net/jscripts/HA-$script
@@ -11880,6 +11885,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tr.outbrain.com^
 ||tr.snapchat.com^
 ||tr.standardadmin.org^
+||tr.thecontentserver.com^
 ||tr.vitals.co^
 ||tr.webantenna.info^
 ||tra.scds.pmdstatic.net/sourcepoint/
@@ -13479,6 +13485,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dp.ru/counter.gif?
 ||error.videonow.ru^
 ||events.auth.gid.ru^
+||events.plus.yandex.net^
 ||g4p.redtram.com^
 ||ga-tracker-dot-detmir-bonus.appspot.com^
 ||gainings.biz/counter.php?
@@ -14145,6 +14152,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||drop.com/statBeacon
 ||dropbox.com/2/client_metrics
 ||dropbox.com/2/pap_event_logging
+||dropbox.com/2/udcl/log_timing
 ||dropbox.com/alternate_
 ||dropbox.com/jse
 ||dropbox.com/log/
@@ -14247,6 +14255,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||exp.notion.so^
 ||expedia.*/cl/
 ||experiences.wyng.com/api/*/event-api/events
+||experte.com/t/events
 ||exporntoons.net/api/stats?
 ||expressvpn.com/__px.gif?
 ||exr-mms.expertreviews.co.uk^
@@ -14585,6 +14594,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||logs.hotstar.com^
 ||logs.naukri.com^
 ||logs.netflix.com^
+||logx-experimentation.iherb.com^
 ||logx.optimizely.com^
 ||lolwot.com/B5xaqzSGvMTM.js
 ||lookawoman.com/t/
@@ -14779,6 +14789,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pcmag.com/js/ga.js
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
 ||pcp.coupert.com^
+||pdffiller.com/api_v3/experiment/
+||pdffiller.com/api_v3/uploader/stats
+||pdffiller.com/click-stream/
+||pdffiller.com/funnel.php?
+||pdffiller.com/mpages/track/
 ||pelisfree.site/cdn-cgi/trace
 ||pendo.scopus.com/data/ptm.gif
 ||perf.mouser.com^
@@ -15071,6 +15086,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats2.mytuner.mobi^
 ||statsegg.cdngeek.com^
 ||stayz.com.au/cl/data/omgpixel.json
+||stirr.com/api/stats
 ||stockanalysis.com/cfa/
 ||storage.googleapis.com/t3n-de/assets/t3n/2018/scripts/msodrq.js
 ||storage.lulu-row1.com^
@@ -15284,6 +15300,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trackr.vivenu.com^
 ||tradingview-widget.com/static/bundles/embed/snowplow-embed-widget-tracker.$script
 ||tradingview.com/ping
+||traveloka.com/api/v1/tvlk/events
 ||trck.coomeet.com^
 ||trckng.dainese.com^
 ||trcksplt.miro.com^
@@ -54098,7 +54115,7 @@ coomer.su,kemono.su##+js(set-local-storage-item, plausible_ignore, true)
 ! ! browser.sentry-cdn.com
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|alphaxiv.org|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|menshealth.com|ocado.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 ! ! ||assets.adobedtm.com/extensions/*/AppMeasurement.min.js
-@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=nbc.com|subwy.com|tatamotors.com|usanetwork.com
+@@||assets.adobedtm.com/extensions/*/AppMeasurement.min.js$domain=identity.healthsafe-id.com|nbc.com|subwy.com|tatamotors.com|usanetwork.com
 ! ! ||assets.adobedtm.com/extensions/*/AppMeasurement* (general)
 ||assets.adobedtm.com/extensions/*/AppMeasurement$script,domain=medscape.com
 ! ! adobedtm.com^*/satelliteLib-
