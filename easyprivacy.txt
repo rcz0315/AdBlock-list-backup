@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505130044
+! Version: 202505132355
 ! Title: EasyPrivacy
-! Last modified: 13 May 2025 00:44 UTC
+! Last modified: 13 May 2025 23:55 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -5656,7 +5656,6 @@ omni.soundestlink.com$image
 ||springmetrics.com^$third-party
 ||sptag.com^$third-party
 ||sptag1.com^$third-party
-||spur.us^$third-party
 ||spylog.com^$third-party
 ||spylog.ru^$third-party
 ||spywords.com^$third-party
@@ -9936,6 +9935,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sitetistik.com^$third-party
 ||sortext.com^$third-party
 ||tagon.co^$third-party
+||thequin.ai^$third-party
 ||visilabs.net^$third-party
 ||webservis.gen.tr^$third-party
 ||webtemsilcisi.com^$third-party
@@ -10748,6 +10748,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dl.episerver.net^
 ||dmcdn.net/behavior/
 ||dnnapi.com/analytics/
+||doh.cq0.co^
 ||doofinder.com/api/v2/stats/
 ||doppiocdn.com/healthcheck
 ||doppiocdn.org/healthcheck
@@ -10780,6 +10781,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ecommstats.s3.amazonaws.com^
 ||edge-hls.doppiocdn.com/ping
 ||edge-hls.doppiocdn.live/ping
+||edge-hls.doppiocdn.net/ping
 ||edge.bredg.com^$third-party
 ||edrone.me/trace?
 ||edw.edmunds.com/edw/edw1x1.gif
@@ -12426,6 +12428,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||twitter.com/oct.js
 ||twitter.com/scribe/
 ||typeform.com/*/insights/events^
+||tzm.px-cloud.net^
 ||uaas.yandex.ru^
 ||uadblocker.com/pixel1.php?$third-party
 ||ubm.docu.info^
@@ -15660,6 +15663,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.bestpornsites.tv^
 ||track.dictionary.com^
 ||track.eurogirlsescort.com^
+||track.iegcom.com^
 ||track.kueez.com^
 ||track.mrgugu.com^
 ||track.netzero.net^
