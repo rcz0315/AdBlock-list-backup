@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505200052
+! Version: 202505210040
 ! Title: EasyPrivacy
-! Last modified: 20 May 2025 00:52 UTC
+! Last modified: 21 May 2025 00:40 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -11393,6 +11393,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.olark.com^
 ||stats.ozwebsites.biz^
 ||stats.phoenix-widget.com^
+||stats.pixeldrain.com^
 ||stats.polldaddy.com^
 ||stats.prebytes.com^
 ||stats.pusher.com^
@@ -12424,6 +12425,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tagm.tchibo.de^
 ||tms.danzz.ch^
 ||top50-solar.de/solarcount/
+||topblogs.de/tracker.php?
 ||track2.cliplister.com^
 ||track2.dulingo.com^
 ||track2.mycliplister.com^
@@ -14704,7 +14706,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||saa.insideedition.com^
 ||samsung.com/us/web/internal/logger
 ||sapi.tremendous.com^
-||sapphire-api.target.com^
 ||scholar.google.com^$ping
 ||sciencechannel.com/events/
 ||scloud.online/stat/
