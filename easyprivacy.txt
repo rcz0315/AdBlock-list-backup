@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202505260009
+! Version: 202505270042
 ! Title: EasyPrivacy
-! Last modified: 26 May 2025 00:09 UTC
+! Last modified: 27 May 2025 00:42 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -9960,6 +9960,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||communicatorcorp.com^*/conversiontracking.js
 ||compendiumblog.com/sp.js
 ||competitoor.com/analytics/
+||conan.screencast-o-matic.com^
 ||concert.io/lookup/
 ||conde.io/beacon
 ||condenastdigital.com/content?$third-party
@@ -13354,6 +13355,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ctx.citiservi.es^
 ||datanoticias.prisasd.com^
 ||digitalproserver.com/mango-web-metrics/
+||edisound.com/api/p/medias/stats
 ||enetres.net/StatisticsV1/
 ||epimg.net/js/vr/vrs.
 ||g-stats.openhost.es^
@@ -13367,6 +13369,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||recogerconsentimiento.com/consent/
 ||rt.cdnmedia.tv^
 ||s3wfg.com/js/vortexloader.js
+||segment.lalr.co^
 ||smarte.rs/log
 ||sp.vtex.com^
 ||stats.administrarweb.es^
@@ -13677,6 +13680,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||biomedcentral.com/track/
 ||biosolutions.tv/audience-proxy/
 ||bitchute.com/data/script.js
+||bitwarden.com/plsbl/
 ||blitz-analytics-batch-server.blitz.gg^
 ||blockworks.co/_vercel/insights/
 ||blue.nbc4i.com^
@@ -13749,6 +13753,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cl.canva.com^
 ||cl.t3n.de^
 ||clanker-events.squarespace.com^
+||clapper.life/update_deeplink_stats/
+||clapperapp.com/clpixgif?
 ||clarice.streema.com^
 ||classdojo.com/logs/
 ||classistatic.com^*/js/lib/prebid-7.5.0.min.js$script,domain=kijiji.ca
@@ -14802,6 +14808,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||srv.plesk.com^
 ||ss.esade.edu^
 ||ss.photospecialist.co.uk^
+||sst.bwt.com^
 ||sst.shopware.com^
 ||sstats.adobe.com^
 ||st.sawlive.tv^
@@ -53040,6 +53047,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 ||g123.jp/stats?
 ||game-i.daa.jp/skin/analytics.php
 ||game8.jp/logs^
+||gigafile.nu/add_count_fab_jx.php
 ||gizmodo.jp/api/SurveyCountCollection?
 ||goo.ne.jp^*/vltracedmd.js
 ||gtm.diamond.jp^
@@ -53459,6 +53467,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 ||caliente.mx/integration-scripts/tracking.min.js
 ||coletor.terra.com^
 ||compare.easyviajar.com^
+||counters.libertaddigital.com^
 ||cp.as.com/stats
 ||data-ingest.xtralife.com^
 ||data.acierto.com^
@@ -53755,7 +53764,7 @@ ncbi.nlm.nih.gov##+js(set, ncbi.sg.ping, noopFunc)
 @@||ipv4.seeip.org/jsonip$domain=empire-streaming.app
 @@||join.southerncross.co.nz/quote/_assets/js/sx/app/helpers/gtm.js
 @@||js-agent.newrelic.com^$domain=alliantcreditunion.com|giftcards.com|kapwing.com|live.griiip.com
-@@||js.datadome.co/tags.js$script,domain=monster.ca|sso.garena.com|thefork.com
+@@||js.datadome.co/tags.js$script,domain=monster.ca|sso.garena.com|thefork.at|thefork.be|thefork.ch|thefork.co.uk|thefork.com|thefork.de|thefork.es|thefork.fr|thefork.it|thefork.nl|thefork.pt|thefork.se
 @@||js.sentry-cdn.com^$script,domain=app.homebinder.com|book.dmm.com|etsy.com|interacty.me|jobs.ch|pizzahut.com.au
 @@||jsrdn.com/s/$script,domain=distro.tv
 @@||kameleoon.eu/kameleoon.js$script,domain=buttercloth.com|jules.com
