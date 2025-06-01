@@ -46,11 +46,14 @@ jobs:
           cat abp-lists/*.txt | grep -vE '^\s*$' | awk '!a[$0]++' > merged_abp_filters.txt
 
       - name: Commit and Push Changes (if any)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           if ! git diff --quiet || [ -n "$(git ls-files --others --exclude-standard)" ]; then
             git add abp-lists/*.txt merged_abp_filters.txt
             git commit -m "auto: update merged ABP filters $(date +'%F %T')"
-            git push
+            git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
+            git push origin HEAD
           else
             echo "No changes to commit."
           fi
