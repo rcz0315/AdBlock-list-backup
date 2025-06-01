@@ -10,6 +10,10 @@ easylistchina+easylist
 EasyList China+EasyList
 https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
 
+easyprivacy
+EasyPrivacy
+https://easylist.to/easylist/easyprivacy.txt
+
 abp-filters-anti-cv
 ABP filters
 ABP反规避过滤器列表
