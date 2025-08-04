@@ -24,10 +24,20 @@ Adblock Warning Removal List
 Adblock 警告删除列表
 https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
 
+distraction-control-free
+Free - Distraction Control
+无干扰控制规则
+https://easylist-downloads.adblockplus.org/v3/full/distraction-control-free.txt
+
 fanboy-annoyance
 Fanboy's Social Blocking List
 阻止社交媒体内容、页面内弹出窗口和其他烦恼
 https://secure.fanboy.co.nz/fanboy-annoyance.txt
+
+fanboy-social
+Fanboy's Social Blocking List
+仅删除网页上的社交媒体内容，例如 Facebook 点赞按钮和其他小部件
+https://easylist.to/easylist/fanboy-social.txt
 
 cjx-annoyance
 CJX's Annoyance List
