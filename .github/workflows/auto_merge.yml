@@ -35,7 +35,9 @@ jobs:
           wget -N https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
           wget -N https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
           wget -N https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+          wget -N https://easylist-downloads.adblockplus.org/v3/full/distraction-control-free.txt
           wget -N https://secure.fanboy.co.nz/fanboy-annoyance.txt
+          wget -N https://easylist.to/easylist/fanboy-social.txt
           wget -N https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
           wget -N https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt
           wget -N https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
