@@ -28,19 +28,19 @@ jobs:
       - name: Download ABP Filter Lists
         run: |
           cd abp-lists
-          wget -q --show-progress --tries=3 --timeout=30 -O easylist.txt https://easylist.to/easylist/easylist.txt
-          wget -q --show-progress --tries=3 --timeout=30 -O easyprivacy.txt https://easylist.to/easylist/easyprivacy.txt
-          wget -q --show-progress --tries=3 --timeout=30 -O easylistchina.txt https://easylist-downloads.adblockplus.org/easylistchina.txt
-          wget -q --show-progress --tries=3 --timeout=30 -O easylistchina+easylist.txt https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
-          wget -q --show-progress --tries=3 --timeout=30 -O abp-filters-anti-cv.txt https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
-          wget -q --show-progress --tries=3 --timeout=30 -O antiadblockfilters.txt https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
-          wget -q --show-progress --tries=3 --timeout=30 -O distraction-control-free.txt https://easylist-downloads.adblockplus.org/v3/full/distraction-control-free.txt
-          wget -q --show-progress --tries=3 --timeout=30 -O fanboy-annoyance.txt https://secure.fanboy.co.nz/fanboy-annoyance.txt
-          wget -q --show-progress --tries=3 --timeout=30 -O fanboy-social.txt https://easylist.to/easylist/fanboy-social.txt
-          wget -q --show-progress --tries=3 --timeout=30 -O cjx-annoyance.txt https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
-          wget -q --show-progress --tries=3 --timeout=30 -O mv.txt https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt
-          wget -q --show-progress --tries=3 --timeout=30 -O ADgk.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
-          wget -q --show-progress --tries=3 --timeout=30 -O kill-baidu-ad.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt
+          wget -O easylist.txt https://easylist.to/easylist/easylist.txt
+          wget -O easyprivacy.txt https://easylist.to/easylist/easyprivacy.txt
+          wget -O easylistchina.txt https://easylist-downloads.adblockplus.org/easylistchina.txt
+          wget -O easylistchina+easylist.txt https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
+          wget -O abp-filters-anti-cv.txt https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+          wget -O antiadblockfilters.txt https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+          wget -O distraction-control-free.txt https://easylist-downloads.adblockplus.org/v3/full/distraction-control-free.txt
+          wget -O fanboy-annoyance.txt https://secure.fanboy.co.nz/fanboy-annoyance.txt
+          wget -O fanboy-social.txt https://easylist.to/easylist/fanboy-social.txt
+          wget -O cjx-annoyance.txt https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
+          wget -O mv.txt https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt
+          wget -O ADgk.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
+          wget -O kill-baidu-ad.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt
 
       - name: Merge and Deduplicate Filter Lists
         run: |
