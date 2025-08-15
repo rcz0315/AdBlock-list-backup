@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: QHOLp+I47UvxUd8ZnATzDQ
+! Checksum: mS0nCkzcSNkwa1z0c24ZNQ
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/1543c086b6f569adf9b876b35ae18a79e9545f96.json
-! Version: 202507280701
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/a906e18334a286d6cfe2668cfe3269ecd1dc9c3b.json
+! Version: 202508110703
 ! Title: Free - Distraction Control
-! Last modified: 28 Jul 2025 07:01 UTC
+! Last modified: 11 Aug 2025 07:03 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 ! !
 !
 ! *** distraction-control:distraction-control-free.txt ***
-! Last modified: 27 Jul 2025 17:36 UTC
+! Last modified: 10 Aug 2025 17:34 UTC
 !
 ! -----------------------General blocking filters-----------------------!
 ! *** distraction-control:app/blocking_general.txt ***
@@ -197,6 +197,8 @@ pointblankmusicschool.com###popupjoinournextopenday
 shein.co.uk,shein.com##.c-quick-register
 ! Example: https://emailsoldiers.ru/
 emailsoldiers.ru##.popmechanic-js-wrapper[style*="position: fixed;"]
+! Example: https://www.barchart.com/
+barchart.com##.bc-webinar-card__content
 ! ---------------------------Suggestion Snippets---------------------------!
 ! *** distraction-control:suggestion/snippet.txt ***
 !
@@ -385,6 +387,7 @@ skai.gr###player-main.vclassnew
 thepioneerwoman.com##.hpc-sticky
 slpress.gr##.ocm-st-sticky
 bleacherreport.com##.MuiPaper-root[id*="siderail/video_recommendations"]
+barchart.com##.cnx-float-position-left
 ! ---------------------------Video Snippets---------------------------!
 ! *** distraction-control:video/snippet.txt ***
 ! *** distraction-control:video/snippet-abp.txt ***
