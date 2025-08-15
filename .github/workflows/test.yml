@@ -1,7 +1,6 @@
 name: test download
 
 on:
-  schedule:
   workflow_dispatch:      # 支持手动触发
 
 permissions:
