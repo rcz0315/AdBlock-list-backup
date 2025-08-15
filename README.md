@@ -55,3 +55,6 @@ https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
 kill-baidu-ad
 百度搜索结果极限净化
 https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt
+
+下载合并文件
+https://github.com/rcz0315/AdBlock-list-backup/releases/latest/download/merged_abp_filters.txt
