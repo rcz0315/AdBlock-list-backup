@@ -89,7 +89,6 @@ jobs:
           name: Latest Merged ABP Filters
           draft: false
           prerelease: false
-          overwrite: true
           files: merged_abp_filters.txt
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
