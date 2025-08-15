@@ -46,14 +46,13 @@ jobs:
         run: |
           awk 'NF && !seen[$0]++' abp-lists/*.txt > merged_abp_filters.txt
 
-      - name: Commit and Push Changes (if any)
+      - name: Create Release and Upload Asset
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: latest
+          name: Latest Merged ABP Filters
+          draft: false
+          prerelease: false
+          files: merged_abp_filters.txt
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git add abp-lists/*.txt merged_abp_filters.txt
-          if git diff-index --quiet HEAD --; then
-            echo "No changes to commit."
-          else
-            git commit -m "auto: update merged ABP filters $(date +'%F %T')"
-            git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
-            git push origin HEAD
