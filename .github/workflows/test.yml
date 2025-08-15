@@ -1,7 +1,7 @@
 name: test download
 
 on:
-  workflow_dispatch:      # 支持手动触发
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -13,8 +13,7 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
-        # fetch-depth 默认 1，不拉取完整历史
-        
+
       - name: Set up Git
         run: |
           git config user.name "github-actions[bot]"
@@ -27,3 +26,16 @@ jobs:
         run: |
           cd abp-lists
           wget -O easylist.txt https://easylist.to/easylist/easylist.txt
+
+      - name: Commit and Push Changes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if git diff --quiet abp-lists; then
+            echo "No changes to commit."
+          else
+            git add abp-lists/*.txt
+            git commit -m "auto: update easylist.txt $(date +'%F %T')"
+            git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
+            git push origin HEAD
+          fi
