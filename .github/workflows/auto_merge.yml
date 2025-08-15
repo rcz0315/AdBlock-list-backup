@@ -15,9 +15,8 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@v3
-        with:
-          fetch-depth: 0   # 获取完整历史，以便比较变更
-
+        # fetch-depth 默认 1，不拉取完整历史
+        
       - name: Set up Git
         run: |
           git config user.name "github-actions[bot]"
@@ -26,36 +25,35 @@ jobs:
       - name: Create Directory for Filter Lists
         run: mkdir -p abp-lists
 
-      - name: Download ABP Filter Lists (only if updated)
+      - name: Download ABP Filter Lists
         run: |
           cd abp-lists
-          wget https://easylist.to/easylist/easylist.txt
-          wget https://easylist.to/easylist/easyprivacy.txt
-          wget https://easylist-downloads.adblockplus.org/easylistchina.txt
-          wget https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
-          wget https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
-          wget https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
-          wget https://easylist-downloads.adblockplus.org/v3/full/distraction-control-free.txt
-          wget https://secure.fanboy.co.nz/fanboy-annoyance.txt
-          wget https://easylist.to/easylist/fanboy-social.txt
-          wget https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
-          wget https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt
-          wget https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
-          wget https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt
+          wget -q --show-progress --tries=3 --timeout=30 -O easylist.txt https://easylist.to/easylist/easylist.txt
+          wget -q --show-progress --tries=3 --timeout=30 -O easyprivacy.txt https://easylist.to/easylist/easyprivacy.txt
+          wget -q --show-progress --tries=3 --timeout=30 -O easylistchina.txt https://easylist-downloads.adblockplus.org/easylistchina.txt
+          wget -q --show-progress --tries=3 --timeout=30 -O easylistchina+easylist.txt https://easylist-downloads.adblockplus.org/easylistchina+easylist.txt
+          wget -q --show-progress --tries=3 --timeout=30 -O abp-filters-anti-cv.txt https://easylist-downloads.adblockplus.org/abp-filters-anti-cv.txt
+          wget -q --show-progress --tries=3 --timeout=30 -O antiadblockfilters.txt https://easylist-downloads.adblockplus.org/antiadblockfilters.txt
+          wget -q --show-progress --tries=3 --timeout=30 -O distraction-control-free.txt https://easylist-downloads.adblockplus.org/v3/full/distraction-control-free.txt
+          wget -q --show-progress --tries=3 --timeout=30 -O fanboy-annoyance.txt https://secure.fanboy.co.nz/fanboy-annoyance.txt
+          wget -q --show-progress --tries=3 --timeout=30 -O fanboy-social.txt https://easylist.to/easylist/fanboy-social.txt
+          wget -q --show-progress --tries=3 --timeout=30 -O cjx-annoyance.txt https://raw.githubusercontent.com/cjx82630/cjxlist/master/cjx-annoyance.txt
+          wget -q --show-progress --tries=3 --timeout=30 -O mv.txt https://raw.githubusercontent.com/xinggsf/Adblock-Plus-Rule/master/mv.txt
+          wget -q --show-progress --tries=3 --timeout=30 -O ADgk.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/ADgk.txt
+          wget -q --show-progress --tries=3 --timeout=30 -O kill-baidu-ad.txt https://raw.githubusercontent.com/banbendalao/ADgk/master/kill-baidu-ad.txt
 
       - name: Merge and Deduplicate Filter Lists
         run: |
-          cat abp-lists/*.txt | grep -vE '^\s*$' | awk '!a[$0]++' > merged_abp_filters.txt
+          awk 'NF && !seen[$0]++' abp-lists/*.txt > merged_abp_filters.txt
 
       - name: Commit and Push Changes (if any)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          if ! git diff --quiet || [ -n "$(git ls-files --others --exclude-standard)" ]; then
-            git add abp-lists/*.txt merged_abp_filters.txt
+          git add abp-lists/*.txt merged_abp_filters.txt
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit."
+          else
             git commit -m "auto: update merged ABP filters $(date +'%F %T')"
             git remote set-url origin https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }}
             git push origin HEAD
-          else
-            echo "No changes to commit."
-          fi
