@@ -81,7 +81,7 @@ jobs:
 
           TOTAL_RULES=$(awk '!seen[$0]++ {print}' "$TMP_FILE" | tee merged_abp_filters.txt | wc -l)
 
-          sed -i "1i[Adblock Plus 2.0]\n! Version: $VERSION_DATE\n! Title: EasyList\n! Last modified: $LAST_MODIFIED\n! Total rules: $TOTAL_RULES" merged_abp_filters.txt
+          sed -i "1i[Adblock Plus 2.0]\n! Version: $VERSION_DATE\n! Title: Merged Filters\n! Last modified: $LAST_MODIFIED\n! Total rules: $TOTAL_RULES" merged_abp_filters.txt
 
           rm -f "$TMP_FILE"
 
