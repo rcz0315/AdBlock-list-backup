@@ -50,43 +50,38 @@ jobs:
           VERSION_DATE=$(date -u +"%Y%m%d%H%M")
           LAST_MODIFIED=$(date -u +"%d %b %Y %H:%M UTC")
 
-          TMP_FILE="merged_rules_tmp.txt"
+          FILES=(
+            abp-lists/easylist.txt
+            abp-lists/easyprivacy.txt
+            abp-lists/easylistchina.txt
+            abp-lists/easylistchina+easylist.txt
+            abp-lists/abp-filters-anti-cv.txt
+            abp-lists/antiadblockfilters.txt
+            abp-lists/distraction-control-free.txt
+            abp-lists/fanboy-annoyance.txt
+            abp-lists/fanboy-social.txt
+            abp-lists/cjx-annoyance.txt
+            abp-lists/mv.txt
+            abp-lists/ADgk.txt
+            abp-lists/kill-baidu-ad.txt
+          )
 
-          cat abp-lists/easylist.txt \
-              abp-lists/easyprivacy.txt \
-              abp-lists/easylistchina.txt \
-              abp-lists/easylistchina+easylist.txt \
-              abp-lists/abp-filters-anti-cv.txt \
-              abp-lists/antiadblockfilters.txt \
-              abp-lists/distraction-control-free.txt \
-              abp-lists/fanboy-annoyance.txt \
-              abp-lists/fanboy-social.txt \
-              abp-lists/cjx-annoyance.txt \
-              abp-lists/mv.txt \
-              abp-lists/ADgk.txt \
-              abp-lists/kill-baidu-ad.txt \
-            | awk '
-                { sub(/\r$/, "", $0) }
-                /^[[:space:]]*$/ { next }
-                /^[[:space:]]*!/ { next }
-                /^[[:space:]]*\[/ { next }
-                { s = $0
-                  sub(/^[[:space:]]+/, "", s)
-                  sub(/[[:space:]]+$/, "", s)
-                }
-                !seen[s]++ { print s }
-            ' > "$TMP_FILE"
+          TMP_FILE="normalized_rules.txt"
+          > "$TMP_FILE"
+          for f in "${FILES[@]}"; do
+            awk '
+              { sub(/\r$/, "", $0) }
+              /^[[:space:]]*$/ { next }
+              /^[[:space:]]*!/ { next }
+              /^[[:space:]]*\[/ { next }
+              { s=$0; sub(/^[[:space:]]+/, "", s); sub(/[[:space:]]+$/, "", s) }
+              { print s }
+            ' "$f" >> "$TMP_FILE"
+          done
 
-          TOTAL_RULES=$(wc -l < "$TMP_FILE")
+          TOTAL_RULES=$(awk '!seen[$0]++ {print}' "$TMP_FILE" | tee merged_abp_filters.txt | wc -l)
 
-          {
-            printf "%s\n" "[Adblock Plus 2.0]"
-            printf "%s\n" "! Version: %s" "$VERSION_DATE"
-            printf "%s\n" "! Title: EasyList"
-            printf "%s\n" "! Last modified: %s" "$LAST_MODIFIED"
-            printf "%s\n" "! Total rules: %s" "$TOTAL_RULES"
-            cat "$TMP_FILE"
-          } > merged_abp_filters.txt
+          sed -i "1i[Adblock Plus 2.0]\n! Version: $VERSION_DATE\n! Title: EasyList\n! Last modified: $LAST_MODIFIED\n! Total rules: $TOTAL_RULES" merged_abp_filters.txt
 
           rm -f "$TMP_FILE"
 
