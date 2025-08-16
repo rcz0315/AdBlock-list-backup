@@ -45,8 +45,13 @@ jobs:
         run: |
           OLD_FILE="merged_abp_filters.txt"
           [ -f "$OLD_FILE" ] && cp "$OLD_FILE" old_merged.txt || touch old_merged.txt
-          
-          cat abp-lists/easylist.txt \
+
+          VERSION_DATE=$(date -u +"%Y%m%d%H%M")
+          LAST_MODIFIED=$(date -u +"%d %b %Y %H:%M UTC")
+
+          FILTER_CMD='!/^[[:space:]]*(!|\[)/ && NF && !seen[$0]++'
+
+          TOTAL_RULES=$(cat abp-lists/easylist.txt \
               abp-lists/easyprivacy.txt \
               abp-lists/easylistchina.txt \
               abp-lists/easylistchina+easylist.txt \
@@ -59,7 +64,30 @@ jobs:
               abp-lists/mv.txt \
               abp-lists/ADgk.txt \
               abp-lists/kill-baidu-ad.txt \
-              | awk '!/^[[:space:]]*(!|\[)/ && NF && !seen[$0]++' > merged_abp_filters.txt
+            | awk "$FILTER_CMD" | wc -l)
+
+          {
+              echo "[Adblock Plus 2.0]"
+              echo "! Version: $VERSION_DATE"
+              echo "! Title: Merged Filters"
+              echo "! Last modified: $LAST_MODIFIED"
+              echo "! Total rules: $TOTAL_RULES"
+  
+              cat abp-lists/easylist.txt \
+                  abp-lists/easyprivacy.txt \
+                  abp-lists/easylistchina.txt \
+                  abp-lists/easylistchina+easylist.txt \
+                  abp-lists/abp-filters-anti-cv.txt \
+                  abp-lists/antiadblockfilters.txt \
+                  abp-lists/distraction-control-free.txt \
+                  abp-lists/fanboy-annoyance.txt \
+                  abp-lists/fanboy-social.txt \
+                  abp-lists/cjx-annoyance.txt \
+                  abp-lists/mv.txt \
+                  abp-lists/ADgk.txt \
+                  abp-lists/kill-baidu-ad.txt \
+              | awk "$FILTER_CMD"
+          } > merged_abp_filters.txt
 
           if cmp -s merged_abp_filters.txt old_merged.txt; then
             echo "Merged file unchanged, skipping commit and release."
