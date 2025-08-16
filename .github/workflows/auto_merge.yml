@@ -59,7 +59,7 @@ jobs:
               abp-lists/mv.txt \
               abp-lists/ADgk.txt \
               abp-lists/kill-baidu-ad.txt \
-              | awk 'NF && !seen[$0]++' > merged_abp_filters.txt
+              | awk '!/^[[:space:]]*(!|\[)/ && NF && !seen[$0]++' > merged_abp_filters.txt
 
           if cmp -s merged_abp_filters.txt old_merged.txt; then
             echo "Merged file unchanged, skipping commit and release."
