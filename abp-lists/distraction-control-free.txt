@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: mS0nCkzcSNkwa1z0c24ZNQ
+! Checksum: ikt6mcWvDKA+VHX4tdX/iw
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/a906e18334a286d6cfe2668cfe3269ecd1dc9c3b.json
-! Version: 202508110703
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/6f79685815db068873241d87b0fa406136a93216.json
+! Version: 202508180701
 ! Title: Free - Distraction Control
-! Last modified: 11 Aug 2025 07:03 UTC
+! Last modified: 18 Aug 2025 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 ! !
 !
 ! *** distraction-control:distraction-control-free.txt ***
-! Last modified: 10 Aug 2025 17:34 UTC
+! Last modified: 17 Aug 2025 17:34 UTC
 !
 ! -----------------------General blocking filters-----------------------!
 ! *** distraction-control:app/blocking_general.txt ***
@@ -199,6 +199,8 @@ shein.co.uk,shein.com##.c-quick-register
 emailsoldiers.ru##.popmechanic-js-wrapper[style*="position: fixed;"]
 ! Example: https://www.barchart.com/
 barchart.com##.bc-webinar-card__content
+! Example: https://www.sciencedirect.com/
+sciencedirect.com###pendo-base
 ! ---------------------------Suggestion Snippets---------------------------!
 ! *** distraction-control:suggestion/snippet.txt ***
 !
@@ -472,3 +474,4 @@ bluewin.ch#$#simulate-mouse-event '.acm_sticky_active_parent .acm_sticky_active 
 washingtonexaminer.com#$#simulate-mouse-event '.brid-playing[style="width: 788px; height: 443.619px;"] + .brid-close'
 dailyhive.com#$#simulate-mouse-event '#fw-player[style*="visibility: visible;"] ^^sh^^ .cy-back_close'
 ctvnews.ca#$#simulate-mouse-event 'div[class*="jasper-player-root__float"][style="width: 300px; height: 168px; bottom: 25px; right: 25px;"] button[aria-label="Close float player"]$continue'
+news.com.au#$#simulate-mouse-event '.op-embed-player[data-op-view="sticky"] [aria-label="Close player"]'
