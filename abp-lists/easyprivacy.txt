@@ -1,7 +1,7 @@
 [Adblock Plus 1.1]
-! Version: 202508210208
+! Version: 202508220210
 ! Title: EasyPrivacy
-! Last modified: 21 Aug 2025 02:08 UTC
+! Last modified: 22 Aug 2025 02:10 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -7998,6 +7998,7 @@ omni.soundestlink.com$image
 ||swankysquare.com^
 ||sweetslope.com^
 ||swellstocking.com^
+||swiftintro.com^
 ||swimfreely.com^
 ||swingslip.com^
 ||swipechief.com^
@@ -8537,7 +8538,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||microcounter.de^$third-party
 ||mindtake.com^$third-party
 ||motorpresse-statistik.de^$third-party
-||mps-gba.de^$third-party
 ||mr-rank.de^$third-party
 ||multicounter.de^$third-party
 ||my-ranking.de^$third-party
@@ -10071,7 +10071,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||contentdriver.com/api/impression
 ||contently.com/xdomain/
 ||contentpass.net/stats?$third-party
-||contents-tracking.beop.io^
+||ads-tracking.beop.io^
+||ads-tracking.collectiveaudience.co^
 ||control.cityofcairns.com^$third-party
 ||conversions.genieventures.co.uk^
 ||convertflow.co^*/visitors/
@@ -10531,6 +10532,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||harvest.graindata.com^
 ||hasbro.com/includes/js/metrics/
 ||haymarket.com/injector/deliver/
+||hb.collectiveaudience.co^
 ||hb.vhsrv.com^
 ||hcmanager.swifteq.com/hc_events/
 ||hdnux.com/HNP/stats/page_view?
@@ -11341,6 +11343,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||s.autopilotapp.com^
 ||s.axon.ai/s/pixel.js
 ||s.beop.io^
+||s.collectiveaudience.co^
 ||s.logsss.com^
 ||s.pinimg.com/ct/core.js
 ||s.srvsynd.com^
@@ -15881,8 +15884,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||pcoptimizedsettings.com/wp-content/plugins/koko-analytics/$script,redirect=noop.js,important
 ||pcoptimizedsettings.com/wp-content/uploads/breeze/google/gtag.js$script,redirect=noop.js,important
 ! GPC
-geizhals.de,harborfreight.com,gemini.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
-geizhals.de,harborfreight.com,gemini.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
+geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, Navigator.prototype.globalPrivacyControl, false)
+geizhals.de,harborfreight.com,flyfrontier.com,acmemarkets.com,usaa.com,capezio.com,twitch.tv,spotify.com,tidal.com,deezer.com,pandora.com,qobuz.com,soundcloud.com,vimeo.com,x.com,twitter.com,eventbrite.com,wunderground.com,accuweather.com,formula1.com,lenscrafters.com,subway.com,ticketmaster.*,livewithkellyandmark.com,visible.com,porsche.com,uber.com,jdsports.com,engadget.com,yahoo.com,techcrunch.com,rivals.com,kkrt.com,crunchyroll.com,dnb.com,dnb.co.uk,weather.com,ubereats.com##+js(set, navigator.globalPrivacyControl, false)
 ! Clear GPC storage item
 visible.com##+js(set-local-storage-item, browser-ids, $remove$)
 ! Showing "Enable Cookies Please enable cookies in your browser to access USAA."
@@ -53116,6 +53119,9 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||outal.origo.hu^
 ||rtl.hu/_stat/
 ||videa.hu/flvplayer_setcookie.php?
+! Indian/Hindi
+||handler.amarujala.com/user/event
+||staticasset.amarujala.com/handler/recomUserEvent.js
 ! Indonesian
 ||analytic20.detik.com^
 ||bukalapak.com/banner-redirector/impression
@@ -54392,7 +54398,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||kameleoon.io/geolocation^$domain=welt.de
 @@||kameleoon.io/ip^$domain=welt.de
 @@||l.ecn-ldr.de/loader/loader.js$domain=braun-hamburg.com
-@@||online.mps-gba.de/praeludium/$script,domain=auto-motor-und-sport.de|caravaning.de|motorradonline.de
 @@||outbrainimg.com^$third-party,domain=computerbild.de|fitbook.de|metal-hammer.de|rollingstone.de|stylebook.de
 @@||pruefernavi.de/vendor/elasticsearch/elastic-apm-rum.umd.min.js$~third-party
 @@||responder.wt-safetag.com/resp/api/get/$script,domain=myhermes.de
