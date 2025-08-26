@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: ikt6mcWvDKA+VHX4tdX/iw
+! Checksum: uMyBipUoEOrhn5WVKCE16Q
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/6f79685815db068873241d87b0fa406136a93216.json
-! Version: 202508180701
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/74db42c0e934d2872bfafe48ce057c2ce783b65d.json
+! Version: 202508250701
 ! Title: Free - Distraction Control
-! Last modified: 18 Aug 2025 07:01 UTC
+! Last modified: 25 Aug 2025 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 ! !
 !
 ! *** distraction-control:distraction-control-free.txt ***
-! Last modified: 17 Aug 2025 17:34 UTC
+! Last modified: 24 Aug 2025 17:33 UTC
 !
 ! -----------------------General blocking filters-----------------------!
 ! *** distraction-control:app/blocking_general.txt ***
@@ -104,6 +104,8 @@ nytimes.com##[data-testid="onsite-messaging-unit-dock"][data-audience*="free_acc
 catawiki.com##[data-sentry-component="RegistrationSlideIn"]
 ! Example: https://www.nijisanji.jp/streams
 nijisanji.jp##[class*="suggestLoginModal"]
+! Example: https://m.cafe.naver.com/ca-fe/web/cafes/13764661
+cafe.naver.com##.FloatingJoinButton
 ! ---------------------------Signup Snippets---------------------------!
 ! *** distraction-control:signup/snippet.txt ***
 !
@@ -147,6 +149,7 @@ bonappetit.com#?#[class^="InContentBarrierFloatingBar"]:-abp-contains(START FREE
 /plugins/hustle/assets/hustle-ui
 /featherlight.min.js
 /wp-content/plugins/popup-maker/*$script
+||modal.vendavalida.com.br/helpers/modal.js
 ! -----------------------Suggestion Specific blocking filters-----------------------!
 ! *** distraction-control:suggestion/blocking_specific.txt ***
 !
@@ -201,6 +204,8 @@ emailsoldiers.ru##.popmechanic-js-wrapper[style*="position: fixed;"]
 barchart.com##.bc-webinar-card__content
 ! Example: https://www.sciencedirect.com/
 sciencedirect.com###pendo-base
+! Example: https://www.netlife.ec/
+netlife.ec##.popupaccess
 ! ---------------------------Suggestion Snippets---------------------------!
 ! *** distraction-control:suggestion/snippet.txt ***
 !

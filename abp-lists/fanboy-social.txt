@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
-! Version: 202508250147
+! Version: 202508260132
 ! Title: Fanboy's Social Blocking List
-! Last modified: 25 Aug 2025 01:47 UTC
+! Last modified: 26 Aug 2025 01:32 UTC
 ! Expires: 4 days (update frequency)
 ! *** easylist:template_header.txt ***
 ! 
@@ -10573,6 +10573,7 @@ venturebeat.com##.Footer__social-icon
 thedailybeast.com##.Footer__socials
 i24news.tv##.Footer_social-network-links-wrapper__xN9Go
 earth.com##.Footer_social_bar__E9yGn
+indianexpress.com##.G-folow-button
 meduza.io##.GeneralMaterial-module-share
 bdnews24.com##.HeaderTopSocialIcon
 sfgate.com##.ListingTile_social_nav-wrapper
@@ -11093,7 +11094,7 @@ artnews.com##.header-super-nav
 iranwire.com##.header-top
 news.cgtn.com,newsus.cgtn.com##.header-v3-follow-common
 cgtn.com,cri.cn##.header-v3-shareicon
-pulse.com.gh,pulse.ng##.headerSocials
+africa.businessinsider.com,pulse.com.gh,pulse.ng##.headerSocials
 cpac.ca##.header__multi__social
 mirror.co.uk##.header__nav__share--active
 accessonline.com##.header__social-search__icons
@@ -11138,6 +11139,7 @@ inews.co.uk##.inews__post-share
 labiotech.eu##.inline-block.space-y-8
 mainichi.jp##.inline-list
 winnipegfreepress.com##.interactive
+bossip.com##.io-header__social-links
 insideevs.com##.isBottomShare
 iphoneincanada.ca,teslanorth.com##.item--share
 flyercity.ca##.item_share_area
@@ -11698,6 +11700,7 @@ bbc.co.uk##.ssrcss-11faxz6-TagShareWrapper
 middleeasteye.net##.st-inline-share-buttons
 wng.org##.st-sticky-share-buttons
 dailytorch.com##.stButton
+africa.businessinsider.com##.standard-detailSocialShare
 audacy.com##.station-footer__social
 aceshowbiz.com##.stay-connected
 pnn.ps##.stay-connected-color
@@ -11988,6 +11991,7 @@ theshovel.com.au##.padding-top-small > .widgetizedArea:has-text(Like this)
 jacobin.com##.po-fr__heading:has-text(Share this article)
 lifenews.com##.post_style_zk > p:has-text(Please subscribe)
 newsroom.ucla.edu##.promo-card-muted:has-text(RSS feed)
+futurism.com##.py-4:has-text(Share This Article)
 heritagedaily.com##.tds-button:has-text(FOLLOW ON GOOGLE NEWS)
 twitch.tv##.tw-balloon:has-text(Share To)
 ruwix.com##.widget-title:has-text(Share this page!)
@@ -13625,7 +13629,7 @@ tmstor.es#@#.top_social
 swingliteracy.com#@#.tve_social_items
 nothiefsallowed.com#@#.twitter-timeline
 google.com#@#SHARE-BUTTON
-geki-cine.jp,hypnosismic-anime.com,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp,ufret.jp#@#a[href^="https://twitter.com/intent/tweet?"]
+geki-cine.jp,heiwa-9inday.jp,hypnosismic-anime.com,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp,ufret.jp#@#a[href^="https://twitter.com/intent/tweet?"]
 petsmart.com#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
 playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"]
 ! *** easylist:fanboy-addon/fanboy_social_allowlist.txt ***
