@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 37K3KPXmyC+s2KLBQjboKw
-! Version: 202508270142
+! Checksum: sDJXsGPRE0Oz52SjuzDZmw
+! Version: 202508280042
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-08-27 01:42 UTC
+! Last modified: 2025-08-28 00:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2658,7 +2658,7 @@ www.youtube.com###content > .ytd-rich-section-renderer:has-text(YouTube Playable
 ! youtube popups
 www.youtube.com##.YtdTalkToRecsFlowRendererHost:has-text(What hobbies are you interested in developing?)
 www.youtube.com##tp-yt-paper-dialog.ytd-popup-container:has(> .ytd-popup-container > #options.ytd-checkbox-survey-renderer)
-www.youtube.com##tp-yt-paper-dialog.ytd-popup-container:has-text(/Which of the following|following Premium|Choose all that apply|Become a member|Free trial|How are your|How interested|Live TV|Wish videos|background play|better TV|cable box|cable reimagined|hidden fees|of YouTube TV|on YouTube TV|unlimited DVR|with YouTube TV|without the ads|try this feature|Terms apply|View live scores/)
+www.youtube.com##tp-yt-paper-dialog.ytd-popup-container:has-text(/How do you feel|Which of the following|following Premium|Choose all that apply|Become a member|Free trial|How are your|How interested|Live TV|Wish videos|background play|better TV|cable box|cable reimagined|hidden fees|of YouTube TV|on YouTube TV|unlimited DVR|with YouTube TV|without the ads|try this feature|Terms apply|View live scores/)
 music.youtube.com##tp-yt-paper-dialog.ytmusic-popup-container:has-text(/family plan|Premium|ad-free|background play|kept playing|month free|without the ads|Try YouTube Music/)
 ! Login popups
 usnews.com##.MuiPaper-elevation.MuiPaper-root:has-text(Create an Account)
@@ -35417,7 +35417,7 @@ wyze.com###wyze-cookie-banner
 xhorsetool.com###xri_GoogConsent
 hydramatics.co.za###zcb-banner
 spiceworks.com###zdprivacy-content-new
-buildship.com,coworker.ai,enhanced.com,fitanalytics.com,framer.com,frigade.ai,gitbook.com,neon-free.ch,strongcloud.online##.--framer-cookie-banner-container
+avaloniaui.net,buildship.com,bunq.com,coworker.ai,enhanced.com,fitanalytics.com,framer.com,frigade.ai,gitbook.com,neon-free.ch,site.trasti.pl,strongcloud.online,syncly.app##.--framer-cookie-banner-container
 dublininquirer.com##.-alert.-fixed.notice
 alpari.com,alpariforex.org##.-footer__notice
 nhl.com##.-left.nhl-c-toast
@@ -38535,6 +38535,7 @@ play.google.com##.gb_g:has-text(cookie)
 twitch.tv##.hLgTAv:has-text(Terms of Sale)
 chatgpt.com##.md\:px-\[60px\]:has-text(By messaging ChatGPT)
 alohaprofile.com##.md\:right-\[40px\]:has-text(By continuing to use our site)
+app.prolific.com##.orejime-Root:has-text(We collect and process your personal information)
 clickscope.org##.t8b87:has-text(Privacy Policy Notice)
 privatekeys.pw##.toast:has-text(We use cookies)
 coopmobile.ch##.top-0.z-9999.fixed.bg-opacity-30:has-text(Website Cookies)
@@ -45957,6 +45958,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 ||beehiiv.com^$domain=marktechpost.com
 ||chan.sankakucomplex.com/javascripts/sp/s-new.js
 ||chemistwarehouse.com.au/edm_collector.html
+||chimpstatic.com/mcjs-connected/$script,domain=stilldrinking.org
 ||dw.com/webapi/iframes/widget/
 ||electricfencing.co.uk/prnewsletterpopup/
 ||ewnews.com/wp-content/themes/dw-focus/newsletter.png
