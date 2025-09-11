@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ON2ZLnB7FEu4TrcdhXFEKg
-! Version: 202509100142
+! Checksum: iCxhAWNykICnvHq7F2RRyw
+! Version: 202509110042
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-09-10 01:42 UTC
+! Last modified: 2025-09-11 00:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2655,7 +2655,7 @@ washingtonmonthly.com#?#.wp-block-group__inner-container:-abp-contains(Support t
 ! google popups
 google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de,google.es,google.fr,google.it,google.nl,google.pt##.Ryrdad:has-text(Please help us improve)
 developer.android.com##.devsite-snackbar-snack:has-text(Please help us)
-www.google.com##[aria-describedby="promo_desc_id"]:has-text(/Gemini, |Choose Chrome|Search differently|Cherchez différemment|Search just got easier|Try more ways/)
+www.google.com##[aria-describedby="promo_desc_id"]:has-text(/Gemini, |Choose Chrome|Search differently|Cherchez différemment|Search just got easier|Try more ways|Switch to Chrome/)
 google.ca,google.co.nz,google.co.uk,google.com,google.com.au,google.de,google.es,google.fr,google.it,google.nl,google.pt##[jscontroller="HCSvae"]:has-text(Sign in to Google)
 google.com##div[jsname="wA2P2b"]:has-text(How helpful were the results)
 ! Paid overlay nag
@@ -2900,7 +2900,7 @@ softroboticstoolkit.com###footer
 casinodelavallee.com,cryptobizmagazine.com,ijn.com,itamilradar.com,nationwideradiojm.com,stanfordmag.org,tv360nigeria.com,weeklyrecess.com###go-top
 erome.com###goTop
 fanfreegames.com###go_to_top
-aorus.com,insidebitcoins.com###gotop
+aorus.com,insidebitcoins.com,vgtimes.com###gotop
 gov.br###gototop_v2
 houzz.com###hzScrollTop
 gamespot.com###in-page-nav
@@ -16206,7 +16206,7 @@ ilmeteo.net,meteored.cl,meteored.com.ar,meteored.mx,tameteo.com,tempo.com,tempo.
 !! .social-button
 ansalatina.com,disroot.org,onpulson.de,rand.org,sportwebsicilia.it##.social-button
 !! .social-buttons
-allears.net,canadaradiostations.com,canli-radyo-dinle.com,cgtnturk.com,crimeonline.com,dezeen.com,diarioprimeralinea.com.ar,eandt.theiet.org,elfinanciero.com.mx,elheraldo.hn,emisoras-puertorico.com,emisorascolombianas.co,fivebooks.com,fmradiofree.com,fmuna.com.ar,foxsports.com.mx,informer.com,internetradio-horen.de,internetradio-schweiz.ch,laprensa.hn,open.online,opencritic.com,politicalflare.com,proteste.org.br,radio-ao-vivo.com,radio-australia.org,radio-belgie.be,radio-danmark.dk,radio-dominicana.com,radio-ecuador.org,radio-en-ligne.fr,radio-en-vivo.mx,radio-espana.es,radio-hk.com,radio-hrvatska.com,radio-italiane.it,radio-korea.com,radio-maroc.org,radio-nederland.nl,radio-norge.org,radio-osterreich.at,radio-philippines.com,radio-polska.pl,radio-singapore.com,radio-south-africa.co.za,radio-stations.co.nz,radio-suomi.com,radio-sveriges.se,radio-thai.com,radio-ua.com,radio-uk.co.uk,radioindia.in,radioindonesia.org,radiojapan.org,radiomalaysia.org,radios-argentinas.org,radios-bolivia.com,radios-chilenas.com,radios-guatemala.com,radios-online.pt,radios-uruguay.com,radios-venezuela.com,radiosdelperu.pe,radiotaiwan.tw,rai.it,redvoicemedia.com,religionnews.com,tarreo.com,thecollegefix.com,upcomingvinyl.com##.social-buttons
+allears.net,canadaradiostations.com,canli-radyo-dinle.com,cgtnturk.com,crimeonline.com,dezeen.com,diarioprimeralinea.com.ar,eandt.theiet.org,elfinanciero.com.mx,elheraldo.hn,emisoras-puertorico.com,emisorascolombianas.co,fivebooks.com,fmradiofree.com,fmuna.com.ar,foxsports.com.mx,img2go.com,informer.com,internetradio-horen.de,internetradio-schweiz.ch,laprensa.hn,open.online,opencritic.com,politicalflare.com,proteste.org.br,radio-ao-vivo.com,radio-australia.org,radio-belgie.be,radio-danmark.dk,radio-dominicana.com,radio-ecuador.org,radio-en-ligne.fr,radio-en-vivo.mx,radio-espana.es,radio-hk.com,radio-hrvatska.com,radio-italiane.it,radio-korea.com,radio-maroc.org,radio-nederland.nl,radio-norge.org,radio-osterreich.at,radio-philippines.com,radio-polska.pl,radio-singapore.com,radio-south-africa.co.za,radio-stations.co.nz,radio-suomi.com,radio-sveriges.se,radio-thai.com,radio-ua.com,radio-uk.co.uk,radioindia.in,radioindonesia.org,radiojapan.org,radiomalaysia.org,radios-argentinas.org,radios-bolivia.com,radios-chilenas.com,radios-guatemala.com,radios-online.pt,radios-uruguay.com,radios-venezuela.com,radiosdelperu.pe,radiotaiwan.tw,rai.it,redvoicemedia.com,religionnews.com,tarreo.com,thecollegefix.com,upcomingvinyl.com##.social-buttons
 !! .uc-social-bar-wrapper
 n1info.ba,n1info.hr,n1info.rs,n1info.si,nova.rs##.uc-social-bar-wrapper
 !! .sns
@@ -16289,6 +16289,9 @@ govtrack.us##.modal-backdrop
 govtrack.us##body:style(overflow: auto !important;)
 ! show_share popup
 fmovies.*,yesmovies.*,gomovies.sx,himovies.*,actvid.rs,moviesjoy.*,swatchseries.*,sflix.to,hurawatchz.to,yuppow.com,myflixerz.to##+js(set-cookie, show_share, true)
+! vgtimes.com
+vgtimes.com##.twitter
+vgtimes.com##body:style(overflow: auto !important; position: initial !important;)
 ! gulte.com
 gulte.com###awt_popup_landing
 gulte.com##body:style(overflow: auto !important;)
@@ -34631,7 +34634,7 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 ||tags.tiqcdn.com^$script,domain=firstdirect.com|lavazzausa.com|santander.pl|swisscom.ch
 ||teamsimmer.com/wp-content/uploads/klaro/klaro.js
 ||terencehill.com/modules/hicookielaw/
-||transcend-cdn.com^$domain=1password.com|anaconda.com|chubbiesshorts.com|classy.org|costco.ca|costco.com|costcobusinessdelivery.com|digicert.com|etsy.com|eyeconic.com|fanexpohq.com|fashionnova.com|gamechoiceawards.com|gamedeveloper.com|gdconf.com|gdcvault.com|gofundme.com|igf.com|indiegogo.com|informa.com|informaconnect.com|kfc.com|kickstarter.com|lifetouch.com|mountaineast.org|netapp.com|patreon.com|shutterfly.com|vimeo.com|visible.com|vsp.com|vspdirect.com
+||transcend-cdn.com^$domain=1password.com|anaconda.com|chubbiesshorts.com|classy.org|costco.ca|costco.com|costcobusinessdelivery.com|darkreading.com|digicert.com|etsy.com|eyeconic.com|fanexpohq.com|fashionnova.com|gamechoiceawards.com|gamedeveloper.com|gdconf.com|gdcvault.com|gofundme.com|igf.com|indiegogo.com|informa.com|informaconnect.com|kfc.com|kickstarter.com|lifetouch.com|mountaineast.org|netapp.com|patreon.com|shutterfly.com|vimeo.com|visible.com|vsp.com|vspdirect.com
 ||transcendcdn.eventbrite.com^
 ||tvpworld.com/files/portale-v4/polityka-prywatnosci/js/tvp-tcfapi.js
 ||umich.edu/apis/umcookieconsent/
@@ -37056,7 +37059,7 @@ araviscapital.com##.privacy-holder
 flysaa.com##.privacy-info-message
 businessinsider.com##.privacy-link
 petalmaps.com##.privacy-menu
-cbc.ca,curiosum.com,kinolorber.com,masters.com,shmoop.com,syracuse.edu##.privacy-notice
+cbc.ca,curiosum.com,eso.org,kinolorber.com,masters.com,shmoop.com,syracuse.edu##.privacy-notice
 uniprot.org##.privacy-panel
 tribalwars2.com##.privacy-policty-bar
 naukri.com##.privacy-policy-container
@@ -37700,7 +37703,7 @@ just-eat.ch,just-eat.fr,lieferando.at,lieferando.de,pyszne.pl,takeaway.com,thuis
 ! #cookiesjsr
 brightlands.com,cnmc.es,confea.org.br,elbitsystems.com,frequentis.com,gmv.com,iucn.org,iucncongress2025.org,land.nrw,mmkv.cz,portdebarcelona.cat,puertos.es,red.es,sagemcom.com,santiagodecompostela.gal,tecnoalarm.com,thecommonwealth.org###cookiesjsr
 ! #cookieConsent
-abcsinsights.com,cellc.co.za,eu-citizen.science,finstat.cz,finstat.sk,fortunebusinessinsights.com,julesjordan.com,kurz-mal-weg.de,lowellgroup.co.uk,lursoft.lv,monsterenergy.com,my.eekgames.com,myperfectweather.com,nova.es,psiphon.ca,tagesmutter-bz.it,thebestporn.com,timinis.com,vernemq.com,visitkamnik.com,yenibeygir.com###cookieConsent
+abcsinsights.com,antena1.com.br,cellc.co.za,eu-citizen.science,finstat.cz,finstat.sk,fortunebusinessinsights.com,julesjordan.com,kurz-mal-weg.de,lowellgroup.co.uk,lursoft.lv,monsterenergy.com,my.eekgames.com,myperfectweather.com,nova.es,psiphon.ca,tagesmutter-bz.it,thebestporn.com,timinis.com,vernemq.com,visitkamnik.com,yenibeygir.com###cookieConsent
 ! .cookies-consent
 actie.degoedezaak.org,campax.org,mrfdev.com,pelephone.co.il,voicemod.net##.cookies-consent
 ! #cookie-message
@@ -38728,6 +38731,9 @@ umweltportal.nrw.de##+js(set-cookie, COOKIE_SUPPORT, true)
 umweltportal.nrw.de##+js(set-cookie, COOKIE_SETTINGS_SAVED, true)
 stagewise.io##+js(set-cookie, stagewise-cookie-consent, denied)
 kjell.com##+js(set-cookie, ccValues, 1)
+audi-mediacenter.com##+js(set-cookie, AUDI_ENSIGHTEN_PRIVACY_MODAL_LOADED, 1)
+audi-mediacenter.com##+js(set-cookie, AUDI_ENSIGHTEN_PRIVACY_MODAL_VIEWED, 1)
+audi-mediacenter.com##+js(set-cookie, AUDI_ENSIGHTEN_PRIVACY_Performance, 0)
 careers.omedastudios.com##+js(set-cookie, _ttCookiePermissions, 0)
 plantasjen.no##+js(set-cookie, _ca, false)
 plantasjen.no##+js(set-cookie, _ftu, false)
@@ -39773,7 +39779,7 @@ case-score.com##+js(set-cookie, cookieConfirm, true)
 mydashboard.getlivesmart.com##+js(set-cookie, consentAsked, 1)
 case-score.com##+js(set-cookie, trackingConfirm, false)
 freeletics.com,cote.co.uk,finimize.com,unsplash.com,tullingecupen.se##+js(set-cookie, cookie_consent, false)
-k-einbruch.de,blxxded.com##+js(set-cookie, cookie_consent, true)
+nettyworth.io,k-einbruch.de,blxxded.com##+js(set-cookie, cookie_consent, true)
 k-einbruch.de##+js(set-cookie, gtm-disable-GTM-NLVRXX8, true)
 catawiki.com##+js(set-cookie, has_pending_cookie_consent_sync, true)
 catawiki.com##+js(set-cookie, enable_analytical_cookies, false)
@@ -41078,6 +41084,8 @@ puzzleyou.fr##+js(set-cookie, puzzleyou-fr_cookies_consent_allowlist, 0, , reloa
 ! blacknut.com
 blacknut.com###__bna-cmp-display
 blacknut.com##body:style(position: static !important; overflow: auto !important; width: auto !important;)
+! blur apps.dirittopratico.it
+apps.dirittopratico.it###contenitore:style(filter: none !important;)
 ! conotoxia
 cinkciarz.pl,conotoxia.com##+js(set-cookie, acceptedCookiesRemarketing, required)
 ! hartfordbusiness.com
@@ -43899,6 +43907,7 @@ hugocursos.com.br,jogatina.com##.alerta
 curitiba.pr.gov.br,inaciomartins.pr.gov.br##.alertaCookies
 fiotec.fiocruz.br##.alertbox
 dimed.com.br##.antd-pro-components-cookie-pop-up-index-show_popup
+educamaisbrasil.com.br##.aviso-cookie
 try.com.br##.bZEgfH
 quizur.com##.backdrop-blur-sm
 consul.pt##.background-overlay
@@ -44651,6 +44660,7 @@ crezes.es,pdatos.com,tasacion-costas.es##.vm--container
 crezes.es,pdatos.com##.vm--overlay
 metrobilbao.eus##[aria-label="Cookie settings panel"]
 abonados.realvalladolid.es##a360-cookies-advice
+prestaciones.seg-social.es##app-banner-cookies
 gijon.es##app-com-banner-cookies
 puntoscolombia.com##app-cookie-policy-popup
 laroja.cl##app-privacy-policy
@@ -45344,8 +45354,8 @@ cityexpress.rs#@##gdpr-cookie-consent
 ing.jobs#@##gdprconsent
 kwizard.hr,rodicycling.com#@##moove_gdpr_cookie_info_bar
 xsports.lv#@##notice-cookie-block
-1001games.com,1001hry.cz,1001jeux.fr,1001jocuri.ro,1001jogos.com.br,1001jogos.pt,1001pelit.com,1001spiele.de,3sat.de,aerztezeitung.de,airnewzealand.co.nz,arkadium.com,automobiles.honda.com,avisendanmark.dk,billa.at,blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.pl,blaklader.se,blaklader.uk,blick.ch,boomerang-tv.pl,cbslocal.com,chvnoticias.cl,cmore.fi,coca-cola.co.za,computerbase.de,cosplaycentral.com,costco.com,credit-suisse.com,de.hgtv.com,developer.confluent.io,dhl.de,dicebreaker.com,digitalfoundry.net,dmax.de,drafthouse.com,e-ladestation.aldi-sued.de,elkspel.nl,elle.se,eurogamer.cz,eurogamer.pl,eurogamer.pt,foodandwine.com,forexlive.com,funnygames.be,funnygames.it,funnygames.nl,gamescom.global,gamesindustry.biz,gamespot.com,geizhals.at,geizhals.de,giochixl.it,gioco.it,glamourmagazine.co.uk,gmx.com,grajteraz.pl,groceries.asda.com,guloggratis.dk,heute.at,howstuffworks.com,igrixl.ru,ilsole24ore.com,isladejuegos.com,jatekokxl.hu,jelly.deals,jetztspielen.ws,juegosjuegos.ws,karriere.at,kizi.com,konami.com,larousse.fr,logitech.com,mail.com,mensjournal.com,mesta.net,milwaukeetool.eu,mtvuutiset.fi,nachrichten.at,natgeotv.com,nationalgeographic.de,nutmeg.com,oe24.at,okazii.ro,olympics.com,omnipod.com,paixnidiaxl.gr,panasonic.com,patagonia.com,posti.fi,pricerunner.com,pricerunner.dk,pricerunner.se,proximus.be,pushsquare.com,randalls.com,redbull.com,redbullracing.com,reisetopia.de,rockpapershotgun.com,rtlplay.be,rtlxl.nl,ryobitools.eu,saal-digital.at,saal-digital.bg,saal-digital.ch,saal-digital.com,saal-digital.cz,saal-digital.de,saal-digital.dk,saal-digital.ee,saal-digital.es,saal-digital.eu,saal-digital.fi,saal-digital.fr,saal-digital.gr,saal-digital.hu,saal-digital.lt,saal-digital.lv,saal-digital.nl,saal-digital.pl,saal-digital.pt,saal-digital.ro,saal-digital.se,saal-digital.si,saal-digital.sk,salesforce.com,sony.pl,spel.nl,spelletjes.nl,spelo.se,spillespill.no,spilxl.dk,sport.pl,starwarscelebration.com,stern.de,storia.ro,tagesanzeiger.ch,technics.com,ted.com,thehaul.com,thejournal.ie,thepopverse.com,thetrainline.com,tio.ch,tokfm.pl,travelandleisure.com,travelbook.de,tunein.com,tvn24.pl,uber-platz.de,unity.com,uphold.com,vg247.com,videoland.com,vol.at,webuyanycar.com,wetter.at,wowbiz.ro,zdf.de,zoom.us#@##onetrust-banner-sdk
-1001games.com,1001hry.cz,1001jeux.fr,1001jocuri.ro,1001jogos.com.br,1001jogos.pt,1001pelit.com,1001spiele.de,20min.ch,3sat.de,aerztezeitung.de,airnewzealand.co.nz,arkadium.com,automobiles.honda.com,avisendanmark.dk,billa.at,blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.pl,blaklader.se,blaklader.uk,blick.ch,boomerang-tv.pl,cbslocal.com,chvnoticias.cl,cmore.fi,cnn.com,coca-cola.co.za,computerbase.de,cosplaycentral.com,costco.com,credit-suisse.com,de.hgtv.com,developer.confluent.io,dhl.de,dicebreaker.com,digitalfoundry.net,dmax.de,drafthouse.com,e-ladestation.aldi-sued.de,elkspel.nl,elle.se,eurogamer.cz,eurogamer.pl,eurogamer.pt,foodandwine.com,forexlive.com,funnygames.be,funnygames.it,funnygames.nl,gamescom.global,gamesindustry.biz,gamespot.com,geizhals.at,geizhals.de,giochixl.it,gioco.it,glamourmagazine.co.uk,gmx.com,grajteraz.pl,groceries.asda.com,guloggratis.dk,heute.at,howstuffworks.com,igrixl.ru,ilsole24ore.com,isladejuegos.com,jatekokxl.hu,jelly.deals,jetztspielen.ws,juegosjuegos.ws,karriere.at,kizi.com,konami.com,larousse.fr,logitech.com,mail.com,mensjournal.com,mesta.net,milwaukeetool.eu,mtvuutiset.fi,nachrichten.at,natgeotv.com,nationalgeographic.de,nutmeg.com,oe24.at,okazii.ro,olympics.com,omnipod.com,paixnidiaxl.gr,panasonic.com,patagonia.com,posti.fi,pricerunner.com,pricerunner.dk,pricerunner.se,proximus.be,pushsquare.com,randalls.com,redbull.com,redbullracing.com,reisetopia.de,rockpapershotgun.com,rtlplay.be,rtlxl.nl,ryobitools.eu,saal-digital.at,saal-digital.bg,saal-digital.ch,saal-digital.com,saal-digital.cz,saal-digital.de,saal-digital.dk,saal-digital.ee,saal-digital.es,saal-digital.eu,saal-digital.fi,saal-digital.fr,saal-digital.gr,saal-digital.hu,saal-digital.lt,saal-digital.lv,saal-digital.nl,saal-digital.pl,saal-digital.pt,saal-digital.ro,saal-digital.se,saal-digital.si,saal-digital.sk,salesforce.com,sony.pl,southpark.de,spel.nl,spelletjes.nl,spelo.se,spillespill.no,spilxl.dk,sport.pl,starwarscelebration.com,stern.de,storia.ro,tagesanzeiger.ch,technics.com,ted.com,thehaul.com,thejournal.ie,thepopverse.com,thetrainline.com,tio.ch,tokfm.pl,travelandleisure.com,travelbook.de,tunein.com,tvn24.pl,uber-platz.de,unity.com,uphold.com,vg247.com,videoland.com,vol.at,webuyanycar.com,wetter.at,wowbiz.ro,zdf.de,zoom.us#@##onetrust-consent-sdk
+1001games.com,1001hry.cz,1001jeux.fr,1001jocuri.ro,1001jogos.com.br,1001jogos.pt,1001pelit.com,1001spiele.de,3sat.de,aerztezeitung.de,airnewzealand.co.nz,arkadium.com,automobiles.honda.com,avisendanmark.dk,billa.at,blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.pl,blaklader.se,blaklader.uk,blick.ch,boomerang-tv.pl,cbslocal.com,chvnoticias.cl,cmore.fi,coca-cola.co.za,computerbase.de,cosplaycentral.com,costco.com,credit-suisse.com,de.hgtv.com,developer.confluent.io,dhl.de,dicebreaker.com,digitalfoundry.net,dmax.de,drafthouse.com,e-ladestation.aldi-sued.de,elkspel.nl,elle.se,eurogamer.cz,eurogamer.pl,eurogamer.pt,foodandwine.com,forexlive.com,funnygames.be,funnygames.it,funnygames.nl,gamescom.global,gamesindustry.biz,gamespot.com,geizhals.at,geizhals.de,giochixl.it,gioco.it,glamourmagazine.co.uk,gmx.com,grajteraz.pl,groceries.asda.com,guloggratis.dk,heute.at,howstuffworks.com,igrixl.ru,ilsole24ore.com,isladejuegos.com,jatekokxl.hu,jelly.deals,jetztspielen.ws,juegosjuegos.ws,karriere.at,kizi.com,konami.com,larousse.fr,logitech.com,mail.com,mensjournal.com,mesta.net,milwaukeetool.eu,mtvuutiset.fi,nachrichten.at,natgeotv.com,nationalgeographic.de,nutmeg.com,observatornews.ro,oe24.at,okazii.ro,olympics.com,omnipod.com,paixnidiaxl.gr,panasonic.com,patagonia.com,posti.fi,pricerunner.com,pricerunner.dk,pricerunner.se,proximus.be,pushsquare.com,randalls.com,redbull.com,redbullracing.com,reisetopia.de,rockpapershotgun.com,rtlplay.be,rtlxl.nl,ryobitools.eu,saal-digital.at,saal-digital.bg,saal-digital.ch,saal-digital.com,saal-digital.cz,saal-digital.de,saal-digital.dk,saal-digital.ee,saal-digital.es,saal-digital.eu,saal-digital.fi,saal-digital.fr,saal-digital.gr,saal-digital.hu,saal-digital.lt,saal-digital.lv,saal-digital.nl,saal-digital.pl,saal-digital.pt,saal-digital.ro,saal-digital.se,saal-digital.si,saal-digital.sk,salesforce.com,sony.pl,spel.nl,spelletjes.nl,spelo.se,spillespill.no,spilxl.dk,sport.pl,starwarscelebration.com,stern.de,storia.ro,tagesanzeiger.ch,technics.com,ted.com,thehaul.com,thejournal.ie,thepopverse.com,thetrainline.com,tio.ch,tokfm.pl,travelandleisure.com,travelbook.de,tunein.com,tvn24.pl,uber-platz.de,unity.com,uphold.com,vg247.com,videoland.com,vol.at,webuyanycar.com,wetter.at,wowbiz.ro,zdf.de,zoom.us#@##onetrust-banner-sdk
+1001games.com,1001hry.cz,1001jeux.fr,1001jocuri.ro,1001jogos.com.br,1001jogos.pt,1001pelit.com,1001spiele.de,20min.ch,3sat.de,aerztezeitung.de,airnewzealand.co.nz,arkadium.com,automobiles.honda.com,avisendanmark.dk,billa.at,blaklader.at,blaklader.be,blaklader.ca,blaklader.com,blaklader.cz,blaklader.de,blaklader.dk,blaklader.ee,blaklader.es,blaklader.fi,blaklader.fr,blaklader.ie,blaklader.it,blaklader.nl,blaklader.no,blaklader.pl,blaklader.se,blaklader.uk,blick.ch,boomerang-tv.pl,cbslocal.com,chvnoticias.cl,cmore.fi,cnn.com,coca-cola.co.za,computerbase.de,cosplaycentral.com,costco.com,credit-suisse.com,de.hgtv.com,developer.confluent.io,dhl.de,dicebreaker.com,digitalfoundry.net,dmax.de,drafthouse.com,e-ladestation.aldi-sued.de,elkspel.nl,elle.se,eurogamer.cz,eurogamer.pl,eurogamer.pt,foodandwine.com,forexlive.com,funnygames.be,funnygames.it,funnygames.nl,gamescom.global,gamesindustry.biz,gamespot.com,geizhals.at,geizhals.de,giochixl.it,gioco.it,glamourmagazine.co.uk,gmx.com,grajteraz.pl,groceries.asda.com,guloggratis.dk,heute.at,howstuffworks.com,igrixl.ru,ilsole24ore.com,isladejuegos.com,jatekokxl.hu,jelly.deals,jetztspielen.ws,juegosjuegos.ws,karriere.at,kizi.com,konami.com,larousse.fr,logitech.com,mail.com,mensjournal.com,mesta.net,milwaukeetool.eu,mtvuutiset.fi,nachrichten.at,natgeotv.com,nationalgeographic.de,nutmeg.com,observatornews.ro,oe24.at,okazii.ro,olympics.com,omnipod.com,paixnidiaxl.gr,panasonic.com,patagonia.com,posti.fi,pricerunner.com,pricerunner.dk,pricerunner.se,proximus.be,pushsquare.com,randalls.com,redbull.com,redbullracing.com,reisetopia.de,rockpapershotgun.com,rtlplay.be,rtlxl.nl,ryobitools.eu,saal-digital.at,saal-digital.bg,saal-digital.ch,saal-digital.com,saal-digital.cz,saal-digital.de,saal-digital.dk,saal-digital.ee,saal-digital.es,saal-digital.eu,saal-digital.fi,saal-digital.fr,saal-digital.gr,saal-digital.hu,saal-digital.lt,saal-digital.lv,saal-digital.nl,saal-digital.pl,saal-digital.pt,saal-digital.ro,saal-digital.se,saal-digital.si,saal-digital.sk,salesforce.com,sony.pl,southpark.de,spel.nl,spelletjes.nl,spelo.se,spillespill.no,spilxl.dk,sport.pl,starwarscelebration.com,stern.de,storia.ro,tagesanzeiger.ch,technics.com,ted.com,thehaul.com,thejournal.ie,thepopverse.com,thetrainline.com,tio.ch,tokfm.pl,travelandleisure.com,travelbook.de,tunein.com,tvn24.pl,uber-platz.de,unity.com,uphold.com,vg247.com,videoland.com,vol.at,webuyanycar.com,wetter.at,wowbiz.ro,zdf.de,zoom.us#@##onetrust-consent-sdk
 api.newsguardtech.com#@##optanon
 ign.com#@##policyNotice
 ibkrcampus.com#@##privacy-bar
@@ -47644,6 +47654,7 @@ baystatebanner.com###reg5-form-fon
 churchmilitant.com###restrict-access-model
 punchline-gloucester.com###resultholder
 cined.com###right-widget-d-newsletter_form_widget-17
+cined.com###right-widget-d-newsletter_form_widget-7
 cined.com###right-widget-top-newsletter_form_widget-14
 thecoastnews.com###robly_embed_signup
 catchnews.com###rsidebar-subscribe
@@ -48495,6 +48506,7 @@ railway-technology.com,retail-insight-network.com,verdict.co.uk##.gdm-company-pr
 thegatewaypundit.com##.get-our-newsletter
 kbb.com##.get-subscribe-form-wrap
 electronicintifada.net##.get-updates
+rockefeller.edu##.get_our_newsletter
 lawliberty.org##.gf__widget--subscribe
 lacolon.com##.gf_form_mail_wrapper
 thegadgetflow.com##.gfl-blogpost-daily-digest
