@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202509200150
+! Version: 202509210228
 ! Title: EasyPrivacy
-! Last modified: 20 Sep 2025 01:50 UTC
+! Last modified: 21 Sep 2025 02:28 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0a9f63eedbf76f4b747133a57335cf960be24b16
+! Commit: 4b6328e40faf435888f31d9d7a41325d4a5905fd
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3336,6 +3336,7 @@ omni.soundestlink.com$image
 ||adnext.co^
 ||adrtx.net^
 ||adscore.com^
+||adsmeasurement.com^
 ||adspsp.com^
 ||adstk.io^
 ||adultium.com^
@@ -3532,6 +3533,7 @@ omni.soundestlink.com$image
 ||iconmediapixel.com^
 ||iconnode.com^
 ||id-ward.com^
+||identitypxl.app^
 ||idx.lat^
 ||ilius.net^
 ||impactcdn.com^
@@ -8107,6 +8109,7 @@ omni.soundestlink.com$image
 ||testedtouch.com^
 ||texturetrick.com^
 ||thebigvan.com^
+||thebrainybulb.com^
 ||thecrazychili.com^
 ||thefishstops.com^
 ||thejavalane.com^
@@ -9505,6 +9508,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||akamaized.net/cookie_check/
 ||akatracking.esearchvision.com^
 ||aktion.esprit-club.com^$image
+||alby.net/tracking-service/
 ||alex.leonard.ie/misc-images/transparent.png
 ||alexa.com/minisiteinfo/$third-party
 ||alexa.com/traffic/
@@ -11450,7 +11454,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rw.marchex.io^
 ||s-microsoft.com/mscc/$~stylesheet
 ||s.autopilotapp.com^
-||s.axon.ai/s/pixel.js
+||s.axon.ai^
 ||s.beop.io^
 ||s.logsss.com^
 ||s.pinimg.com/ct/core.js
@@ -12043,7 +12047,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trustarc.com/cap?
 ||trustarc.com/log?
 ||trustcommander.net/iab-tcfapi/
-||trustedform.com/trustedform.js?provide_referrer
+||trustedform.com/trustedform.js
 ||trustmary.io/agg-event
 ||trustpilot.com/stats/
 ||trx-cdn.zip.co^
@@ -12296,6 +12300,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d11bdev7tcn7wh.cloudfront.net^
 ||d169bbxks24g2u.cloudfront.net^
 ||d16fk4ms6rqz1v.cloudfront.net^
+||d16hi2v1mh7lg7.cloudfront.net^
 ||d1733r3id7jrw5.cloudfront.net^
 ||d18p8z0ptb8qab.cloudfront.net^
 ||d191y0yd6d0jy4.cloudfront.net^
