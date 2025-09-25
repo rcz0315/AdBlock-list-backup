@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 7OY9eZxafDj2zJqPkSMbRw
-! Version: 202509240211
+! Checksum: UFoRVJ31dNVtZ/uETMefSQ
+! Version: 202509250211
 ! Title: EasyList China
-! Last modified: 24 Sep 2025 02:11 UTC
+! Last modified: 25 Sep 2025 02:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1752,6 +1752,14 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||dfi09250kq.com^
+||s72h7io4o.com^
+||5mn041cdz.com^
+||nzl09250oa.com^
+||idobqo.icu^
+||vqbrbb.icu^
+||virtual2.top^
+||mdrihnok.com^
 ||8clkggoo62.com^
 ||hi4c61mi8d.com^
 ||dfi09240kq.com^
@@ -1761,6 +1769,11 @@ newduba.cn###jq_youxi
 ||throlnod.com^
 ||vowellm4.com^
 ||wph2zu9rlb.com^
+||kapkh.cn^
+||lrphk.cn^
+||d7ytrv7yxa.com^
+||dfi09241kq.com^
+||autivnay.com^
 ||dfi09230kq.com^
 ||bof8804jn.com^
 ||mrtm4lylj.com^
@@ -10061,6 +10074,7 @@ meijutt.*/js/pcjs/
 ||cdxyspa.com/js/e
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+csdn.net###kp_box_www_swiper
 iqiyi.com###bottom_banner_ad_bk
 iqiyi.com#?#div[class^="list_list_"]>div:-abp-has(div[class^="videolist_closeAd"])
 msn.cn##[ad]
