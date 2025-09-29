@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202509280224
+! Version: 202509290219
 ! Title: EasyPrivacy
-! Last modified: 28 Sep 2025 02:24 UTC
+! Last modified: 29 Sep 2025 02:19 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 32a1b1899959c983d5fd2be9f24236852279d67e
+! Commit: e7dbb31191b4de872dc4d32322dab6ef8d1229e6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -755,6 +755,7 @@
 /cxense/cx.js
 /cxf-tracking@
 /d.gif?
+/data/stat.php?*&referer_host=
 /data_collect.js
 /datacollectionapi-client/index.js
 /dataunlocker-prod.js
@@ -14236,8 +14237,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dailymail.co.uk/rta2/
 ||dailymotion.com/logger/
 ||dap.digitalgov.gov/Universal-Federated-Analytics-Min.js
-||darkreader.org/data/top-backers.json
-||darkreader.org/elements/backers-
 ||darkreader.org/elements/statistics.js
 ||data.allstate.com^
 ||data.barry-callebaut.com^
@@ -14246,8 +14245,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||data.jerkmate.com^
 ||data.torry.io^
 ||data.ublock-browser.com^
-||data.webullfintech.com/event/
-||data.whop.com/api/v1/track/
+||data.vevor.com^
 ||data.younow.com^
 ||datadoghq.com/assets/dd-browser-logs-rum.js
 ||datadome.maisonsdumonde.com^
@@ -15091,6 +15089,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||r.3hentai.net^
 ||r.apkpure.net^
 ||r.bbci.co.uk^
+||r.cdnpure.com/webReport
 ||ra.co/proxy/client/metrics
 ||ra.co/track/
 ||rabbit.donald.cat^
@@ -15153,6 +15152,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rta2.newzit.com^
 ||rtds.progressive.com^
 ||rum.api.intuit.com^
+||rum.cdnpure.com^
 ||rum.condenastdigital.com^
 ||rumble.com/l/
 ||run.app/events$domain=imgur.com|worldstar.com|worldstarhiphop.com
@@ -15183,6 +15183,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||secretbenefits.com/js/script.js
 ||secure.checkout.visa.com/logging/
 ||seekingalpha.com/mone_event
+||segapi.whop.com^
 ||service.techzine.eu^
 ||services.haaretz.com/ds/impression
 ||services.haaretz.com/ms-gstat-campaign/
@@ -15590,6 +15591,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||two.cm.com^
 ||tyler-brown.com/api/stats?
 ||typepad.com/t/stats?
+||u1sdata.webullfintech.com^
 ||ua.financialexpress.com/api/capture
 ||ua.indianexpress.com^
 ||ub.galaxus.
@@ -15775,11 +15777,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||youtube-nocookie.com/robots.txt?
 ||youtube-nocookie.com/youtubei/v1/log_event?
 ||youtube.com/api/stats/ads?
-! ||youtube.com/api/stats/atr?ns=
-! ||youtube.com/api/stats/qoe?fmt=
+||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=
+||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&
 ||youtube.com/get_video?
 ||youtube.com/pcs/activeview?
-! ||youtube.com/ptracking?html5=1&
+||youtube.com/ptracking?html5=1&video_id=*&cpn=*&ei=*&ptk=youtube_*&pltype=content
 ||youtube.com/set_awesome?
 ||youtube.com/youtubei/v1/log_event?
 ||youtube.googleapis.com/youtubei/v1/log_event?
@@ -16209,6 +16211,13 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||googletagmanager.com/gtm.js$domain=nexon.com,important
 ||nakanohito.jp^*/bi.js$domain=nexon.com,important
 ! #endif
+! Youtube
+||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$badfilter
+||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$badfilter
+||youtube.com/ptracking?html5=1&video_id=*&cpn=*&ei=*&ptk=youtube_*&pltype=content$badfilter
+||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$xhr,method=post
+||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$xhr,method=post
+||youtube.com/ptracking?html5=1&video_id=*&cpn=*&ei=*&ptk=youtube_*&pltype=content$xhr,method=get
 ! -----------------Individual cname tracking systems-----------------!
 ! *** easylist:easyprivacy/easyprivacy_specific_cname_dataunlocker.txt ***
 ! easyprivacy_specific_cname_dataunlocker.txt
@@ -53762,6 +53771,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||stats.proff.no^
 ||stm.komplett.no^
 ||tdep.hema.nl/main.js
+||telemetry.nav.no^
 ||vg.no/stats/
 ! Persian
 ||abadis.ir/ajaxcmd/setvisit/

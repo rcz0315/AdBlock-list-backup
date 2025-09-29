@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202509280224
+! Version: 202509290202
 ! Title: Fanboy's Social Blocking List
-! Last modified: 28 Sep 2025 02:24 UTC
+! Last modified: 29 Sep 2025 02:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 32a1b1899959c983d5fd2be9f24236852279d67e
+! Commit: e7dbb31191b4de872dc4d32322dab6ef8d1229e6
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12046,7 +12046,7 @@ exafm.com,goldderby.com,lacaderadeeva.com,lamejor.com.mx,lasillarota.com,mvsnoti
 ! ! .a2a_kit
 brecha.com.uy,consigli.it,lgbtqnation.com,ocaholic.ch##.a2a_kit
 ! ! .share-container
-beebom.com,captimes.com,cheknews.ca,cockroachlabs.com,cpac.ca,estadao.com.br,fandomwire.com,mag.toyota.co.uk,mydramalist.com,philstarlife.com,silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt,stadiumtalk.com##.share-container
+beebom.com,captimes.com,cheknews.ca,cockroachlabs.com,cpac.ca,estadao.com.br,fandomwire.com,gta5-mods.com,mag.toyota.co.uk,mydramalist.com,philstarlife.com,silicon.co.uk,silicon.de,silicon.es,silicon.fr,silicon.pt,stadiumtalk.com##.share-container
 ! ! .share-icons
 alwatanvoice.com,atlantablackstar.com,binnews.com,blog.phylum.io,dailymail.co.uk,fightcancer.org,finurah.com,gulf-times.com,iheart.com,jessekellyshow.com,jfrog.com,merriam-webster.com,noticiasaominuto.com,noticiasaominuto.com.br,sciencefocus.com,snipercentral.com,steveharveyfm.com,thehighwire.com,theshadowleague.com,thewildest.com,thisismoney.co.uk##.share-icons
 ! ! .share-links
@@ -12649,6 +12649,7 @@ centrometeoitaliano.it,leggo.it###box-social
 ilmeteo.it###condividi_news
 ilfattoalimentare.it###custom_html-8
 ilfattoalimentare.it###custom_html-9
+liberoquotidiano.it###dropdown-trigger
 tuttocampo.it###facebook
 stabiachannel.it###follow-us-on
 ilfattoquotidiano.it###glfb
@@ -12855,6 +12856,7 @@ ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.n
 ilgiorno.it,ilrestodelcarlino.it,iltelegrafolivorno.it,lanazione.it,quotidiano.net##div[class^="WhatsApp_"]
 ilpost.it##div[class^="_share_"]
 lacapitale.it##div[id^="post-social-actions_"]
+liberoquotidiano.it##img[id^="social-"]
 play.radionorba.it##share-view
 ||focus.it/images/embed/banner-canale-whats-up/
 ||napolimagazine.com/web/img/iconefooter/
@@ -13658,6 +13660,7 @@ marca.com#@#.sharing-tools
 fibery.io#@#.sharing_button
 youtube.com#@#.show-share
 novelpia.com#@#.sns-btns
+chunithm.sega.jp#@#.sns-share
 nvidia.pl#@#.social-newsletter
 tuba.pl#@#.social-popup
 kingjamesbibleonline.org#@#.social-sec
