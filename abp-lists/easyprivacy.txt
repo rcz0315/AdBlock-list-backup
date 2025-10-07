@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202510060210
+! Version: 202510070205
 ! Title: EasyPrivacy
-! Last modified: 06 Oct 2025 02:10 UTC
+! Last modified: 07 Oct 2025 02:05 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 70ec5e91f5ac4023c623da17038e968e59ac3751
+! Commit: 0a761572d1bf9b0dc20e8ac7d2e9988d0ce3ddfa
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -9578,6 +9578,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ampproject.org/preconnect.gif
 ||ams-pageview-public.s3.amazonaws.com^
 ||analyse.bcovery.com^
+||analytic-client.adult-chess.com^
 ||analytic-client.blitzmightyparty.com^
 ||analytic-client.chickgoddess.com^
 ||analytic-client.panowars.com^
@@ -10003,6 +10004,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.one.store/xdomain_cookie.html
 ||cdn.polarbyte.com^
 ||cdn.ravm.tv^
+||cdn.skypack.dev/uuid
 ||cdn.sourcesync.io/open-pixel/source-pixel.js
 ||cdn.sphlabs.com/suid/
 ||cdn.stamped.io/cdn/images/pixel.png
@@ -10565,6 +10567,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ga.chickgoddess.com/gs_api/stats/
 ||ga.webdigi.co.uk^
 ||gaijin.net/tag?
+||galileotelemetry.tencent.com^
 ||gamedistribution.com/event?
 ||gamedock.io/gamemonkey-web-tracker/
 ||gamegecko.com/gametrack?
