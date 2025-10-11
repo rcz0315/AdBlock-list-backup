@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: btrCDX3kr+qClgVbFvhxWQ
-! Version: 202510100142
+! Checksum: aTwG1EEhXJtBS915Eg9OuA
+! Version: 202510110142
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-10-10 01:42 UTC
+! Last modified: 2025-10-11 01:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1523,6 +1523,7 @@ westernjournal.com###firefly-poll-container
 youtube4kdownloader.com###fixed-addon-banner
 uberhumor.com###fixed_bottom_bar_back
 uberhumor.com###fixed_bottom_bar_text
+americanexpress.com###floating-nav-section
 streetinsider.com###floating_footer
 entireweb.com###footer
 worldfinance.com###footer_fixed
@@ -1671,6 +1672,7 @@ emails-checker.net##.custom-social-proof
 datacamp.com##.dc-ps-banner-wrapper
 neowin.net##.deals
 slashdot.org##.deals-footer
+americanexpress.com##.disruptor-banner-wrapper
 opensecrets.org##.dontprintme
 talksport.com##.dpa-variant-sidebar
 dhgate.com##.drainagebanner
@@ -3795,6 +3797,7 @@ milliyet.com.tr##.sticky
 @@||cdn.wisepops.com/shared/wisepops/$script,domain=bluecinema.ch
 @@||csm.cxpublic.com/Shueisha.js$domain=wpb.shueisha.co.jp
 @@||csm.cxpublic.com^$script,domain=mainichi.jp|tarzanweb.jp
+@@||feed.mikle.com/widget/$subdocument,domain=smeal.psu.edu
 @@||gravityrd-services.com^$domain=hotstar.com|tv2play.hu|zinio.com
 @@||jsdelivr.net/npm/devtools-detector$domain=9tsu.vip
 @@||loader.wisepops.com/get-loader.js$domain=bluecinema.ch
@@ -49053,6 +49056,7 @@ essence.com##.newsletter-subscribe-inline
 youcouldtravel.com##.newsletter-subscription-block
 rand.org##.newsletter-subscription-box-wrapper
 citizen.co.za##.newsletter-subscription-cta-wrapper
+adweek.com##.newsletter-subscription-form-wrapper
 cointelegraph.com##.newsletter-subscription-form_k9oQq
 cio.com,computerworld.com,csoonline.com,networkworld.com##.newsletter-subscription-promo
 newportjerkycompany.com##.newsletter-subscription-section
@@ -50071,6 +50075,7 @@ theguardian.com#?#[data-testid="contributions-liveblog-epic"]:-abp-contains(dail
 theskimm.com#?#.bg-soft-teal:-abp-contains(Subscribe)
 thestreamable.com#?#.rounded-3.px-5:-abp-contains(Newsletter)
 thetransmitter.org#?#.bg-dark-brown:-abp-contains(Sign up)
+washingtonpost.com##tr > .right-article:has-text(Sign up)
 urbandictionary.com#?#.rounded-md.md\:p-8.p-5.shadow-light:-abp-contains(Sign up)
 vox.com#?#.duet--article--highlight:-abp-contains(Sign up here)
 washington.edu#?#.textwidget > .textwidget:-abp-contains(Subscribe)
