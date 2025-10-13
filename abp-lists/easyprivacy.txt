@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202510120219
+! Version: 202510130229
 ! Title: EasyPrivacy
-! Last modified: 12 Oct 2025 02:19 UTC
+! Last modified: 13 Oct 2025 02:29 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 095b3e3a9fcfa1f489217fc9dbae1ac0da6c9a73
+! Commit: ca31734bc792de6191ae31565a9dca1816554b34
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3296,6 +3296,7 @@ _WebVitalsReporter_
 /wf/open?upn=$image
 /wizrocketmail.net/r?$image
 /znsrc.com/c/*$image
+/znsrc.com/o/*$image
 ://2ip.*/member_photo/$third-party
 ://cl.melonbooks.co.jp/c/$image
 ://e.*/open?$image
@@ -52229,6 +52230,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||geoip.finanzen.net^
 ||glomex.com^$ping
 ||gmx.net/monitoring/
+||golem.de/staticrl/scripts/external/snow-390-min.js
 ||golem.de/staticrl/scripts/golem_cpxl_
 ||hamburger-stadtplan.com/t.gif
 ||hannover-stadtplan.com/t.gif
