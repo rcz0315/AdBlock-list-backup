@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202510160218
+! Version: 202510170204
 ! Title: EasyPrivacy
-! Last modified: 16 Oct 2025 02:18 UTC
+! Last modified: 17 Oct 2025 02:04 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 80bdc4b69ea45bf6de24f2f72ecafe974316a5e6
+! Commit: 71a4c490486202e8315230b230ee5ea973d8d491
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7114,6 +7114,7 @@ omni.soundestlink.com$image
 ||functionalcrown.com^
 ||functionalfeather.com^
 ||funoverbored.com^
+||funtoyplanet.com^
 ||furryfork.com^
 ||fusedcontent.com^
 ||futuristicapparatus.com^
@@ -7153,6 +7154,7 @@ omni.soundestlink.com$image
 ||gloriousbeef.com^
 ||glowingmeadow.com^
 ||gluedpixel.com^
+||goddesslamps.com^
 ||godseedband.com^
 ||goldfishgrowth.com^
 ||goldstudies.com^
@@ -7254,6 +7256,7 @@ omni.soundestlink.com$image
 ||humourspot.com^
 ||hurtgrape.com^
 ||hustlercoach.com^
+||hybridburst.com^
 ||hydraconcept.com^
 ||hyperlegend.com^
 ||hypnoticwound.com^
@@ -7285,6 +7288,8 @@ omni.soundestlink.com$image
 ||intentlens.com^
 ||internalcondition.com^
 ||internalsink.com^
+||intricateberry.com^
+||inventorycache.com^
 ||inventtango.com^
 ||iotapool.com^
 ||irelandroad.com^
@@ -7454,6 +7459,7 @@ omni.soundestlink.com$image
 ||mindfulgem.com^
 ||mindlessmark.com^
 ||mineinvoice.com^
+||minibilling.com^
 ||minorcattle.com^
 ||minuteburst.com^
 ||miscreantmoon.com^
@@ -7520,6 +7526,7 @@ omni.soundestlink.com$image
 ||notcardboard.com^
 ||notconscious.com^
 ||notifyglass.com^
+||notrealcat.com^
 ||noundictionary.com^
 ||novaseekers.com^
 ||nowaymail.com^
@@ -54789,6 +54796,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||tag.aticdn.net/piano-analytics.js$script,domain=toureiffel.paris
 @@||tra.scds.pmdstatic.net/sourcepoint/$domain=businessinsider.fr|caminteresse.fr|capital.fr|geo.fr|voici.fr
 @@||trustcommander.net/iab-tcfapi/tcfapi.js$script,domain=tf1info.fr
+@@||usine-digitale.fr/*/stormcaster.js$script,~third-party
 ! 
 ! ---------- Arabic ----------
 ! 
