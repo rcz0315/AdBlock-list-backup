@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qr3YO30lAimu3OaSEsaJng
-! Version: 202510200231
+! Checksum: 1IG+7XaVCHAfXlXdc1v66A
+! Version: 202510210211
 ! Title: EasyList China
-! Last modified: 20 Oct 2025 02:31 UTC
+! Last modified: 21 Oct 2025 02:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1727,6 +1727,7 @@ newduba.cn###jq_youxi
 ###banner_links.banner-container
 ##.a-media.ex-728-90
 ##a[clickmode="cpt"]
+###foot > #btmBox
 ##body > div.container[style="margin-bottom: 10px;"] > script:first-child ~ div[style="height:60px;width:100%;"]
 ##a[href="https://t.me/bokaiyunwujiankaiyun"]
 ##table[style="border:#7D8C8E solid 1px;height: 30px;text-align: center;"]
@@ -1754,6 +1755,14 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||biejdy1d1.com^
+||patriotic66.top^
+||zsy10210yok.com^
+||yjprlwskt.com^
+||fnoc.cn^
+||atekag.cn^
+||nidckjnc.com^
+||75rakcovr.com^
 ||ulwzinqlh0.com^
 ||9swovqnp52.com^
 ||zsy10200yok.com^
@@ -1761,6 +1770,8 @@ newduba.cn###jq_youxi
 ||interviewbq.com^
 ||tqub.cn^
 ||0b6rvr210q.com^
+||zsy10201yok.com^
+||m78vxjm35d.com^
 ||alcoholic56.top^
 ||lf2cgxz0b.com^
 ||84dwl4bbq.com^
@@ -5478,7 +5489,6 @@ newduba.cn###jq_youxi
 ||twrank.com^$third-party
 ||uu11881.com^
 ||uu22332.com^
-||hulichuang.mobi^
 ||uu22112.com^
 ||tu2024020388.com^
 ||uu22662.com^
@@ -10126,6 +10136,7 @@ meijutt.*/js/pcjs/
 ||cdxyspa.com/js/e
 ||layuion.com/get/showcase/
 ||xxir.com/static/images/ad.
+||7wzx9.com/tbad.
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
 sojson.com##._right_ad
