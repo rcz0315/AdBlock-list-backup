@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: JSSv4UV5iUByw1ETvW3iyw
+! Checksum: BkiPziMGNd6K/feXbeoTSA
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/3085f5537fb7ad321439d8d62866a97773a507ab.json
-! Version: 202510200701
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/014010e6b90c31b09827e5ee962b8fcf5e6803c5.json
+! Version: 202510270701
 ! Title: Free - Distraction Control
-! Last modified: 20 Oct 2025 07:01 UTC
+! Last modified: 27 Oct 2025 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 ! !
 !
 ! *** distraction-control:distraction-control-free.txt ***
-! Last modified: 19 Oct 2025 17:32 UTC
+! Last modified: 26 Oct 2025 17:33 UTC
 !
 ! -----------------------General blocking filters-----------------------!
 ! *** distraction-control:app/blocking_general.txt ***
@@ -150,6 +150,7 @@ bonappetit.com#?#[class^="InContentBarrierFloatingBar"]:-abp-contains(START FREE
 /featherlight.min.js
 /wp-content/plugins/popup-maker/*$script
 ||modal.vendavalida.com.br/helpers/modal.js
+/jquery.bugme.$script
 ! -----------------------Suggestion Specific blocking filters-----------------------!
 ! *** distraction-control:suggestion/blocking_specific.txt ***
 !
@@ -221,6 +222,7 @@ nikkei.com#$#simulate-mouse-event '[data-k2-component-name="nikkei-asia-modal"] 
 shein.*#$#simulate-mouse-event '.popup-dialog .sui-dialog__closebtn'
 fluentu.com#$#simulate-mouse-event '[class*="fluen-popup"] .fluen-close-button'
 lingoda.com#$#simulate-mouse-event '.modal-container[style="display: block;"] #close$continue'
+lingoda.com#$#simulate-mouse-event '.modal-overlay.open .close-icon-button'
 !
 ! -----------------------Video General blocking filters-----------------------!
 ! *** distraction-control:video/blocking_general.txt ***
