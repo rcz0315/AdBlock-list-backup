@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Bu17X4jRjb5mc9qXfrZIBA
-! Version: 202510280142
+! Checksum: 8B8ABqffKpXbJkvCNMFaOg
+! Version: 202510290142
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-10-28 01:42 UTC
+! Last modified: 2025-10-29 01:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -17880,7 +17880,7 @@ tmstor.es#@#.top_social
 swingliteracy.com#@#.tve_social_items
 nothiefsallowed.com#@#.twitter-timeline
 google.com#@#SHARE-BUTTON
-geki-cine.jp,heiwa-9inday.jp,hypnosismic-anime.com,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp,ufret.jp#@#a[href^="https://twitter.com/intent/tweet?"]
+geki-cine.jp,heiwa-9inday.jp,hypnosismic-anime.com,idolmaster-official.jp,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp,ufret.jp#@#a[href^="https://twitter.com/intent/tweet?"]
 petsmart.com#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
 playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"]
 ! fanboy_social_allowlist.txt
@@ -36577,7 +36577,7 @@ ecwid.com,liberties.eu##.gdpr-window
 terro.com,woodstreambrands.ca##.gdpr-wrap
 curacao.com##.gdprConsent
 doteasy.com,mochahost.com##.gdprTheme
-shop.animalbiome.com##.gdpr__holder
+chillychiles.com,shop.animalbiome.com##.gdpr__holder
 mitac.com##.gdpr_block
 learnpick.in##.gdpr_holder
 zionsbank.com##.genesis-cookie-consent
@@ -41642,6 +41642,9 @@ mediaite.com##+js(set-cookie, am-sub, 1)
 ! comarch.com
 comarch.com##.consent-modal2
 comarch.com##body,html:style(overflow: auto !important; position: initial !important;)
+! thebarn.de
+thebarn.de##.Compliance-cs-default-floating
+thebarn.de##html:style(overflow: auto !important; position: initial !important;)
 ! apiformes.de
 apiformes.de###ws_eu-cookie-container
 apiformes.de##body,html:style(overflow: auto !important; position: initial !important;)

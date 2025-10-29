@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202510280220
+! Version: 202510290232
 ! Title: EasyPrivacy
-! Last modified: 28 Oct 2025 02:20 UTC
+! Last modified: 29 Oct 2025 02:32 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a7a67605de2395d87a748b7e882c079daa60dc02
+! Commit: b637f8f7c32814a73b048cd76e2a89bbcb03a289
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -508,6 +508,7 @@
 /brightedge.js
 /brightspot/analytics/*
 /brightTag-min.js
+/bsf-bing-scripts/custom-pixels/*
 /bsp-analytics.min.
 /bstat.js
 /btrack.php?
@@ -3143,7 +3144,6 @@ _WebVitalsReporter_
 .redsift.com/e/o/$image
 .revolut.com/q/$image
 .s-pt.jp/mail/info/*/img/_.gif
-.salesforce.com/servlet/servlet.ImageServer?$image
 .secureserver.net/bbimage.aspx?
 .sendcloud.net/track/$image
 .sendemail.gate.io/o/$image
@@ -3225,6 +3225,7 @@ _WebVitalsReporter_
 /inbox.*/imp?$image
 /is-tracking-pixel-
 /klicks.nebenan.de/q/*$image
+/line.my.salesforce.com/servlet/servlet.ImageServer?oid=*&esid=$image
 /link-tracker?*&l=open&
 /link.coindesk.com/img/*
 /link.divenewsletter.com/img/*$image
@@ -7103,6 +7104,7 @@ omni.soundestlink.com$image
 ||framebanana.com^
 ||franksfloral.com^
 ||franticroof.com^
+||freedomgrail.com^
 ||freezeassets.com^
 ||freezingbuilding.com^
 ||frequentflesh.com^
@@ -7376,6 +7378,7 @@ omni.soundestlink.com$image
 ||likethedog.com^
 ||limepeal.com^
 ||linkedleg.com^
+||linksoutside.com^
 ||livelumber.com^
 ||livelylaugh.com^
 ||livingsleet.com^
@@ -7645,6 +7648,7 @@ omni.soundestlink.com$image
 ||polishedfolly.com^
 ||politeplanes.com^
 ||politicalporter.com^
+||popmixradio.com^
 ||popplantation.com^
 ||possibleboats.com^
 ||possiblepencil.com^
