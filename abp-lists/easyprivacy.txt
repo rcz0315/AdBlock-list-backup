@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511010231
+! Version: 202511020231
 ! Title: EasyPrivacy
-! Last modified: 01 Nov 2025 02:31 UTC
+! Last modified: 02 Nov 2025 02:31 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 73fc2222f149d15a336782460d746d41e5d381cb
+! Commit: b47013c405941207640e84230c7fc5067e76ed4f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1626,7 +1626,7 @@
 /onl/track.php?
 /onlinecount.php
 /oo/*/l.js
-/oo/*/lsync.js
+/oo/*/lsync.
 /oo/cl*.js?rd=
 /oo/cl.js|$~third-party
 /op/analytics.js?domain=
@@ -1725,6 +1725,7 @@
 /phpmyvisites.js
 /piano-analytics-$script
 /piano-analytics.js
+/piano-analytics/pa.js
 /piNctTracking.js
 /ping.gif?
 /ping/?url=
@@ -6882,6 +6883,7 @@ omni.soundestlink.com$image
 ||cushiondrum.com^
 ||cutecalculator.com^
 ||cutechin.com^
+||cyclinghere.com^
 ||cyclopsdial.com^
 ||damagedadvice.com^
 ||damageddistance.com^
@@ -7034,6 +7036,7 @@ omni.soundestlink.com$image
 ||faithrowold.com^
 ||fakedisguise.com^
 ||fallaciousfifth.com^
+||fallingshoals.com^
 ||falseframe.com^
 ||falsesight.com^
 ||familiarrod.com^
@@ -8205,6 +8208,7 @@ omni.soundestlink.com$image
 ||ticketssponge.com^
 ||ticklesign.com^
 ||tidymitten.com^
+||tidysprite.com^
 ||tightpowder.com^
 ||tinybluewhale.com^
 ||tinyswans.com^
@@ -11841,6 +11845,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.commandbar.com^
 ||t.dgm-au.com^$third-party
 ||t.enuygun.com^
+||t.fastcmp.com^
 ||t.fullres.net^
 ||t.ghostboard.io^
 ||t.greenbids.ai^
@@ -53662,6 +53667,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||esports-world.jp/js/banner.event.js
 ||event.lib.visumo.io/js/hbn_track.js
 ||fensi.plus^*/tracking/
+||fp.kakaku.com^
 ||fspark-ap.com/ft/analytics_log
 ||g123.jp/stats?
 ||game-i.daa.jp/skin/analytics.php
@@ -53739,6 +53745,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||shopch.jp/com/js/analytics.js
 ||shueisha.online/op/analytics.js
 ||so-zou.jp/js/ga.js
+||softonic.jp/web-stats
 ||ssai.api.streaks.jp/*/ad_info?
 ||stats.nhk.or.jp^
 ||sy.ameba.jp^
@@ -54308,6 +54315,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||c.lytics.io/api/tag/$script,domain=time.com
 @@||c.paypal.com/da/r/fb.js$script
 @@||c.webtrends-optimize.com/acs/$image,script,domain=tvlicensing.co.uk
+@@||camel3.live/lib/sensorsdata.full.min.js$~third-party
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party
 @@||cdn-net.com/cc.js
