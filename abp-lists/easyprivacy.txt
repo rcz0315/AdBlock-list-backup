@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511050229
+! Version: 202511060226
 ! Title: EasyPrivacy
-! Last modified: 05 Nov 2025 02:29 UTC
+! Last modified: 06 Nov 2025 02:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 66ecf04f28c222429521afe46f89c3211df40c50
+! Commit: 84068a3249ddc604a2f682a2b37b452e18e699ad
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7181,6 +7181,7 @@ omni.soundestlink.com$image
 ||golfersrow.com^
 ||gondolagnome.com^
 ||gorgeousedge.com^
+||gorillapage.com^
 ||gossamerwing.com^
 ||gracefulmilk.com^
 ||grainmass.com^
@@ -7735,6 +7736,7 @@ omni.soundestlink.com$image
 ||rabbitbreath.com^
 ||rabbitrifle.com^
 ||rackforstorage.com^
+||radexports.com^
 ||radiantcanopy.com^
 ||radiantlullaby.com^
 ||radiateprose.com^
@@ -10551,6 +10553,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fallback.attntags.com^
 ||fallback.emtag.net^
 ||faphouse.com/api/collector/
+||fast.arena.im/script.js
 ||fast.fonts.net/jsapi/core/mt.js
 ||fast.wistia.net/assets/external/googleAds.js
 ||fastcdn.co/js/sptw.
@@ -54560,7 +54563,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
 @@||sc.youmaker.com/site/article/count?
 @@||scorecardresearch.com^*/streamingtag_plugin_jwplayer.js
-@@||sdk.mrf.io/statics/marfeel-sdk.js$script,domain=mundodeportivo.com
+@@||sdk.mrf.io/statics/marfeel-sdk.js$script,domain=computerhoy.20minutos.es|mundodeportivo.com
 @@||sealserver.trustwave.com/seal.js$domain=zoom.us
 @@||secure.logmein.com/scripts/Tracking/$script,domain=logme.in|logmein.com
 @@||securegames.iwin.com/data/gtm.json$~third-party,xmlhttprequest
