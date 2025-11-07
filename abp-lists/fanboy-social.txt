@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202511060226
+! Version: 202511070232
 ! Title: Fanboy's Social Blocking List
-! Last modified: 06 Nov 2025 02:26 UTC
+! Last modified: 07 Nov 2025 02:32 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 84068a3249ddc604a2f682a2b37b452e18e699ad
+! Commit: af2d600f2a25fac194c780bd4be30cd93974263a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -13611,6 +13611,7 @@ nbcnews.com#@#.article_share
 thetoc.gr#@#.authorSocial
 gofile.io#@#.bi-share
 engage.it#@#.block-social
+slideshare.net#@#.button-social
 forum.figma.com,share.notizie.it#@#.category-share
 2001online.com#@#.entry-social
 accounts.motorsport.com#@#.facebook-block
@@ -13767,7 +13768,6 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 ! Generichide
 @@||archiveteam.org^$generichide
 @@||docs.qq.com^$generichide
-@@||flattr.com^$generichide
 @@||fontawesome.com^$generichide
 @@||github.com^$generichide
 @@||github.io^$generichide
