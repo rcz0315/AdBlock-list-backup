@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511090230
+! Version: 202511100241
 ! Title: EasyPrivacy
-! Last modified: 09 Nov 2025 02:30 UTC
+! Last modified: 10 Nov 2025 02:41 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a8aec6b9117de9fd2f2c8a44938ce55340fbe099
+! Commit: 3432e3f618b3c9e5d9538932bf30111f579cd168
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3416,6 +3416,7 @@ omni.soundestlink.com$image
 ||cityrobotflower.com^
 ||ck123.io^
 ||ckies.net^
+||cland.fyi^
 ||clarity.ms^
 ||clcktrax.com^
 ||clearbitscripts.com^
@@ -6794,6 +6795,7 @@ omni.soundestlink.com$image
 ||coinsyouneed.com^
 ||coldbalance.com^
 ||coloradoserves.com^
+||colorfulpet.com^
 ||coloringisland.com^
 ||colossalclouds.com^
 ||colossalcoat.com^
@@ -7321,6 +7323,7 @@ omni.soundestlink.com$image
 ||irelandroad.com^
 ||iridescentdusk.com^
 ||irritatingfog.com^
+||islandwebhelp.com^
 ||itemslice.com^
 ||ivykiosk.com^
 ||j93557g.com^
@@ -7542,6 +7545,7 @@ omni.soundestlink.com$image
 ||needyneedle.com^
 ||neighborlywatch.com^
 ||nervoussummer.com^
+||networklast.com^
 ||newarkdriving.com^
 ||newartreview.com^
 ||niftygraphs.com^
@@ -8109,6 +8113,7 @@ omni.soundestlink.com$image
 ||stomachscience.com^
 ||stonechin.com^
 ||stopstomach.com^
+||stormyflower.com^
 ||straightnest.com^
 ||straindrinks.com^
 ||strangeclocks.com^
@@ -54400,6 +54405,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
 @@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|goindigo.in|hungryroot.com|usa.experian.com
 @@||datadome.monster.com.first-party-js.datadome.co^$script,domain=monster.com
+@@||dd.auspost.com.au/tags.js$script,~third-party
 @@||delta.com/dlhome/ruxitagentjs$~third-party
 @@||docs.google.com/*/viewdata$~third-party
 @@||driverfix.com^*/index_src.php?tracking=$~third-party
