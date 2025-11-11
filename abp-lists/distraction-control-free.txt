@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: HL63E0is4o5xttV2pHa6Ew
+! Checksum: l7hW/xhFw9TZKm9o+w7alQ
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/6bfebaca58ed4e21ca68b9ba18e8c5cf4a9afcc7.json
-! Version: 202511030702
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/ef029f4a62fdd58eac86910e5528e84210168e1f.json
+! Version: 202511100701
 ! Title: Free - Distraction Control
-! Last modified: 03 Nov 2025 07:02 UTC
+! Last modified: 10 Nov 2025 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 ! !
 !
 ! *** distraction-control:distraction-control-free.txt ***
-! Last modified: 02 Nov 2025 17:32 UTC
+! Last modified: 09 Nov 2025 17:35 UTC
 !
 ! -----------------------General blocking filters-----------------------!
 ! *** distraction-control:app/blocking_general.txt ***
@@ -111,6 +111,7 @@ cafe.naver.com##.FloatingJoinButton
 !
 ! site specific snippet rules
 !
+gurufocus.com#$#simulate-mouse-event '[role="dialog"][style*="display: block;"] #cboxClose'
 !
 ! -----------------------Subscribe General blocking filters-----------------------!
 ! *** distraction-control:subscribe/blocking_general.txt ***
@@ -207,6 +208,8 @@ barchart.com##.bc-webinar-card__content
 sciencedirect.com###pendo-base
 ! Example: https://www.netlife.ec/
 netlife.ec##.popupaccess
+! Example: https://www.discoverbritain.com/history/icons/how-accurate-is-miss-austen/
+discoverbritain.com##.piano-stack-nav-sticky
 ! ---------------------------Suggestion Snippets---------------------------!
 ! *** distraction-control:suggestion/snippet.txt ***
 !
@@ -223,6 +226,7 @@ shein.*#$#simulate-mouse-event '.popup-dialog .sui-dialog__closebtn'
 fluentu.com#$#simulate-mouse-event '[class*="fluen-popup"] .fluen-close-button'
 lingoda.com#$#simulate-mouse-event '.modal-container[style="display: block;"] #close$continue'
 lingoda.com#$#simulate-mouse-event '.modal-overlay.open .close-icon-button'
+anythinggrowsalberta.com,roborockstore.com.au#$#simulate-mouse-event '[class^="omnisend-form-"] button[aria-label="Close"]'
 !
 ! -----------------------Video General blocking filters-----------------------!
 ! *** distraction-control:video/blocking_general.txt ***
