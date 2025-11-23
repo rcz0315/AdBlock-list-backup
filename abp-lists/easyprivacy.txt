@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511220218
+! Version: 202511230245
 ! Title: EasyPrivacy
-! Last modified: 22 Nov 2025 02:18 UTC
+! Last modified: 23 Nov 2025 02:45 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0414d419c1330e032b5fe69b4505c07965e239cd
+! Commit: e42a1aea5cde820b593034aca2d1ba72fd9f87b0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3503,6 +3503,7 @@ omni.soundestlink.com$image
 ||fzlnk.com^
 ||g10102301085.co^
 ||g10300385420.co^
+||g10498469755.co^
 ||g11686975765.co^
 ||g1188506010.co^
 ||g11885060100.co^
@@ -3510,11 +3511,13 @@ omni.soundestlink.com$image
 ||g12281228770.co^
 ||g1386590346.co^
 ||g1584674682.co^
+||g1584674683.co^
 ||g1584674684.co^
 ||g1782759015.co^
 ||g1782759016.co^
 ||g1980843350.co^
 ||g2575096355.co^
+||g594253006.co^
 ||g792337340.co^
 ||g792337342.co^
 ||g792337343.co^
@@ -3524,6 +3527,7 @@ omni.soundestlink.com$image
 ||g9508048080.co^
 ||g9706132415.co^
 ||g990421675.co^
+||g9904216750.co^
 ||g990421676.co^
 ||gbqofs.com^
 ||gcprivacy.com^
@@ -7129,6 +7133,7 @@ omni.soundestlink.com$image
 ||flutteringfireman.com^
 ||foambench.com^
 ||followborder.com^
+||fontserif.com^
 ||foodczar.com^
 ||foodfunfestivals.com^
 ||forecasttiger.com^
@@ -7487,6 +7492,7 @@ omni.soundestlink.com$image
 ||materialparcel.com^
 ||materialplayground.com^
 ||maxcruisers.com^
+||maybetony.com^
 ||meadowlullaby.com^
 ||measlymiddle.com^
 ||meatydime.com^
@@ -7761,6 +7767,7 @@ omni.soundestlink.com$image
 ||quantumshine.com^
 ||queenjam.com^
 ||queenskart.com^
+||questionate.com^
 ||quicklyedit.com^
 ||quicksandear.com^
 ||quietknowledge.com^
@@ -10059,10 +10066,11 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||breadpayments.com/stats
 ||browser-intake-datadoghq.com^
 ||browser.covatic.io^
-||browser.events.data.microsoft.com^$ping
+||browser.events.data.microsoft.com/OneCollector/
 ||browser.pipe.aria.microsoft.com^
 ||bs.yandex.ru^
 ||bucklemail.com/a/$image
+||buffet.identityservices.io^
 ||bundle.9gtb.com^
 ||bundle.dyn-rev.app^
 ||bundle.ppas.monster^
@@ -10491,6 +10499,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||emarketeer.com/tracker/
 ||enc-90128738.b-cdn.net^
 ||endorsal.io/check/
+||engageplatform.com/api/trace/d/record?
 ||ensighten.com/error/e.php?
 ||envato.market/i/
 ||epimg.net/js/gdt/
@@ -11089,6 +11098,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mail.ru/dstat?
 ||mail.ru/grstat?
 ||mail.ru/k?
+||maillist-manage.eu/wa/actionlogger?
 ||mandrillapp.com/track/
 ||maptrackpro.com/track/
 ||marker.io/widget/ping
@@ -11564,6 +11574,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||redditsave.com/api/event
 ||redditstatic.com/ads/pixel.js
 ||redfast.com/ping/
+||redirect.prod.experiment.routing.cloudfront.aws.a2z.com/x.png$domain=amazon.com
 ||redirectify.app/script_tags/tracking.js
 ||reevoo.com/track_url/
 ||refer.wordpress.com^
