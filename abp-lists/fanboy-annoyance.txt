@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: uh9UuYoZh7bluYwf8c+0SQ
-! Version: 202511230142
+! Checksum: Fw8QwWOY66JLCSdgnxyizg
+! Version: 202511240142
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-11-23 01:42 UTC
+! Last modified: 2025-11-24 01:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16976,6 +16976,9 @@ seikatsusha-ddm.com##.p-under-sns
 univ-journal.jp##.snsSpace
 anglers.jp##.socials
 news.yahoo.co.jp##[class^="ArticleShare"]
+qiita.com##[class^="style-"] > [class^="style-"] > div[class^="style-"]:has(> button[aria-label][title][aria-describedby] + p[id][role="tooltip"])
+qiita.com##[href^="https://b.hatena.ne.jp/entry/"]
+qiita.com##div[id^="AdventCalendar"] hr ~ div[class^="style-"]:has(> button[class^="style-"][aria-label][title])
 ||imyfone.com/assets/js/media_share/
 ||taishurx.jp/js/web/sns_header.js
 !
@@ -40396,6 +40399,7 @@ tampereenratikka.fi##+js(set-cookie, cookielawinfo-checkbox-tilastointi, no)
 rg.ru##+js(set-local-storage-item, cookieConsent, {})
 anitrend.co##+js(set-local-storage-item, anitrend_analytics_consent, denied)
 teknokutu.com##+js(set-session-storage-item, cookieDeclined, true)
+foodnetwork.com##+js(set-local-storage-item, wbdLTP, true)
 teamtailor.com##+js(set-local-storage-item, CookieConsent--hideCookieConsent, true)
 dewesoft.com##+js(set-local-storage-item, consent, false)
 duckduckgo.com##+js(set-local-storage-item, duckaiHasAgreedToTerms, true)
@@ -49911,7 +49915,7 @@ interestingengineering.com##.t-bg-surface-zero.t-p-6:has-text(Newsletter)
 heatpumped.org##.text-wt-background:has-text(Subscribe)
 freedomnews.tv##.to-fntv-purple\/20:has-text(Breaking News Alerts)
 autonews.com##.u-space-y-6.u-items-center:has-text(Staying current)
-finance.yahoo.com##.variant-default.card:has-text(newsletter)
+finance.yahoo.com##.variant-default.card:has-text(/newsletter|Sign up for/)
 ensemblemagazine.co.nz##.w-embed:has-text(Sign up now)
 newsroom.paypal-corp.com##.wd_dkblue-background:has-text(Stay up to date)
 thenewlede.org##.widget_custom_html:has-text(newsletter)
