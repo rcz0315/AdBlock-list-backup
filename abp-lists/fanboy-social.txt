@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202511260233
+! Version: 202511270234
 ! Title: Fanboy's Social Blocking List
-! Last modified: 26 Nov 2025 02:33 UTC
+! Last modified: 27 Nov 2025 02:34 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b045193afd0269f66b7639b39ddb65d50b161cba
+! Commit: 302bfa6c71e3f34a28a61ab04d5b13afb8a2af76
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11983,6 +11983,7 @@ carnewschina.com##.article_detail__top_stories:has-text(Follow us for ev updates
 qodo.ai##.block-single-post__aside-heading:has-text(Share)
 gizmodo.com##.border-t-grey-200:has-text(Share this story)
 thedispatch.com##.border-y.py-2:has-text(Share)
+sfgate.com##.br4:has-text(Want more SFGATE?)
 appleinsider.com##.col-xs-12 > div:has-text(Follow AppleInsider)
 theguardian.com##.dcr-4gwv1z > ul:has-text(Get our)
 stuff.co.nz##.edproj-share-video-wrapper:has-text(Share your video)
