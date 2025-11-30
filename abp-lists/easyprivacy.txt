@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511290226
+! Version: 202511300249
 ! Title: EasyPrivacy
-! Last modified: 29 Nov 2025 02:26 UTC
+! Last modified: 30 Nov 2025 02:49 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8c2846c01dba521ffe8cc4d6d5765f9d3c7c2558
+! Commit: a3b2d0685a3048bc83219b2e9b795cfb25d1a868
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7042,6 +7042,7 @@ omni.soundestlink.com$image
 ||epicoldschool.com^
 ||epicswimming.com^
 ||equablekettle.com^
+||essaygiants.com^
 ||essayspin.com^
 ||etherealbamboo.com^
 ||ethereallagoon.com^
@@ -7633,6 +7634,7 @@ omni.soundestlink.com$image
 ||oldfashionedoffer.com^
 ||omgthink.com^
 ||onedropocean.com^
+||onlinestarten.net^
 ||onlywoofs.com^
 ||opalquill.com^
 ||operationchicken.com^
@@ -7641,6 +7643,7 @@ omni.soundestlink.com$image
 ||optionsnomad.com^
 ||opulentsylvan.com^
 ||orangebirdie.com^
+||orgbackups.com^
 ||orientedargument.com^
 ||originblocks.com^
 ||orionember.com^
@@ -9635,6 +9638,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||activengage.com/overwatch/
 ||activity-flow.vtex.com^
 ||activity.wisepops.com^
+||acuris.com/wat/v2/data-event
 ||ad-shield.io^$third-party
 ||ad.aloodo.com^
 ||ad.mail.ru/*.gif?rnd=$third-party
@@ -11920,6 +11924,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||svibeacon.onezapp.com^
 ||swarm.video/j79z9kzty.js
 ||swarm.video/track/
+||swi.neobox.ebu.io/v3/collect?
 ||swiftypecdn.com/cc.js$third-party
 ||swiftypecdn.com/te.js$third-party
 ||sync.adap.tv^
@@ -13010,7 +13015,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||high-cdn.com/log.php?
 ||houston.advgo.net^
 ||humanoid.fr/register-impression?
-||hzcdn.io/bff/static/vendor/sourcepoint-lib/
 ||i-services.net^*/compteur.php?
 ||img-static.com/CERISE.gif?
 ||ip7prksb2muxvmmh25t6rxl2te0tfulc.lambda-url.eu-west-1.on.aws^
@@ -54779,6 +54783,8 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||youvisit.com/tour/$script,subdocument,domain=uaf.edu
 @@||zillow.com/rental-manager/proxy/rental-manager-api/api/v1/users/freemium/analytics/pageViews$~third-party
 @@||zoominfo.com/c/amplitude-js$script,~third-party
+! ! monitor.azure.com
+@@||browser.events.data.microsoft.com/onecollector/$script,xmlhttprequest,domain=microsoft.com
 ! ! https://old.reddit.com/r/uBlockOrigin/comments/1czbcvg/foundit_is_blocking_searches_until_ublock_origin/
 @@||media.foundit.*/trex/public/theme_3/dist/js/userTracking.js$script,~third-party
 ! ! amplitude.com/libs
@@ -55035,7 +55041,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||3voor12.vpro.nl^*/streamsense.min.js$~third-party
 @@||ad.crwdcntrl.net^$script,domain=rtl.nl
 @@||gdh.postcodeloterij.nl/gdltm.js$domain=vriendenloterij.nl
-@@||hzcdn.io/bff/static/vendor/sourcepoint-lib/index.*.js$script,domain=marktplaats.nl
 @@||josiad.ns.nl/DG/DEFAULT/$xmlhttprequest
 @@||marketingautomation.services^$script,domain=leeuwerik.nl
 @@||tag.aticdn.net/piano-analytics.js$script,domain=boerzoektvrouw.kro-ncrv.nl
