@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202511300249
+! Version: 202512010254
 ! Title: EasyPrivacy
-! Last modified: 30 Nov 2025 02:49 UTC
+! Last modified: 01 Dec 2025 02:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a3b2d0685a3048bc83219b2e9b795cfb25d1a868
+! Commit: dfb9b2a67236886a380f0e79d4fb80c342f2d750
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7237,6 +7237,7 @@ omni.soundestlink.com$image
 ||gravitykick.com^
 ||grayoranges.com^
 ||grayreceipt.com^
+||grayscaleart.com^
 ||greasegarden.com^
 ||greasysquare.com^
 ||gridbelow.com^
@@ -7948,6 +7949,7 @@ omni.soundestlink.com$image
 ||scrollservice.com^
 ||scrubswim.com^
 ||sealtravels.com^
+||seamlesssalon.com^
 ||seatsmoke.com^
 ||secondhandfall.com^
 ||secretivesheep.com^
@@ -13472,6 +13474,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||future-shop.jp/rview.gif?
 ||gacraft.jp/publish/token.html
 ||hatmiso.net^$third-party
+||insight-x.tech/trackerlog-publisher-service/tracker-logs
 ||ip2c.landscape.co.jp^
 ||ipcheck.blogsys.jp^
 ||jal.co.jp/common_rn/img/rtam.gif
@@ -53777,6 +53780,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||count.upc.rakuten.co.jp^
 ||counter.asobeans.jp^
 ||crank-in.net/assets/common/js/sendpv.js
+||crosset.onward.co.jp/ajax/getExternalServiceWebTrackingTags
 ||ctr.po-kaki-to.com^
 ||d-log.asahi.co.jp^
 ||d-log.tv-asahi.co.jp^
@@ -53949,7 +53953,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||ssl.pstatic.net/static.news/*/js/generated/aside.statistics.js$domain=media.naver.com|news.naver.com
 ||ssl.pstatic.net/static/coreplayer/mclog/media-capable-log.js$domain=naver.com
 ||ssl.pstatic.net/tveta/libs/glad/*/gfp-display-sentry-logger.js$domain=news.naver.com
-||stat.i3.dmm.com^
 ||stat.tiara.daum.net^
 ||stat.tiara.kakao.com^
 ||stat.tiara.tistory.com^
@@ -54651,6 +54654,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||pcoptimizedsettings.com/wp-content/plugins/koko-analytics/$~third-party
 @@||pcoptimizedsettings.com/wp-content/uploads/breeze/google/gtag.js$~third-party
 @@||petdrugsonline.co.uk/scripts/gtm.js$~third-party
+@@||plans.humana.com/assets/analytics-events-$script,~third-party
 @@||plantyn.com/optiext/optiextension.dll$~third-party
 @@||platform.bombas.com/external/gtm.js$script,~third-party
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
@@ -54993,6 +54997,8 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||collector.leaddyno.com/shopify.js$script,domain=s4l.us
 @@||nbe.com.eg/NBEeChannelManager/CallMW.aspx$~third-party
 @@||rudaw.net/images/pixel.gif$~third-party
+@@||secure.moneygram.com/embed/*/webAnalytics/pageMapping.json?$~third-party,xmlhttprequest
+@@||secure.moneygram.com/embed/*/webAnalytics/pageMappingOverrides.json?$~third-party,xmlhttprequest
 @@||static.leaddyno.com/js$script,domain=s4l.us
 ! 
 ! ---------- Bosnian ----------
@@ -55113,6 +55119,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||cmn.gyro-n.com/js/gyr.min.js$domain=benesse-style-care.co.jp
 @@||cpt.geniee.jp/hb/*/wrapper.min.js$domain=hoyme.jp
 @@||cybozu.com/*/event.gif?$~third-party
+@@||datadoghq-browser-agent.com/*/datadog-logs.js$domain=crosset.onward.co.jp
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||deteql.net/recommend/provision?$xmlhttprequest,domain=t-fashion.jp
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
