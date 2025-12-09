@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: 3Zqp8pLRAJyPrpdpReY/0Q
+! Checksum: 6Vr+B85eoedrl+hb/IeGow
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/e2f1d3f14ebe2c2be8ca8ee4822ace6461c79cf4.json
-! Version: 202512010701
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/e91eab7a12e7dabfac47731f9f096066116e3c25.json
+! Version: 202512080701
 ! Title: Free - Distraction Control
-! Last modified: 01 Dec 2025 07:01 UTC
+! Last modified: 08 Dec 2025 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 ! !
 !
 ! *** distraction-control:distraction-control-free.txt ***
-! Last modified: 30 Nov 2025 17:33 UTC
+! Last modified: 07 Dec 2025 17:33 UTC
 !
 ! -----------------------General blocking filters-----------------------!
 ! *** distraction-control:app/blocking_general.txt ***
@@ -486,3 +486,4 @@ washingtonexaminer.com#$#simulate-mouse-event '.brid-playing[style="width: 788px
 dailyhive.com#$#simulate-mouse-event '#fw-player[style*="visibility: visible;"] ^^sh^^ .cy-back_close'
 ctvnews.ca#$#simulate-mouse-event 'div[class*="jasper-player-root__float"][style="width: 300px; height: 168px; bottom: 25px; right: 25px;"] button[aria-label="Close float player"]$continue'
 news.com.au#$#simulate-mouse-event '.op-embed-player[data-op-view="sticky"] [aria-label="Close player"]'
+yahoo.com#$#simulate-mouse-event '.evp-docked-mode .evp-docked-close-button$continue'

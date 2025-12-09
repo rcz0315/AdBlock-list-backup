@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512080243
+! Version: 202512090233
 ! Title: EasyPrivacy
-! Last modified: 08 Dec 2025 02:43 UTC
+! Last modified: 09 Dec 2025 02:33 UTC
 ! Expires: 4 days (update frequency)
-! Commit: cbf1fb5a018aea373c60a86d5d2e5d6c557ce036
+! Commit: cbdef31328f06d17ebddc7c03e31e075d0f64dae
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3010,6 +3010,7 @@ _WebVitalsReporter_
 /*JmVu.js?sp=
 /*JmVu.js?tg=
 /.netlify/scripts/rum
+/.rum/@adobe/helix-
 /ns.html?id=GTM-
 /send_ga4_params?
 /tag/proxy?id=G-
@@ -9650,6 +9651,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||a.vturb.net^
 ||a2z.com/sping?
 ||aan.amazon.com^$third-party
+||ab.dns-finder.com^
 ||accesswire.com/img.ashx
 ||accounts.google.com/gsi/log
 ||activengage.com/overwatch/
@@ -11537,6 +11539,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||providesupport.com/cmd/$image
 ||proxy.dzeio.com^
 ||proxy.trysavvy.com^
+||ps.ex.co/cookie_sync
 ||pswec.com/px/$third-party
 ||pt.crossmediaservices.com^
 ||pt.ispot.tv^
@@ -15188,6 +15191,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||overstock.com/dlp?
 ||ovyerus.com/js/script.js
 ||p.codio.com^
+||p.controld.com^
 ||p.ctpost.com/article?
 ||p.hentaiforce.net^
 ||p.minds.com^
@@ -48165,6 +48169,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! ||link.tubi.tv^
 ! ||app.teachfx.com^
 ! ||open.airtelxstream.in^
+! ||deeplink.xeropan.com^
 ! 
 ! Company name: Branch.io
 ! 
@@ -49532,7 +49537,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||deeplink.wagr.ai^
 ||deeplink.wbnc.99array.com^
 ||deeplink.winespectator.com^
-||deeplink.xeropan.com^
 ||deeplinkdev.upoker.net^
 ||deeplinks.amex.dynamify.com^
 ||deeplinks.breaz.dynamify.com^
