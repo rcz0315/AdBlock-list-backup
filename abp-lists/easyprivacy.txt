@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512090233
+! Version: 202512100244
 ! Title: EasyPrivacy
-! Last modified: 09 Dec 2025 02:33 UTC
+! Last modified: 10 Dec 2025 02:44 UTC
 ! Expires: 4 days (update frequency)
-! Commit: cbdef31328f06d17ebddc7c03e31e075d0f64dae
+! Commit: 41173b0c9a3da8faceb568bed7118f058357617a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6266,7 +6266,6 @@ omni.soundestlink.com$image
 ||wiredminds.de^$third-party
 ||wirewuss.com^$third-party
 ||wisetrack.net^$third-party
-||wishabi.net^$third-party
 ||withcabin.com^$third-party
 ||withcubed.com^$third-party
 ||wizaly.com^$third-party
@@ -9649,6 +9648,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||a.hcaptcha.com^
 ||a.mobify.com^
 ||a.vturb.net^
+||a.wishabi.com/track.gif?
 ||a2z.com/sping?
 ||aan.amazon.com^$third-party
 ||ab.dns-finder.com^
