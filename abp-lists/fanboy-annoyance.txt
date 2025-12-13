@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qci4BRkARiSi0km/brTPLQ
-! Version: 202512120242
+! Checksum: KtKHW+ILKjPBicO0rVbScw
+! Version: 202512130142
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-12-12 02:42 UTC
+! Last modified: 2025-12-13 01:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -35362,6 +35362,7 @@ americanexpress.com###user-consent-management-binary-banner-overlay
 resy.com###user-consent-management-granular-banner-overlay
 iboysoft.com###user_popup
 mediline.eu.com###using-cookies
+uwlax.edu###uwl-cookie-notice
 vipcars.com###vc-cookie-policy
 vivo.com###vcm-v-consent-sdk
 wpbakery.com###vcv-top-banner
@@ -35968,6 +35969,7 @@ betking.com##.cookie-box-container
 navigare-yachting.com##.cookie-box-popup
 goodlawproject.org##.cookie-card
 allyouplay.com##.cookie-card_container
+benq.com##.cookie-component
 moneycontrol.com##.cookie-concern-wrapper
 friends.figma.com##.cookie-consent-acknowledgement-conatiner
 agados.cz,concert.ua,delfortgroup.com,githubstatus.com,puffy.com,splice-cad.com,wincatalog.com##.cookie-consent-banner
@@ -37646,7 +37648,7 @@ courtika.com,essor.ca,groupedpa.com,laturquoise.ca,rockebilly.com,tremblayassura
 !! .consent-box
 leouve.com.br,ostsee24.de,photofiltres.fr,ric.com.br##.consent-box
 !! #cookie-bar
-addnoise.nl,alpha-buch.de,andelprerov.cz,annualreviews.org,casinoscores.com,cdobrianza.it,cdobrianza.org,cesnet.cz,crossref.org,einforma.co,eshop.efko.cz,goodtravel.de,granta.com,gruppovideomedia.it,gsi-one.org,hofer.it,ilbracere.com,ilgiardinodeilibri.it,knowablemagazine.org,lockheedmartin.com,macrosad.com,milescorts.es,ods.cz,paracadutistirimini.com,pc-facile.com,poruba.ostrava.cz,promptamcs.com,querstarter.de,quesoslomogallego.com,rareseeds.com,ryxy.online,szegedsport.hu,trwalamotywacja.pl,werkenbijwestcord.nl###cookie-bar
+addnoise.nl,alpha-buch.de,andelprerov.cz,annualreviews.org,benq.com,casinoscores.com,cdobrianza.it,cdobrianza.org,cesnet.cz,crossref.org,einforma.co,eshop.efko.cz,goodtravel.de,granta.com,gruppovideomedia.it,gsi-one.org,hofer.it,ilbracere.com,ilgiardinodeilibri.it,knowablemagazine.org,lockheedmartin.com,macrosad.com,milescorts.es,ods.cz,paracadutistirimini.com,pc-facile.com,poruba.ostrava.cz,promptamcs.com,querstarter.de,quesoslomogallego.com,rareseeds.com,ryxy.online,szegedsport.hu,trwalamotywacja.pl,werkenbijwestcord.nl###cookie-bar
 !! style_container__
 bossautoukraine.com.ua##[class^="style_container__"]
 !! .notification-bar
@@ -40200,7 +40202,7 @@ foodnetwork.com##+js(set-local-storage-item, wbdLTP, true)
 teamtailor.com##+js(set-local-storage-item, CookieConsent--hideCookieConsent, true)
 dewesoft.com##+js(set-local-storage-item, consent, false)
 duckduckgo.com##+js(set-local-storage-item, duckaiHasAgreedToTerms, true)
-hospihousing.com##+js(set-local-storage-item, areCookiesAccepted, true)
+hospihousing.com,opentip.kaspersky.com##+js(set-local-storage-item, areCookiesAccepted, true)
 mastersintime.com,watch.co.uk##+js(set-local-storage-item, cookieConsentV2, 1)
 inverto.tv##+js(set-local-storage-item, gdpr, 0)
 theroom.lol##+js(set-local-storage-item, room-welcome-ack-v1, 1)
@@ -48055,6 +48057,7 @@ pokcas.com##.contact-wrapper
 autoblog.com,thestreet.com##.container-inline
 smartertravel.com##.content-newsletter
 tracebit.com##.content31_newsletter
+lapresse.ca##.contentCardWithNewsletterFallback
 defenseone.com##.conversion-module
 govexec.com##.conversion-module-nl-signup
 thecooldown.com##.cool_gallery__main
@@ -49843,7 +49846,7 @@ earlybirdbooks.com,openroadmedia.com,theportalist.com##.copyRight-div
 !! .NewsletterBox
 marieclaire.fr##.NewsletterBox
 !! .ml-subscribe-form
-aeplay.org,dailynewshungary.com,designersbrasileiros.com.br,fosspost.org,justrunlah.com,michaelwest.com.au,nanowerk.com,osxdaily.com,roadiscalling.com,upinthesky.nl##.ml-subscribe-form
+aeplay.org,dailynewshungary.com,designersbrasileiros.com.br,fosspost.org,justrunlah.com,michaelwest.com.au,nanowerk.com,osxdaily.com,roadiscalling.com,serversfor.dev,upinthesky.nl##.ml-subscribe-form
 !! .subscription
 6sqft.com,alhayat.tv,alquds.co.uk,augustman.com,brighteon.com,cgsociety.org,cityam.com,hagerty.co.uk,healthboards.com,infosecurity-magazine.com,lifestyleasia.com,livejournal.com,news.bg##.subscription
 !! .sign-up
