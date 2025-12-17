@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512160243
+! Version: 202512170235
 ! Title: Fanboy's Social Blocking List
-! Last modified: 16 Dec 2025 02:43 UTC
+! Last modified: 17 Dec 2025 02:35 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 20d74282ded8c047493db8bc0e27b99dd1a2de5c
+! Commit: 922923db83204848d97be96dd00c10c18b4c8856
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -25,7 +25,6 @@
 -follow-icons.
 -follow-us-icons.
 -followicons.
--share-bar/$~stylesheet
 -share-buttons2.
 -share-buttons3/$~stylesheet
 -share-sprite-
@@ -11085,6 +11084,8 @@ crypto.news##.google-news-button
 alarabiya.net##.google-news-callout
 glassalmanac.com##.google-news-card
 cybernews.com,sammobile.com##.google-news-cta
+9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,spaceexplored.com##.google-preferred-source-badge
+restofworld.org##.google-preferred-v1
 coinpedia.org##.google_news-space
 techadvisor.com##.google_news_button
 auto.hindustantimes.com##.googlenewfollowidget
@@ -11519,7 +11520,7 @@ undark.org##.sidebar-action-share
 welivesecurity.com##.sidebar-card-media
 culture.pl##.sidebar-inner
 tribune.com.pk##.sidebar-social-icons
-pcgamesn.com##.sidebar-social-widget
+pcgamesn.com,wargamer.com##.sidebar-social-widget
 prdaily.com##.sidebarShareHeading
 newsshooter.com##.simple-social-icons
 dhakatribune.com##.single-artical-page-shear-section-shear-section

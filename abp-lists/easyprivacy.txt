@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512160246
+! Version: 202512170235
 ! Title: EasyPrivacy
-! Last modified: 16 Dec 2025 02:46 UTC
+! Last modified: 17 Dec 2025 02:35 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 20d74282ded8c047493db8bc0e27b99dd1a2de5c
+! Commit: 922923db83204848d97be96dd00c10c18b4c8856
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1634,6 +1634,7 @@
 /oo/*/l.js
 /oo/*/lsync.
 /oo/cl*.js?rd=
+/oo/cl-$~third-party
 /oo/cl.js|$~third-party
 /op/analytics.js?domain=
 /opdc.js
@@ -3203,6 +3204,7 @@ _WebVitalsReporter_
 /c.vialoops.com/*$image
 /ck.m.honto.jp/c/*$image
 /click.*/q/*$image
+/click.comicomi-studio.com/mail/u/*$image
 /click.em.nike.com/*$image
 /click.email.$image
 /click.instahyre.com/*$image
@@ -6554,6 +6556,7 @@ omni.soundestlink.com$image
 ||alikeaddition.com^
 ||aliveachiever.com^
 ||alloutdubstep.com^
+||allsunflowers.com^
 ||alltypo.com^
 ||alluringbucket.com^
 ||almondbuns.com^
@@ -6670,6 +6673,7 @@ omni.soundestlink.com$image
 ||blissfullagoon.com^
 ||blitzcampaigns.com^
 ||blockdial.com^
+||bloomsend.com^
 ||blueeyedblow.com^
 ||bluenest.net^
 ||bluevinebooks.com^
@@ -12407,6 +12411,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||visualwebsiteoptimizer.com/events/t?
 ||visualwebsiteoptimizer.com/gv.gif?
 ||visualwebsiteoptimizer.com/server-side/track-user?
+||vitals.flyingpress.com^
 ||vivociti.com/images/$third-party
 ||vizury.com/analyze/
 ||vk.com/rtrg?
@@ -14051,6 +14056,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||9gag.com/track/
 ||a-da.invideo.io^
 ||a-reporting.nytimes.com^
+||a.apkeditor.io^
 ||a.electerious.com^
 ||a.sputniknews.com/js/sputnik.js
 ||a.tellonym.me^
@@ -54233,6 +54239,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||mirtesen.ru/js/ms.js
 ||ms.dzen.ru^
 ||ms.vk.com^
+||ms.vk.ru^
 ||mstat.mos.ru^
 ||mts.ru/fe-api/logger
 ||mtsbank.ru/hustonwehaveaproblem/
@@ -54288,6 +54295,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||umschool.net/_jts/api/s/track
 ||vedomosti.ru/boom?
 ||vesti.ru/counter/
+||vk.ru/rtrg
 ||vkvideo.ru/al_video.php?act=track
 ||vstat.rtr-vesti.ru^
 ||webbff.ru.4game.ru/api/exporter/events
@@ -54488,6 +54496,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||api.ipinfodb.com^$xmlhttprequest,domain=management30.com
 @@||api.lab.amplitude.com/v1/vardata?$domain=gaiagps.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
+@@||api.sprig.com/sdk/1/environments/$xmlhttprequest,domain=developer.salesforce.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||api.useinsider.com/api/web/$xmlhttprequest
 @@||api.vk.com/method/statEvents.$~third-party
@@ -55051,6 +55060,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||forecast.lemonde.fr/p/event/pageview?$image,~third-party
 @@||franceinfo.fr/assets/*/piano-analytics/piano-analytics-$script,~third-party
 @@||helix.videotron.com/js/api/fingerprint.js$~third-party
+@@||howsmyssl.com^$script,domain=trenitalia.fr
 @@||icu.newsroom.bi/ingest.php$xmlhttprequest,domain=autoplus.fr
 @@||logic-immo.com/lib/xiti/xiti.js$script,~third-party
 @@||mabanque.fortuneo.fr/js/front/fingerprint2.js$script,domain=mabanque.fortuneo.fr
