@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: Ad91jg71+cwAB3ZPvGA/Uw
-! Version: 202512170242
+! Checksum: 4kh5nW2TyCM118oPzoUQ7Q
+! Version: 202512180242
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-12-17 02:42 UTC
+! Last modified: 2025-12-18 02:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -15857,6 +15857,7 @@ digit.in##.stay_connected
 cartercenter.org##.stayconnectedwrap
 msn.com##.stb-bsb
 tnmt.com##.sti-share-box
+vnexpress.net##.sticky
 deutschland.de##.sticky-bar
 sundayworld.co.za##.sticky-buttons
 barrons.com##.sticky-header__sharetoolsContainer
@@ -35035,6 +35036,7 @@ fawesome.tv###gdpr_cookie_info_bar-wr
 myedit.online###gdpr_notes
 jagran.com,jagranjosh.com,mid-day.com###gdprbx
 maxmind.com###global-privacy-control-check
+pornhub.com###globalCookieBanner
 lloyd.com###globalerror
 draeger.com###globalnotification
 freebcc.com###google_cookie_box_bottom
@@ -35384,6 +35386,7 @@ wpbakery.com###vcv-top-banner
 amazon.jobs###versionized-cookie-banner
 factmag.com###vf-pop
 vive.com###vive-cookie-notice
+aliexpress.com###voyager-gdpr-2025
 ritdye.com###vue-app > .v_bg\:peach-300
 sabanci.com###warning-bar
 dompe.com###warning-popup
@@ -37021,7 +37024,6 @@ ademus.eu,callingfans.com,creators.deepfake.com,nappy.co##.showBanner
 nikkei.com##.show_s1oy9cxe
 maxtena.com##.showcookiedialog
 tarot.com##.shown
-pornhub.com##.sideAds
 thedrum.com##.signup-cta__fixed
 sim-networks.com##.sim-cookies-popup
 dendrite.ai,subspace.money##.simple-cookie-widget
@@ -38502,6 +38504,7 @@ campingdusoleil.com,hotel-la-chaumiere.com,les-anges-gardiens.fr,croco-kid.com,c
 search.upright-music.dk##+js(set-cookie, cookieConsent, true)
 toppy.be##+js(set-cookie, __toppy_consent, 1)
 ovation.ca##+js(set-cookie, ovation.v20231006.essentials, 1, , reload, 1)
+sneakerfreaker.com##+js(set-cookie, sfConsent, denied)
 moscow.shop.megafon.ru##+js(set-cookie, cookie_toast, true)
 genomicpress.kglmeridian.com##+js(set-cookie, pf-cookie-banner-accepted, true)
 hanos.nl##+js(set-cookie, CookieConsentChoice, 3)
@@ -40224,6 +40227,7 @@ bytello.com##+js(set-local-storage-item, _APP_COOKIE_NOTICE, reject)
 foodnetwork.com##+js(set-local-storage-item, wbdLTP, true)
 ytj.fi##+js(set-local-storage-item, accept-cookies, done)
 unisa.ac.za##+js(set-local-storage-item, cookieConsent, essential)
+mamamia.com.au##+js(set-local-storage-item, itbl_consent_timestamp, 1)
 ytj.fi##+js(set-local-storage-item, cookie-neta, false)
 ytj.fi##+js(set-local-storage-item, cookie-snoop, false)
 teamtailor.com##+js(set-local-storage-item, CookieConsent--hideCookieConsent, true)
