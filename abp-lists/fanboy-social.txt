@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512180244
+! Version: 202512190222
 ! Title: Fanboy's Social Blocking List
-! Last modified: 18 Dec 2025 02:44 UTC
+! Last modified: 19 Dec 2025 02:22 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 949418c07fa37a558d1af3ab859dc505db752b94
+! Commit: 95ef9b7d37bfe6098318df56b5560421e3a39b63
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12165,7 +12165,6 @@ twitch.tv##.social-media-link
 tomshardware.com##.socialite-widget-ul
 megaup.net##.socialsider
 jewishpress.com##.twitter-follow-button
-charlieintel.com,dexerto.com##.w-full.border-gray-900.p-5
 ! Include ubO specific
 ! #include fanboy_social_specific_uBO.txt
 ! *** easylist:fanboy-addon/fanboy_social_specific_ABP.txt ***

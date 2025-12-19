@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 4kh5nW2TyCM118oPzoUQ7Q
-! Version: 202512180242
+! Checksum: Ldu8+QkPG2lKvs/YcU3AtA
+! Version: 202512190142
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-12-18 02:42 UTC
+! Last modified: 2025-12-19 01:42 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1813,8 +1813,8 @@ welovetrump.com##.widget-area.sidebar
 spring.org.uk##.widget_hustle_module_widget
 tp-link.com##.widgets-top-banner
 temu.com##.wrap-6ZxH0
-youtube-nocookie.com,youtube.com##.ytp-ce-playlist
-youtube-nocookie.com,youtube.com##.ytp-pause-overlay
+m.youtube.com,www.youtube.com,youtube-nocookie.com##.ytp-ce-playlist
+m.youtube.com,www.youtube.com,youtube-nocookie.com##.ytp-pause-overlay
 portableapps.com##[alt="RSS"]
 xhaccess.com,xhamster.com,xhamster.desi##[class*="cam-wgt"]
 chromewebstore.google.com##[role="dialog"][aria-labelledby="promo-header"]
@@ -16299,7 +16299,6 @@ twitch.tv##.social-media-link
 tomshardware.com##.socialite-widget-ul
 megaup.net##.socialsider
 jewishpress.com##.twitter-follow-button
-charlieintel.com,dexerto.com##.w-full.border-gray-900.p-5
 ! Include ubO specific
 !#include fanboy_social_specific_uBO.txt
 ! fanboy_social_specific_uBO.txt 
@@ -39181,6 +39180,7 @@ oocl.com##+js(set-cookie, AcceptCookie, yes)
 brazzersnetwork.com,niezawodny.pl##+js(set-cookie, cookieConsent, 0, , reload, 1)
 toll.no,safaricom.co.ke##+js(set-cookie, cookieConsent, rejected)
 clickbank.com##+js(set-cookie, cbgwc_cookie_consent, reject)
+opengraph.xyz##+js(set-cookie, cookie_consent, rejected)
 travelfranceonline.com##+js(set-cookie-reload, tlc_cookie_banner_declined, true)
 smile.io##+js(set-cookie, smile_allow_cookies, true)
 hiermitherz.de##+js(set-cookie, cookie_alert, true)
@@ -40888,9 +40888,8 @@ canto.com##body,html:style(overflow: auto !important; position: initial !importa
 craft-conf.com###headlessui-dialog-overlay-19
 craft-conf.com###headlessui-dialog-17
 craft-conf.com##body,html:style(height: auto !important; overflow: auto !important)
-! godtlevert.n
-godtlevert.no###headlessui-portal-root
-godtlevert.no##body,html:style(height: auto !important; overflow: auto !important)
+! godtlevert.no
+godtlevert.no##+js(set-local-storage-item, force_hide_cookie_dialog, 1)
 ! 116117.fi
 116117.fi##+js(set-local-storage-item, cookie-consent, 1)
 ! klassik-stiftung.de
@@ -52889,8 +52888,6 @@ delish.com##section[data-lazy-id*="P0-"]:has-text(Cooking is easier on the app.)
 abc.net.au#?#[data-component="RelatedCard"]:-abp-contains(Stream your favourite shows)
 chatgpt.com#?#.z-20.bottom-full:-abp-contains(Get Extension)
 dailynews24.in#?#.gb-button:-abp-contains(Open App)
-dexerto.com#?#.fixed.lg\:w-\[750px\]:-abp-contains(Stay Updated)
-dexerto.com#?#.min-h-16:-abp-contains(Get Notifications)
 foxnews.com#?#strong:-abp-contains(GET THE FOX NEWS APP)
 kayak.com#?#.gkz0-toast:-abp-contains(Get Price Alerts)
 linkedin.com#?#div#public_post_contextual-sign-in:-abp-contains(Sign in to view more content)
