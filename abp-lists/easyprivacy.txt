@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512190222
+! Version: 202512200226
 ! Title: EasyPrivacy
-! Last modified: 19 Dec 2025 02:22 UTC
+! Last modified: 20 Dec 2025 02:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 95ef9b7d37bfe6098318df56b5560421e3a39b63
+! Commit: ea38765d558941b62e80c9043c30a09e50ab818e
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6928,6 +6928,7 @@ omni.soundestlink.com$image
 ||cumbersomecake.com^
 ||cumbersomecarpenter.com^
 ||cupcakegem.com^
+||curatedtea.com^
 ||curbminers.com^
 ||curbneon.com^
 ||curiouschalk.com^
@@ -7017,6 +7018,7 @@ omni.soundestlink.com$image
 ||dreamycanyon.com^
 ||driftingchef.com^
 ||driftpizza.com^
+||droidwiz.com^
 ||drollwharf.com^
 ||dustydime.com^
 ||dustyhammer.com^
@@ -8680,6 +8682,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.rechtslupe.org^
 ||andyhoppe.com^$third-party
 ||anormal-tracker.de^$third-party
+||api-v4.trbo.com*plvid=$third-party,xmlhttprequest
 ||area51.to^$third-party
 ||atsfi.de^$third-party
 ||audiencemanager.de^$third-party
@@ -8895,7 +8898,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracdelight.io^$third-party
 ||trackboxx.info^$third-party
 ||trafficmaxx.de^$third-party
-||trbo.com^$third-party
 ||trendcounter.de^$third-party
 ||trkme.net^$third-party
 ||txt.eu^$third-party
@@ -10583,6 +10585,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ensighten.com/error/e.php?
 ||envato.market/i/
 ||epimg.net/js/gdt/
+||episerver.net/ia.js
 ||epl.paypal-communication.com^$script
 ||epromote.co.za/track/
 ||eq.userneeds.com^
@@ -11698,6 +11701,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rtc.multiscreensite.com^
 ||rtxpx-a.akamaihd.net^
 ||rudder-tracking.rudderstack.com^
+||rum-collector.leaderint.workers.dev^
 ||rum.azion.com^
 ||rum.azioncdn.net^
 ||rum.corewebvitals.io^
@@ -12081,6 +12085,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||telemetry.reembed.com^
 ||telemetry.smartframe.io^
 ||telemetry.soundcloud.com^
+||telemetry.svc.transifex.net^
 ||telemetry.tableausoftware.com^
 ||telemetry.transcend.io^
 ||telemetry.vtex.com^
@@ -12454,6 +12459,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||web-beacon.starii-rover.com^
 ||web-rabbit.meitustat.com/report?
 ||web-tracker.smsbump.com^
+||web-vitals-script.leaderint.workers.dev^
 ||web.aips-sol.com/v1/events?
 ||web.valiuz.com^*/tag.js
 ||web1.51.la^
@@ -14476,6 +14482,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||convert.guru/pageview^
 ||cookpad.com/*/activity_logs
 ||copilot-telemetry.githubusercontent.com^
+||core-features.cambridge.org/proxy/client/metrics
 ||count.all.biz^
 ||count.darkreader.app^
 ||count.rin.ru^
@@ -15170,7 +15177,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||navan.com/api/analytics
 ||nbarizona.com/metrics/
 ||nbc.com/webevents/
-||nbcnews.com/_next/static/chunks/ads.$script,domain=nbcnews.com
 ||neatorama.com/story/view/
 ||neeva.com/logql/log
 ||neighbourly.co.nz/event-tracking
@@ -55014,7 +55020,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||analytics.edgekey.net/html5/akamaihtml5-min.js$domain=br.de
-@@||api-v4.trbo.com/r.php?$script,domain=blau.de
 @@||apps.derstandard.at^*/TrackingCookieCheck?$subdocument
 @@||aticdn.net/piano-analytics.js$domain=stuttgarter-nachrichten.de
 @@||bilder-a.akamaihd.net/ip/js/ipdvdc/ipdvdc.min.js$domain=n-tv.de|toggo.de|vip.de
@@ -55047,12 +55052,12 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||showheroes.com/pubtag.js$domain=rollingstone.de
 @@||siteintercept.qualtrics.com/$domain=idealo.de
 @@||sophi.io/assets/demeter/$script,domain=faz.net
+@@||spezialklinik-neukirchen.de/matomo/$~third-party
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||taboola.com/libtrc/$script,domain=bild.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|sueddeutsche.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
 @@||technical-service.net^$xmlhttprequest,domain=n-tv.de|rtl.de|vip.de
 @@||tipico.de/js/modules/fingerprintjs2/fingerprint2.min.js$script,~third-party
 @@||toggo.de/static/js/sourcepoint.js$domain=toggo.de
-@@||trbo.com/plugin/trbo_$script,domain=blau.de
 @@||ttmetrics.faz.net/rest/v1/delivery?$domain=faz.net
 @@||uim.tifbs.net/js/$script,domain=web.de
 @@||widgets.trustedshops.com/reviews/tsSticker/$domain=koziol-shop.de
