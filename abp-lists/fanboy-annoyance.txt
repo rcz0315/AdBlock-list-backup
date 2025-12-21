@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 9+QSqFc9odrjyVZwC1H9BQ
-! Version: 202512200150
+! Checksum: iEBLz55M02EIQ1tlEEMiKQ
+! Version: 202512202250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-12-20 01:50 UTC
+! Last modified: 2025-12-20 22:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2035,6 +2035,7 @@ thefire.org##.alert-banner
 pogo.org##.alert-bar
 science.org##.alert-donation
 downloaddevtools.com##.alert-warning
+americanprogress.org##.alert1
 damemagazine.com##.an_independent
 sdvoice.info##.ancr-group
 darkreading.com##.announcement
@@ -14830,6 +14831,7 @@ odessa-journal.com##.article__hictory-descr_share
 tvpworld.com##.article__icons
 noticiabrasil.net.br,noticiaslatam.lat,spnfa.ir,sputnik-abkhazia.info,sputnik-georgia.com,sputnik-ossetia.com,sputnik.af,sputnik.by,sputnik.kg,sputnik.kz,sputnik.tj,sputnikglobe.com,sputniknews.africa,sputniknews.cn,sputniknews.in,sputniknews.jp,sputniknews.ru,sputniknews.uz,sputnikportal.rs##.article__news-services-subscribe
 thenewhumanitarian.org##.article__post-share
+salon.com##.article__share
 ecowatch.com##.article__share-buttons
 wnep.com##.article__sharing
 greenbuildingadvisor.com,tvpworld.com##.article__social
@@ -34592,6 +34594,7 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 ||synology.com/js/syno/syno_cookie_element.js
 ||tags.tiqcdn.com^$script,domain=firstdirect.com|lavazzausa.com|santander.pl|swisscom.ch
 ||teamsimmer.com/wp-content/uploads/klaro/klaro.js
+||technomedia.com/*/cookies.js$script,~third-party
 ||terencehill.com/modules/hicookielaw/
 ||transcend-cdn.com^$domain=1password.com|aibusiness.com|anaconda.com|apollo.io|chubbiesshorts.com|classy.org|costco.ca|costco.com|costcobusinessdelivery.com|darkreading.com|digicert.com|etsy.com|eyeconic.com|fanexpohq.com|fashionnova.com|fightingillini.com|gamechoiceawards.com|gamedeveloper.com|gdconf.com|gdcvault.com|gofundme.com|habitburger.com|igf.com|indiegogo.com|informa.com|informaconnect.com|kfc.com|kickstarter.com|lifetouch.com|mountaineast.org|ncaa.org|netapp.com|patreon.com|shutterfly.com|tandfonline.com|theaisummit.com|vimeo.com|visible.com|vsp.com|vspdirect.com
 ||transcendcdn.eventbrite.com^
@@ -36274,7 +36277,7 @@ cervelo.com##.eSJQoN
 aiease.ai##.ea-cookies-accept
 i-subdigital.com##.eb-1
 i-sub.co.uk##.eb-shd1
-cherryred.co.uk##.ec-gtm-cookie-directive
+cherryred.co.uk,military1st.com##.ec-gtm-cookie-directive
 midasbuy.com##.eea-pop
 carvago.com##.ees0v8i1
 tech.eu##.efilli-layout-legacy
@@ -47645,6 +47648,7 @@ filmaffinity.com###top-anch
 opendemocracy.net###top-donation-banner
 news-medical.net###topic-notification-signup-box
 drewberquist.com,lifezette.com###totalpoll
+bitcoinmagazine.com###tpbr_topbar
 masteringemacs.org###try-book
 autodesk.com###uf-cta-beside
 ultimate-guitar.com###ug-article-email-subscribe
@@ -47659,6 +47663,7 @@ bbc.com###zephr-message
 sciencenews.org###zephr-user-form-root
 swissinfo.ch##.--is-open
 pirg.org##.-gg\:1.-mb\:3
+americanprogress.org##.-hubspot-subscriber-hide
 fivebooks.com##.-newsletter
 mainepublic.org##.ArtP-aside-content
 iotworldtoday.com,lightreading.com##.ArticleBase-Newsletter
@@ -47816,6 +47821,7 @@ ktoo.org##.announcement-full-post
 defconq.tech##.announcementBar_mb4j
 americanwirenews.com##.anw-subscribe
 asiaone.com##.ao-newsletter
+asiaone.com##.ao-newsletter-desktop
 artofmanliness.com##.aom-subscribe
 advisorperspectives.com##.ap-signup-inline
 freevector.com##.app-footer
@@ -49745,6 +49751,8 @@ qz.com##.p-4:has-text(Sign up for the Daily Brief)
 weather.com##.p-5.bg-white.rounded-xl:has-text(Weather in your inbox)
 demstate.com##.p-6.border-gray-200:has-text(Stay Informed)
 rd.com##.p1:has-text(newsletter)
+salon.com##.page-article > p:has-text(Sign up here)
+salon.com##.page-article.article__content > p > strong:has-text(newsletter)
 weather.com##.pr-\[30px\]:has-text(Weather in your inbox)
 ctpost.com##.px20.pb32:has-text(Sign up for)
 aarp.org##.recommendationSection:has-text(Newsletter)
@@ -51164,7 +51172,7 @@ alldayshirts.com###GeneralSaleBanner
 firstclasswatches.co.uk###OuiOverlay
 edikted.com###SMSBump-Modal
 mercato.com###ZipEmailModal
-hanes.com,shop.ordnancesurvey.co.uk###_lpSurveyPopover
+hanes.com,military1st.com,shop.ordnancesurvey.co.uk###_lpSurveyPopover
 celticwebmerchant.co.uk###abandonednewsletter
 gpulive.com###automizely_marketing_popup_bars
 misterworker.com###block_footer_custom

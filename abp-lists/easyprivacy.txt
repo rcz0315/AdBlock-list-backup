@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512200226
+! Version: 202512210238
 ! Title: EasyPrivacy
-! Last modified: 20 Dec 2025 02:26 UTC
+! Last modified: 21 Dec 2025 02:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ea38765d558941b62e80c9043c30a09e50ab818e
+! Commit: 39529c7897df19d70b7856b28b0522ba7bd27011
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -4774,6 +4774,7 @@ omni.soundestlink.com$image
 ||gostats.com^$third-party
 ||gostats.org^$third-party
 ||gosupersonic.ai^$third-party
+||govisibl.io^$third-party
 ||govmetric.com^$third-party
 ||granify.com^$third-party
 ||grapheffect.com^$third-party
@@ -7027,6 +7028,7 @@ omni.soundestlink.com$image
 ||eagerflame.com^
 ||eagerknight.com^
 ||earnbaht.com^
+||earthlybuzz.com^
 ||earthups.com^
 ||eatablesquare.com^
 ||echoacloud.com^
@@ -7131,6 +7133,7 @@ omni.soundestlink.com$image
 ||fearlesstramp.com^
 ||featherstage.com^
 ||feeblestamp.com^
+||feedandpurr.com^
 ||feedten.com^
 ||feignedfaucet.com^
 ||fewjuice.com^
@@ -12134,6 +12137,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tpx.tesseradigital.com^
 ||tr-experiments.parsely.com^
 ||tr-op.datatrics.com^
+||tr.attribuly.com^
 ||tr.cloud-media.fr^
 ||tr.datatrics.com^
 ||tr.marsflag.com^
@@ -15135,6 +15139,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||miao.baidu.com^
 ||microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/exp-analytics/
 ||midas.chase.com^
+||military1st.com/datalayer/index/events?
 ||mixpanel-proxy.coingecko.com^
 ||mixpanel-proxy.ted.com^
 ||mixproxy.epoch.cloud^$domain=theepochtimes.com
