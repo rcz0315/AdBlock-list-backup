@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: iEBLz55M02EIQ1tlEEMiKQ
-! Version: 202512202250
+! Checksum: /aAkNOMYHVA1nOw6jspsjA
+! Version: 202512220225
 ! Title: Fanboy's Annoyance List
-! Last modified: 2025-12-20 22:50 UTC
+! Last modified: 2025-12-22 02:25 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -1845,7 +1845,7 @@ jacobin.com###banner-popup
 netzpolitik.org###banner-small
 leawo.org###banner-top-prom
 openculture.com###big-bottom-ad-single-posts
-pimylifeup.com###block-2
+9to5linux.com,pimylifeup.com###block-2
 thefrisc.com###block-23
 dcreport.org###block-3
 thebarbedwire.com###block-33
@@ -2112,6 +2112,7 @@ duckduckgo.com##.button_size-md__dS3Yr.button_secondary__DAail
 marketplace.org##.c-callout-banner
 marketplace.org##.c-donate-cta
 csswizardry.com##.c-highlight
+united24media.com##.c-prose__ignore:has-text(Every article pushes)
 folha.uol.com.br##.c-subscribe-ads
 folha.uol.com.br##.c-top-signup
 huffpost.com##.campaign-toaster
@@ -2620,6 +2621,7 @@ wionews.com##.writeforwionbanner
 aptnnews.ca##.your-story
 youtube.com##.ytd-statement-banner-renderer
 snakebitefoundation.org,southernwoodenboatsailing.com,worthrises.org##.yui-popup-container-node
+united24media.com##.z-modal.border-white:has-text(Support)
 theglobeandmail.com,theverge.com##.zephr-zone-footer
 picsart.com##[class^="hintWrapper"]
 picsart.com##[class^="pa-monetization"]
@@ -35090,7 +35092,7 @@ juno.co.uk,junodownload.com###juno-cookie-consent
 forbes.com###ketch-consent-overlay
 carmax.com###kmx-privacy-popup
 shanebarker.com###kt-layout-id_e3c48e-e4
-brandfolder.com###lanyard_root
+brandfolder.com,katv.com,kfdm.com,komonews.com,ktul.com,wjla.com###lanyard_root
 halifax-online.co.uk###lbganalyticsCookies
 adultswim.com###legal-notification
 escapefromtarkov.com###legalLightBlock
@@ -37304,6 +37306,7 @@ pixilart.com##[data-cookie-number]
 iol.co.za##[data-dialog="true"]
 wizards.com##[data-fetch-key="TheCookiePrompt:0"]
 indeed.com##[data-gnav-region="GlobalPrivacyControlBanner"]
+katv.com,kfdm.com,komonews.com,ktul.com,wjla.com##[data-ketch-backdrop="true"]
 scmp.com##[data-qa="GDPRBanner-Container"]
 app.greenhouse.io##[data-react-class="InformCookiesPopup"]
 wistia.com##[data-sentry-component="ConsentBanner"]
@@ -37914,7 +37917,7 @@ dryg.pl##div[class^="CookiesNoti"]
 !! .cookie-notice
 21group.at,acidcow.com,allangray.co.za,amaze.org,artdentis.com,autosolar.co,autosolar.pe,backaldrin.com,bankofengland.co.uk,bestlawyers.com,breadandbutter.ru,camgo.com,candaceowens.com,castlefineart.com,cls-computer.de,direct2u.co.uk,drgerard.eu,ecosia.org,estately.com,freevpnplanet.com,greenhouseseeds.nl,greenpeace.org,harveynichols.com,ifo.de,iihf.com,jetset-hairextensions.nl,kappahl.com,lightspeed.com,mageba-group.com,manpower.com.ar,manpowergroup.com.ar,mashable.com,monnik-dranken.nl,motocard.com,nbtc.go.th,nc-planica.si,ncfu.ru,news.sportbox.ru,oakville.ca,onlinedrugtraining.com,pagetiger.com,portfoliobox.com,pryor.com,rex-royal.ch,schweizermonat.ch,scotworkusa.com,security.mozwik.com,spartanien.de,ucbi.com,viboom.com,vidal.ru,vixx.nl,wine-searcher.com,xtreme.pt,zonstudio.nl##.cookie-notice
 !! #cookie-notice
-aala-apo-shop.de,agenziavista.it,anamariareceitas.com.br,aschendorff-buchverlag.de,aventurasnahistoria.com.br,avm-verlag.de,bahai-verlag.de,blog.oup.com,bonsfluidos.com.br,brasil.perfil.com,dersportverlag.de,epoch.ai,foodbloggermania.it,gamenode.app,ib3.org,imqgroupblogzine.it,infofranchising.it,kaliscan.com,kaliscan.io,kaliscan.me,karlpichler.it,ketteler-verlag.de,kuehlen-verlag.de,laaber-verlag.de,livelaw.in,maisnovela.com.br,manequim.com.br,mangabuddy.com,mangamirror.com,marciapiovesan.com.br,maroelamedia.co.za,measurementlab.net,mgjinx.com,news.climate.columbia.edu,novelbuddy.com,papinsport.com,peterzemmer.com,radio.menu,recoveritalia.com,removal.ai,sangean.com,sax-verlag.de,skatedeluxe.com,slot-mania.it,storyblok.com,trcs.or.tz,viacarreira.com,vivasaudedigital.com.br,walfer.lu,xlab.si###cookie-notice
+aala-apo-shop.de,agenziavista.it,anamariareceitas.com.br,aschendorff-buchverlag.de,aventurasnahistoria.com.br,avm-verlag.de,bahai-verlag.de,blog.oup.com,bonsfluidos.com.br,brasil.perfil.com,chortle.co.uk,dersportverlag.de,epoch.ai,foodbloggermania.it,gamenode.app,ib3.org,imqgroupblogzine.it,infofranchising.it,kaliscan.com,kaliscan.io,kaliscan.me,karlpichler.it,ketteler-verlag.de,kuehlen-verlag.de,laaber-verlag.de,livelaw.in,maisnovela.com.br,manequim.com.br,mangabuddy.com,mangamirror.com,marciapiovesan.com.br,maroelamedia.co.za,measurementlab.net,mgjinx.com,news.climate.columbia.edu,novelbuddy.com,papinsport.com,peterzemmer.com,radio.menu,recoveritalia.com,removal.ai,sangean.com,sax-verlag.de,skatedeluxe.com,slot-mania.it,storyblok.com,trcs.or.tz,viacarreira.com,vivasaudedigital.com.br,walfer.lu,xlab.si###cookie-notice
 !! #toast-container
 alppimatkat.fi,als.royalholloway.ac.uk,ecosto.fi,kialo.com,kuntarekry.fi,lokinn.com,nelly.com,nlyman.com,quedo.es,schoolworkspace.co.uk,sozialleistungen.info,startnext.com,telecomtv.com,uslugi.mosreg.ru###toast-container
 !! .toast
