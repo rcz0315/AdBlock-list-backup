@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: YPdSv8Z1Y/0NpuAo3IG/bQ
+! Checksum: u2AEENAntyRhe58WCbTGcA
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/518e7e3f9334f3e98f6d42fac9894c54ad0f38fc.json
-! Version: 202512150701
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/aaee3a74246842eb25a58c96cd87ad4159ad0884.json
+! Version: 202512220701
 ! Title: Free - Distraction Control
-! Last modified: 15 Dec 2025 07:01 UTC
+! Last modified: 22 Dec 2025 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 ! !
 !
 ! *** distraction-control:distraction-control-free.txt ***
-! Last modified: 14 Dec 2025 17:37 UTC
+! Last modified: 21 Dec 2025 17:34 UTC
 !
 ! -----------------------General blocking filters-----------------------!
 ! *** distraction-control:app/blocking_general.txt ***
@@ -172,6 +172,8 @@ bonappetit.com#?#[class^="InContentBarrierFloatingBar"]:-abp-contains(START FREE
 apnews.com#?#.bcpNotificationBarStickyBottom:-abp-contains(Donate)
 ! Example: https://www.theguardian.com/us-news/2025/jan/29/trump-appeals-hush-money-conviction
 theguardian.com#?#[name="StickyBottomBanner"]:-abp-contains(support)
+theguardian.com#?#[name="StickyBottomBanner"]:-abp-contains(gift)
+theguardian.com#?#[name="StickyBottomBanner"]:-abp-contains(by backing our journalism)
 ! Example: https://www.orlandosentinel.com/
 chicagotribune.com,courant.com,dailypress.com,mcall.com,orlandosentinel.com,pilotonline.com,sun-sentinel.com##[id^="ConneXt_Action"]:has(#footerSubscribe)
 ! Example: https://www.theverge.com/news/603113/faa-chief-musk-dc-plane-crash-crisis
