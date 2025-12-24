@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202512230247
+! Version: 202512240246
 ! Title: Fanboy's Social Blocking List
-! Last modified: 23 Dec 2025 02:47 UTC
+! Last modified: 24 Dec 2025 02:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9b6f08c21509fa1aa2d3a8387105a96d151d5f9d
+! Commit: 84b63fc74bd93ef22bff23082ee8584db921b7ec
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -4203,6 +4203,7 @@ _social_footer_
 ##.end-social
 ##.entry-aside-shares
 ##.entry-bottom-share
+##.entry-content-share
 ##.entry-footer-share
 ##.entry-meta-share
 ##.entry-meta-social
@@ -13376,6 +13377,7 @@ perfil.com##.main-footer__redes
 canalnet.tv##.main-video-single__socials
 genbeta.com,vidaextra.com,xataka.com.mx##.menu-follow
 debate.com.mx,show.news##.mod--googlenews
+lanacion.com.ar##.mod-share-container
 cooperativa.cl##.modulo-channels
 cooperativa.cl##.modulo-google-news
 depor.com##.nav__story-social-network
