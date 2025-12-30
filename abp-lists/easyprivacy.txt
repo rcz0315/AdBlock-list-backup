@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512290234
+! Version: 202512300234
 ! Title: EasyPrivacy
-! Last modified: 29 Dec 2025 02:34 UTC
+! Last modified: 30 Dec 2025 02:34 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0b5575f26b38b9495f865e675b38572894bfd11d
+! Commit: 5a5dac489e35628cefc434ce2251cb2937938731
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7532,6 +7532,8 @@ omni.soundestlink.com$image
 ||lovelydrum.com^
 ||loveseashore.com^
 ||lowercases.com^
+||lowerthewatts.net^
+||luckyshelf.com^
 ||ludicrousarch.com^
 ||lumberamount.com^
 ||luminousboulevard.com^
@@ -11559,6 +11561,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.sprinklr.com^
 ||pixel.veritone-ce.com^
 ||pixel.videohub.tv^
+||pixel.visitiq.io^
 ||pixel.wetracked.io^
 ||pixel.wp.com^
 ||pixel.yabidos.com^
@@ -14541,6 +14544,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cpb.esprit.*/91405.js
 ||cpt.itv.com^
 ||creately.com/static/js/creately-analytics-
+||creator-spring.com/ngjj/
 ||crta.metro.co.uk^
 ||crumbs.robinhood.com^
 ||crunchyroll.com/tracker?
