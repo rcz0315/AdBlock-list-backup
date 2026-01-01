@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202512310248
+! Version: 202601010301
 ! Title: EasyPrivacy
-! Last modified: 31 Dec 2025 02:48 UTC
+! Last modified: 01 Jan 2026 03:01 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 27ec84825b87af0cc174e644d9b7ed01c9f374ef
+! Commit: 31623287a6c02777c51ee8c4bfd309c55043dc83
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3401,6 +3401,7 @@ omni.soundestlink.com$image
 ||apeagle.io^
 ||apenterprise.io^
 ||apharponloun.com^
+||apitiny.net^
 ||apxl.io^
 ||as3.io^
 ||aseads.com^
@@ -4364,6 +4365,7 @@ omni.soundestlink.com$image
 ||convertexperiments.com^$third-party
 ||convertglobal.com^$third-party
 ||convertro.com^$third-party
+||cookieless.tech^$third-party
 ||cooladata.com^$third-party
 ||copperegg.com^$third-party
 ||coralogix.com^$third-party
@@ -7563,6 +7565,8 @@ omni.soundestlink.com$image
 ||managedpush.com^
 ||manamoment.com^
 ||mantrafox.com^
+||manydiamonds.com^
+||manyfishes.com^
 ||mapbasin.com^
 ||mapcommand.com^
 ||marblediscussion.com^
@@ -15189,7 +15193,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mi.academy.com/p/js/1.js
 ||mi.dickssportinggoods.com/p/js/1.js
 ||mi.grubhub.com^
-||miao.baidu.com^
+||miao.baidu.com/abdr?$image
 ||microsoft.com/echo/etc.clientlibs/microsoft/clientlibs/exp-analytics/
 ||midas.chase.com^
 ||military1st.com/datalayer/index/events?
@@ -15597,6 +15601,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sp.justwatch.com^
 ||sp.pcoptimum.ca^
 ||sp.welcometothejungle.com^
+||spaning.creavite.co^
 ||spanishdict.com/page-view-metadata
 ||spectrum.gettyimages.com^
 ||speed.cloudflare.com/__log
@@ -16579,10 +16584,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! https://github.com/uBlockOrigin/uAssets/issues/31330
 ||metrics.streaks.jp^$redirect=noop.txt,xmlhttprequest
 ! Youtube
-! ||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$badfilter
-||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$badfilter
-||youtube.com/ptracking?html5=1&video_id=*&cpn=*&ei=*&ptk=youtube_*&pltype=content$badfilter
-! ||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=$xhr,method=post
 ||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&$method=post,xmlhttprequest
 ||youtube.com/ptracking?html5=1&video_id=*&cpn=*&ei=*&ptk=youtube_*&pltype=content$method=get,xmlhttprequest
 ! -----------------Individual cname tracking systems-----------------!
@@ -52538,6 +52539,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||chefkoch.de/tracking/
 ||cinestar.de/collect/
 ||click.alternate.de^
+||cltr.willhaben.at^
 ||cmp2.channelpartner.de^
 ||cnt.wetteronline.de^
 ||comparis.ch/comparis/Tracking/
@@ -53400,7 +53402,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||dcard.tw/v1/events
 ||df.huya.com^
 ||dig.lianjia.com^
-||dlswbr.baidu.com^
 ||dolphin.deliver.ifeng.com^
 ||douyucdn.cn/fish3/1.gif
 ||eastmoney.com/usercollect/
