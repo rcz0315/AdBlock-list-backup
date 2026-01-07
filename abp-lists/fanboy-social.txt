@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202601060243
+! Version: 202601070251
 ! Title: Fanboy's Social Blocking List
-! Last modified: 06 Jan 2026 02:43 UTC
+! Last modified: 07 Jan 2026 02:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9f22beaa06c5d1082c33ee96f268437c7d1e5c20
+! Commit: 8373dd1e330d38a6b3b65de4bf9c06d3ea435413
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10833,6 +10833,7 @@ cri.cn##.cgr-info-nav
 wabetainfo.com##.channel_card
 chaser.com.au##.chaser-share-buttons
 progressive.org##.chicklets
+sqmagazine.co.uk##.child-theme-cta
 gatewayhispanic.com##.chromenews_social_contacts_widget
 thecinemaholic.com##.cinemaholic-share
 khmertimeskh.com##.cisc-box
@@ -11352,7 +11353,7 @@ discussingfilm.net,douglasnow.com,energy-reporters.com,rockstarintel.com,trusted
 churchpop.com##.post-share-section
 spiked-online.com##.post-sharing
 volexity.com##.post-single-social
-foodandwaterwatch.org,medcitynews.com,publicbooks.org##.post-social-share
+foodandwaterwatch.org,medcitynews.com,publicbooks.org,sqmagazine.co.uk##.post-social-share
 blockclubchicago.org##.post-social-sharing__list
 hakaimagazine.com##.post-story-social-sharing
 eurointegration.com.ua##.post__social
@@ -11928,6 +11929,7 @@ retbit.com##.zox-post-soc-stat
 securityweek.com##.zox-post-soc-top-wrap
 securityweek.com##.zox-top-soc-wrap
 breakingnews.ie##[aria-label="Facebook"]
+esquire.com##[aria-label="Google Preferred Sources Banner"]
 breakingnews.ie##[aria-label="Instagram"]
 sfgate.com##[aria-label="Share from Email"]
 thejc.com##[aria-label="Share this article"]
@@ -13629,7 +13631,7 @@ medialeaks.ru#@#.social-widgets
 keepa.com#@#.socialButtons
 kuriertczewski.pl#@#.social_header
 jobdetails.nestle.com#@#.socialbutton
-comicsands.com#@#.sticky-share
+advocate.com,comicsands.com#@#.sticky-share
 40ton.net#@#.td-post-sharing-top
 tmstor.es#@#.top_social
 swingliteracy.com#@#.tve_social_items
