@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601080250
+! Version: 202601090251
 ! Title: EasyPrivacy
-! Last modified: 08 Jan 2026 02:50 UTC
+! Last modified: 09 Jan 2026 02:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ef7119a38fe478d26253c44710fc4e559b64ee61
+! Commit: 04d5895ad5f5e92aa9795d3962e3c6345af8f858
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7786,6 +7786,7 @@ omni.soundestlink.com$image
 ||physicstees.com^
 ||pickmicro.com^
 ||pietexture.com^
+||pigeonkit.com^
 ||pigeonsetc.com^
 ||pigmentpaper.com^
 ||pinchsquirrel.com^
@@ -7884,6 +7885,7 @@ omni.soundestlink.com$image
 ||questionate.com^
 ||quicklyedit.com^
 ||quicksandear.com^
+||quicktrick.net^
 ||quietknowledge.com^
 ||quillkick.com^
 ||quiltquick.com^
@@ -15166,6 +15168,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mat6tube.com/api/stats?
 ||maximise.nyc3.cdn.digitaloceanspaces.com/mxmse.min.js$domain=essentiallysports.com
 ||mcc-tags.cisco.com^
+||mcdonalds.com/tags/js/*/mparticle.js
+||mcdonalds.com/webevents/
 ||mcs-ie.tiktokw.eu^
 ||mcs-va-useast2a.tiktokv.com^
 ||mcs-va.tiktokv.com^
