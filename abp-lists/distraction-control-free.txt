@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: 16zw3SkoRIWOzZvhExbgxA
+! Checksum: ML2K30ZRE0SVRq1nPBRRfg
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/ee000b206b493f5a9103b14ddc5fce2a48675cce.json
-! Version: 202601050702
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/ead6da9989badb80fb78da0bdc160c7d2d01cc2c.json
+! Version: 202601120702
 ! Title: Free - Distraction Control
-! Last modified: 05 Jan 2026 07:02 UTC
+! Last modified: 12 Jan 2026 07:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 ! !
 !
 ! *** distraction-control:distraction-control-free.txt ***
-! Last modified: 04 Jan 2026 17:34 UTC
+! Last modified: 11 Jan 2026 17:34 UTC
 !
 ! -----------------------General blocking filters-----------------------!
 ! *** distraction-control:app/blocking_general.txt ***
@@ -157,6 +157,10 @@ bonappetit.com#?#[class^="InContentBarrierFloatingBar"]:-abp-contains(START FREE
 !
 ! site specific blocking rules
 !
+! Example: hemden.de
+||production.neocomapp.com/prompt^$domain=hemden.de
+! Example: https://www.vieuxloupdemer.com/
+/popup.$domain=vieuxloupdemer.com
 ! ------------------------Suggestion General element hiding rules-------------------------!
 ! *** distraction-control:suggestion/hiding_general.txt ***
 !
