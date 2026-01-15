@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202601140257
+! Version: 202601150251
 ! Title: Fanboy's Social Blocking List
-! Last modified: 14 Jan 2026 02:57 UTC
+! Last modified: 15 Jan 2026 02:51 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d955c70f3e0669d424213cc91a450a24733fc0b7
+! Commit: 70d991d053917324192e37000cb79b796212e1d0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -4737,7 +4737,6 @@ _social_footer_
 ##.follow-social
 ##.follow-social-media
 ##.follow-sprite
-##.follow-text
 ##.follow-tw
 ##.follow-twit
 ##.follow-twitter
@@ -10614,7 +10613,7 @@ suntimes.com,tageblatt.de##.SocialLink
 complex.com##.SocialLinks__SocialButtonsContainer-sc-vif6xs-0
 itprotoday.com##.SocialShare
 worldathletics.org##.SocialShare_root__3h83X
-streetsblog.org##.SocialSharing_socialSharingItems__wdJu8
+sf.gazetteer.co,streetsblog.org##.SocialSharing_socialSharingItems__wdJu8
 aleteia.org##.Socials_social_links__T3MJv
 sfstandard.com##.StickySharer_list__Lirqs
 indiatoday.in##.Story_whatsapp_channel__6xdtB
@@ -11347,6 +11346,7 @@ tsunagujapan.com##.post-article_sns
 casino.org##.post-content__share-holder
 lawfaremedia.org##.post-detail__share
 getcomics.org##.post-footer-shr
+wccftech.com##.post-google
 theashleysrealityroundup.com##.post-links
 androidheadlines.com,bukvy.org,digitalinformationworld.com,douglasnow.com,earthsky.org,energy-reporters.com,gidhaur.com,san.com,watchinamerica.com##.post-share
 aceshowbiz.com##.post-share-area
@@ -11545,7 +11545,7 @@ investmentexecutive.com##.single-share-socials
 budgetbytes.com##.single-share-wrap
 foodsforbetterhealth.com##.single-social-icon
 flyingmag.com##.single-social-share
-defector.com##.single_inner__pWuJ8
+defector.com,sf.gazetteer.co##.single_inner__pWuJ8
 news24online.com##.single_page-social-share
 newlinesmag.com##.single_post__shrs
 streetsblog.org##.single_sharingInner__3IoQO
@@ -13569,7 +13569,6 @@ accounts.motorsport.com#@#.facebook-block
 flugzeugbilder.de#@#.fb-footer
 the-dharmawangsa.com#@#.fb-widget
 bot.targethunter.ru#@#.fb_sidebar
-autoplus.fr,mixcloud.com#@#.follow-text
 freesvg.org,giro.com,rainn.org#@#.footer-social
 kioskpolis.pl#@#.footer__socials
 gab.com#@#.gab-bttn
