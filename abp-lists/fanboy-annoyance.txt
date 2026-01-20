@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: +DRmsX1FH/aDFjetvvDatw
-! Version: 202601190250
+! Checksum: V9imQBELtnSepqNQv4B3aA
+! Version: 202601200150
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-01-19 02:50 UTC
+! Last modified: 2026-01-20 01:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4097,7 +4097,7 @@ theverge.com##+js(aeld, scroll)
 ! accuradio.com (login nag)
 accuradio.com##.ReactModal__Overlay--after-open.ReactModal__Overlay
 ! Mouse out nags
-10tv.com,11alive.com,12news.com,13newsnow.com,5newsonline.com,9news.com,abc10.com,abc15.com,ajc.com,cbs8.com,firstcoastnews.com,fox2now.com,fox61.com,kare11.com,kens5.com,khou.com,king5.com,ksdk.com,newscentermaine.com,wbir.com,wcnc.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,winnipegfreepress.com,wiz.io,wkyc.com,wltx.com,wnep.com,wqad.com,wsvn.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwltv.com,wzzm13.com##+js(aeld, /^(mouseout|mouseleave)$/)
+10tv.com,11alive.com,12news.com,13newsnow.com,5newsonline.com,9news.com,abc10.com,abc15.com,ajc.com,cbs8.com,firstcoastnews.com,fox2now.com,fox61.com,kare11.com,kens5.com,khou.com,king5.com,ksdk.com,newscentermaine.com,timesofindia.indiatimes.com,wbir.com,wcnc.com,wfaa.com,wfmynews2.com,wgrz.com,whas11.com,winnipegfreepress.com,wiz.io,wkyc.com,wltx.com,wnep.com,wqad.com,wsvn.com,wthr.com,wtol.com,wtsp.com,wusa9.com,wwltv.com,wzzm13.com##+js(aeld, /^(mouseout|mouseleave)$/)
 ! mouseout causes issues with hover-video
 alibaba.com,aliexpress.com,aliexpress.us,dhgate.com,instagram.com,temu.com,x.com##+js(aeld, mouseleave)
 ! rumble.com nag
@@ -36100,7 +36100,7 @@ oddsscanner.com##.cookie-policy-pop-up
 chicco.co.uk##.cookie-pop-up-wrapper
 slidelizard.com##.cookie-popup-dialog
 revolutionrace.com##.cookie-popup__content
-acquire.io,brkfree.com,casey-tanner.com,dfine.at,esim.guru,kiron.ngo##.cookie-popup_component
+acquire.io,adelphi.ai,brkfree.com,casey-tanner.com,dfine.at,esim.guru,kiron.ngo##.cookie-popup_component
 up.ac.za##.cookie-preferences-container
 lavueltaholanda.com##.cookie-prefs-wrapper
 ixl.com##.cookie-privacy-banner-container
@@ -37370,7 +37370,6 @@ indeed.com##[data-gnav-region="GlobalPrivacyControlBanner"]
 katv.com,kfdm.com,komonews.com,ktul.com,wjla.com##[data-ketch-backdrop="true"]
 scmp.com##[data-qa="GDPRBanner-Container"]
 app.greenhouse.io##[data-react-class="InformCookiesPopup"]
-valuexh.life,xhaccess.com,xham.live,xhamster.best,xhamster.com,xhamster.desi,xhamster1.desi,xhamster19.com,xhamster2.com,xhamster3.com,xhamster44.desi,xhamsterlive.com,xhbig.com,xhbranch5.com,xhchannel.com,xhcopy.life,xhdate.world,xhexperience.xyz,xhofficial.com,xhopen.com,xhprograms.site,xhsocial.com,xhspot.com,xhtotal.com,xhwebsite5.com,xhwide2.com##[data-role="cookies-modal"]
 wistia.com##[data-sentry-component="ConsentBanner"]
 g2a.com##[data-test-id="cookie-modal"]
 wellcomecollection.org##[data-test-id="cookie-notice"]
@@ -40582,6 +40581,7 @@ nhnieuws.nl,omroepbrabant.nl##+js(set-local-storage-item, psh:cookies-social, tr
 pixeden.com##+js(set-local-storage-item, pxdn_cookie_consent, true)
 greubelforsey.com##+js(set-local-storage-item, rgpd.consent, 1)
 theroom.lol##+js(set-local-storage-item, room-welcome-ack-v1, 1)
+rudderstack.com##+js(set-local-storage-item, rudderstack_cookie_consent, true)
 app.klarna.com##+js(set-local-storage-item, safe-storage/v1/tracking-consent/trackingConsentAdvertisingKey, false)
 app.klarna.com##+js(set-local-storage-item, safe-storage/v1/tracking-consent/trackingConsentAnalyticsKey, false)
 app.klarna.com##+js(set-local-storage-item, safe-storage/v1/tracking-consent/trackingConsentMarketingKey, false)
@@ -48968,6 +48968,7 @@ weareexplorers.co##.newsletter_sidebar_block
 thegazette.com##.newsletter_sign_up_page_breaker
 eater.com,shakira.com##.newsletter_signup
 thenationalnews.com##.newsletter_subscribe_container
+leguidedufromage.com##.newsletter_subscribeme
 themoscowtimes.com##.newsletterbanner
 christiantoday.com,lanacion.com.ar,metroecuador.com.ec##.newsletterbox
 flatpanelshd.com##.newslettercontainer
@@ -51074,6 +51075,9 @@ sportskeeda.com##body:style(overflow: auto !important; position: initial !import
 democracydocket.com,digital4.biz###hs-web-interactives-bottom-anchor
 democracydocket.com,digital4.biz###hs-web-interactives-top-anchor
 democracydocket.com,digital4.biz##body,html:style(overflow: auto !important; position: initial !important;)
+! e360.yale.edu
+e360.yale.edu##.swal2-container
+e360.yale.edu##body,html:style(overflow: auto !important; position: initial !important;)
 ! jns.org
 jns.org###hs-web-interactives-top-anchor
 jns.org##body,html:style(overflow: auto !important; position: initial !important;)
