@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601240239
+! Version: 202601250250
 ! Title: EasyPrivacy
-! Last modified: 24 Jan 2026 02:39 UTC
+! Last modified: 25 Jan 2026 02:50 UTC
 ! Expires: 4 days (update frequency)
-! Commit: c1c9cccb8acb9918131f80fe76494e507c9aa161
+! Commit: e6b572041079465991be5b0346d4bbc4b1e2e608
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3318,6 +3318,7 @@ _WebVitalsReporter_
 /t.paypal.com/*$image
 /t.yesware.com/t/*$image
 /T/OFC4/*$image
+/tlinks.nordaccount.com/q/*$image
 /tp.mkt.vorwerk.com/r/*$image
 /track.email.$image
 /track.interestingfacts.com/?xol=
@@ -7591,6 +7592,7 @@ omni.soundestlink.com$image
 ||madnessbuzz.com^
 ||madoverrice.com^
 ||magicaljoin.com^
+||magicalpiano.com^
 ||magicminibox.com^
 ||majesticwaterscape.com^
 ||majesticwilderness.com^
@@ -8552,6 +8554,7 @@ omni.soundestlink.com$image
 ||victoriousrequest.com^
 ||victoryideas.com^
 ||vilenexus.com^
+||viralfoodie.net^
 ||virtualvincent.com^
 ||visitstor.com^
 ||vividcanopy.com^
@@ -9941,6 +9944,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.edgekey.net^
 ||analytics.eggoffer.com^
 ||analytics.erepublic.com^
+||analytics.everythingstream.com^
 ||analytics.fabricators.ltd^$third-party
 ||analytics.facebook.com^$third-party
 ||analytics.fatmedia.io^
@@ -12176,6 +12180,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.menepe.com^
 ||t.metrilo.com^
 ||t.mydialoginsight.com^
+||t.nc0.co^
 ||t.paypal.com/ts?
 ||t.pointandplace.com^
 ||t.powerreviews.com^$third-party
