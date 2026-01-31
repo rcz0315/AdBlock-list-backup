@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202601300325
+! Version: 202601310312
 ! Title: EasyPrivacy
-! Last modified: 30 Jan 2026 03:25 UTC
+! Last modified: 31 Jan 2026 03:12 UTC
 ! Expires: 4 days (update frequency)
-! Commit: bf64be478e4a8a4c740741ca04340fe2924e2ca3
+! Commit: bf47122c3d08f71c9ad3f5060cadd5f67139bf32
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -827,6 +827,7 @@
 /ecap.min.js
 /ecblank.gif?
 /ecg-js-ga-tracking/index.
+/eclytics/*
 /ecom/status.jsp?
 /edAnalyticsWrapper.js
 /edapi/event?
@@ -1121,6 +1122,7 @@
 /googleAnal.js
 /GoogleAnalystics.js
 /GoogleAnalyticActionLib.js
+/googleanalytics.js
 /googleAnalytics1.js
 /googleAnalytics4.js
 /GoogleAnalytics?utmac=
@@ -3706,6 +3708,7 @@ omni.soundestlink.com$image
 ||o1ych4jb.com^
 ||ofgreencolumn.com^
 ||omtrdc.net^
+||op-mobile.opera.com^
 ||openfpcdn.io^
 ||oppuz.com^
 ||opti-digital.com^
@@ -5093,6 +5096,7 @@ omni.soundestlink.com$image
 ||leadforensics.com^$third-party
 ||leadid.com^$third-party
 ||leadin.com^$third-party
+||leadinfo.eu^$third-party
 ||leadinfo.net^$third-party
 ||leadintel.io^$third-party
 ||leadintelligence.co.uk^$third-party
@@ -7566,6 +7570,7 @@ omni.soundestlink.com$image
 ||lightenafterthought.com^
 ||lighttalon.com^
 ||likethedog.com^
+||limecodesign.com^
 ||limepeal.com^
 ||linkedleg.com^
 ||linksoutside.com^
@@ -10877,7 +10882,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fbsbx.com/paid_ads_pixel/
 ||fcmatch.google.com^
 ||fcmatch.youtube.com^
-||fd.cleantalk.org^
 ||feed.informer.com/fdstats
 ||feedblitz.com/imp?$third-party
 ||feedblitz.com^*.gif?$third-party
@@ -11895,6 +11899,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rum.hlx.page^
 ||rum.ingress.layer0.co^
 ||rum.layer0.co^
+||rum.optimizely.com^
 ||rum.perfops.net^
 ||rum.uptime.com^
 ||rumstat.cdnvideo.ru^
@@ -15195,6 +15200,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||jockey.com/event/
 ||jockey.com/scripts/omt-base.js
 ||joggo.run/api/events
+||johnlewis.com/browser-performance/
 ||js.monitor.azure.com/scripts/c/ms.analytics-web-4.min.js$domain=microsoft.com
 ||js.monitor.azure.com/scripts/c/ms.shared.analytics.$domain=microsoft.com
 ||julius.ai/monitoring
