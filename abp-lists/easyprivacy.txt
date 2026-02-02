@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602010322
+! Version: 202602020330
 ! Title: EasyPrivacy
-! Last modified: 01 Feb 2026 03:22 UTC
+! Last modified: 02 Feb 2026 03:30 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d11a559b1e93dbc9afc1ab9fb5e9a24427b50f94
+! Commit: 4a39b457ef45a80bb179a6c26e9cb32b9a4a4407
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1804,6 +1804,7 @@
 /pixelcounter.$domain=~pixelcounter.co.uk|~pixelcounter.com|~pixelcounter.dev|~pixelcounter.org|~pixelcounters.co.uk|~pixelcounters.uk
 /pixeljs/*
 /pixelNew.js
+/PixelPageView?
 /pixelpropagate.js
 /pixels.jsp?
 /pixels/track?
@@ -3846,6 +3847,7 @@ omni.soundestlink.com$image
 ||vfghe.com^
 ||videoplayerhub.com^
 ||visit-server.inmobi-choice.io^
+||visitor-speed.com^
 ||vkanalytics.net^
 ||vmzqqmlpwwmazjnio.com^
 ||vpdcp.com^
@@ -7661,6 +7663,7 @@ omni.soundestlink.com$image
 ||melodioussymphony.com^
 ||melodyglobe.com^
 ||meltmilk.com^
+||membernook.com^
 ||memeorigin.com^
 ||memolight.com^
 ||memopilot.com^
@@ -7706,6 +7709,7 @@ omni.soundestlink.com$image
 ||moorshoes.com^
 ||morefolks.com^
 ||morefriendly.com^
+||motionarray.net^
 ||motionflowers.com^
 ||motionlessbelief.com^
 ||motionlessmeeting.com^
@@ -10102,7 +10106,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.bit.ly/*/clicks?$third-party
 ||api.blink.net/a/
 ||api.collarity.com/cws/*http
+||api.config-security.com/first
 ||api.country.is^$third-party
+||api.croct.io^
 ||api.gleap.io/sessions/ping
 ||api.ipgeolocation.io/getip
 ||api.iris.tv/update
@@ -10146,6 +10152,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appmifile.com/webfile/globalweb/stat/
 ||apps-pbd.ctraffic.io^
 ||apps.omegatheme.com/facebook-pixel/
+||apps.rokt-api.com/webevents/
 ||appsolutions.com/hitme?$third-party
 ||appspot.com/analytics/
 ||appspot.com/api/track/
@@ -10922,6 +10929,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||foureyes.io/fe-init.js
 ||fourmtagservices.appspot.com^
 ||fp-cdn.azureedge.net^
+||fp-flame.vercel.app^
 ||fp-it-acc.portal101.cn/deviceprofile/
 ||fraud.blockifyapp.com/s/api/block/update-time
 ||freecurrencyrates.com/statgif.
@@ -14419,6 +14427,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.makeitmeme.com^
 ||analytics.maxroll.gg^
 ||analytics.ml.homedepot.ca^
+||analytics.morphe.software^
 ||analytics.mouthshut.com^
 ||analytics.nike.com^
 ||analytics.ovh.com^
@@ -14942,6 +14951,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||fc2.com/counter_img.php?
 ||fd.ivoclar.com^
 ||fdt.kraken.com^
+||featureflags.grubhub.com/v1/events
 ||feedbackws.icloud.com/reportStats
 ||feedly.com/mxpnl/
 ||femetrics.grammarly.io^
@@ -16078,6 +16088,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tracker-remp.premiumtimesng.com^
 ||tracker.affiliate.iqbroker.com^
 ||tracker.bang.com^
+||tracker.hollandandbarrett.com^
 ||tracker.nbcuas.com^
 ||tracker.ranker.com^
 ||tracker.shopclues.com^
@@ -54807,7 +54818,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||board-game.co.uk/cdn-cgi/zaraz/s.js$script,~third-party
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
-@@||browser-intake-datadoghq.com^$xmlhttprequest,domain=mightyape.co.nz
+@@||browser-intake-datadoghq.com^$xmlhttprequest,domain=grubhub.com|mightyape.co.nz
 @@||browser.covatic.io/sdk/v1/bauer.js$script,domain=hellorayo.co.uk
 @@||c.lytics.io/api/tag/$script,domain=time.com
 @@||c.paypal.com/da/r/fb.js$script
