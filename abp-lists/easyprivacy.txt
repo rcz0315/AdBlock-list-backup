@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602090332
+! Version: 202602100337
 ! Title: EasyPrivacy
-! Last modified: 09 Feb 2026 03:32 UTC
+! Last modified: 10 Feb 2026 03:37 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 02140e00646b251cdd9ff5f330ce56cc060e8286
+! Commit: 0e556082afc2974e60d975f12d56a4736d5ec887
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8043,6 +8043,7 @@ omni.soundestlink.com$image
 ||rentpenny.com^
 ||repeatsweater.com^
 ||replaceroute.com^
+||rescueothers.com^
 ||rescuerhino.com^
 ||resonantbrush.com^
 ||resonantrock.com^
@@ -8591,6 +8592,7 @@ omni.soundestlink.com$image
 ||valuebuttons.com^
 ||vanfireworks.com^
 ||vanishmemory.com^
+||vastmillions.com^
 ||velvetquasar.com^
 ||vengefulgrass.com^
 ||venomousvessel.com^
@@ -10416,6 +10418,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdnma.com/apps/capture.js
 ||cdnplanet.com/static/rum/rum.js
 ||cdns.brsrvr.com^
+||cdp.sph.com.sg/activation/activation.js
 ||ceros.com/a?data
 ||cf-pixelfront-analytics.widencdn.net^
 ||cf.api.instant.one^

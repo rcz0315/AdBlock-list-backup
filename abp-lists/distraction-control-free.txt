@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: osYnu5VmISfuwQ3qvJQwFw
+! Checksum: 9rnH3X/+ihN5a5bqP43mmA
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/311e7b15944cbb5a1a4e5ab1e37afcfbdc137fd4.json
-! Version: 202602020702
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/07c5e2ae2394c473c5b424906d90fd1fd6951b1f.json
+! Version: 202602090701
 ! Title: Free - Distraction Control
-! Last modified: 02 Feb 2026 07:02 UTC
+! Last modified: 09 Feb 2026 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 ! !
 !
 ! *** distraction-control:distraction-control-free.txt ***
-! Last modified: 01 Feb 2026 17:39 UTC
+! Last modified: 08 Feb 2026 17:40 UTC
 !
 ! -----------------------General blocking filters-----------------------!
 ! *** distraction-control:app/blocking_general.txt ***
@@ -112,6 +112,7 @@ cafe.naver.com##.FloatingJoinButton
 ! site specific snippet rules
 !
 gurufocus.com#$#simulate-mouse-event '[role="dialog"][style*="display: block;"] #cboxClose'
+goodreads.com#$#simulate-mouse-event '.Overlay__window button[aria-label="Close"]'
 !
 ! -----------------------Subscribe General blocking filters-----------------------!
 ! *** distraction-control:subscribe/blocking_general.txt ***
@@ -216,6 +217,10 @@ sciencedirect.com###pendo-base
 netlife.ec##.popupaccess
 ! Example: https://www.discoverbritain.com/history/icons/how-accurate-is-miss-austen/
 discoverbritain.com##.piano-stack-nav-sticky
+! Example: https://www.auburnchevroletgmc.com/
+auburnchevroletgmc.com###nl-teaser
+! Example: https://www.gapfactory.com/
+gapfactory.com##[role="presentation"]:has(> #promoBannerMain)
 ! ---------------------------Suggestion Snippets---------------------------!
 ! *** distraction-control:suggestion/snippet.txt ***
 !
@@ -233,6 +238,8 @@ fluentu.com#$#simulate-mouse-event '[class*="fluen-popup"] .fluen-close-button'
 lingoda.com#$#simulate-mouse-event '.modal-container[style="display: block;"] #close$continue'
 lingoda.com#$#simulate-mouse-event '.modal-overlay.open .close-icon-button'
 anythinggrowsalberta.com,roborockstore.com.au#$#simulate-mouse-event '[class^="omnisend-form-"] button[aria-label="Close"]'
+auburnchevroletgmc.com#$#simulate-mouse-event '.ui-dialog-entry[role="dialog"] .ui-dialog-titlebar-close'
+auburnchevroletgmc.com#$#simulate-mouse-event '.nl_open_fixed #nl-close'
 !
 ! -----------------------Video General blocking filters-----------------------!
 ! *** distraction-control:video/blocking_general.txt ***
