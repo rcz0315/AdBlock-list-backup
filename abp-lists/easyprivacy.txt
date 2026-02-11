@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602100337
+! Version: 202602110343
 ! Title: EasyPrivacy
-! Last modified: 10 Feb 2026 03:37 UTC
+! Last modified: 11 Feb 2026 03:43 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0e556082afc2974e60d975f12d56a4736d5ec887
+! Commit: 844622f118fb0b06f39f1e6e95429f257cd5aa4f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3501,6 +3501,7 @@ omni.soundestlink.com$image
 ||counter247.live^
 ||cpx.to^
 ||cr-relay.com^
+||crcldu.com^
 ||crossengage.io^
 ||crwdcntrl.net^
 ||cvlb.dev^
@@ -8105,6 +8106,7 @@ omni.soundestlink.com$image
 ||samuraibots.com^
 ||sandboxbid.com^
 ||sandstrophies.com^
+||sandypocket.com^
 ||sapnest.com^
 ||satisfycork.com^
 ||savoryink.com^
@@ -8639,6 +8641,7 @@ omni.soundestlink.com$image
 ||wavesmachine.com^
 ||waxsirens.com^
 ||wayjoyfarm.com^
+||weatherbytes.net^
 ||websitesdude.com^
 ||weeklybanner.com^
 ||wellgroomedapparel.com^
@@ -14536,7 +14539,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||assets.engoo-static.com/tracking.js
 ||assets.prod.abebookscdn.com/cdn/com/scripts/abepixel-$domain=abebooks.com
 ||assets.s-bol.com/AppMeasurement-
-||assets.targetimg1.com/ssx/ssx.mod.js$domain=target.com
 ||ats.alot.com^
 ||att.com/scripts/adobe/prod/marketing.min.js
 ||audacy.com/data-events/
