@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202602130332
+! Version: 202602140313
 ! Title: EasyPrivacy
-! Last modified: 13 Feb 2026 03:32 UTC
+! Last modified: 14 Feb 2026 03:13 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8f353cb17807dbd21ec2ae4f4f63e5c55a3aebb2
+! Commit: bc73928175bfc52a4ff58902c4f6f91501578246
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3689,6 +3689,7 @@ omni.soundestlink.com$image
 ||mcangelus.com^
 ||mdhv.io^
 ||mdstats.info^
+||measureadv.com^
 ||mediamathrdrt.com^
 ||michiganrobotflower.com^
 ||minstats.xyz^
@@ -6985,6 +6986,7 @@ omni.soundestlink.com$image
 ||cosplaygalaxy.com^
 ||costumeoffers.com^
 ||costwinner.com^
+||couponrail.com^
 ||courageousbaby.com^
 ||coverlayer.com^
 ||cowbelltime.com^
@@ -7037,6 +7039,7 @@ omni.soundestlink.com$image
 ||cutechin.com^
 ||cyclinghere.com^
 ||cyclopsdial.com^
+||dailydomino.com^
 ||damagedadvice.com^
 ||damageddistance.com^
 ||damdoor.com^
@@ -11150,7 +11153,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hydro-ma-proxy.akamaized.net^
 ||hypercomments.com/widget/*/analytics.html
 ||i.compendium.com^
-||i.posthog.com^
+||i.posthog.com/*/?ip=
 ||i.s-microsoft.com/wedcs/ms.js
 ||i.viafoura.co^
 ||iabusprivacy.pmc.com^
@@ -11870,6 +11873,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||r.skimresources.com^
 ||r.stripe.com^$ping,script,xmlhttprequest
 ||r.wdfl.co/rw.js
+||r.winf.site^
 ||rackcdn.com/gate.js
 ||rackcdn.com/stf.js
 ||radiotime.com/Report.ashx?
@@ -14350,6 +14354,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||a-da.invideo.io^
 ||a-reporting.nytimes.com^
 ||a.apkeditor.io^
+||a.boredpanda.bio^
 ||a.electerious.com^
 ||a.sputniknews.com/js/sputnik.js
 ||a.streamed.pk/js/script.js
@@ -14937,6 +14942,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||eurogamer-uk.eurogamer.net^
 ||event-api.reverb.com^
 ||event-collector.moviesanywhere.com^
+||event-log-api-data-platform-data-lake-prod.gryphline.com^
 ||event-router.olympics.com^
 ||event.platform.autotrader.com.au^
 ||event.platform.tunein.com^
@@ -15575,6 +15581,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pay4fans.com/api/analytics
 ||paypal.com/credit-presentment/log
 ||paypal.com/platform/tealeaftarget
+||pb.ytmp3tube.com/js/script.js$domain=yt1s.com.co
 ||pcgamesn.com/cdn-cgi/trace
 ||pcmag.com/js/ga.js
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
@@ -16201,7 +16208,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tumblr.com/pop/js/modern/sentry-
 ||tumblr.com/services/bblog
 ||tunein.com/api/v1/log/
-||turbobit.net/js/analytics/
+||turbobit.net/js/analytics/fdUserFingerprintToken.js
 ||twitter.com/1.1/attribution
 ||twitter.com/1.1/jot
 ||twitter.com/9/measurement/
