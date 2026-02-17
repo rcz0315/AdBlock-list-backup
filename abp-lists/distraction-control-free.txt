@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: 9rnH3X/+ihN5a5bqP43mmA
+! Checksum: wIyMKxWiTg9SaKD8oQIFXg
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/07c5e2ae2394c473c5b424906d90fd1fd6951b1f.json
-! Version: 202602090701
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/b67bfdf178b2b19cbda3e72e3f678b53b9652b1c.json
+! Version: 202602160702
 ! Title: Free - Distraction Control
-! Last modified: 09 Feb 2026 07:01 UTC
+! Last modified: 16 Feb 2026 07:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 ! !
 !
 ! *** distraction-control:distraction-control-free.txt ***
-! Last modified: 08 Feb 2026 17:40 UTC
+! Last modified: 15 Feb 2026 17:39 UTC
 !
 ! -----------------------General blocking filters-----------------------!
 ! *** distraction-control:app/blocking_general.txt ***
@@ -260,7 +260,6 @@ auburnchevroletgmc.com#$#simulate-mouse-event '.nl_open_fixed #nl-close'
 embed.sendtonews.com
 /wp-content/plugins/pmc-plugins/pmc-adm/*
 ||services.brid.tv/player$script,domain=~washingtonexaminer.com
-||mgid.com/js/wglibs/mgWidget$script
 /stn-player.js$domain=titantv.com
 ||vplayer.enthusiastgaming.com/player/build/plugins/slideinview/*
 ! -----------------------Video Specific blocking filters-----------------------!
