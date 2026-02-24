@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: wIyMKxWiTg9SaKD8oQIFXg
+! Checksum: BzvUn9kqniMoXUwdRo3zvw
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/b67bfdf178b2b19cbda3e72e3f678b53b9652b1c.json
-! Version: 202602160702
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/c42ab21029ba7f48153a6bef3d32261d058b4fc4.json
+! Version: 202602230701
 ! Title: Free - Distraction Control
-! Last modified: 16 Feb 2026 07:02 UTC
+! Last modified: 23 Feb 2026 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 ! !
 !
 ! *** distraction-control:distraction-control-free.txt ***
-! Last modified: 15 Feb 2026 17:39 UTC
+! Last modified: 22 Feb 2026 17:38 UTC
 !
 ! -----------------------General blocking filters-----------------------!
 ! *** distraction-control:app/blocking_general.txt ***
@@ -221,6 +221,8 @@ discoverbritain.com##.piano-stack-nav-sticky
 auburnchevroletgmc.com###nl-teaser
 ! Example: https://www.gapfactory.com/
 gapfactory.com##[role="presentation"]:has(> #promoBannerMain)
+! Example: https://www.nytimes.com/2026/02/20/us/politics/supreme-court-trump-roberts-tariffs.html
+nytimes.com##[data-testid="onsite-messaging-unit-dock"]
 ! ---------------------------Suggestion Snippets---------------------------!
 ! *** distraction-control:suggestion/snippet.txt ***
 !
