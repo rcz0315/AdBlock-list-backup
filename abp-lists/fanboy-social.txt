@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603010337
+! Version: 202603020312
 ! Title: Fanboy's Social Blocking List
-! Last modified: 01 Mar 2026 03:37 UTC
+! Last modified: 02 Mar 2026 03:12 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 130de5b8631bbe08c10660a39fb4955062781171
+! Commit: 47823248acb19eb4e2779b7e60af81247bddc18f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10604,7 +10604,6 @@ whatcar.com##.ReviewSocialSection_reviewSocialSection__qzV0o
 abc.net.au##.ShareBanner_container__OX63I
 aleteia.org##.ShareBar_link__3gR4V
 manofmany.com##.ShareBar_listItem__6t0E_
-genius.com##.ShareButtons__Root-sc-8c8eaea4-0
 thescore.com##.ShareLinks__container--3C8C4
 meduza.io##.SharePanel-module-root
 hoorayteams.com##.Share_share__FQTKw
@@ -11114,6 +11113,7 @@ ringsidenews.com,tmz.com##.google-preferred-btn
 sammobile.com##.google-preferred-news-source-cta
 9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,spaceexplored.com##.google-preferred-source-badge
 restofworld.org##.google-preferred-v1
+bolde.com##.google-source-button
 goal.com##.google-trusted-source
 coinpedia.org##.google_news-space
 techadvisor.com##.google_news_button
@@ -11417,6 +11417,7 @@ outdoorlife.com,popsci.com,taskandpurpose.com,thedrive.com,twz.com##.recurrent-s
 teamcoco.com,tomshardware.com##.reddit
 playstore.pw##.resp-sharing-button__link
 onegreenplanet.org##.reveal-modal-bg
+the-gadgeteer.com##.review-price
 businesstoday.in##.rhs-fixwhtsapp
 firstpost.com##.rhs-yt-ch-wrap
 businesstoday.in##.rhs_fixwhtsapp
@@ -12017,6 +12018,7 @@ theguardian.com##div > gu-island[name="ShareButton"]
 photorumors.com##div[align="RIGHT"]
 fifa.com##div[class*="article-section_shareButton_"]
 theatlantic.com##div[class^="ArticleShare_"]
+genius.com##div[class^="ShareButtons_"]
 kcrw.com##div[class^="SocialLinks_"]
 cnbc.com##div[class^="SocialShare-"]
 kcrw.com##div[class^="SocialShare_"]
