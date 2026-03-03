@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603020325
+! Version: 202603030323
 ! Title: EasyPrivacy
-! Last modified: 02 Mar 2026 03:25 UTC
+! Last modified: 03 Mar 2026 03:23 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b290a8d362825adff6c89af0e41376c18f02d615
+! Commit: a3caa0c3a6a07ca2ee1ce1fadcb6646cf14d1a9b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2141,6 +2141,7 @@
 /silveregg/js/cookie_lib.js
 /simple_reach.js
 /simtracker.min.js
+/site24x7rum-min.js
 /site_statistics.js
 /site_stats.js
 /site_stats/*
@@ -11160,6 +11161,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
 ||hearstnp.com/log?
 ||heg-cp.com/upm/$third-party
+||helix.bitformations.ca^
 ||hello.myfonts.net/count/
 ||hello.staticstuff.net^
 ||hellobar.com/ping?
@@ -11830,6 +11832,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||play.ht/views/
 ||player-metrics.instaread.co^
 ||player.ooyala.com/errors/report?
+||player.target-video.com/player/build/plugins/googleanalytics/
 ||playhop.com/clck/
 ||playtomic.com/Tracker/
 ||plista.com/activity
@@ -11863,6 +11866,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||prod.benchmarkemail.com/tracker.bundle.js
 ||prod.ew.srp.navigacloud.com^
 ||prod.fennec.atp.fox^
+||prod.tahoe-analytics.publishers.advertising.a2z.com^
 ||propps.com/v1/referrer/
 ||propsid.b-cdn.net^
 ||providesupport.com/cmd/$image
@@ -12750,6 +12754,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vizury.com/analyze/
 ||vk.com/rtrg?
 ||vk.com/videostats.php
+||vm.target-video.com^
 ||vmixcore.com/vmixcore/playlog?
 ||vmweb.net/identity.min.js
 ||vo.msecnd.net/api/beYableJSv2.js
@@ -54075,6 +54080,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||io-tech.fi/io/www/delvr/lokiz.php
 ||is.fi/stats/
 ||logger.omio.com^
+||logs.kaya.delfi.ee^
 ||mha.fi/simple.gif?
 ||mtv3.fi/remarketing.js
 ||nelonenmedia.fi/hitcounter$image
@@ -54973,6 +54979,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||cdn.facil-iti.app/tags/faciliti-tag.min.js$script,domain=apec.fr|kyoto.travel
 @@||cdn.getblueshift.com/blueshift.js$script,domain=rentcafe.com
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
+@@||cdn.intellimize.co/snippet/$script,domain=talkspace.com
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.matomo.cloud/tekuchi.matomo.cloud/matomo.js$domain=berkeleygroup.digital
 @@||cdn.mxpnl.com/libs/$script,domain=get.pumpkin.care
