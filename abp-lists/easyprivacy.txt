@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603030323
+! Version: 202603040313
 ! Title: EasyPrivacy
-! Last modified: 03 Mar 2026 03:23 UTC
+! Last modified: 04 Mar 2026 03:13 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a3caa0c3a6a07ca2ee1ce1fadcb6646cf14d1a9b
+! Commit: 1a3323cd40555a55f3d850e62b92eb771d455daa
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -121,6 +121,7 @@
 /__utm.js
 /__wsm.gif
 /_assets/oply/public/*
+/_astro/useProtonTelemetry.$script
 /_blazor/*$ping
 /_events/api/setEvent$xmlhttprequest
 /_ga?send&
@@ -6660,6 +6661,7 @@ omni.soundestlink.com$image
 ||allnewhost.com^
 ||alloutdubstep.com^
 ||allsunflowers.com^
+||allthelogs.com^
 ||alltypo.com^
 ||alluringbucket.com^
 ||almondbuns.com^
@@ -27648,6 +27650,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||somni.suntrust.com^
 ||somni.superonline.net^
 ||somni.syf.com^
+||somni.syfpayments.com^
 ||somni.synchrony.com^
 ||somni.synchronybank.com^
 ||somni.synchronybusiness.com^
@@ -48640,6 +48643,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! ||deeplink.xeropan.com^
 ! ||app.naga.com^
 ! ||t.vrbo.io^
+! ||join.tlon.io^
 ! 
 ! Company name: Branch.io
 ! 
@@ -50995,7 +50999,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||join.stuypend.com^
 ||join.talker.network^
 ||join.thekrishi.com^
-||join.tlon.io^
 ||join.travelxp.com^
 ||join.vibely.io^
 ||join.vtail.co^
