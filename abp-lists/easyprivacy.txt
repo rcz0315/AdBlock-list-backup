@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603050316
+! Version: 202603060316
 ! Title: EasyPrivacy
-! Last modified: 05 Mar 2026 03:16 UTC
+! Last modified: 06 Mar 2026 03:16 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 66553112bc02e87c239162c7219df4902c9b9be7
+! Commit: e2e55beaabf234430ea78ff362bb3c3507d56e35
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6747,6 +6747,7 @@ omni.soundestlink.com$image
 ||bedsberry.com^
 ||beewhispering.com^
 ||beginnerpancake.com^
+||bentengine.com^
 ||berserkhydrant.com^
 ||bespokesandals.com^
 ||bestboundary.com^
@@ -6797,6 +6798,7 @@ omni.soundestlink.com$image
 ||boilingmadsoup.com^
 ||boldbars.com^
 ||bonuscomplex.com^
+||bookbeef.com^
 ||bookprobe.com^
 ||boomboomcloud.com^
 ||boostbehavior.com^
@@ -52976,6 +52978,8 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||pixel.ionos.de^
 ||plausible.motorpresse.de^
 ||playox.de/analytics/
+||pons.com/pons-site-website-assets/lib/analytics.min.js
+||pons.com/pons-site-website-int/_astro/website-analytics.$script
 ||potsdamer-stadtplan.com/t.gif
 ||pstt.mtb-news.de^
 ||px.derstandard.at^
