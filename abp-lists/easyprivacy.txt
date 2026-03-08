@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603070309
+! Version: 202603080327
 ! Title: EasyPrivacy
-! Last modified: 07 Mar 2026 03:09 UTC
+! Last modified: 08 Mar 2026 03:27 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 51172cbbbb3da811fba7e2d77b8339811c605764
+! Commit: 87ddb1054ca4f5db72771be3d54fc942e43d7e30
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7992,6 +7992,7 @@ omni.soundestlink.com$image
 ||promiseair.com^
 ||propertypotato.com^
 ||propsynergy.com^
+||protectpool.com^
 ||protestcopy.com^
 ||psychedelicarithmetic.com^
 ||pubfs.com^
@@ -12276,6 +12277,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||storage.googleapis.com/nchq-dj-nid/prod/sp_v1.js
 ||storage.googleapis.com/snowplow-cto-office-tracker-bucket/
 ||storage.googleapis.com/tm-frend-graffiti/
+||storage.googleapis.com/vs-scripts/intentiq/vsintentiq.js
 ||storage.syncmedia.io/libs/sm_capture_
 ||stormgate.production.raptive.com^
 ||stream-log.dditscdn.com^
@@ -15953,6 +15955,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||srv.plesk.com^
 ||ss.esade.edu^
 ||ss.photospecialist.co.uk^
+||ssl-images-amazon.com/images/I/21auWwkMYgL.js$domain=imdb.com
 ||sst.brodo.com^
 ||sst.bwt.com^
 ||sst.carwow.
