@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603110321
+! Version: 202603120326
 ! Title: EasyPrivacy
-! Last modified: 11 Mar 2026 03:21 UTC
+! Last modified: 12 Mar 2026 03:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 05134f4756241eeb9867a93899d4c686846bfbae
+! Commit: eeeaf16d587cd354bdd6b29e90cffc27b2e6c7ad
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6882,9 +6882,11 @@ omni.soundestlink.com$image
 ||carsarace.com^
 ||cartelsalsa.com^
 ||cartkitten.com^
+||cartlug.com^
 ||carvecakes.com^
 ||casualphysics.com^
 ||catalogcake.com^
+||catlanguage.net^
 ||catschickens.com^
 ||cattlecommittee.com^
 ||catventions.com^
@@ -10366,6 +10368,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bet365.de/Members/*&affiliate=$subdocument,third-party
 ||betano.de^*?btag=$subdocument,third-party
 ||bhphotovideo.com/imp/
+||bi-events-collector.spot.im^
 ||bi-metrics.aramuz.net^
 ||bi.heyloyalty.com^
 ||bi.medscape.com^
@@ -10790,6 +10793,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dep.hmgroup.com^
 ||deprecated-custom-domains.b-cdn.net^$third-party
 ||desipearl.com/tracker/
+||dev.visualwebsiteoptimizer.com/*/track-
 ||dfanalytics.dealerfire.com^
 ||dgcollector.evidon.com^
 ||diagnose.igstatic.com^
@@ -15646,6 +15650,9 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p.controld.com^
 ||p.ctpost.com/article?
 ||p.hentaiforce.net^
+||p.mdb.tools^
+||p.midbound.click^
+||p.midbound.net^
 ||p.minds.com^
 ||p.ost2.fyi/courses/*/save_user_state
 ||p.ost2.fyi/event^

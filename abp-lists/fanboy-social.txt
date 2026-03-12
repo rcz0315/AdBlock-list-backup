@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603110314
+! Version: 202603120318
 ! Title: Fanboy's Social Blocking List
-! Last modified: 11 Mar 2026 03:14 UTC
+! Last modified: 12 Mar 2026 03:18 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 05134f4756241eeb9867a93899d4c686846bfbae
+! Commit: eeeaf16d587cd354bdd6b29e90cffc27b2e6c7ad
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10565,6 +10565,7 @@ ynet.co.il,ynetnews.com##.AccordionShareWrapper
 abebooks.com,nbcsports.com,nhpr.org,pitchbook.com,scrippsnews.com##.ActionBar
 kpbs.org,wmar2news.com##.ActionBar-items
 newatlas.com##.ActionLink
+cnbc.com##.ArticleBody-googlePreferredSourceContainer
 newscientist.com##.ArticleHeader__SocialWrapper
 afar.com##.ArticlePage-actions-wrapper
 startrek.com##.Article_shareToggle__D2fGG
