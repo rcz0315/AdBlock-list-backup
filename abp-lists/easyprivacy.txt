@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603120326
+! Version: 202603130310
 ! Title: EasyPrivacy
-! Last modified: 12 Mar 2026 03:26 UTC
+! Last modified: 13 Mar 2026 03:10 UTC
 ! Expires: 4 days (update frequency)
-! Commit: eeeaf16d587cd354bdd6b29e90cffc27b2e6c7ad
+! Commit: 084d713220b3b903a5e0b0c4b3c6c3483479e7b0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -16922,7 +16922,7 @@ e-begin.jp##.inviewSection:not(.is-show):style(transform: translateY(0) !importa
 mustar.meitetsu.co.jp##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||googletagmanager.com/gtm.js$important,domain=mustar.meitetsu.co.jp
 ! coomer.party,kemono.party
-coomer.st,kemono.cr##+js(set-local-storage-item, plausible_ignore, true)
+coomer.st,kemono.cr,official.coomer.com.co##+js(set-local-storage-item, plausible_ignore, true)
 ! EOF
 ! #endif
 ! https://github.com/AdguardTeam/AdguardFilters/issues/205925
@@ -55220,6 +55220,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||portal.cityspark.com/v1/event$domain=dailycamera.com
 @@||postex.com/api/ping?$~third-party
 @@||powerquality.eaton.com/include/js/elqScr.js$~third-party
+@@||prod-backend.jls-sto1.elastx.net/graphql$domain=webcamcollections.com
 @@||ps.w.org/wp-slimstat/$domain=wordpress.org
 @@||pub.pixels.ai/prebid_standard.js$script,domain=standard.co.uk
 @@||public.fbot.me/events/$domain=casper.com
