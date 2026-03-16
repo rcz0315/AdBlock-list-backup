@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603150345
+! Version: 202603160337
 ! Title: Fanboy's Social Blocking List
-! Last modified: 15 Mar 2026 03:45 UTC
+! Last modified: 16 Mar 2026 03:37 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 1a5c1833d981703a4cfe5bbb9915ff5479cb2eed
+! Commit: 0c2477c652261994b1bcbb8a96c44f190e1ff88b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12066,6 +12066,7 @@ lataco.com##ul[class^="SocialSharing_"]
 dailymail.co.uk,thisismoney.co.uk##ul[class^="linksHolder-"]
 ! ! :has
 abc.net.au##.Button_root__UZ8td:has-text(Share)
+economictimes.indiatimes.com##.Pbanner:has-text(as a Reliable and Trusted News Source)
 netwerk24.com,news24.com,son.co.za##.article--top-bar-right:has(.social-sharing)
 foxnews.com##.article-meta-lower:has(.article-social)
 carnewschina.com##.article_detail__top_stories:has-text(Follow us for ev updates)
