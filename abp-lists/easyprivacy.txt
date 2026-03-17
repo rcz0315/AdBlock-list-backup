@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603160337
+! Version: 202603170326
 ! Title: EasyPrivacy
-! Last modified: 16 Mar 2026 03:37 UTC
+! Last modified: 17 Mar 2026 03:26 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0c2477c652261994b1bcbb8a96c44f190e1ff88b
+! Commit: 7e829da6934ba08afaabedc44c269ec8e98dc1dc
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10214,6 +10214,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.iris.tv/update
 ||api.june.so^
 ||api.mambasms.com/monitorEvent/
+||api.pcid.ca/v1/client/logs
 ||api.picox.bendingspoons.com/v1/events
 ||api.reo.dev^$third-party
 ||api.sardine.ai/assets/loader.min.js$third-party
@@ -10505,6 +10506,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||channelexco.com/ppx/
 ||chaport.com/api/public/v1/stats/
 ||chargebee.com/api/internal/track_info_error
+||chat.vica.gov.sg/api/v1/unleash/proxy/client/metrics
 ||check.ddos-guard.net^$third-party
 ||checkout.com/logger/
 ||checkout.com/logging
@@ -14865,6 +14867,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||consent.trustarc.com/bannermsg?
 ||consent.trustarc.com/noticemsg?
 ||console-telemetry.oci.oraclecloud.com^
+||console.deno.com/_fresh/js/*/Posthog.js
 ||consumer.org.nz/session/ping/
 ||containers.appdomain.cloud/api/send-log$domain=ibm.com
 ||contentpass.net/error-tunnel
@@ -14933,6 +14936,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||deliveroo.com^*/events
 ||deliveryrank.com/drapp070eb2deb1932e2101e6.js
 ||delta.com/datacollect
+||deno.com/i/
 ||deovr.com/api_logs/
 ||desmos.com/analytics/js/
 ||dev.to/fallback_activity_recorder
@@ -15343,8 +15347,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||intent.pcworld.idg.com.au^
 ||intent.techadvisor.com^
 ||internal-analytics.odoo.com^
-||internal-e.posthog.com^
-||internal-t.posthog.com^
 ||internetslang.com/jass/
 ||intg.snapchat.com^
 ||intuit.com/static/scripts/cookie-sync/cookiesync-pixel.js
@@ -15580,6 +15582,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mtg.macpaw.com^
 ||mtm.bondagevalley.cc^
 ||musescore.com/components/data?
+||musescore.com/components/log/$ping
 ||musescore.com/score/stats/
 ||mx.eneba.com^
 ||myanimelist.net/static/logging.html
@@ -15693,6 +15696,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||paypal.com/credit-presentment/log
 ||paypal.com/platform/tealeaftarget
 ||pb.ytmp3tube.com/js/script.js$domain=yt1s.com.co
+||pc-optimum.ada.support/api/business_events/track$domain=pcoptimum.ca
 ||pcgamesn.com/cdn-cgi/trace
 ||pcmag.com/js/ga.js
 ||pcmag.com/js/z0WVjCBSEeGLoxIxOQVEwQ.min.js
@@ -15706,6 +15710,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pdfforge.org/api/kd-gdpr-cc
 ||pelisfree.site/cdn-cgi/trace
 ||pendo.scopus.com/data/ptm.gif
+||pepin.padlet.com^
 ||perf.mouser.com^
 ||performance-logger.minted.com^
 ||perplexity.ai/rest/event/analytics
@@ -15763,6 +15768,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pornbox.com/stats/
 ||porzo.com/js/analytics
 ||poshmark.com/trck/
+||posthog.com/*/?ip=$xmlhttprequest
+||posthog.com/*/logs?$xmlhttprequest
+||posthog.com/api/homepage-hits
+||posthog.com/api/signup-count
 ||prairiedog.hashnode.com^
 ||pravda.com.ua/counter/
 ||prescouter.com/pd.js

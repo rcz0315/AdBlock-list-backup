@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: 5wTVdI7sbfC35fjMoQNQ2w
+! Checksum: x3bn2C5ilsF4l8HPWWOZDg
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/43851a0923fcc62e0db5149ab90a2438367fc4cd.json
-! Version: 202603090701
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/bf39a211fd50a812b7c774280549863fda3f776d.json
+! Version: 202603160701
 ! Title: Free - Distraction Control
-! Last modified: 09 Mar 2026 07:01 UTC
+! Last modified: 16 Mar 2026 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 ! !
 !
 ! *** distraction-control:distraction-control-free.txt ***
-! Last modified: 08 Mar 2026 17:37 UTC
+! Last modified: 15 Mar 2026 17:40 UTC
 !
 ! -----------------------General blocking filters-----------------------!
 ! *** distraction-control:app/blocking_general.txt ***
@@ -223,6 +223,8 @@ auburnchevroletgmc.com###nl-teaser
 gapfactory.com##[role="presentation"]:has(> #promoBannerMain)
 ! Example: https://www.nytimes.com/2026/02/20/us/politics/supreme-court-trump-roberts-tariffs.html
 nytimes.com##[data-testid="onsite-messaging-unit-dock"]
+! Example: https://www.shoemart.gr/
+shoemart.gr###sm-recent-order
 ! ---------------------------Suggestion Snippets---------------------------!
 ! *** distraction-control:suggestion/snippet.txt ***
 !
