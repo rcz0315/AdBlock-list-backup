@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603170326
+! Version: 202603180317
 ! Title: EasyPrivacy
-! Last modified: 17 Mar 2026 03:26 UTC
+! Last modified: 18 Mar 2026 03:17 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 7e829da6934ba08afaabedc44c269ec8e98dc1dc
+! Commit: 11dc8e882ccee29d8c1bd7747655e86493ddb3fe
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3253,6 +3253,7 @@ _WebVitalsReporter_
 /beaconimages.netflix.net/*$image
 /c.vialoops.com/*$image
 /ck.m.honto.jp/c/*$image
+/cl.animate.co.jp/c/*$image
 /cl.mos.jp/q/*$image
 /click.*/q/*$image
 /click.comicomi-studio.com/mail/u/*$image
@@ -3289,6 +3290,7 @@ _WebVitalsReporter_
 /gp/r.html?$image
 /gridinbound.blob.core.
 /i?aid=*&se_ac=open&$image
+/image.info.jr-odekake.net/lib/*$image
 /impression?mkevt=
 /inbox.*/imp?$image
 /is-tracking-pixel-
@@ -7210,6 +7212,7 @@ omni.soundestlink.com$image
 ||eventexistence.com^
 ||eventsmall.com^
 ||exampleshake.com^
+||excitingdates.com^
 ||excitingtub.com^
 ||executeknowledge.com^
 ||exhibitsneeze.com^
@@ -8248,6 +8251,7 @@ omni.soundestlink.com$image
 ||shamerain.com^
 ||shapecomb.com^
 ||sharedswap.com^
+||shatterloop.com^
 ||sheargovernor.com^
 ||sheideal.com^
 ||shesubscriptions.com^
@@ -8284,6 +8288,7 @@ omni.soundestlink.com$image
 ||sinceresubstance.com^
 ||singroot.com^
 ||sinkportal.com^
+||sitemapwizard.com^
 ||sixauthority.com^
 ||sixpants.com^
 ||sixquickrun.com^
@@ -16147,6 +16152,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.pie.org^
 ||t.poki.io^
 ||t.prageru.com^
+||t.producthunt.com^
 ||t.regionsjob.com^
 ||t.wayfair.ca^
 ||t.wayfair.co.uk^
