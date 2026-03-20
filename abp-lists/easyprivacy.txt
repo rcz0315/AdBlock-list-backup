@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603190307
+! Version: 202603200308
 ! Title: EasyPrivacy
-! Last modified: 19 Mar 2026 03:07 UTC
+! Last modified: 20 Mar 2026 03:08 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 128fec895cc768bf2996cb47551ba075dd6d9559
+! Commit: 08eda0755105bfe87bbc927b86f9db0c1fb85de1
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3358,6 +3358,7 @@ _WebVitalsReporter_
 /ss/o/*.gif
 /t.contactlab.it/v/*
 /t.ifly.southwest.com/*$image
+/t.notificationmail.microsoft.com/r/?id=$image
 /t.paypal.com/*$image
 /t.yesware.com/t/*$image
 /T/OFC4/*$image
@@ -8427,6 +8428,7 @@ omni.soundestlink.com$image
 ||steelmaiden.com^
 ||steepsister.com^
 ||steepsquirrel.com^
+||stellarduel.com^
 ||stepcattle.com^
 ||stepwisevideo.com^
 ||stereoproxy.com^
@@ -16484,6 +16486,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||wikihow.com/x/collect?
 ||wikimonde.com/matom.js
 ||wikipedia.org/beacon/
+||wikipedia.org/ins-502b/v2/events
 ||windy.com/sedlina/ga/
 ||wipo.int/wipo-analytics/
 ||wish.com/api/analytics/
