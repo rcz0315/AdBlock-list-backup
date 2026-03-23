@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202603220326
+! Version: 202603230337
 ! Title: Fanboy's Social Blocking List
-! Last modified: 22 Mar 2026 03:26 UTC
+! Last modified: 23 Mar 2026 03:37 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6c3942cc5cf1dc70df866b00cad15fe8230dbe14
+! Commit: 2b5168d8758633503d2eb95ccf3f96740b833590
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6246,7 +6246,6 @@ _social_footer_
 ##.nav-share-btn
 ##.nav-share-count
 ##.nav-soc-but
-##.nav-social
 ##.nav-social-left
 ##.nav-social-links
 ##.nav-social-media-links
@@ -11868,6 +11867,7 @@ pastebin.com##.top-footer
 studyfinds.org##.top-hat--has-socials
 bravewords.com##.top-nav
 mouthshut.com##.top-prod-share
+community.firstinspires.org##.topic-share-container
 thejewishstar.com##.toplinks
 citizensforethics.org##.topper-reports__share
 rpgfan.com##.topper-social

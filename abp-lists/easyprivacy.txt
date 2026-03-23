@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603220326
+! Version: 202603230331
 ! Title: EasyPrivacy
-! Last modified: 22 Mar 2026 03:26 UTC
+! Last modified: 23 Mar 2026 03:31 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6c3942cc5cf1dc70df866b00cad15fe8230dbe14
+! Commit: 9f8d6d80b8493ae7e9153895b90c3324f9c78f60
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3009,7 +3009,7 @@ _WebVitalsReporter_
 /unagi.amazon.
 /usage/Clickstream?
 /usage/ReportEvent?
-! hellofresh / greenchef / everyplate
+! hellofresh / greenchef / everyplate / grok
 /otlp/traces
 ! Pinterest
 /_/_/logClientError/*
@@ -7289,6 +7289,7 @@ omni.soundestlink.com$image
 ||firstendpoint.com^
 ||firstscreenshot.com^
 ||fishersfinds.com^
+||fishingtoolsbox.com^
 ||fitmessage.com^
 ||fitnessmapper.com^
 ||fivesidedsquare.com^
@@ -10356,6 +10357,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||baidu.com/push.js
 ||bamgrid.com/dust$domain=~disneyplus.com
 ||bamgrid.com/telemetry
+||banner.appsflyersdk.com^
 ||baqend.com/v1/rum/
 ||barium.cheezdev.com^
 ||basis.net/assets/up.js
@@ -11079,6 +11081,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||futurecdn.net^*/abp.js
 ||futurehybrid.tech^$third-party
 ||futureplc.com/push_metrics/
+||fvalid.appsflyersdk.com^
 ||fw.tv/embed/impressions
 ||g.msn.com^
 ||g2insights-cdn.azureedge.net^
@@ -11712,6 +11715,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ondigitalocean.app/insight-analytics.js
 ||one.store/v1/analytics/
 ||onecount.net/onecount/oc_track/
+||onelinksmartscript.appsflyersdk.com^
 ||onescreen.net/os/static/pixels/
 ||onesignal.com/api/v*/apps/
 ||onesignal.com/api/v1/sync/
@@ -12820,6 +12824,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||vwdealerdigital.com/cdn/sd.js
 ||w3track.com/newtrk/$third-party
 ||w4o7aea80ss3-a.akamaihd.net^
+||wa.appsflyersdk.com^
 ||wallkit.net^*/user/event
 ||wantlive.com/pixel/
 ||warnermedia.com/api/v1/events?
@@ -12840,6 +12845,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||webgames.io/imp/
 ||webmasters.ksalsocial.online/pixel/
 ||websdk.appsflyer.com^
+||websdk.appsflyersdk.com^
 ||webservices.websitepros.com^
 ||webstats.thaindian.com^
 ||websuccess-data.com/tracker.js
@@ -15255,6 +15261,10 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||grabify.link/api/js
 ||graylog.prod.cams.run^
 ||grgnsht.nzxt.com^
+||grok.com/_data/v1/a/
+||grok.com/_data/v1/events
+||grok.com/_data/v1/experiment/exposure
+||grok.com/api/log_metric
 ||grokipedia.com/api/analytics
 ||grokipedia.com/api/ev
 ||grokipedia.com/api/stats
@@ -15678,6 +15688,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||online-umwandeln.de/analytics.js
 ||online.marketing/a.js
 ||ontraport.com/opt_assets/static/js/logging.js
+||op.dragonfru.it^
 ||opendesktop.org/l/fp
 ||ophan.theguardian.com^
 ||oppo.com/api/country
@@ -16949,7 +16960,7 @@ bolighub.dk##+js(acs, document.getElementsByTagName, gtm.js)
 ||static.chartbeat.com/js/chartbeat.js$redirect=chartbeat.js,script
 ||static.chartbeat.com/js/chartbeat_mab.js$redirect=chartbeat.js,script
 ! Admiral
-247sports.com,androidpolice.com,arstechnica.com,audizine.com,blackenterprise.com,boston.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,mensjournal.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
+247sports.com,androidpolice.com,arstechnica.com,audizine.com,blackenterprise.com,boston.com,bringmethenews.com,cattime.com,cbr.com,cheatsheet.com,collider.com,comingsoon.net,cwtv.com,dogtime.com,esportstales.com,forums.hfboards.com,freep.com,fresnobee.com,gamerant.com,gbatemp.net,golfdigest.com,grabify.link,hancinema.net,hemmings.com,howtogeek.com,ijr.com,informazionefiscale.it,inquirer.net,insider-gaming.com,knowyourmeme.com,magesypro.pro,makeuseof.com,money.it,motorbiscuit.com,movieweb.com,nationalreview.com,nbcnews.com,neopets.com,nofilmschool.com,nypost.com,omg.blog,order-order.com,playstationlifestyle.net,pwinsider.com,savvytime.com,screenrant.com,siliconera.com,simpleflying.com,sporcle.com,stealthoptional.com,techlicious.com,technicpack.net,thedraftnetwork.com,thefashionspot.com,thegamer.com,thelayoff.com,thenerdstash.com,titantv.com,topspeed.com,twinfinite.net,videogamer.com,webmail.wiki,wnd.com,worldpopulationreview.com,wral.com,wrestlezone.com,wrestlinginc.com,xda-developers.com##+js(acs, document.createElement, admiral)
 apnews.com,sidereel.com##+js(acs, document.getElementsByTagName, .pubads)
 ranker.com##+js(aost, HTMLElement.prototype.insertBefore, /[A-Z] .+chunks\/\d{4}\./)
 reuters.com##+js(aost, admiral, .js?)
