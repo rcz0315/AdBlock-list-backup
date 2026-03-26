@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603250331
+! Version: 202603260338
 ! Title: EasyPrivacy
-! Last modified: 25 Mar 2026 03:31 UTC
+! Last modified: 26 Mar 2026 03:38 UTC
 ! Expires: 4 days (update frequency)
-! Commit: e431ad928e172451d91bbf519e9800a79a0d574d
+! Commit: f1c88f707d3095d67d2375e5bc3df670c06c874c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8638,6 +8638,7 @@ omni.soundestlink.com$image
 ||truculentrate.com^
 ||truebackpack.com^
 ||truejasmine.com^
+||trueselfkeys.com^
 ||tumbleicicle.com^
 ||tuneupcoffee.com^
 ||twelvedawn.com^
@@ -11942,6 +11943,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||public.9gtb.com^
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.fbot.me/track/
+||public.profitwell.com^
 ||publicbroadcasting.net/analytics/
 ||pulse.ecmapps.com^
 ||pulse.shopflo.com^
@@ -13286,6 +13288,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.fanmatics.com/event
 ||api.nexx.cloud/*/session/
 ||api.tv.de/*/tracking/
+||app.elitedomains.de/js/service/statistics.service.js
 ||artemis-cdn.ocdn.eu^
 ||ats.otto.de^
 ||audimark.de/tracking/
@@ -13414,6 +13417,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||strongvpn.com/aff/
 ||suedtirol.live/slc.js
 ||t.cpurls.net^
+||t.elitedomains.de^
 ||t.etraveli.com^
 ||t.nativendo.de^
 ||t.quisma.com^
@@ -14452,6 +14456,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||statistics.daktilo.com^
 ||stats.vidyome.com^
 ||track.livasoft.com.tr^
+||tracker.adcluster.com.tr^
 ||traffic.wdc.center^
 ||web.tv/analytics/
 ! Ukranian
@@ -14897,6 +14902,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collider.com/strpixel.png
 ||colvk.viki.io^
 ||comms.bps.org.uk^
+||compare-static.flightconnections.com/tag.js
 ||confiant.msn.com^
 ||configurator.ecom-mobile-samsung.com/api/logger
 ||connatix.com/scripts/$~third-party
