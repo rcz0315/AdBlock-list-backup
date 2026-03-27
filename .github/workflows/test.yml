@@ -8,11 +8,11 @@ permissions:
   
 jobs:
   merge-abp:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
       - name: Checkout Repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Git
         run: |
