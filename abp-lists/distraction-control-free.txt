@@ -1,16 +1,16 @@
 [Adblock Plus 2.0]
-! Checksum: 9W3+EBBjF33wS6b5WQkJOw
+! Checksum: WdIQ7QfkAQVnZpeSOjEmWg
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/66ddf4591bb297f01defedf71363ec762275be88.json
-! Version: 202603230701
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/e4d1eb83b51ad95cbdbea40b4557b51d62bac6e7.json
+! Version: 202603300701
 ! Title: Free - Distraction Control
-! Last modified: 23 Mar 2026 07:01 UTC
+! Last modified: 30 Mar 2026 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 ! !
 !
 ! *** distraction-control:distraction-control-free.txt ***
-! Last modified: 22 Mar 2026 17:39 UTC
+! Last modified: 29 Mar 2026 17:42 UTC
 !
 ! -----------------------General blocking filters-----------------------!
 ! *** distraction-control:app/blocking_general.txt ***
@@ -225,6 +225,10 @@ gapfactory.com##[role="presentation"]:has(> #promoBannerMain)
 nytimes.com##[data-testid="onsite-messaging-unit-dock"]
 ! Example: https://www.shoemart.gr/
 shoemart.gr###sm-recent-order
+! Example: https://www.travelclub.es/
+travelclub.es###puntazos
+! Example: https://www.school-xyz.com/
+school-xyz.com##.uc-promobar
 ! ---------------------------Suggestion Snippets---------------------------!
 ! *** distraction-control:suggestion/snippet.txt ***
 !
@@ -244,6 +248,7 @@ lingoda.com#$#simulate-mouse-event '.modal-overlay.open .close-icon-button'
 anythinggrowsalberta.com,roborockstore.com.au#$#simulate-mouse-event '[class^="omnisend-form-"] button[aria-label="Close"]'
 auburnchevroletgmc.com#$#simulate-mouse-event '.ui-dialog-entry[role="dialog"] .ui-dialog-titlebar-close'
 auburnchevroletgmc.com#$#simulate-mouse-event '.nl_open_fixed #nl-close'
+fastreel.com#$#simulate-mouse-event '.om-position-popup .CampaignType--popup button[title="Close"]$continue'
 !
 ! -----------------------Video General blocking filters-----------------------!
 ! *** distraction-control:video/blocking_general.txt ***
