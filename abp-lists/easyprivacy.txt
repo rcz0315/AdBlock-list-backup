@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202603310339
+! Version: 202604010405
 ! Title: EasyPrivacy
-! Last modified: 31 Mar 2026 03:39 UTC
+! Last modified: 01 Apr 2026 04:05 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b86ed2f0340a05e2565eae68684d185f00d8dea9
+! Commit: e03e300b32b20373a565ee8f89601d3a9afd5c59
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3300,6 +3300,7 @@ _WebVitalsReporter_
 /go.news.fly.io/e/o/*$image
 /gp/r.html?$image
 /gridinbound.blob.core.
+/ho.php?t=$image
 /i?aid=*&se_ac=open&$image
 /image.info.jr-odekake.net/lib/*$image
 /impression?mkevt=
@@ -3773,6 +3774,7 @@ omni.soundestlink.com$image
 ||procroanalytics.com^
 ||proftrafficcounter.com^
 ||progmxs.com^
+||protechts.net^
 ||purple-hit.com^
 ||pushvisit.xyz^
 ||pxlstat.com^
@@ -14459,7 +14461,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||app.kulgacdn.com/js/script.js
 ||apps.ihlasdigitalassets.com/stats
 ||c.keltis.com^
-||collector.wawlabs.com^
 ||core.dehapi.com/ip.php
 ||daioncdn.net/events?
 ||eticaret.pro/pixel/
@@ -14474,6 +14475,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||track.livasoft.com.tr^
 ||tracker.adcluster.com.tr^
 ||traffic.wdc.center^
+||wa.wawlabs.com^
 ||web.tv/analytics/
 ! Ukranian
 ||informers.sinoptik.ua^
@@ -14601,7 +14603,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ampltd.medal.tv^
 ||ampltd.top.gg^
 ||ampltd2.medal.tv^
-||anal.billingserv.com^
+||anal.baseserv.com^
 ||anal.doubledouble.top^
 ||analytics-api.dvdfab.
 ||analytics-batch.blitz.gg^
@@ -15899,6 +15901,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rabbit.donald.cat^
 ||raenonx.cc/api/tag
 ||raenonx.cc/g/usage/
+||rainbet.com/api/ping
 ||raindrop.io/pb/api/event
 ||rakuten.com/rmsgjs/soj2.js
 ||ranker.com/api/px
@@ -54418,6 +54421,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||analyzer.fc2.com^
 ||analyzer2.fc2.com^
 ||anyelse.com/stat^
+||api.mercari.jp/client_events/
 ||apps.nhk.jp/assets/dtm/
 ||askdoctors.jp/assets/packs/js/impression_tracker-
 ||astat.nikkei.com^
