@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604010401
+! Version: 202604020333
 ! Title: Fanboy's Social Blocking List
-! Last modified: 01 Apr 2026 04:01 UTC
+! Last modified: 02 Apr 2026 03:33 UTC
 ! Expires: 4 days (update frequency)
-! Commit: becef7a958f80b8826a79832eb1d0a5da04803ae
+! Commit: 9f607a0886b8c5fb18cadfff9fbdd1e3c3d3746c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10552,7 +10552,7 @@ baystatebanner.com###top-soc-icon-wrap
 hexus.net###topicons
 dansingerman.com,fark.com,radioguide.fm,rare.us,thetvaddict.com###twitter
 pcgamer.com,tomshardware.com###utility-bar
-techradar.com###utility-bar__google-button
+gamesradar.com,techradar.com###utility-bar__google-button
 mansionglobal.com###webui-save-and-share
 videocardz.com###welcome-modal
 walesonline.co.uk###whatsapp-community
@@ -10678,6 +10678,7 @@ japan.go.jp##.article-fix-sns
 gfinityesports.com,stealthoptional.com##.article-float-buttons
 f1oversteer.com##.article-follow
 investmentexecutive.com,just-food.com##.article-footer
+gamingbible.com,ladbible.com,sportbible.com,tyla.com,unilad.com,uniladtech.com##.article-header-meta_discoverButton__58lwg
 foodbible.com##.article-header_discoverButton__PDfrQ
 infoworld.com##.article-hero__social
 techxplore.com##.article-interaction__social
