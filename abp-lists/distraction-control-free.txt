@@ -1,87 +1,67 @@
 [Adblock Plus 2.0]
-! Checksum: WdIQ7QfkAQVnZpeSOjEmWg
+! Checksum: rgD3TsY/WAPwjb6KjCMW3Q
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/e4d1eb83b51ad95cbdbea40b4557b51d62bac6e7.json
-! Version: 202603300701
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/16869de24dbbf4748c961f63e38be14b63be7829.json
+! Version: 202604060701
 ! Title: Free - Distraction Control
-! Last modified: 30 Mar 2026 07:01 UTC
+! Last modified: 06 Apr 2026 07:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
-! !
 !
-! *** distraction-control:distraction-control-free.txt ***
-! Last modified: 29 Mar 2026 17:42 UTC
-!
-! -----------------------General blocking filters-----------------------!
 ! *** distraction-control:app/blocking_general.txt ***
 !
 ! general blocking rules
 !
-! -----------------------Specific blocking filters-----------------------!
 ! *** distraction-control:app/blocking_specific.txt ***
 !
 ! site specific blocking rules
 !
-! ------------------------General element hiding rules-------------------------!
 ! *** distraction-control:app/hiding_general.txt ***
 !
 ! general hiding rules
 !
-! ------------------------Specific element hiding rules-------------------------!
 ! *** distraction-control:app/hiding_specific.txt ***
 !
 ! site specific hiding rules
 !
 girlswithgems.com###tc-capture-kit
-! ---------------------------Snippets---------------------------!
 ! *** distraction-control:app/snippet.txt ***
 !
 ! site specific snippet rules
 !
-!
-! -----------------------Location General blocking filters-----------------------!
 ! *** distraction-control:location/blocking_general.txt ***
 !
 ! general blocking rules
 !
-! -----------------------Location Specific blocking filters-----------------------!
 ! *** distraction-control:location/blocking_specific.txt ***
 !
 ! site specific blocking rules
 !
-! ------------------------Location General element hiding rules-------------------------!
 ! *** distraction-control:location/hiding_general.txt ***
 !
 ! general hiding rules
 !
-! ------------------------Location Specific element hiding rules-------------------------!
 ! *** distraction-control:location/hiding_specific.txt ***
 !
 ! site specific hiding rules
 !
 sinoptik.ua#?#footer + div:-abp-contains(геолокації)
-! ---------------------------Location Snippets---------------------------!
 ! *** distraction-control:location/snippet.txt ***
 !
 ! site specific snippet rules
 !
-!
-! -----------------------Signup General blocking filters-----------------------!
 ! *** distraction-control:signup/blocking_general.txt ***
 !
 ! general blocking rules
 !
-! -----------------------Signup Specific blocking filters-----------------------!
 ! *** distraction-control:signup/blocking_specific.txt ***
 !
 ! site specific blocking rules
 !
-! ------------------------Signup General element hiding rules-------------------------!
 ! *** distraction-control:signup/hiding_general.txt ***
 !
 ! general hiding rules
 !
-! ------------------------Signup Specific element hiding rules-------------------------!
 ! *** distraction-control:signup/hiding_specific.txt ***
 !
 ! site specific hiding rules
@@ -106,42 +86,33 @@ catawiki.com##[data-sentry-component="RegistrationSlideIn"]
 nijisanji.jp##[class*="suggestLoginModal"]
 ! Example: https://m.cafe.naver.com/ca-fe/web/cafes/13764661
 cafe.naver.com##.FloatingJoinButton
-! ---------------------------Signup Snippets---------------------------!
 ! *** distraction-control:signup/snippet.txt ***
 !
 ! site specific snippet rules
 !
 gurufocus.com#$#simulate-mouse-event '[role="dialog"][style*="display: block;"] #cboxClose'
 goodreads.com#$#simulate-mouse-event '.Overlay__window button[aria-label="Close"]'
-!
-! -----------------------Subscribe General blocking filters-----------------------!
 ! *** distraction-control:subscribe/blocking_general.txt ***
 !
 ! general blocking rules
 !
-! -----------------------Subscribe Specific blocking filters-----------------------!
 ! *** distraction-control:subscribe/blocking_specific.txt ***
 !
 ! site specific blocking rules
 !
-! ------------------------Subscribe General element hiding rules-------------------------!
 ! *** distraction-control:subscribe/hiding_general.txt ***
 !
 ! general hiding rules
 !
-! ------------------------Subscribe Specific element hiding rules-------------------------!
 ! *** distraction-control:subscribe/hiding_specific.txt ***
 !
 ! site specific hiding rules
 !
 bonappetit.com#?#[class^="InContentBarrierFloatingBar"]:-abp-contains(START FREE TRIAL)
-! ---------------------------Subscribe Snippets---------------------------!
 ! *** distraction-control:subscribe/snippet.txt ***
 !
 ! site specific snippet rules
 !
-!
-! -----------------------Suggestion General blocking filters-----------------------!
 ! *** distraction-control:suggestion/blocking_general.txt ***
 !
 ! general blocking rules
@@ -153,7 +124,6 @@ bonappetit.com#?#[class^="InContentBarrierFloatingBar"]:-abp-contains(START FREE
 /wp-content/plugins/popup-maker/*$script
 ||modal.vendavalida.com.br/helpers/modal.js
 /jquery.bugme.$script
-! -----------------------Suggestion Specific blocking filters-----------------------!
 ! *** distraction-control:suggestion/blocking_specific.txt ***
 !
 ! site specific blocking rules
@@ -162,13 +132,11 @@ bonappetit.com#?#[class^="InContentBarrierFloatingBar"]:-abp-contains(START FREE
 ||production.neocomapp.com/prompt^$domain=hemden.de
 ! Example: https://www.vieuxloupdemer.com/
 /popup.$domain=vieuxloupdemer.com
-! ------------------------Suggestion General element hiding rules-------------------------!
 ! *** distraction-control:suggestion/hiding_general.txt ***
 !
 ! general hiding rules
 !
 ##.marquiz-widget:not(body)
-! ------------------------Suggestion Specific element hiding rules-------------------------!
 ! *** distraction-control:suggestion/hiding_specific.txt ***
 !
 ! site specific hiding rules
@@ -229,7 +197,6 @@ shoemart.gr###sm-recent-order
 travelclub.es###puntazos
 ! Example: https://www.school-xyz.com/
 school-xyz.com##.uc-promobar
-! ---------------------------Suggestion Snippets---------------------------!
 ! *** distraction-control:suggestion/snippet.txt ***
 !
 ! site specific snippet rules
@@ -249,8 +216,6 @@ anythinggrowsalberta.com,roborockstore.com.au#$#simulate-mouse-event '[class^="o
 auburnchevroletgmc.com#$#simulate-mouse-event '.ui-dialog-entry[role="dialog"] .ui-dialog-titlebar-close'
 auburnchevroletgmc.com#$#simulate-mouse-event '.nl_open_fixed #nl-close'
 fastreel.com#$#simulate-mouse-event '.om-position-popup .CampaignType--popup button[title="Close"]$continue'
-!
-! -----------------------Video General blocking filters-----------------------!
 ! *** distraction-control:video/blocking_general.txt ***
 !
 ! general blocking rules
@@ -271,7 +236,6 @@ embed.sendtonews.com
 ||services.brid.tv/player$script,domain=~washingtonexaminer.com
 /stn-player.js$domain=titantv.com
 ||vplayer.enthusiastgaming.com/player/build/plugins/slideinview/*
-! -----------------------Video Specific blocking filters-----------------------!
 ! *** distraction-control:video/blocking_specific.txt ***
 !
 ! site specific blocking rules
@@ -280,7 +244,6 @@ embed.sendtonews.com
 /twocol_article_autoplay/*$domain=belfasttelegraph.co.uk
 players.brightcove.net$domain=uproxx.com
 /coronaWidget5/*$domain=ibtimes.sg
-! ------------------------Video General element hiding rules-------------------------!
 ! *** distraction-control:video/hiding_general.txt ***
 !
 ! general hiding rules
@@ -358,7 +321,6 @@ apnews.com##.cnx-playspace-container.cnx-float
 ##.c-avLazyStickyVideo-sticky
 ##.video-js.vjs-pip-active
 ##.mntl-article .mntl-jwplayer-broad
-! ------------------------Video Specific element hiding rules-------------------------!
 ! *** distraction-control:video/hiding_specific.txt ***
 !
 ! site specific hiding rules
@@ -422,7 +384,6 @@ thepioneerwoman.com##.hpc-sticky
 slpress.gr##.ocm-st-sticky
 bleacherreport.com##.MuiPaper-root[id*="siderail/video_recommendations"]
 barchart.com##.cnx-float-position-left
-! ---------------------------Video Snippets---------------------------!
 ! *** distraction-control:video/snippet.txt ***
 ! *** distraction-control:video/snippet-abp.txt ***
 !
