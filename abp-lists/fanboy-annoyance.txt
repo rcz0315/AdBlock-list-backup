@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: WhMeB9+uE52pusZRQt4tHw
-! Version: 202604071325
+! Checksum: 7zovMFVdJQ0x+76HlLGLOQ
+! Version: 202604082250
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-04-07 13:25 UTC
+! Last modified: 2026-04-08 22:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16028,6 +16028,7 @@ tenable.com##.sticky-social-widget
 healthshots.com##.stickySocial
 amazonadviser.com,apptrigger.com,arrowheadaddict.com,bamsmackpow.com,fansided.com,gamesided.com,gojoebruin.com,hiddenremote.com,lastnighton.com,mlsmultiplex.com,netflixlife.com,playingfor90.com,stormininnorman.com,winteriscoming.net##.sticky_1ds30c3
 natlawreview.com##.sticky__sidebar
+hackster.io##.sticky_actions__stickyButton__vVglk
 futurity.org##.sticy-share-block
 aetv.com,wccftech.com##.story-share
 wccftech.com##.story-share-bottom
@@ -16257,6 +16258,7 @@ goodyfeed.com##[href^="https://t.me/"]
 irishnews.com##[href^="https://whatsapp.com/channel/"]
 militarywatchmagazine.com##[href^="https://x.com/MilitaryWatchM"]
 colourlovers.com##a.mr-10.left > [src]
+hackster.io##a.social_icons__icon__BxTgB
 telekom.com##a[title="Share"]
 straitstimes.com##button.desktop\:block
 thinkglobalhealth.org##button.hover\:bg-accent-social-button
@@ -36065,6 +36067,7 @@ rebirth-hannover.de##.c-callout
 index.co##.c-consent-manager
 croda.com,frontgate.com,incotec.com,york.ac.uk##.c-cookie-banner
 asm.com,bastionhotels.com,bestwesternschipholairport.com,midlands.englandhockey.co.uk##.c-cookie-bar
+hobbitontours.com##.c-cookie-confirm
 datagen.tech##.c-cookie-consent-background
 gic.careers##.c-cookie-notice__container
 aniguessr.com##.c-cookie-popup
@@ -36252,7 +36255,7 @@ developers.turing.com##.cookie-consent-overlay
 buying.expert##.cookie-consent-popover
 fling2night.com##.cookie-consent-root
 samsungknox.com##.cookie-consent-v3
-springbok-puzzles.com,tinyurl.com,visitworld.today##.cookie-consent-wrapper
+aronimink.org,springbok-puzzles.com,tinyurl.com,visitworld.today##.cookie-consent-wrapper
 envirovent.com##.cookie-content
 home.cricketwireless.com##.cookie-dialog__container
 chargie.com##.cookie-div-block
@@ -37910,7 +37913,7 @@ austrian.com,comparethemarket.com,gsk.com,pepperl-fuchs.com###__tealiumGDPRcpPre
 !! .cookie-consent-banner
 agados.cz,allmyfaves.com,charlesandcolvard.com,concert.ua,delfortgroup.com,githubstatus.com,goldaglida.co.il,morfix.co.il,puffy.com,splice-cad.com,tnawrestling.com,wincatalog.com##.cookie-consent-banner
 !! .cookie-consent-popup
-015.co.il,almaviva.it,cos.com,expireddomains.com,gcli.li,hm.com##.cookie-consent-popup
+015.co.il,almaviva.it,cos.com,expireddomains.com,gcli.li,hm.com,podurama.com##.cookie-consent-popup
 !! #cookie-consent-popup
 bagina.co.il,coffeeman.co.il,finam.ru,halalit.co.il,pccenter.co.il,rsm.co.il,shop-now14.co.il,vero-cafe.co.il,zulacasino.com###cookie-consent-popup
 !! .cookiebar
@@ -40994,6 +40997,7 @@ granado.com.br##+js(set-local-storage-item, store-cookie-consent, accepted)
 supreme.com##+js(set-local-storage-item, sup_gdpr_cookie, accepted)
 supabase.com##+js(set-local-storage-item, supabase-consent-ph, false)
 superset.sh##+js(set-local-storage-item, superset-analytics-consent, denied)
+taketaketake.com##+js(set-local-storage-item, takex3.cookie-consent, declined)
 technikmuseum.berlin##+js(set-local-storage-item, technikmuseum-required-enabled, true)
 venom.foundation##+js(set-local-storage-item, terms, accepted)
 galaxy.com##+js(set-local-storage-item, terms, true)
@@ -46253,9 +46257,9 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||oddschecker.com/cookie-policy-banner/$~third-party
 @@||omniplex.ie/script/modules/cookiecuttr.js$~third-party
 @@||onepage.io/api/v1/cookie-service/lib/$script
-@@||onetrust.com/consent/$domain=airnewzealand.co.nz|bt.com|groceries.asda.com|konami.com|nintendolife.com|panasonic.com|paramountplus.com|posti.fi|pushsquare.com|technics.com|timeextension.com|uw.co.uk
+@@||onetrust.com/consent/$domain=airnewzealand.co.nz|bt.com|groceries.asda.com|konami.com|nectar.com|nintendolife.com|panasonic.com|paramountplus.com|posti.fi|pushsquare.com|technics.com|timeextension.com|uw.co.uk
 @@||onetrust.com/request/$xmlhttprequest
-@@||onetrust.com/scripttemplates/$domain=airnewzealand.co.nz|bt.com|groceries.asda.com|konami.com|milliescookies.com|nintendolife.com|panasonic.com|paramountplus.com|posti.fi|pushsquare.com|technics.com|timeextension.com
+@@||onetrust.com/scripttemplates/$domain=airnewzealand.co.nz|bt.com|groceries.asda.com|konami.com|milliescookies.com|nectar.com|nintendolife.com|panasonic.com|paramountplus.com|posti.fi|pushsquare.com|technics.com|timeextension.com
 @@||onetrust.com/vendorlist/$domain=groceries.asda.com|nintendolife.com|paramountplus.com|pushsquare.com|timeextension.com
 @@||onetrust.com/webform/$subdocument
 @@||onlineservice.ewr-gmbh.de/ui.components.extended/material/nli-cookie-banner/$script,~third-party
@@ -52657,7 +52661,7 @@ honichi.com##.modal-open:style(overflow: auto !important;)
 @@||assets.mailerlite.com/js/universal.js$script,domain=player.real.gr
 @@||e24.no/cnp-assets/components-NewsletterWidget.$~third-party
 @@||el-vidas.nl^*/phpcuong_newsletter/$script
-@@||lightboxcdn.com/vendor/$script,domain=rydercup.com
+@@||lightboxcdn.com/vendor/$script,domain=pgachampionship.com|rydercup.com
 @@||list-manage.com/subscribe/post-json?
 @@||lumingerie.com/min/$script,~third-party
 @@||pico.tools/load/build.js$script,domain=escapistmagazine.com
@@ -53425,6 +53429,7 @@ fdoc.jp##.appli_banner_box
 lionair.co.id##.applink
 flightradar24.com##.applink-container
 banglanews24.com##.apps
+podurama.com##.apps-card
 happytv.rs##.apps-download
 bdnews24.com##.apps-logo
 webdunia.com##.apps_link
