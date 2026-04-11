@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604100346
+! Version: 202604110318
 ! Title: Fanboy's Social Blocking List
-! Last modified: 10 Apr 2026 03:46 UTC
+! Last modified: 11 Apr 2026 03:18 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2c27c28e0270e0685ca70318911a2910f0283705
+! Commit: ca9263e2744cc9b596ca5f183496fbb12e3a4b06
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12126,6 +12126,7 @@ tvblackbox.com.au#?#.tdm-descr:has-text(Share)
 twitch.tv#?#.tw-balloon:has-text(Share To)
 ! ! top-level domain wildcard
 royalqueenseeds.*##.social-media-icons-footer
+miruro.*##section[class^="_noticeSection_"]
 ! ! .socialmedia
 agfk-bw.de,clara.es,hcb.net,travel.state.gov##.socialmedia
 ! ! .social-sharing
@@ -13742,8 +13743,8 @@ tmstor.es#@#.top_social
 swingliteracy.com#@#.tve_social_items
 nothiefsallowed.com#@#.twitter-timeline
 google.com#@#SHARE-BUTTON
-geki-cine.jp,heiwa-9inday.jp,hypnosismic-anime.com,idolmaster-official.jp,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp,ufret.jp#@#a[href^="https://twitter.com/intent/tweet?"]
-petsmart.com#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
+geki-cine.jp,heiwa-9inday.jp,hypnosismic-anime.com,idolmaster-official.jp,mamodan-plus.clony.co.jp,monsterhunternow.belugacpn.jp,ranking.sanrio.co.jp,ufret.jp#@#a[href^="https://twitter.com/intent/tweet?"]
+petsmart.com,ranking.sanrio.co.jp#@#a[href^="https://www.facebook.com/sharer/sharer.php"]
 playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"]
 ! *** easylist:fanboy-addon/fanboy_social_allowlist.txt ***
 ! fanboy_social_allowlist.txt
