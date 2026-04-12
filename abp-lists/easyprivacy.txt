@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604110318
+! Version: 202604120402
 ! Title: EasyPrivacy
-! Last modified: 11 Apr 2026 03:18 UTC
+! Last modified: 12 Apr 2026 04:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ca9263e2744cc9b596ca5f183496fbb12e3a4b06
+! Commit: 91173350a46196d64fe6a5c2bce510eef339fcd0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6483,7 +6483,6 @@ omni.soundestlink.com$image
 ||45.32.105.134^
 ||77.162.125.199^
 ||a-calc.de^$third-party
-||acbp0020171456.page.tl^
 ||adless.io^
 ||adminer.com^
 ||altpool.pro^$third-party
@@ -10573,7 +10572,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cityzen.io/Pixel/
 ||civicscience.com/jot?
 ||ck.connatix.com^
-||cl-pbr.cxr.skeepers.io^
 ||cleantalk.org/pixel/
 ||clearbuy.com/api/cookie
 ||clearspring.com/at/
@@ -15700,6 +15698,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||neatorama.com/story/view/
 ||neeva.com/logql/log
 ||neighbourly.co.nz/event-tracking
+||nekoweb.org/.nekoweb-api/count-view
 ||neowin.net/ws/$websocket
 ||net.haier.com^
 ||netflix.com/ichnaea/log
