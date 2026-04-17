@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604160401
+! Version: 202604170357
 ! Title: EasyPrivacy
-! Last modified: 16 Apr 2026 04:01 UTC
+! Last modified: 17 Apr 2026 03:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 569a7349f5ae5a3df920cb1b6e3d490626f1c3a9
+! Commit: 04d927232eaa034edd65bf15efc889f50b1b61c5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6817,7 +6817,7 @@ omni.soundestlink.com$image
 ||bluenest.net^
 ||bluevinebooks.com^
 ||blushingbeast.com^
-||blushingbread.com^$~script
+||blushingbread.com^
 ||boatcodeapp.com^
 ||boatpaper.com^
 ||boatsbuilding.com^
@@ -7627,7 +7627,7 @@ omni.soundestlink.com$image
 ||kernellife.com^
 ||kidpowers.com^
 ||kindasingle.com^
-||kindhush.com^
+||kindhush.com^$~xmlhttprequest
 ||kindlereunion.com^
 ||kitetuning.com^
 ||kittentacos.com^
@@ -7885,7 +7885,7 @@ omni.soundestlink.com$image
 ||obscenesidewalk.com^
 ||obscurespace.com^
 ||obsidiangems.com^
-||oceancloudhosts.com^
+||oceancloudhosts.com^$~xmlhttprequest
 ||octaneblood.com^
 ||offerniche.com^
 ||offgridcrops.com^
@@ -8821,6 +8821,10 @@ omni.soundestlink.com$image
 ||zipthelake.com^
 ||zlp6s.pw^
 ||zonewedgeshaft.com^
+! noopjson
+||acustomizedgift.com^$redirect=noopjson,xmlhttprequest
+||kindhush.com^$redirect=noopjson,xmlhttprequest
+||oceancloudhosts.com^$redirect=noopjson,xmlhttprequest
 ! *** easylist:easyprivacy/easyprivacy_trackingservers_notifications.txt ***
 ! easyprivacy_trackingservers_notifications.txt
 ||actirinius.com^$third-party
@@ -11245,6 +11249,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hdnux.com/HNP/stats/page_view?
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
 ||hearstnp.com/log?
+||heartbeat-pearl.vercel.app^
 ||heg-cp.com/upm/$third-party
 ||helix.bitformations.ca^
 ||hello.myfonts.net/count/
@@ -15859,6 +15864,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||plausible.tubemagic.com^
 ||player-cdn.com/cdn-cgi/trace
 ||player-telemetry.vimeo.com^
+||player.instaread.co/js/inarticle-metrics.js
 ||player.javboys.cam/cdn-cgi/trace
 ||playvideohd.com/cdn-cgi/trace
 ||plenty.vidio.com^
