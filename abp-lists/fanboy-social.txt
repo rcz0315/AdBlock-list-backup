@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604210347
+! Version: 202604220354
 ! Title: Fanboy's Social Blocking List
-! Last modified: 21 Apr 2026 03:47 UTC
+! Last modified: 22 Apr 2026 03:54 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 7decd1c3d355c76fec18e756c2a4a85023545452
+! Commit: f835455201c33e041191b41868bbccb9175f929f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10641,6 +10641,7 @@ datacenterdynamics.com##.a2a_default_style
 tandfonline.com##.a2a_share_target
 reserveamerica.com##.acm-article-share
 marriott.com,sandiegouniontribune.com##.action-bar
+wccftech.com##.add-google
 consequence.net##.add-to-google
 womansworld.com##.add-to-google-banner__wrapper___1PWZa
 city-journal.org##.addthis-trigger
@@ -10805,6 +10806,7 @@ koimoi.com##.btn-whatsup
 androidpolice.com##.btn-x
 consumerreports.org##.btn__social
 bu.edu##.bu-sharing
+channelnewsasia.com##.button--google-preferred
 notateslaapp.com##.button-follow
 unz.com##.button-holder
 healthline.com##.button-wrapper
@@ -10967,6 +10969,7 @@ blogto.com##.facebook-round-control
 news.stv.tv##.facebook-share
 moparinsiders.com##.facebook-widget
 thefastmode.com##.facebook_plugin
+channelnewsasia.com##.fast-card__share-button
 shepherd.com##.fav3-share
 thefreedictionary.com##.fb-share
 bearingarms.com,hotair.com,redstate.com##.fb-social
@@ -11659,6 +11662,7 @@ videocardz.com##.social-item-mail
 videocardz.com##.social-item-media
 knewz.com,revolvermag.com##.social-items
 afro.com,berlin-live.de,elsol.com.ar,hongkongfp.com,investigatemidwest.org,lafocusnews.com,ourweekly.com,theatlantavoice.com,washingtoncitypaper.com,washingtonmonthly.com##.social-links-menu
+complex.com##.social-links-top
 bidfood.nl,businesspost.ie##.social-links-wrapper
 denofgeek.com##.social-links__anchor--sharing
 casino.org##.social-list
@@ -12117,6 +12121,7 @@ lifenews.com#?#.post_style_zk > p:has-text(Please subscribe)
 nbcsports.com#?#p.cms-textAlign-center:has-text(follow NBC Sports)
 newskarnataka.com#?#.elementor-button-wrapper:has-text(Social Media)
 newsroom.ucla.edu#?#.promo-card-muted:has-text(RSS feed)
+nytimes.com#?#.gps-module:has-text(on Google)
 openculture.com#?#.execphpwidget:has-text(FREE UPDATES!)
 psypost.org#?#strong:has-text(/Stay informed|Stay on top/)
 qodo.ai#?#.block-single-post__aside-heading:has-text(Share)

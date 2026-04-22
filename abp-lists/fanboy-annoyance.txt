@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: ybKCq2wa5tZBZ/Oed2haOw
-! Version: 202604210300
+! Checksum: 5tmgQYaYWFfzk7hS9iCjVQ
+! Version: 202604220150
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-04-21 03:00 UTC
+! Last modified: 2026-04-22 01:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -14869,6 +14869,7 @@ datacenterdynamics.com##.a2a_default_style
 tandfonline.com##.a2a_share_target
 reserveamerica.com##.acm-article-share
 marriott.com,sandiegouniontribune.com##.action-bar
+wccftech.com##.add-google
 consequence.net##.add-to-google
 womansworld.com##.add-to-google-banner__wrapper___1PWZa
 city-journal.org##.addthis-trigger
@@ -15033,6 +15034,7 @@ koimoi.com##.btn-whatsup
 androidpolice.com##.btn-x
 consumerreports.org##.btn__social
 bu.edu##.bu-sharing
+channelnewsasia.com##.button--google-preferred
 notateslaapp.com##.button-follow
 unz.com##.button-holder
 healthline.com##.button-wrapper
@@ -15195,6 +15197,7 @@ blogto.com##.facebook-round-control
 news.stv.tv##.facebook-share
 moparinsiders.com##.facebook-widget
 thefastmode.com##.facebook_plugin
+channelnewsasia.com##.fast-card__share-button
 shepherd.com##.fav3-share
 thefreedictionary.com##.fb-share
 bearingarms.com,hotair.com,redstate.com##.fb-social
@@ -15887,6 +15890,7 @@ videocardz.com##.social-item-mail
 videocardz.com##.social-item-media
 knewz.com,revolvermag.com##.social-items
 afro.com,berlin-live.de,elsol.com.ar,hongkongfp.com,investigatemidwest.org,lafocusnews.com,ourweekly.com,theatlantavoice.com,washingtoncitypaper.com,washingtonmonthly.com##.social-links-menu
+complex.com##.social-links-top
 bidfood.nl,businesspost.ie##.social-links-wrapper
 denofgeek.com##.social-links__anchor--sharing
 casino.org##.social-list
@@ -34799,7 +34803,7 @@ playswellwithbutter.com#@#a[href^="https://www.pinterest.com/pin/create/button/"
 ||teamsimmer.com/wp-content/uploads/klaro/klaro.js
 ||technomedia.com/*/cookies.js$script,~third-party
 ||terencehill.com/modules/hicookielaw/
-||transcend-cdn.com^$domain=1password.com|aibusiness.com|anaconda.com|apollo.io|aviationweek.com|chubbiesshorts.com|classy.org|conan.io|costco.ca|costco.com|costcobusinessdelivery.com|darkreading.com|digicert.com|etsy.com|eyeconic.com|fanexpohq.com|fashionnova.com|fightingillini.com|forhers.com|gamechoiceawards.com|gamedeveloper.com|gdconf.com|gdcvault.com|gofundme.com|habitburger.com|igf.com|igt.com|indiegogo.com|informa.com|informaconnect.com|jfrog.com|kfc.com|kickstarter.com|lifetouch.com|mountaineast.org|mutigers.com|ncaa.org|netapp.com|notion.com|patreon.com|shutterfly.com|tacobell.co.uk|tandfonline.com|taylorfrancis.com|theaisummit.com|theordinary.com|vimeo.com|visible.com|vsp.com|vspdirect.com
+||transcend-cdn.com^$domain=1password.com|aibusiness.com|anaconda.com|apollo.io|aviationweek.com|chubbiesshorts.com|classy.org|conan.io|costco.ca|costco.com|costcobusinessdelivery.com|darkreading.com|digicert.com|etsy.com|eyeconic.com|fanexpohq.com|fashionnova.com|fightingillini.com|forhers.com|gamechoiceawards.com|gamedeveloper.com|gdconf.com|gdcvault.com|gofundme.com|habitburger.com|igf.com|igt.com|indiegogo.com|informa.com|informaconnect.com|jfrog.com|kfc.com|kickstarter.com|lifetouch.com|mountaineast.org|mutigers.com|ncaa.org|netapp.com|notion.com|nrn.com|patreon.com|shutterfly.com|tacobell.co.uk|tandfonline.com|taylorfrancis.com|theaisummit.com|theordinary.com|vimeo.com|visible.com|vsp.com|vspdirect.com
 ||transcendcdn.eventbrite.com^
 ||tvpworld.com/files/portale-v4/polityka-prywatnosci/js/tvp-tcfapi.js
 ||umich.edu/apis/umcookieconsent/
@@ -37782,7 +37786,6 @@ angular.dev##docs-cookie-popup
 fedex.com##fedex-gdpr
 fi.google.com##fi-cookie-consent
 welcome.sparxmaths.uk##footer
-fresha.com#?#body > div:has-text(cookies)
 getgreatcareers.com##gc-accept-cookie
 globalsolaratlas.info##gsa-cookie-banner
 hathitrust.org##hathi-cookie-consent-banner
@@ -46186,7 +46189,7 @@ concursolutions.com,forbes.com,formula1.com,fortune.com,proximus.be,proximustv.b
 @@||cmp.inmobi.com/tcfv2/$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|flash.gr|ilgiornale.it|informazione.it|mirror.co.uk|mymovies.it|open.online|protothema.gr|tuttoeuropei.com|video.lacnews24.it|video.milanofinanza.it
 @@||cmp.inmobi.com^*/choice.js$domain=adnkronos.com|cornwalllive.com|cyprus-mail.com|dailystar.co.uk|flash.gr|ilgiornale.it|informazione.it|mirror.co.uk|mymovies.it|open.online|protothema.gr|tuttoeuropei.com|video.lacnews24.it|video.milanofinanza.it
 @@||cmp.osano.com^$script,domain=account.bhvr.com|everand.com|guidepoint.com|lucidchart.com|midnight.gd|scribd.com|sonesta.com
-@@||cmp.osano.com^*/osano.js$domain=stltoday.com
+@@||cmp.osano.com^*/osano.js$domain=alltrails.com|stltoday.com
 @@||cmp.sibbo.net^$domain=tivify.tv
 @@||collector.appconsent.io/hello^$xmlhttprequest,domain=linternaute.com
 @@||computerbase.de^*/consent/$script,xmlhttprequest
@@ -50720,7 +50723,7 @@ ba-bamail.com,breakingdefense.com,nordvpn.com,poolsupplies.com,protel.co.nz,publ
 !! .form-newsletter
 exchangerates.org.uk,vozpopuli.com##.form-newsletter
 !! .newsletter-signup
-247sports.com,4029tv.com,abovethelaw.com,asmartbear.com,bookriot.com,breakingdefense.com,carsguide.com.au,christianitytoday.com,citiblog.co.uk,citusdata.com,citynews.ca,click2houston.com,clickorlando.com,cockroachlabs.com,creation.com,currentaffairs.org,dailybee.com,dailysignal.com,dallasinnovates.com,eltrecetv.com.ar,euobserver.com,feadship.nl,fox10phoenix.com,fox13news.com,fox13seattle.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox6now.com,fox7austin.com,fox9.com,foxla.com,freedom.press,frommers.com,hedgehogreview.com,hiphopdx.com,hot97.com,japantimes.co.jp,jta.org,kantinepraat.nl,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,komando.com,ksbw.com,ktvu.com,livescience.com,local10.com,medcitynews.com,morningstar.com.au,motherjones.com,mynbc5.com,pogo.org,progressive.org,propublica.org,publicdomainreview.org,readbetting.com,readcars.co,readceltic.com,readfashion.co,readfilm.co,readfood.co,readgaming.co,readmanutd.com,readmotorsport.com,readmusic.co,readshowbiz.co,readtv.co,samvirke.dk,san.com,slate.com,sportsworldnews.com,tastecooking.com,techfinitive.com,thebeliever.net,thekitchenmagpie.com,tn.com.ar,tomsguide.com,toofab.com,tvtropes.org,undark.org,voetbalverslaafd.nl,wapt.com,wbaltv.com,wcvb.com,wdsu.com,wesh.com,wgal.com,wisn.com,wjcl.com,wlky.com,wlwt.com,wmtw.com,wmur.com,womanandhome.com,wpbf.com,wqxr.org,wtae.com,wvtm13.com,wxii12.com,wyff4.com,zeit.de##.newsletter-signup
+247sports.com,4029tv.com,abovethelaw.com,asmartbear.com,asteriskmag.com,bookriot.com,breakingdefense.com,carsguide.com.au,christianitytoday.com,citiblog.co.uk,citusdata.com,citynews.ca,click2houston.com,clickorlando.com,cockroachlabs.com,creation.com,currentaffairs.org,dailybee.com,dailysignal.com,dallasinnovates.com,eltrecetv.com.ar,euobserver.com,feadship.nl,fox10phoenix.com,fox13news.com,fox13seattle.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox6now.com,fox7austin.com,fox9.com,foxla.com,freedom.press,frommers.com,hedgehogreview.com,hiphopdx.com,hot97.com,japantimes.co.jp,jta.org,kantinepraat.nl,kcci.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,komando.com,ksbw.com,ktvu.com,livescience.com,local10.com,medcitynews.com,morningstar.com.au,motherjones.com,mynbc5.com,pogo.org,progressive.org,propublica.org,publicdomainreview.org,readbetting.com,readcars.co,readceltic.com,readfashion.co,readfilm.co,readfood.co,readgaming.co,readmanutd.com,readmotorsport.com,readmusic.co,readshowbiz.co,readtv.co,samvirke.dk,san.com,slate.com,sportsworldnews.com,tastecooking.com,techfinitive.com,thebeliever.net,thekitchenmagpie.com,tn.com.ar,tomsguide.com,toofab.com,tvtropes.org,undark.org,voetbalverslaafd.nl,wapt.com,wbaltv.com,wcvb.com,wdsu.com,wesh.com,wgal.com,wisn.com,wjcl.com,wlky.com,wlwt.com,wmtw.com,wmur.com,womanandhome.com,wpbf.com,wqxr.org,wtae.com,wvtm13.com,wxii12.com,wyff4.com,zeit.de##.newsletter-signup
 !! .newsletter-container
 advocate.com,avclub.com,cnevpost.com,jezebel.com,life.com,nextplz.fr,out.com,popsci.com,pride.com,qhubomedellin.com,san.com,spendless.com.au,weeklyrecess.com##.newsletter-container
 !! .newsletter-modal
