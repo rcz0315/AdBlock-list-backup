@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604220354
+! Version: 202604230355
 ! Title: Fanboy's Social Blocking List
-! Last modified: 22 Apr 2026 03:54 UTC
+! Last modified: 23 Apr 2026 03:55 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f835455201c33e041191b41868bbccb9175f929f
+! Commit: a14d3cd68c87cde95cc872362c5fb7fcced0cff5
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10661,6 +10661,7 @@ ttgmedia.com##.ao-sbcontent
 asiaone.com##.ao-share-buttons
 thebookseller.com##.aos-Article-ShareLinks
 apnews.com##.ap-embed-wrap-whatsapp
+courthousenews.com##.apps-links
 chargedevs.com##.apss-social-share
 storyboard18.com##.ar_share
 businessday.co.za##.arena-share-bar
@@ -10924,10 +10925,12 @@ thesportingtribune.com##.desktopSocialShare
 capital.com##.detail__soc
 newsonjapan.com##.detailed-social-media-icons
 daily-sun.com##.details_list_group_footer_social__JSbQA
+anthropocenemagazine.org##.divibars-temp-page-container
 dailymail.co.uk##.dms-puff
 aciafrica.org,aciafrique.org,acidigital.com,acimena.com,aciprensa.com,acistampa.com,catholicnewsagency.com##.donation-box
 thefitcareerist.com,thewalrus.ca##.dpsp-network-list-item
 dropbox.tech##.dr-article-content__social-links
+anthropocenemagazine.org##.dssb_sharing_buttons
 theverge.com,vox.com##.duet--article--share-buttons
 conservativewoman.co.uk##.dvk-social-sharing
 dailyboulder.com,echonewshub.com,jugomobile.com,thartribune.com,thegamepost.com,townflex.com##.e-shared-sec
@@ -12118,6 +12121,7 @@ houstonchronicle.com,nhregister.com,registercitizen.com,sfchronicle.com,sfgate.c
 ign.com#?#.promo-card:has-text(Follow us!)
 jacobin.com#?#.po-fr__heading:has-text(Share this article)
 lifenews.com#?#.post_style_zk > p:has-text(Please subscribe)
+livpost.co.uk#?#.kg-align-center.kg-button-card:has-text(Share this story)
 nbcsports.com#?#p.cms-textAlign-center:has-text(follow NBC Sports)
 newskarnataka.com#?#.elementor-button-wrapper:has-text(Social Media)
 newsroom.ucla.edu#?#.promo-card-muted:has-text(RSS feed)

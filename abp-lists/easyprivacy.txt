@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604220354
+! Version: 202604230404
 ! Title: EasyPrivacy
-! Last modified: 22 Apr 2026 03:54 UTC
+! Last modified: 23 Apr 2026 04:04 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f835455201c33e041191b41868bbccb9175f929f
+! Commit: 2bcc47583a70f8a18857fc2c77fe212c9ccf4c00
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -17070,7 +17070,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ! #endif
 ! *** easylist:easyprivacy/easyprivacy_specific_uBO.txt ***
 ! easyprivacy_specific_uBO.txt
-! #if ext_ublock
+! #if (ext_ublock || adguard)
 ! https://github.com/AdguardTeam/AdguardFilters/issues/180750
 ||pcoptimizedsettings.com/wp-content/plugins/koko-analytics/$important,redirect=noop.js,script
 ||pcoptimizedsettings.com/wp-content/uploads/breeze/google/gtag.js$important,redirect=noop.js,script
@@ -17099,10 +17099,11 @@ abc17news.com,al.com,artforum.com,artnews.com,awkward.com,awkwardmom.com,bailiwi
 baeldung.com,cheatsheet.com,mensjournal.com,pwinsider.com##+js(rmnt, script, admiral)
 gbatemp.net##+js(set, admiral, noopFunc)
 usatoday.com##+js(set, gnt.x.adm, '')
+||operationsports.com/wp-json/navy/v1/tag?pid=
 ! noopjson
 ||acustomizedgift.com^$redirect=noopjs,script
 ||acustomizedgift.com^$redirect=noopjson,xmlhttprequest
-||inventorycache.com^$redirect=noopjson,xmlhttprequest
+||inventorycache.com^$redirect=noopjs,script
 ||kindhush.com^$redirect=noopjson,xmlhttprequest
 ||oceancloudhosts.com^$redirect=noopjson,xmlhttprequest
 ! anikore.jp
@@ -55463,6 +55464,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||riverlink.etcchosted.com/widgets/com/mendix/widget/web/googletag/GoogleTag.js$~third-party
 @@||rollbar.com^*/rollbar.min.js$domain=rollingstone.com|variety.com|wwd.com
 @@||s-microsoft.com/mscc/statics/$script,domain=microsoft.com
+@@||salesforce.com/beacon/$script,domain=safeway.ca
 @@||sc.youmaker.com/site/article/count?
 @@||scorecardresearch.com^*/streamingtag_plugin_jwplayer.js
 @@||sdk.mrf.io/statics/marfeel-sdk.js$script,domain=autoplus.fr|computerhoy.20minutos.es|mundodeportivo.com
