@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604250341
+! Version: 202604260407
 ! Title: EasyPrivacy
-! Last modified: 25 Apr 2026 03:41 UTC
+! Last modified: 26 Apr 2026 04:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 92d9420f9504695d5eef8e10613f2dd7a70b42de
+! Commit: 0f4e6bc8ffeb16a2fe4a5791611aa12a9acca0c3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8836,6 +8836,7 @@ omni.soundestlink.com$image
 ||wretchedfloor.com^
 ||writerhubs.com^
 ||writewealth.com^
+||writingcalls.com^
 ||wrongpotato.com^
 ||wrongwound.com^
 ||wtaccesscontrol.com^
@@ -11999,6 +12000,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||primer.typekit.net^$xmlhttprequest
 ||prism.app-us1.com^$script,third-party
 ||prismaconnect.fr/prd/ping
+||privacy-analytics-proxy.cookiebot.com^
 ||privacy-center.org^*/events
 ||privacy.outdoorsg.com^
 ||processor.asccommunications.com^
@@ -14816,6 +14818,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||barry-callebaut.com/pd.js
 ||bat.maydream.com^
 ||bats.video.yahoo.com^
+||bc.nejm.org/script.js
 ||bcbits.com/bundle/bundle/1/analytics-$domain=bandcamp.com
 ||bcbits.com/bundle/bundle/1/impl-$domain=bandcamp.com
 ||beacon.dropbox.com^

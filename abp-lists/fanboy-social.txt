@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202604250341
+! Version: 202604260407
 ! Title: Fanboy's Social Blocking List
-! Last modified: 25 Apr 2026 03:41 UTC
+! Last modified: 26 Apr 2026 04:07 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 92d9420f9504695d5eef8e10613f2dd7a70b42de
+! Commit: 0f4e6bc8ffeb16a2fe4a5791611aa12a9acca0c3
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10458,6 +10458,7 @@ admonsters.com###ftr_social-icons
 tasteofhome.com###gch-social-icons
 birdsandblooms.com,familyhandyman.com,rd.com,thehealthy.com###gch-social-share-container
 geekdashboard.com###gd-social-widget
+ndtv.com###googelPref
 seattletimes.com###google-preferred-btn
 bleedingcool.com###google_follow
 wccftech.com###google_preferred_source_box
@@ -11940,6 +11941,7 @@ videogameschronicle.com##.vgc-socialshare
 ms.now##.video-details__social-share-menu
 healthday.com##.video-story-m_share__d27z7
 natlawreview.com##.view-footer
+ndtv.com##.vj_copy-i
 motorsport.tv##.vjs-icons-bar
 dailymail.co.uk##.vjs-social-controls
 amgreatness.com##.w-full.mb-10
@@ -11986,6 +11988,7 @@ destructoid.com##.wp-block-gamurs-footer-nav__website-info__socials
 hsph.harvard.edu##.wp-block-hsph-sharing
 ogbongeblog.com##.wp-block-jetpack-send-a-message
 comicbook.com,hyperallergic.com,reneweconomy.com.au,vice.com##.wp-block-jetpack-sharing-buttons
+vice.com##.wp-block-jetpack-sharing-buttons-wrapper
 publichealthpolicyjournal.com,theonion.com##.wp-block-outermost-social-sharing
 newsreleases.sandia.gov##.wp-block-snl-blocks-snl-social-share-btns
 techcrunch.com##.wp-block-techcrunch-social-share
@@ -12151,6 +12154,7 @@ theintercept.com#?#[data-ga-track-action]:has-text(Join The Conversation)
 theshovel.com.au#?#.padding-top-small > .widgetizedArea:has-text(Like this)
 tvblackbox.com.au#?#.tdm-descr:has-text(Share)
 twitch.tv#?#.tw-balloon:has-text(Share To)
+yahoo.com#?#.py-\[10px\]:has-text(Add Yahoo on Google)
 ! ! top-level domain wildcard
 royalqueenseeds.*##.social-media-icons-footer
 miruro.*##section[class^="_noticeSection_"]
@@ -12203,7 +12207,7 @@ abc13.com,akkogear.com.vn,allears.net,alternet.org,andreagaleazzi.com,asmartbear
 ! ! .shares
 bulawayo24.com,cnr.cn,foodbeast.com,forbes.ru,iol.pt,levantenews.it,twistedfood.co.uk##.shares
 ! ! .sharing
-amoledo.com,astrologyzone.com,consigli.it,damninteresting.com,goedgevoel.be,goodnet.org,indiatoday.in,marketingweek.com,metacritic.com,moviemaker.com,numberempire.com,onlineradiobox.com,ornews.it,raiplay.it,screenrant.com,spectator.com.au,thegrio.com,thepointsguy.com,versicherungsbote.de##.sharing
+amoledo.com,astrologyzone.com,consigli.it,damninteresting.com,dreadcentral.com,goedgevoel.be,goodnet.org,indiatoday.in,marketingweek.com,metacritic.com,moviemaker.com,numberempire.com,onlineradiobox.com,ornews.it,raiplay.it,screenrant.com,spectator.com.au,thegrio.com,thepointsguy.com,versicherungsbote.de##.sharing
 ! ! .social-bar
 almayadeen.net,argovia.ch,augustanews.it,autozeitung.de,avolanews.it,bearingarms.com,catanianews.it,eviva.ch,flashbackfm.ch,formel1.de,glasgowtimes.co.uk,heraldscotland.com,hotair.com,ibleinews.it,latimes.com,leontinoinews.it,meridiano.net,motorsport-total.com,notonews.it,pachinonews.it,pjmedia.com,puntal.com.ar,radio24.ch,radio32.ch,radiocentral.ch,radiofm1.ch,radiomelody.ch,radiopilatus.ch,redstate.com,salisburyjournal.co.uk,sicilianews.it,siracusanews.it,sunshine.ch,tag24.de,telem1.ch,telezueri.ch,thecollegefix.com,thenational.scot,townhall.com,virginradio.ch##.social-bar
 ! ! .social-container
