@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202604300407
+! Version: 202605010431
 ! Title: EasyPrivacy
-! Last modified: 30 Apr 2026 04:07 UTC
+! Last modified: 01 May 2026 04:31 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 8198fd0aa3e556c66b05b77e08f8bf8b524da97a
+! Commit: e002ddc550f9c274483602ff3ef18a7549922f73
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7662,7 +7662,6 @@ omni.soundestlink.com$image
 ||kernellife.com^
 ||kidpowers.com^
 ||kindasingle.com^
-||kindhush.com^$~xmlhttprequest
 ||kindlereunion.com^
 ||kitetuning.com^
 ||kittentacos.com^
@@ -17144,7 +17143,6 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ! noopjson
 ||acustomizedgift.com^$redirect=noopjs,script
 ||inventorycache.com^$redirect=noopjs,script
-||kindhush.com^$redirect=noopjson,xmlhttprequest
 ||oceancloudhosts.com^$redirect=noopjson,xmlhttprequest
 ||ubiquitoussea.com^$redirect=noopjs,script
 ! anikore.jp
@@ -53245,7 +53243,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||plausible.motorpresse.de^
 ||playox.de/analytics/
 ||pons.com/pons-site-website-assets/lib/analytics.min.js
-||pons.com/pons-site-website-int/_astro/website-analytics.$script
 ||potsdamer-stadtplan.com/t.gif
 ||pstt.mtb-news.de^
 ||px.derstandard.at^
