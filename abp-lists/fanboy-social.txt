@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202605080409
+! Version: 202605090414
 ! Title: Fanboy's Social Blocking List
-! Last modified: 08 May 2026 04:09 UTC
+! Last modified: 09 May 2026 04:14 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 99ab0c7fc870a57d7a93b14a36e4c92e82501a93
+! Commit: 1bccfc8598bcbdd4cf73b02ca34fb8325593da01
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11107,6 +11107,9 @@ kingmodapk.net##.ftr_social_box
 map.org.uk##.fun-social-proof-iframe
 mlbtraderumors.com,prohockeyrumors.com##.fv_sharing_round
 fxstreet.com##.fxs_bg_light_5_clr
+citizen.co.za##.g-cta-sidebar
+citizen.co.za##.g-cta-single
+citizen.co.za##.g-cta-single-socials
 getty.edu##.g-footer__social
 americansongwriter.com##.g1-google-buttons
 ebaumsworld.com##.galleryImageShare
@@ -11969,6 +11972,7 @@ ctrl.blog##.webshare
 firstpost.com##.whats-app-desc
 businesstoday.in##.whatsAppChannel
 dailymail.co.uk,oogtv.nl##.whatsapp
+citizen.co.za##.whatsapp-ad
 christiandaily.com##.whatsapp-follow-box
 bolavip.com##.whatsapp-link
 aajtak.in,businesstoday.in##.whatsapp_channel
