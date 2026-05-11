@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: etmONSonZsXtAevq+DFKNA
-! Version: 202605100225
+! Checksum: Y+F8+QTQWzGaS4HJmkp4aQ
+! Version: 202605110325
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-05-10 02:25 UTC
+! Last modified: 2026-05-11 03:25 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -16423,6 +16423,7 @@ techissuestoday.com#?#.mar-b-6:has-text(Follow Us)
 thedispatch.com#?#.border-y.py-2:has-text(Share)
 theguardian.com#?#.dcr-4gwv1z > ul:has-text(Get our)
 theintercept.com#?#[data-ga-track-action]:has-text(Join The Conversation)
+thenarwhal.ca#?#.text-and-button__container:has-text(Add The Narwhal)
 theshovel.com.au#?#.padding-top-small > .widgetizedArea:has-text(Like this)
 tvblackbox.com.au#?#.tdm-descr:has-text(Share)
 twitch.tv#?#.tw-balloon:has-text(Share To)
@@ -35291,6 +35292,7 @@ overunity.com###ecl_outer
 ebookfriendly.com###ecmr
 eib.org###eib-popup-policy
 fiveirongolf.com###elementor-popup-modal-16781
+fleurymichonamerica.com###elementor-popup-modal-671
 missouriquiltco.com###enjoySomeCookies
 petri.com###enlivy-kit-cookie-policy-container
 govnet.ro###enterSiteModal
@@ -35629,7 +35631,7 @@ edealinfo.com###showFTCMessage
 edealinfo.com###showFTCMessage-back
 convertlive.com###sid-container
 investing.com###sideNotificationZone
-traefik.io###silktide-banner
+beelzebub.ai,traefik.io###silktide-banner
 pqimemory.com###simple-notice-wrap-content
 centurion-magazine.com###simple-notification
 isa.org###simplemodal-container
@@ -44990,6 +44992,7 @@ rencredit.ru##div[data-attention-id="3420"]
 yoomoney.ru##div[data-qa="gdpr"]
 youdo.com##div[data-sentry-component="AccessCookies"]
 smi2.ru##div[data-sentry-component="CookieBtn"]
+dfm.ru,hitfm.ru,maximum.ru,montecarlo.ru,rusradio.ru##div[data-sentry-component="CookiesWindow"]
 russianfield.com##div[data-storage-item^="t886cookiename_"]
 knmoloko.ru##div[data-storage-item^="t887cookiename_"]
 litres.ru##div[data-testid="cookieAcceptPopup"]
@@ -54275,7 +54278,7 @@ reddit.com##body,html:style(overflow: auto !important;)
 reddit.com##+js(prevent-addEventListener, touchmove)
 reddit.com##+js(remove-class, rpl-scroll-lock, body, stay)
 reddit.com##+js(remove-class, scroll-is-blocked, body, stay)
-reddit.com##.rpl-bottom-sheet
+reddit.com#?#.rpl-bottom-sheet:has-text(Get the app)
 ! tiktok
 tiktok.com##+js(set-session-storage-item, webapp_first_open_cta, 1)
 tiktok.com##.e1pecv674.css-99ed1t-DivFooterGuide
