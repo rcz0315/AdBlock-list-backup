@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202605110444
+! Version: 202605120414
 ! Title: EasyPrivacy
-! Last modified: 11 May 2026 04:44 UTC
+! Last modified: 12 May 2026 04:14 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b4d40bad2d5a1bb855acc617b81935bdb851c71e
+! Commit: caa3fcc1aca2d9cbb3256db2bed842d9c491d46d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7272,6 +7272,7 @@ omni.soundestlink.com$image
 ||epicoldschool.com^
 ||epicswimming.com^
 ||equablekettle.com^
+||esoterictools.com^
 ||essaygiants.com^
 ||essayspin.com^
 ||etherealbamboo.com^
@@ -7296,6 +7297,7 @@ omni.soundestlink.com$image
 ||exuberantedge.com^
 ||fabcharting.com^
 ||fabledsoul.com^
+||fabulousbooking.com^
 ||facilitatebreakfast.com^
 ||factorybarbell.com^
 ||fadedsnow.com^
@@ -7995,6 +7997,7 @@ omni.soundestlink.com$image
 ||pastoralroad.com^
 ||pawsnug.com^
 ||peacefullimit.com^
+||peakcreator.com^
 ||pearpouch.com^
 ||pedropanther.com^
 ||peeringhost.net^
@@ -14798,6 +14801,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||apigw.scmp.com/metrics/monitoring
 ||apigw.scmp.com/pwa-v2-unleash-proxy/proxy/client/metrics
 ||aplus.qwen.ai/aplus.monitor.log_arrival_rate
+||apm.qwant.com^
 ||app-bnkr.b-cdn.net/js/lv.js
 ||app.box.com/app-api/split-proxy/api/metrics
 ||app.box.com/gen204
@@ -15105,6 +15109,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dd.auspost.com.au^
 ||dd.g2.com^
 ||dd.nytimes.com^
+||dd.qwant.com^
 ||dd.viator.com^
 ||ddome-tag.blablacar.com^
 ||dealdash.com/tracker-json

@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: eSWHOpeMiIvfACGp1E0qvw
+! Checksum: xOATl/DO+6sW7hmi7cot9g
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/0fe7cbcd73c1966bf23734eb77f41cd570eb47fb.json
-! Version: 202605040702
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/5dd970256ecdf06756338f9d65d25ffbdfde737c.json
+! Version: 202605110702
 ! Title: Free - Distraction Control
-! Last modified: 04 May 2026 07:02 UTC
+! Last modified: 11 May 2026 07:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 !
@@ -469,3 +469,4 @@ news.com.au#$#simulate-mouse-event '.op-embed-player[data-op-view="sticky"] [ari
 yahoo.com#$#simulate-mouse-event '.evp-docked-mode .evp-docked-close-button$continue'
 abcnews.go.com#$#simulate-mouse-event '.StickyVideoPlayer .StickyVideoPlayer-close'
 thehill.com#$#simulate-mouse-event '.video-float .video-float-close'
+zdnet.com#$#simulate-mouse-event '.c-avStickyVideo_close'
