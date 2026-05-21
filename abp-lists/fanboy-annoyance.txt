@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VHYC4+IUq+df1h+1r6DqFg
-! Version: 202605192350
+! Checksum: kEtPCn3i7DodUdwTALblgA
+! Version: 202605210300
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-05-19 23:50 UTC
+! Last modified: 2026-05-21 03:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -4189,6 +4189,10 @@ medscape.com##body:style(overflow: auto !important;)
 startribune.com##+js(remove-cookie, client_id)
 ! https://github.com/uBlockOrigin/uAssets/issues/27421
 theverge.com##+js(aeld, scroll)
+! usni.org
+usni.org###articleCookieModal
+usni.org##+js(remove-cookie, STYXKEY_nh_count)
+usni.org##+js(remove-cookie, STYXKEY_pro_count)
 ! accuradio.com (login nag)
 accuradio.com##.ReactModal__Overlay--after-open.ReactModal__Overlay
 ! Mouse out nags
@@ -14665,6 +14669,7 @@ butterwithasideofbread.com###aboutsocial
 torrentsafe.com###addthisimage
 9to5google.com,9to5mac.com,dronedj.com,electrek.co###after_disclaimer_placement
 hot-dinners.com###ampz_inline_top
+autonocion.com###an-gfollow-wrap
 physics.aps.org###aps-share-widget
 cepr.net###art-social-wrap
 houstonpublicmedia.org,iclnoticias.com.br###article-share
@@ -15013,6 +15018,8 @@ thespectator.com##.article_set_wrap
 news9live.com##.article_socialShare
 news18.com##.article_socials
 news18.com##.artshare
+insider-gaming.com##.aspect-1660-250
+insider-gaming.com##.aspect-400-600
 telegraphindia.com##.astkysharebox
 batman-news.com##.astra-widget-social-profiles
 attitude.co.uk##.at-article__social
@@ -15588,6 +15595,7 @@ businessinsider.com##.mi-logo-social-container
 sportsnet.ca##.micro_social-icons__E_pIu
 news18.com##.midgprfd
 washingtonian.com##.min-height-800
+autonocion.com##.mn-share
 travelandleisure.com##.mntl-footer__social
 thehackernews.com##.mobile-share
 recipes.timesofindia.com##.mobile-sprite
@@ -15967,6 +15975,7 @@ tmz.com##.social-item
 videocardz.com##.social-item-mail
 videocardz.com##.social-item-media
 knewz.com,revolvermag.com##.social-items
+psychologytoday.com##.social-links-bottom
 afro.com,berlin-live.de,elsol.com.ar,hongkongfp.com,investigatemidwest.org,lafocusnews.com,ourweekly.com,theatlantavoice.com,washingtoncitypaper.com,washingtonmonthly.com##.social-links-menu
 complex.com##.social-links-top
 bidfood.nl,businesspost.ie##.social-links-wrapper
@@ -35153,7 +35162,7 @@ nasdaq.com###consent-placeholder-onetrust
 audacityteam.org,tecadmin.net###consent-popup
 niwa.co.nz###consent-request
 store.steelcase.com###consent-skeleton
-altardstate.com,cacaushow.com.br,citizenwatch.com,helzberg.com,manyavar.com,mechanix.com,michele.com###consent-tracking
+altardstate.com,cacaushow.com.br,citizenwatch.com,helzberg.com,lac.sg,manyavar.com,mechanix.com,michele.com###consent-tracking
 nordvpn.com###consent-widget-container
 polymerclaylatvia.com###consent-window
 jp.ign.com,kickoff.com,soccerladuma.co.za###consent-wrapper
@@ -35664,6 +35673,7 @@ hairbro.com###shopify-section-cookie-popup
 babymori.com###shopify-section-cookie-settings
 bewellbykelly.com###shopify-section-cookies-banner
 arcade1up.com,infinitygametable.com###shopify-section-cookies_consent
+pipingrock.com###shopify-section-custom-cookie-consent
 ankerwork.com,elginusa.com,manlymanco.com,recongearusa.com,seedbarn.com,techmarkit.co.za###shopify-section-fixed-message
 koifootwear.com###shopify-section-popup
 itinstock.com###shopui-cookie-popup-container
@@ -38667,7 +38677,7 @@ shopbuddies.be,shopbuddies.co.uk,shopbuddies.fi,shopbuddies.pl,shopbuddies.se##[
 !! .cookie-hint
 afto.al,frs-elbfaehre.de,frs-helgoline.de,frs-portugal.pt,frs-shipmanagement.eu,frs-syltfaehre.de,frs.world,fwol.de,reederei-hiddensee.de,weisse-flotte.de##.cookie-hint
 !! .cookieConsent
-barcode.tec-it.com##.cookieConsent
+barcode.tec-it.com,biovea.com##.cookieConsent
 centreforaviation.com,mbank.pl,picofme.io##[class^="cookieConsent"]
 !! .alert
 afribaba.com,afribobo.com,agroterra.com,aicom.pl,akvis.com,allsmo.com,americanairlines.fi,asklion.co.uk,barker.com.tr,basilica.ro,betmagician.com,broadcasting-services.eu,bucurobor.ro,calamos.com,cfainstitute.org,coalsoft.cz,creacast.com,delonghi.ru,dirigentindustria.it,discoverdominica.com,eichendorff21.de,faperme.it,fecareers.co.uk,fitd.it,gamesjobsdirect.com,go4schools.com,hallo-minden.de,hotelier101.com,jetcs.co,jobflurry.com,jobsinwales.com,kdl.ru,kupbilet.pl,lavozdegalicia.es,linuxcompatible.org,livepartners.it,m-a.org.uk,montenisa.com,nironmagnetics.com,nyman.media,osevio.com,pneusb2b.com,povr.com,smullers.nl,teogkaffespecialisten.dk,theonlinesurgery.co.uk,tinyurl.com,uabstyle.it,varlesca.pl,visitnarva.ee,warp2search.net,www.comune.novara.it,yithlibrary.com##.alert
@@ -40538,7 +40548,7 @@ potsdamerplatz.de##+js(set-cookie, ppCookieConsent, false)
 tailorit.de##+js(set-cookie, pr1Cookie, true)
 web2.0calc.fr##+js(set-cookie, precmp, 1, , reload, 1)
 ytcomment.kmcat.uk##+js(set-cookie, privacy, true)
-bike-components.de##+js(set-cookie, privacy-202506171327, 0, , reload, 1)
+bike-components.de##+js(set-cookie, privacy-202605041328, 0, , reload, 1)
 quantamagazine.org##+js(set-cookie, privacy-consent-given, 0)
 linztourismus.at##+js(set-cookie, privacy-manager-settings, functional, , reload, 1)
 dbschenker-seino.jp,dbschenker.com,dbschenkerarkas.com.tr##+js(set-cookie, privacy-notice-responded, 0)
@@ -48857,6 +48867,7 @@ press-start.com.au##.block-wrap-mailing
 carnewschina.com##.block__newsletter
 bluetrain.ca##.block__newsletter-cta
 tuta.com##.blog-cta
+psychologytoday.com##.blog-entry--subscribe-form
 thehustle.co##.blog-hustle-form-config-wrapper
 curiosum.com##.blog-newsletter__title
 instadeq.com##.blog-post-newsletter
@@ -49611,6 +49622,7 @@ pymnts.com##.ml-subscribe-form-5774674
 thebestcakerecipes.com##.ml-vertical-align-center
 lizzomusic.com##.mlform
 thestreet.com##.mm-navigation--multiple-menus
+autonocion.com##.mn-nl
 forskersonen.no,forskning.no,sciencenorway.no##.mnm-form
 travelandleisure.com##.mntl-footer__newsletter
 stopmandatoryvaccination.com##.moOptinForm
@@ -49962,6 +49974,7 @@ triblive.com##.promo-email-newsletter
 fox4news.com,fox7austin.com##.promo-image
 endocrineweb.com##.promo-inline
 themarkup.org##.promotion--newsletter
+polygon.com##.promotion-offer-box
 simpurelife.com##.proof-factor-app
 slate.com##.prudie-google-form
 cricket365.com,football365.com,golf365.com,loverugbyleague.com,planetf1.com,planetfootball.com,planetrugby.com,teamtalk.com,tennis365.com##.ps-email-subscription
@@ -52363,6 +52376,7 @@ crucial.com,magazines.com,napacanada.com##.email-signup
 logitechg.com##.email-subscription
 iherb.com##.email-subscription-container
 levi.com##.email-subscription-form
+iherb.com##.email-subscription-new-container
 offers.com##.email-updates
 rosegal.com##.email-wrap
 hammacher.com##.emailBox
