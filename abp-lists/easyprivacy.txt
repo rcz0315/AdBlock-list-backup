@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202605310509
+! Version: 202606010601
 ! Title: EasyPrivacy
-! Last modified: 31 May 2026 05:09 UTC
+! Last modified: 01 Jun 2026 06:01 UTC
 ! Expires: 4 days (update frequency)
-! Commit: f4f14d3cc3963998e6cc63e16c90bc8f57f41aac
+! Commit: a33f52a9804ac20f4b3993dac5fb716693409692
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3036,8 +3036,8 @@ _WebVitalsReporter_
 /rrweb.js
 /rrweb.min.js
 ! DNS checks
-/DNSCheck.js
-/DNSChecker.js
+/DNSCheck.js$domain=~github.com
+/DNSChecker.js$domain=~github.com
 ! hawkeye
 /hawk.js
 /hawkeye.js
@@ -3908,6 +3908,7 @@ omni.soundestlink.com$image
 ||ugdturner.com^
 ||uidapi.com^
 ||uimarketpro.com^
+||umami.dev^
 ||uqd.io^
 ||usrpubtrk.com^
 ||ustat.info^
@@ -10163,6 +10164,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.skyscanner.net^
 ||analytics.sleeknote.com^
 ||analytics.snidigital.com^
+||analytics.steast.io^
 ||analytics.strangeloopnetworks.com^
 ||analytics.superstructure.ai^
 ||analytics.supplyframe.com^
@@ -12085,6 +12087,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rtxpx-a.akamaihd.net^
 ||rudder-server-prd.arena.im/v1/track
 ||rudder-tracking.rudderstack.com^
+||rudderstack.com/v1/track
 ||rum-collector.leaderint.workers.dev^
 ||rum.azion.com^
 ||rum.azioncdn.net^
