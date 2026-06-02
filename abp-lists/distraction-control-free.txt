@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: U2qTW3K4nnIpe8Ft3kAKWA
+! Checksum: YmnXx40aCwxqlMB8jetlJQ
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/9389612edcf3b37dfcbd246c2c72eace8ef851f3.json
-! Version: 202605250701
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/8a8d30f8483d20a97d0f5720e80700f0fbd787fc.json
+! Version: 202606010702
 ! Title: Free - Distraction Control
-! Last modified: 25 May 2026 07:01 UTC
+! Last modified: 01 Jun 2026 07:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 !
@@ -132,6 +132,8 @@ bonappetit.com#?#[class^="InContentBarrierFloatingBar"]:-abp-contains(START FREE
 ||production.neocomapp.com/prompt^$domain=hemden.de
 ! Example: https://www.vieuxloupdemer.com/
 /popup.$domain=vieuxloupdemer.com
+! Example: https://www.theshopsatlacantera.com/en/
+/widget/popup.js$domain=theshopsatlacantera.com
 ! *** distraction-control:suggestion/hiding_general.txt ***
 !
 ! general hiding rules
@@ -214,6 +216,7 @@ anythinggrowsalberta.com,roborockstore.com.au#$#simulate-mouse-event '[class^="o
 auburnchevroletgmc.com#$#simulate-mouse-event '.ui-dialog-entry[role="dialog"] .ui-dialog-titlebar-close'
 auburnchevroletgmc.com#$#simulate-mouse-event '.nl_open_fixed #nl-close'
 fastreel.com#$#simulate-mouse-event '.om-position-popup .CampaignType--popup button[title="Close"]$continue'
+gbnews.com#$#simulate-mouse-event '.tp-modal-open .tp-close'
 ! *** distraction-control:video/blocking_general.txt ***
 !
 ! general blocking rules
@@ -464,9 +467,11 @@ thekitchn.com#$#simulate-mouse-event '.Video.is-minimized button[aria-label="clo
 bluewin.ch#$#simulate-mouse-event '.acm_sticky_active_parent .acm_sticky_active .acm_sticky_close'
 washingtonexaminer.com#$#simulate-mouse-event '.brid-playing[style="width: 788px; height: 443.619px;"] + .brid-close'
 dailyhive.com#$#simulate-mouse-event '#fw-player[style*="visibility: visible;"] ^^sh^^ .cy-back_close'
-ctvnews.ca#$#simulate-mouse-event 'div[class*="jasper-player-root__float"][style="width: 300px; height: 168px; bottom: 25px; right: 25px;"] button[aria-label="Close float player"]$continue'
+ctvnews.ca#$#simulate-mouse-event 'button[aria-label="Close float player"]'
 news.com.au#$#simulate-mouse-event '.op-embed-player[data-op-view="sticky"] [aria-label="Close player"]'
 yahoo.com#$#simulate-mouse-event '.evp-docked-mode .evp-docked-close-button$continue'
 abcnews.go.com#$#simulate-mouse-event '.StickyVideoPlayer .StickyVideoPlayer-close'
 thehill.com#$#simulate-mouse-event '.video-float .video-float-close'
 zdnet.com#$#simulate-mouse-event '.c-avStickyVideo_close'
+cnet.com#$#simulate-mouse-event '.c-avStickyVideo button.vjs-mute-control$trigger,delay=0' '.c-avStickyVideo_close'
+gbnews.com#$#simulate-mouse-event '[id^="primis_playerSekindoSPlayer"][style*="z-index"] #closeIconHit'
