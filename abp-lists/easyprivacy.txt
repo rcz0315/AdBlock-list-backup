@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606030557
+! Version: 202606040533
 ! Title: EasyPrivacy
-! Last modified: 03 Jun 2026 05:57 UTC
+! Last modified: 04 Jun 2026 05:33 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 981354737aec7bbb832135555cb4db75349415b1
+! Commit: ca202926a85be9c692581dbd7f877c8518aed4b0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3808,6 +3808,7 @@ omni.soundestlink.com$image
 ||pzimff.com^
 ||q0losid.com^
 ||qntm.pro^
+||queen-one.net^
 ||quickkoala.io^
 ||quickpcfixer.click^
 ||r42tag.com^
@@ -7132,6 +7133,7 @@ omni.soundestlink.com$image
 ||datastoried.com^
 ||daybreaklights.com^
 ||daymodern.com^
+||dazzlescript.com^
 ||dazzlingbook.com^
 ||dealchocolate.com^
 ||debonairdust.com^
@@ -7180,6 +7182,7 @@ omni.soundestlink.com$image
 ||distributiontomatoes.com^
 ||disturbedquiet.com^
 ||dockdigestion.com^
+||documentstock.com^
 ||dodgebugs.com^
 ||dogbedscentral.com^
 ||dogcollarfavourbluff.com^
@@ -11884,6 +11887,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.fohr.co^
 ||pixel.lilystyle.ai^
 ||pixel.locker2.com^
+||pixel.marqo-ep.ai^
 ||pixel.mintigo.com^
 ||pixel.mtrcs.samba.tv^
 ||pixel.newscred.com^
@@ -15019,6 +15023,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||dap.digitalgov.gov/Universal-Federated-Analytics-Min.js
 ||darkreader.org/elements/statistics.js
 ||data.allstate.com^
+||data.api.canalplus.com/event
 ||data.barry-callebaut.com^
 ||data.cheatography.com/banana.js
 ||data.debugbear.com^
@@ -16722,6 +16727,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||youtube-nocookie.com/youtubei/v1/log_event?
 ||youtube.com/api/stats/ads?
 ||zed.dev/docs/theme/analytics.js
+||zoom.us/*/telemetry
 ! ||youtube.com/api/stats/atr?ns=*&ver=2&cmt=1.*&fs=0&*&euri&lact=
 ||youtube.com/api/stats/qoe?*page&ns=yt&fexp=v1%*&event=streamingstats&
 ||youtube.com/get_video?
