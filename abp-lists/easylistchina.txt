@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: LF8OBevLSIpb4PuvGJf1bw
-! Version: 202606040541
+! Checksum: 2IB30kaD0Di6rwRxTHDwuA
+! Version: 202606050501
 ! Title: EasyList China
-! Last modified: 04 Jun 2026 05:41 UTC
+! Last modified: 05 Jun 2026 05:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1778,12 +1778,22 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||lodipq3zb.com^
+||wwavo59q3.com^
+||blackthorn88.com^
+||nahdlvqwqkzxby.com^
 ||branch20.top^
 ||m3v8x28jut.com^
 ||dd81bp3qbj.com^
 ||pxlizduukhnpps.com^
 ||va3yq7si6w.com^
 ||xgsspao.com^
+||5eyal1g5a9.com^
+||efh2rahxxq.com^
+||fx455rrt4b.com^
+||jtzyk9iypb.com^
+||wc6y3nrv7g.com^
+||0otmh22aj2.com^
 ||nbwsj9gnd.com^
 ||t19olm6fd.com^
 ||dukwznn0x.com^
@@ -11286,7 +11296,7 @@ meijutt.*/js/pcjs/
 ||pc-util.gamersky.com^
 ||kssms.com/click/play.
 ||exmoo.com/js/ad-position/
-||ltd.ua/zz
+||nbpicture.xyz^$domain=ltd.ua
 !------------------------Specific element hiding rules------------------------!
 huaren.live##.pause-love
 staticfile.link###player_pause
@@ -11319,8 +11329,8 @@ iplark.com##div[style="position: relative;"]
 cngold.org#?#.w310:-abp-has(>.swiper-company)
 cngold.org##.headCompanys
 cngold.org##.mainRight > .border_top:first-child
-ping0.cc##.xzeles
-ping0.cc###adbright
+ping0.cc##.xaeles
+ping0.cc###adfright
 cngold.org##.foot_megagame
 cngold.org##.fixed_jt
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
