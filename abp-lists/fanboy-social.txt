@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202606070510
+! Version: 202606080537
 ! Title: Fanboy's Social Blocking List
-! Last modified: 07 Jun 2026 05:10 UTC
+! Last modified: 08 Jun 2026 05:37 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6d70bbc9aea06641decb0ef8b482a9ed3faffa4d
+! Commit: 7ce5e2588898a1fdbd4d3534cbc187b58f69fe1c
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10622,6 +10622,7 @@ rbth.com##.Popup-telegram
 sfstandard.com##.PopupSharer_container__Nhcrt
 aerospaceglobalnews.com##.PostMetaBar__Social
 cricketcountry.com##.PreferredSourcesDesktop
+thehealthsite.com##.PreferredSourcesDetails
 whatcar.com##.ReviewSocialSection_reviewSocialSection__qzV0o
 ndtv.com##.SSR_drp
 abc.net.au##.ShareBanner_container__OX63I
@@ -10665,6 +10666,7 @@ datacenterdynamics.com##.a2a_default_style
 tandfonline.com##.a2a_share_target
 reserveamerica.com##.acm-article-share
 marriott.com,sandiegouniontribune.com,walb.com##.action-bar
+greekcitytimes.com##.adasprso-inline-container
 wccftech.com##.add-google
 consequence.net##.add-to-google
 usmagazine.com##.add-to-google-banner
@@ -11182,11 +11184,12 @@ alarabiya.net##.google-news-callout
 dailygalaxy.com,glassalmanac.com##.google-news-card
 cybernews.com,sammobile.com##.google-news-cta
 phonearena.com,quiverquant.com##.google-news-follow
+barchart.com##.google-news-image-wrapper
 kyivpost.com##.google-news-preffer-button
 bleedingcool.com##.google-news-source
 essentiallysports.com##.google-perference_googlePerference__h94ae
 timesofisrael.com##.google-prefer-module
-ringsidenews.com,tmz.com##.google-preferred-btn
+ringsidenews.com,thehealthsite.com,tmz.com##.google-preferred-btn
 realestate.com.au##.google-preferred-link
 sammobile.com##.google-preferred-news-source-cta
 cultofmac.com##.google-preferred-source
@@ -11563,7 +11566,7 @@ designboom.com,holyrood.com,rpgfan.com##.share-bar
 thedirect.com##.share-bar-2
 ny1.com##.share-bar-container
 buzzfeed.com##.share-bar_buzzfeed___uZ4R
-beincrypto.com##.share-block
+barchart.com,beincrypto.com##.share-block
 pbs.org##.share-block-static
 ibtimes.co.in##.share-btn-wrp
 bylancer.com##.share-buttons-icons
@@ -11855,6 +11858,7 @@ spillsomebeans.com##.socials-counter
 9anime.se##.socials-group
 phys.org##.socials-wrapper
 blog.resy.com##.socials2
+thehealthsite.com##.socialsIconBlackWhite
 ntvkenya.co.ke##.socials_bar
 thepopverse.com##.socials_promo
 eatwell101.com##.socialsaveur
