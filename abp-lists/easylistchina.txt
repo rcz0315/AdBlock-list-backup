@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: GdXDi0ql2bDeljXWajlcgg
-! Version: 202606130511
+! Checksum: 3E4g9ZSvmdRnnYAg5p7DRg
+! Version: 202606140532
 ! Title: EasyList China
-! Last modified: 13 Jun 2026 05:11 UTC
+! Last modified: 14 Jun 2026 05:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1779,6 +1779,12 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||subtraction59.com^
+||1u6hvoykk3.com^
+||7q2701vx8e.com^
+||ulk8je1fv9.com^
+||lohylfnkagnlzw.com^
+||tjgssn.com^
 ||jbriyba0f.com^
 ||lkpda6xuy.com^
 ||e3j60qqdk.com^
@@ -1787,6 +1793,13 @@ newduba.cn###jq_youxi
 ||wpsxwkz.com^
 ||nllgzvgoudbdnq.com^
 ||un8hlx.com^
+||0hqq3dnjf.com^
+||h27aq0mc6.com^
+||gummy-debt.com^
+||wn4x4bzhx.com^
+||h1cn8nwng.com^
+||7mus3aqqv.com^
+||ocvdi0rum.com^
 ||08pkgxft0u.com^
 ||uks8suop4b.com^
 ||g6ird1tez2.com^
@@ -11397,6 +11410,7 @@ meijutt.*/js/pcjs/
 ||tcptest.cn/prod-api/web/adLinks/
 !------------------------Specific element hiding rules------------------------!
 huaren.live##.pause-love
+69tang.org##a[id^="imgs_link"]
 techritual.com##.th-single-ad
 xchina.co##.photo-items > .auto-height
 staticfile.link###player_pause
