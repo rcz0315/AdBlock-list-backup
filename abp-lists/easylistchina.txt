@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qVaMj49Ahw6rqyyFkagjCw
-! Version: 202606150611
+! Checksum: NGX/zHJfz6c9TU8j9/Z9LA
+! Version: 202606160621
 ! Title: EasyList China
-! Last modified: 15 Jun 2026 06:11 UTC
+! Last modified: 16 Jun 2026 06:21 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1779,12 +1779,24 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||5v19ql3xi1.com^
+||qnpy8bumnc.com^
+||phzlhhfidmntxc.com^
+||d2pfd8w05h.com^
+||gtethuui.com^
+||multiplication29.top^
+||dneimig.com^
+||xt8esrr.com^
 ||sxq9xn7t3.com^
 ||qls7v6jd3.com^
 ||1k2uh20wr.com^
 ||redtvxjmgjbtlw.com^
 ||division43.top^
 ||bowo666.com^
+||7w7kditsz.com^
+||9obmf866d.com^
+||pkytxfiin.com^
+||bahpqcq.com^
 ||subtraction59.com^
 ||1u6hvoykk3.com^
 ||7q2701vx8e.com^
@@ -11576,7 +11588,7 @@ cnbeta.com.tw##.cb-help
 cnbeta.com.tw##.meta > .fr
 333ood.com###appBox
 333ood.com##div[style$="display: block;"]
-baidu.com##.tieba-pause-ad-container
+baidu.com##div[class*="tieba-pause-ad-container"]
 laozuo.org###focusslide
 laozuo.org##.container[style="margin-bottom: 3px;"]
 laozuo.org##.widget_ui_orbui
