@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606190614
+! Version: 202606200509
 ! Title: EasyPrivacy
-! Last modified: 19 Jun 2026 06:14 UTC
+! Last modified: 20 Jun 2026 05:09 UTC
 ! Expires: 4 days (update frequency)
-! Commit: a6cee56fef59b9f4a4c5973f76d9f3eccb2b8eb1
+! Commit: df6e779942d8225c75a7ea8693f2de7ff41edb11
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -3551,6 +3551,7 @@ omni.soundestlink.com$image
 ||da29e6b8-f018-490f-b25f-39a887fc95e7.xyz^
 ||dadalytics.it^
 ||datas3ntinel.com^
+||ddlnk.net^
 ||demdex.net^
 ||deviceinf.com^
 ||digi-ping.com^
@@ -10024,6 +10025,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytic-client.blitzmightyparty.com^
 ||analytic-client.chickgoddess.com^
 ||analytic-client.panowars.com^
+||analytic.divee.ai^
 ||analytic.rollout.io^
 ||analytic.xingcloud.com^$third-party
 ||analyticcdn.globalmailer.com^
@@ -11569,6 +11571,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||mc.yango.com^
 ||mccdn.me/assets/js/widget.js
 ||mcdp-*.outbrain.com^
+||mcjs.prd.a.intuit.com/assets/pixel-reporting-sdk/
 ||mcssl.com^*/track.ashx?
 ||mdxprod.io/analytics.js
 ||measure.refinery89.com^
@@ -55141,6 +55144,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! Turkish
 ||a.n11.com^
 ||analytics.cosmopolitanmag.com.tr^
+||analytics.mgm.gov.tr^
 ||athena-event-provider.n11.com^
 ||c.gazetevatan.com^
 ||cimri.com/api/pixel
