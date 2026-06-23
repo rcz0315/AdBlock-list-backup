@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: T++dhYtLGIgI7GFmgCagWw
+! Checksum: LtRgy+hs58Q1uEnI97B/SQ
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/4557be1ca40c17d1c514cc409f44f95353b3e11d.json
-! Version: 202606150702
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/17719ee5ce41e5e11029b9cc09ccdb114aef7514.json
+! Version: 202606220702
 ! Title: Free - Distraction Control
-! Last modified: 15 Jun 2026 07:02 UTC
+! Last modified: 22 Jun 2026 07:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 !
@@ -197,6 +197,9 @@ shoemart.gr###sm-recent-order
 travelclub.es###puntazos
 ! Example: https://www.school-xyz.com/
 school-xyz.com##.uc-promobar
+! Example: https://www.brother.ca/en/
+brother.ca##.hasCatFishOverlay.active
+brother.ca##.catfishblock
 ! *** distraction-control:suggestion/snippet.txt ***
 !
 ! site specific snippet rules

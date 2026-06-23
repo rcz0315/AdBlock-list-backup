@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202606220614
+! Version: 202606230450
 ! Title: EasyPrivacy
-! Last modified: 22 Jun 2026 06:14 UTC
+! Last modified: 23 Jun 2026 04:50 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3ecfb98501acf95993261e243a693ab6398b49e8
+! Commit: 3bc9a94262f60346f04a56d4bc6d5ca610878cd9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7053,6 +7053,7 @@ omni.soundestlink.com$image
 ||coralcranes.com^
 ||coralreverie.com^
 ||corgibeachday.com^
+||correctedcode.com^
 ||cosmicsculptor.com^
 ||cosmosjackson.com^
 ||cosplaygalaxy.com^
@@ -10226,6 +10227,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.june.so^
 ||api.mambasms.com/monitorEvent/
 ||api.pcid.ca/v1/client/logs
+||api.pearcommerce.com/v1/client_request_log?
+||api.pearcommerce.com/v1/page_load?
 ||api.picox.bendingspoons.com/v1/events
 ||api.reo.dev^$third-party
 ||api.sardine.ai/assets/loader.min.js$third-party
@@ -14954,15 +14957,18 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||collector-direct.xhamster.com^
 ||collector-px0py5pczn.octopart.com^
 ||collector.cint.com^
+||collector.feedzop.com^
 ||collector.fiverr.com^
 ||collector.github.com^
 ||collector.githubapp.com^
 ||collector.megaxh.com^
 ||collector.pi.spectrum.net^
 ||collector.quillbot.com^
+||collector.quizzop.com^
 ||collector.spankbang.party^
 ||collector.taoxh.life^
 ||collector.theconversation.com^
+||collector.umogames.com^
 ||collector.xhaccess.com^
 ||collector.xhamster.com^
 ||collector.xhamster.desi^
@@ -16685,12 +16691,16 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||www-backend.strinova.com/api/common/uid
 ||www.ebay.*/gh/dfpsvc?
 ||x.com/1.1/attribution
+||x.com/1.1/graphql/app_context.json
 ||x.com/1.1/graphql/error_log.json
 ||x.com/1.1/graphql/user_flow.json
+||x.com/1.1/graphql/viewer_context.json
 ||x.com/1.1/jot
 ||x.com/9/measurement/
+||x.com/i/api/1.1/graphql/app_context.json
 ||x.com/i/api/1.1/graphql/error_log.json
 ||x.com/i/api/1.1/graphql/user_flow.json
+||x.com/i/api/1.1/graphql/viewer_context.json
 ||x.com/i/api/1.1/jot
 ||x.com/i/csp_report
 ||x.com/i/jot
