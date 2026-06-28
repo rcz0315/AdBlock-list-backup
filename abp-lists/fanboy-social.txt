@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202606270432
+! Version: 202606280504
 ! Title: Fanboy's Social Blocking List
-! Last modified: 27 Jun 2026 04:32 UTC
+! Last modified: 28 Jun 2026 05:04 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b04950b134c027b45ddab410ce30fa8d1d680d92
+! Commit: 4a2c57456308e93c2384e759999e9bbd73434874
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12231,6 +12231,7 @@ cybersecuritynews.com#?#.tdm_block_button_simplified:has-text(Follow on LinkedIn
 economictimes.indiatimes.com#?#.Pbanner:has-text(as a Reliable and Trusted News Source)
 freethoughtnow.org#?#.elementor-widget-container > h2:has-text(Please share)
 gizmodo.com#?#.border-t-grey-200:has-text(Share this story)
+gpone.com#?#.stickyarticle:has-text(Follow)
 heritagedaily.com#?#.tds-button:has-text(FOLLOW ON GOOGLE NEWS)
 houstonchronicle.com,nhregister.com,registercitizen.com,sfchronicle.com,sfgate.com,stamfordadvocate.com#?#.deep:has-text(Google)
 ign.com#?#.promo-card:has-text(Follow us!)
@@ -13783,7 +13784,6 @@ petsmart.com#@#.article-social-sharing
 forbes.kz,vogue.ua,wylecz.to#@#.article__social
 agbi.com#@#.article__socials
 nbcnews.com#@#.article_share
-merlininkazani.com#@#.author-share
 thetoc.gr#@#.authorSocial
 gofile.io#@#.bi-share
 engage.it#@#.block-social
