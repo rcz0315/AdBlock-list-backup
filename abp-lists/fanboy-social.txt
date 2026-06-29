@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202606280504
+! Version: 202606290546
 ! Title: Fanboy's Social Blocking List
-! Last modified: 28 Jun 2026 05:04 UTC
+! Last modified: 29 Jun 2026 05:46 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 4a2c57456308e93c2384e759999e9bbd73434874
+! Commit: f9b9a2696e0eeca381455ae0dd6b213780529e06
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12254,6 +12254,7 @@ stuff.co.nz#?#.edproj-share-video-wrapper:has-text(Share your video)
 stuff.co.nz#?#.edproj-speedhub-wrapper:has-text(read now)
 stuff.co.nz#?#.free-body.text-block > p.content-item:has-text(Email)
 techissuestoday.com#?#.mar-b-6:has-text(Follow Us)
+thedailyeconomy.org#?#.wp-block-group-is-layout-flow:has-text(Share This Article)
 thedispatch.com#?#.border-y.py-2:has-text(Share)
 theguardian.com#?#.dcr-4gwv1z > ul:has-text(Get our)
 theintercept.com#?#[data-ga-track-action]:has-text(Join The Conversation)
