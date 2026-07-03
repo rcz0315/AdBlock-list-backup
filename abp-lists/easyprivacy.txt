@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607020449
+! Version: 202607030425
 ! Title: EasyPrivacy
-! Last modified: 02 Jul 2026 04:49 UTC
+! Last modified: 03 Jul 2026 04:25 UTC
 ! Expires: 4 days (update frequency)
-! Commit: ff608e735915cce7f8d34fa25b2dac940ef3a37d
+! Commit: 334b78af7bcf5b597c626dc485a6079662db8865
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -6791,6 +6791,7 @@ omni.soundestlink.com$image
 ||bagsurprise.com^
 ||bahamashello.com^
 ||baitbaseball.com^
+||balancenotes.com^
 ||balloonbelieve.com^
 ||ballsbanana.com^
 ||bananabarrel.com^
@@ -13886,6 +13887,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||tvid.in/log/
 ! Indonesian
 ||beacon.coofis.com^
+||gopay.sh/collect
 ||mediagroupnetwork.com/js/ua.js
 ||mediaquark.com/tracker.js
 ||oval.id/tracker/
