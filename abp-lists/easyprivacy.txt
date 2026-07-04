@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607030425
+! Version: 202607040423
 ! Title: EasyPrivacy
-! Last modified: 03 Jul 2026 04:25 UTC
+! Last modified: 04 Jul 2026 04:23 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 334b78af7bcf5b597c626dc485a6079662db8865
+! Commit: 517eaa7b81905380f2aaf0ac384c8121570da24f
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -14864,6 +14864,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||boldin.com/rails/arrival
 ||bonprix.*/ajax/landmarks/
 ||bonprix.*/ajax/marketing-parameters/
+||bookcabin.com/api/log-browser
 ||booking.com/c360/v1/track
 ||booking.com/collector/
 ||booking.com/logo?
@@ -54499,6 +54500,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||bukalapak.com/track_external.json
 ||dap.rri.go.id/tracker/
 ||dt-tracker.mamikos.com^
+||indonesiadefense.com/metrikgtg
 ||ktracker.kumparan.com^
 ||mygostore.com/api/log
 ||static.republika.co.id/js/tracker.js
