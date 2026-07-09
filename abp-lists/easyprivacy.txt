@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607080406
+! Version: 202607090439
 ! Title: EasyPrivacy
-! Last modified: 08 Jul 2026 04:06 UTC
+! Last modified: 09 Jul 2026 04:39 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d8e84c4c92021d3f17e835b0b029d11926903d3d
+! Commit: 4e6f6d36d1c273e321fa9e58cf72af4ac683f813
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7355,11 +7355,13 @@ omni.soundestlink.com$image
 ||fishersfinds.com^
 ||fitmessage.com^
 ||fitnessmapper.com^
+||fitwithalpine.com^
 ||fivesidedsquare.com^
 ||fixedfold.com^
 ||flakyfeast.com^
 ||flameuncle.com^
 ||flashtexting.com^
+||fleathecat.com^
 ||flimsycircle.com^
 ||flimsythought.com^
 ||flippedfunnel.com^
@@ -7856,6 +7858,7 @@ omni.soundestlink.com$image
 ||neighborlywatch.com^
 ||nervoussummer.com^
 ||nestbuyers.com^
+||netandbytes.com^
 ||networklast.com^
 ||newarkdriving.com^
 ||newsbotnet.com^
@@ -7963,6 +7966,7 @@ omni.soundestlink.com$image
 ||pedropanther.com^
 ||peeringhost.net^
 ||pegsbuttons.com^
+||peoplebrain.net^
 ||perfectfetch.com^
 ||petitechili.com^
 ||phonecup.com^
@@ -11356,6 +11360,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||insight.mintel.com^$third-party
 ||insight.rapid7.com^$third-party
 ||insights.algolia.io^
+||insights.playpilot.net^
 ||insights.sitesearch360.com^
 ||insitez.blob.core.windows.net^
 ||instagram.com/logging/
@@ -15616,6 +15621,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lego.com/api/dl-event-ingest
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
+||lenovo.com/gemets/
 ||lensdirect.com/page-tracking/
 ||letsdoeit.com/tracking/
 ||lexology.com/pd.js
@@ -54642,6 +54648,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||analytics.cocolog-nifty.com^
 ||analytics.ikyu.com^
 ||analytics.tver.jp^
+||analytics.vk.asahi.co.jp^
 ||analyzer.fc2.com^
 ||analyzer2.fc2.com^
 ||anyelse.com/stat^
@@ -55454,6 +55461,7 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 @@||extreme-ip-lookup.com^$script,domain=bulkbarn.ca
 @@||ezodn.com/cmp/gvl.json$xmlhttprequest
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com|bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov|toyotagazooracing.com
+@@||fastly-analytics.com/debug_resolver$xmlhttprequest,domain=fastly-debug.com
 @@||fathom.video/embed/$subdocument
 @@||fdi.fiduciarydecisions.com/a/lib/gtag/gtag.js$script,~third-party
 @@||fdi.fiduciarydecisions.com/v/app/components/*/Analytics.js$script,~third-party
