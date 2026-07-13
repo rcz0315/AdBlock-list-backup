@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607120416
+! Version: 202607130410
 ! Title: EasyPrivacy
-! Last modified: 12 Jul 2026 04:16 UTC
+! Last modified: 13 Jul 2026 04:10 UTC
 ! Expires: 4 days (update frequency)
-! Commit: b595ae7b0df4c2904dc6bd9736a46c7b5793bcf2
+! Commit: 54a2aab2d78400ea6893ddb5996ee64eaf184d5a
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -1697,7 +1697,7 @@
 /ot_e404.gif?
 /OtAutoBlock.js
 /ouibounce.min.js
-/outbrain.js
+/outbrain.js$~xmlhttprequest
 /outbrainAd.
 /outLoging.js
 /outLoging2.js
@@ -2377,7 +2377,7 @@
 /t/event?
 /t?referer=
 /t?tcid=
-/taboola.js
+/taboola.js$~xmlhttprequest
 /taboola/loader.js
 /taboolaHead.js
 /taevents-c.js
@@ -10258,6 +10258,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.croct.io^
 ||api.gist.ai/v1/analytics/track
 ||api.gleap.io/sessions/ping
+||api.intelligems.io/v3/track
 ||api.ipgeolocation.io/getip
 ||api.iris.tv/update
 ||api.june.so^
@@ -11897,6 +11898,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||phrasetech.com/api/collect
 ||pi.ispot.tv^
 ||pi.pardot.com/analytics?
+||pi.pdfjs.express^
 ||piano.io/api/v3/customform/log/impression
 ||piano.io/tracker/
 ||pico.tools/metrics/
@@ -12783,6 +12785,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trafficfuelpixel.s3-us-west-2.amazonaws.com^
 ||trafficmanager.net/uet/tracking_script?
 ||trakksocial.googlecode.com^$third-party
+||transcend.io/collect
 ||trap.skype.com^
 ||traq.li/tracker/
 ||travix.com/log
@@ -12801,6 +12804,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||trk.storyly.io^
 ||trk.techtarget.com^
 ||trk2-wtb.swaven.com^
+||trkweb.clinch.co^
 ||trueanthem.com^$third-party
 ||trustarc.com/cap?
 ||trustarc.com/log?
@@ -13837,6 +13841,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||amazonaws.com/prod/v1/track$domain=ixxi.com
 ||analytics.belgacom.be^
 ||analytics.hatech.dev^
+||analytics.infraloods.nl^
 ||analytics.newsifier.nl^
 ||apm.tnet.nl^
 ||bbvms.com/zone/js/zonestats.js
@@ -16095,6 +16100,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||reports.tunein.com^
 ||researchgate.net/beacon/
 ||researchgate.net/track/
+||researchlog.dbresearch.com^
 ||reservationday.com/metrics/
 ||reverbnation.com/api/user/app_events
 ||revolut.com/api/t/errors
@@ -17238,6 +17244,7 @@ usatoday.com##+js(set, gnt.x.adm, '')
 ||acustomizedgift.com^$redirect=noopjs,script
 ||askdriver.com^$redirect=noopjs,script
 ||fishingtoolsbox.com^$redirect=noopjs,script
+||fjordsand.com^$redirect=noopjs,script
 ||fontserif.com^$redirect=noopjs,script
 ||glasscoyote.com^$redirect=noopjs,script
 ||goddesslamps.com^$redirect=noopjs,script
