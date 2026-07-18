@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607170350
+! Version: 202607180332
 ! Title: EasyPrivacy
-! Last modified: 17 Jul 2026 03:50 UTC
+! Last modified: 18 Jul 2026 03:32 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2ec2fe5965c02a4b9ccd1b9f895a33ccd83fbed6
+! Commit: 592dc891d584b40b080fc5acea3b40a988802638
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -376,6 +376,7 @@
 /api/reqAnalytic/*
 /api/sentry/tunnel$xmlhttprequest
 /api/stat?
+/api/stn/audience|$xmlhttprequest
 /api/track?guid
 /api/trk?
 /api/v1/EndpointTracker
@@ -13414,6 +13415,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||bcs-computersysteme.com/cgi-local/hiddencounter/
 ||beagle.prod.tda.link^
 ||blacktri-a.akamaihd.net^
+||c.uniten.io^
 ||cdn.c-i.as^$script,third-party
 ||cesar-it.de/collect/
 ||cgicounter.onlinehome.de^
@@ -16161,6 +16163,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||run.app/events$domain=imgur.com|worldstar.com|worldstarhiphop.com
 ||rv.modanisa.com^$script
 ||rvo-cohesion.healthline.com^
+||s-cdn.anthropic.com/s.js
 ||s.gofile.io^
 ||s.infogram.com^
 ||s.joinhoney.com/evs
@@ -17327,12 +17330,6 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ||curos.ca/res/*/resources/scripts/lib/fingerprint.js$important,redirect=fingerprint2.js,script
 ! https://github.com/uBlockOrigin/uAssets/issues/31330
 ||metrics.streaks.jp^$redirect=noop.txt,xmlhttprequest
-! https://github.com/uBlockOrigin/uAssets/issues/33072
-x.com##+js(set, __INITIAL_STATE__.featureSwitch.defaultConfig.rweb_home_jot_context_enabled.value, false)
-x.com##+js(set, __INITIAL_STATE__.featureSwitch.user.config.rweb_home_jot_context_enabled.value, false)
-! #if env_firefox
-||abs.twimg.com/responsive-web/client-web/main.$script,replace=/t\.isTrue\("rweb_home_jot_context_enabled"\)/false/
-! #endif
 ! -----------------Individual cname tracking systems-----------------!
 ! *** easylist:easyprivacy/easyprivacy_specific_cname_dataunlocker.txt ***
 ! easyprivacy_specific_cname_dataunlocker.txt
@@ -54954,6 +54951,7 @@ x.com##+js(set, __INITIAL_STATE__.featureSwitch.user.config.rweb_home_jot_contex
 ||namnak.com/ga.js
 ! Polish
 |http://x.o2.pl^
+||ads.tvp.pl^
 ||analytics.gazeta.pl^
 ||app.mediaexpert.pl/spark-data/
 ||collect.state.centrum24.pl^
