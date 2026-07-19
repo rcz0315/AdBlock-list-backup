@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202607180344
+! Version: 202607190410
 ! Title: Fanboy's Social Blocking List
-! Last modified: 18 Jul 2026 03:44 UTC
+! Last modified: 19 Jul 2026 04:10 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2e7de59a06b4d291a11c93b23c8c836286db40ac
+! Commit: 2a466072eea40c46178a0ee8179a670f0fa51392
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12150,6 +12150,8 @@ nytimes.com##[data-testid="social-group"]
 codecademy.com##[data-testid="social-share-dropdown"]
 dw.com##[data-tracking-name="footer-section-social-media"]
 dw.com##[data-tracking-name^="sharing-icons-"]
+axios.com##[data-vars-event-name="preferred_source_view"]
+axios.com##[data-vars-event-name="share_view"]
 news.yahoo.com##[data-ylk="elm:partnercta;itc:0;sec:google-pub;"]
 mothership.sg##[height="73"]
 eteknix.com##[href="https://bit.ly/39WhWFF"]
