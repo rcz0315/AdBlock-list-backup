@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607190410
+! Version: 202607200420
 ! Title: EasyPrivacy
-! Last modified: 19 Jul 2026 04:10 UTC
+! Last modified: 20 Jul 2026 04:20 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2a466072eea40c46178a0ee8179a670f0fa51392
+! Commit: 3acada619bed345bee7c3c96e2a6235c47c68518
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8733,7 +8733,6 @@ omni.soundestlink.com$image
 ||verdantsculpture.com^
 ||verseballs.com^
 ||versuswall.com^
-||verybark.com^
 ||verybouncy.com^
 ||vibrantcelebration.com^
 ||vibrantgale.com^
@@ -15657,6 +15656,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lastpass.com/lpapi/content/pixels
 ||lastpass.com/m.php/proxy_tracker
 ||lc-event.pixiv.net^
+||leadconnectorhq.com/stats/event
 ||lego.com/api/dl-event-ingest
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
@@ -15977,6 +15977,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||performance-logger.minted.com^
 ||perplexity.ai/rest/event/analytics
 ||perr.hola.org^
+||personalize-edge.contentstack.com/events
 ||pf.newegg.com^
 ||pftk.temu.com^
 ||phonearena.com/_track.php
@@ -17334,7 +17335,9 @@ bitdefender.com##body[style="opacity: 0;"]:style(opacity: 1 !important;)
 ! https://github.com/uBlockOrigin/uAssets/issues/31330
 ||metrics.streaks.jp^$redirect=noop.txt,xmlhttprequest
 ! https://github.com/uBlockOrigin/uAssets/issues/33072
-||abs.twimg.com/responsive-web/client-web/main.$script,replace=/\,_\.send\(e\.data\)/\,_.send()/
+! #if env_firefox
+x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
+! #endif
 ! -----------------Individual cname tracking systems-----------------!
 ! *** easylist:easyprivacy/easyprivacy_specific_cname_dataunlocker.txt ***
 ! easyprivacy_specific_cname_dataunlocker.txt
