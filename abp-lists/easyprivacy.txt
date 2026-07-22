@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202607210405
+! Version: 202607220405
 ! Title: EasyPrivacy
-! Last modified: 21 Jul 2026 04:05 UTC
+! Last modified: 22 Jul 2026 04:05 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 2de9d332da473d089443a3bda42ef42cb8f26548
+! Commit: a959f5d727796850bcad890420735e2b46a21347
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -901,7 +901,6 @@
 /event?s=$ping
 /event_log/*
 /event_logger
-/event_logging/*
 /eventLog.ajax
 /EventLoggerV3.min.js
 /eventLogServlet?
@@ -7218,6 +7217,7 @@ omni.soundestlink.com$image
 ||doubtdrawer.com^
 ||dq95d35.com^
 ||dragonbats.com^
+||dragontamer.net^
 ||drainpaste.com^
 ||dramaticdirection.com^
 ||dreamsdome.com^
@@ -7237,8 +7237,10 @@ omni.soundestlink.com$image
 ||earthyfarm.com^
 ||easysyncnews.com^
 ||eatablesquare.com^
+||eatinglate.com^
 ||echoacloud.com^
 ||echoinghaven.com^
+||echoturkey.com^
 ||economysoil.com^
 ||educationcar.com^
 ||effervescentcoral.com^
@@ -7285,6 +7287,7 @@ omni.soundestlink.com$image
 ||equablekettle.com^
 ||esoterictools.com^
 ||essaygiants.com^
+||essayplanet.com^
 ||essayspin.com^
 ||etherealbamboo.com^
 ||ethereallagoon.com^
@@ -7358,6 +7361,7 @@ omni.soundestlink.com$image
 ||fillthemap.com^
 ||filtercutter.com^
 ||finalizeforce.com^
+||finaloptics.com^
 ||financefear.com^
 ||findyourdelight.com^
 ||firecatfilms.com^
@@ -41289,6 +41293,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ! ||lrbelgium.wolterskluwer.com^
 ! ||belgium.wolterskluwer.com^
 ! ||dhlsupplychain.dhl.com^
+! ||online.spsglobal.com^
 ! 
 ||10stepswp.advancedtech.com^
 ||1stparty.equifax.co.uk^
@@ -44639,7 +44644,6 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||online.rwdls.com^
 ||online.rwdstco.com^
 ||online.sharjahart.org^
-||online.spsglobal.com^
 ||onlineshop.ricoh.ch^
 ||onlineshop.ricoh.de^
 ||onlineshop.ricoh.it^
@@ -54846,6 +54850,7 @@ x.com##+js(no-xhr-if, /i/api/1.1/flow/viewer.json)
 ||shopch.jp/com/js/analytics.js
 ||shueisha.online/op/analytics.js
 ||so-zou.jp/js/ga.js
+||socialxup.com/api/sale-accounts
 ||softonic.jp/web-stats
 ||ssai.api.streaks.jp/*/ad_info?
 ||stats.nhk.or.jp^
