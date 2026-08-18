@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202608170213
+! Version: 202608180202
 ! Title: Fanboy's Social Blocking List
-! Last modified: 17 Aug 2026 02:13 UTC
+! Last modified: 18 Aug 2026 02:02 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 700372db34968a62480d13d1442612da1cc57cfa
+! Commit: 4356ae3a15a619d76527ec7824aabb6aadf6b81b
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -12243,6 +12243,7 @@ greatist.com,healthline.com,medicalnewstoday.com,psychcentral.com##hl-share-over
 icann.org##iti-share-icons
 newscenter.lbl.gov##lbl-icon-list
 discord.me##li.menu-link.d-xl-inline-block
+gamesradar.com,guitarworld.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##p:has(> a[href^="https://news.google.com/publications/"])
 cyprus-mail.com##social-share-links
 galaxystore.samsung.com##span[class^="SnsPlugin_items_"]
 skeptoid.com##td > .nomobile
