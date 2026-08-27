@@ -1,8 +1,8 @@
 [Adblock Plus 3.1]
-! Checksum: O1ciTzD/qeHR/SgBYjY1/A
-! Version: 202608260212
+! Checksum: itX+nxeALcmmcH2eXkw8Qg
+! Version: 202608271041
 ! Title: ABP filters
-! Last modified: 26 Aug 2026 02:12 UTC
+! Last modified: 27 Aug 2026 10:41 UTC
 ! Expires: 1 hours (update frequency)
 ! Homepage: https://gitlab.com/eyeo/anti-cv/abp-filters-anti-cv
 !
@@ -1165,6 +1165,36 @@ weeronline.nl#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 welt.de#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 makeitmeme.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
 ||*/vendor.js|$script,rewrite=abp-resource:blank-js,domain=makeitmeme.com
+buienalarm.nl#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=buienalarm.nl
+kurashiru.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=kurashiru.com
+||*/core.js|$script,rewrite=abp-resource:blank-js,domain=sat24.com
+sat24.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+hotcopper.com.au#$#prevent-element-src-loading script /loader/
+hotcopper.com.au#$#override-property-read Navigator.prototype.onLine false
+||*/loader.min.js|$script,domain=hotcopper.com.au
+||*/core.js|$script,rewrite=abp-resource:blank-js,domain=meteovista.be
+meteovista.be#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=games.gg
+games.gg#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+mamastar.jp#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=mamastar.jp
+uesp.net#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/lib.js|$script,rewrite=abp-resource:blank-js,domain=uesp.net
+gumtree.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/sdk.js|$script,rewrite=abp-resource:blank-js,domain=gumtree.com
+||html-load.com^$script,xmlhttprequest,domain=weerplaza.nl
+weerplaza.nl#$#replace-argument Element.prototype.setAttribute 1 '/[\\s\\S]*(error-report|new Promise|;await new|:\\[?window|&&window,|void 0\\]|location\\.href|void 0\\|\\|window|,window,|void 0,window|,window\\]|\\)\\.join\\(String\\.fromCharCode|adShieldError)[\\s\\S]*/' ''
+worldjournal.com#$#override-property-read Navigator.prototype.onLine false
+||*/loader.min.js|$script,domain=worldjournal.com
+riftbound.gg#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/loader.min.js|$script,rewrite=abp-resource:blank-js,domain=riftbound.gg
+motorsport.com#$#event-override message rewrite /_as_res/ data /_as_req$/ _as_res
+||*/lib.js|$script,rewrite=abp-resource:blank-js,domain=motorsport.com
+fragrantica.com#$#abort-current-inline-script Object.getOwnPropertyDescriptor /HTMLIFrameElement_contentWindow|Collectors/
+||error-report.com^$domain=fragrantica.com
+||html-load.cc^$script,domain=fragrantica.com
 spreadsheetpoint.com#$#abort-current-inline-script String.prototype.match __adblocker
 namemc.com,idokep.hu,gamesradar.com,weatherzone.com.au,onlineradiobox.com,fandom.com,base64decode.org,9gag.com,bab.la,base64encode.org,billboard.com,calculatorsoup.com,caminteresse.fr,collinsdictionary.com,convertcase.net,cool-style.com.tw,crosswordsolver.com,daily.co.jp,deadline.com,dictionary.cambridge.org,doviz.com,dreadcentral.com,ecouter-en-direct.com,eurointegration.com.ua,euronews.com,fansided.com,femmeactuelle.fr,flatpanelshd.com,freeconvert.com,game8.co,game8.jp,gamebanana.com,gamewith.jp,gazetaprawna.pl,geoguessr.com,goldderby.com,golf-live.at,golfmonthly.com,guitarworld.com,gutefrage.net,hfboards.com,hk01.com,hochi.news,hollywoodreporter.com,huffpost.com,index.hr,indiewire.com,inven.co.kr,invoice-generator.com,issuya.com,kurir.rs,kuruma-news.jp,laleggepertutti.it,leagueofgraphs.com,leboncoin.fr,loawa.com,malaymail.com,mentalfloss.com,movie-locations.com,mr2oc.com,nationalpost.com,nemzetisport.hu,nikkansports.com,omnicalculator.com,oraridiapertura24.it,oricon.co.jp,oxfordlearnersdictionaries.com,pcgamer.com,pcgamesn.com,percentagecalculator.net,picrew.me,pons.com,pressian.com,programme-tv.net,programme.tv,puckpedia.com,rollingstone.com,sankei.com,scribd.com,seriouseats.com,sourceforge.net,space.com,spreadsheetpoint.com,stocktwits.com,text-compare.com,the-crossword-solver.com,timesofindia.indiatimes.com,tomsguide.com,tomshardware.com,trafficnews.jp,trilltrill.jp,tunebat.com,tz.de,variety.com,verkaufsoffener-sonntag.com,vimm.net,voici.fr,vwvortex.com,watchuseek.com,wenxuecity.com,wfmz.com,winfuture.de,wordhippo.com,worldofsolitaire.com,woxikon.de,www.wetter.com#$#override-property-read Navigator.prototype.userAgent 'AdsBot-Google'; override-property-read Navigator.prototype.userAgentData undefined
 puzzle-nonograms.com#$#prevent-element-src-loading script /ad-shield/
@@ -2592,12 +2622,12 @@ truyen247.pro#$#abort-current-inline-script eval
 www.gvnvh18z.com#$#abort-current-inline-script Math
 xnxx-sex-videos.com#$#abort-current-inline-script setTimeout /window.location/
 xnxx-sex-videos.com#$#override-property-read user_out false
-anime47.best,chichvn.mobi,comong.info,forum.timfshare.com,honghotduongpho.vn,mv.dailyphimz.com,mv.phimbathu.one,phimchill.life,quangcaoyenbai.com,isexhihi.net,thefaplive.com,truyensieuhay.com,qmhsex.baby#$#abort-on-property-read document.cookie
+anime47.best,chichvn.mobi,comong.info,forum.timfshare.com,honghotduongpho.vn,mv.dailyphimz.com,mv.phimbathu.one,phimchill.life,quangcaoyenbai.com,sexhihi3x.net,thefaplive.com,truyensieuhay.com,qmhsex.casa#$#abort-on-property-read document.cookie
 metruyenchu.com#$#abort-on-property-write window.onclick
 ##[href^="//mage98rquewz.com/"]
 linkneverdie.net,linkneverdie.top,linkneverdie2.com#$#abort-current-inline-script document.createElement optad; abort-on-property-read pushOnPageGala
 sex.javnong.cc#$#abort-on-property-read Math.round
-buomtv.bet,phimsexmoi.mobi,animehay11.site,cliphot69.info,phimsexsuong3x.net,damconuong.sbs,demo.14412882.com,doctruyen3qhub.vip,dualeotruyencw.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen16.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hd.site,phimlongtieng.net,vipphimsexhay.com,quatvn.homes,sayhentai.cx,xinh3x.it.com,sexdiary.club,sexviet88z.cc,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88z.cc,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
+buomtv.sex,phimsexmoi.mobi,animehay11.site,cliphot69.info,phimsexsuong3x.net,damconuong.sbs,demo.14412882.com,doctruyen3qhub.vip,dualeotruyencw.com,hentaivkl.pro,hhtq5.vip,qmanga.art,javtiful.com,luottruyen16.com,lxmanga.space,misskon.com,mupsexphim.com,phim18hd.site,phimlongtieng.net,vipphimsexhay.com,quatvn.homes,sayhentai.cx,xinh3x.it.com,sexdiary.club,sexviet88z.cc,streamvl.top,truyenqqko.com,truyenvn.sbs,umetruyenz.org,vevocloud.com,viet69.be,viet69vn.at,xvideos.xemvl.xxx,sexviet88z.cc,www.sieutamphim.pro,yurineko.*#$#abort-current-inline-script WebAssembly instantiate
 javgiga.wordpress.com,www.1phim24.com#$#abort-on-property-read localStorage
 xnhau.show#$#prevent-listener click /acquirecardedsullen|POPUNDER_INTERVAL|lastPopunderTime/; abort-current-inline-script document.addEventListener lastPopunderTime;
 animevietsub.work,animevietsub.work,tram3d.my#$#abort-current-inline-script eval $._Eu
@@ -2644,7 +2674,7 @@ xoilaczkkz.tv#$#abort-current-inline-script jQuery open
 www.asu.baby#$#abort-on-property-read initialAdURLs
 cap3.lifesty#$#prevent-listener click /setTimeout|e\\.target/; prevent-listener click d .art-control-fullscreen; prevent-listener fullscreenchange e.target;
 animehay11.site#$#prevent-listener click popup
-rophimss.net,motphimr.tv,phimmoic.sh#$#prevent-listener click ads
+rophimss.org,motphimr.tv,phimmoic.sh#$#prevent-listener click ads
 laodong.vn#$#abort-current-inline-script window.addEventListener AdBlock
 18tube.uk#$#abort-current-inline-script document.addEventListener ads
 motchillm.fm,fcloud.live#$#prevent-listener click links
@@ -3346,6 +3376,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||absorbingelsewheredisobey.com^
 ||acararithetic.com^
 ||acarusglowing.com^
+||acclaimedbread.com^
 ||accostdubbeh.com^
 ||acerbityaisle.com^
 ||acorusdawdler.com^
@@ -3392,6 +3423,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||astraon255.net^
 ||astrayentireillegimateillegimate.com^
 ||atauntoxray.com^
+||athodydcentro.com^
 ||atrepsykayasth.com
 ||attentiveshock.com^
 ||attuneuvito.com^
@@ -3406,18 +3438,16 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||bagfulcausing.com^
 ||balanicextreat.com^
 ||ballasshwebo.com^
-||bardiccuckoo.com^
 ||bariesnaw.com^
 ||basionsassay.com^
-||bataraanimals.com^
 ||bastardzingaro.com^
+||bataraanimals.com^
 ||beardsfeline.com^
 ||beateechafed.com^
 ||beauismflavous.com^
 ||bedlessresizes.com^
 ||befitkersey.com^
 ||beigekismat.com^
-||benselshrap.com^
 ||besaviking.com^
 ||betainehoolee.com^
 ||betiseburnut.com^
@@ -3463,6 +3493,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||bubblessudsman.com^
 ||buisthainan.com^
 ||bukhscrithe.com^
+||bulletytwi.com^
 ||bustlejuking.com^
 ||buteopung.com^
 ||bututpoopsie.com^
@@ -3479,7 +3510,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||caromedlusk.com^
 ||cashooshut.com^
 ||casteschagoma.com^
-||catchieits.com^
 ||cathinunquit.com^
 ||cautelaunsent.com^
 ||cautiousfloor.com^
@@ -3512,6 +3542,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||colordownbye.com^
 ||comalesmirled.com^
 ||comics18.cam^
+||compartacajous.com^
 ||completiondistant.com^
 ||compoerhayz.com^
 ||connected16.net^
@@ -3561,6 +3592,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||defectstratic.com^
 ||degreeeruptionpredator.com^
 ||dehorsshochet.com^
+||delightlintlunatic.com^
 ||dellwisping.com^
 ||deposedassuage.com^
 ||depurgeholour.com^
@@ -3663,6 +3695,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||forsungxylols.com^
 ||franceswaps.com^
 ||fremtencycl.com^
+||frenuladears.com^
 ||freshacceleronparalleldynamics.net^
 ||fretumlimpsey.com^
 ||friseurash.com^
@@ -3847,6 +3880,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||lumbarssweepup.com^
 ||macacusdame.com^
 ||maihikuh.com^
+||majoonevernia.com^
 ||maltedsanxious.com^
 ||maltobrolly.com^
 ||malwaaliquot.com^
@@ -3892,6 +3926,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||newsboydurance.cfd^
 ||newtsbowk.com^
 ||nhanweigh.com^
+||nincomunamply.com^
 ||ningposkidi.com^
 ||niobefrogeye.com^
 ||nitrogencloudelevationsystems.com^
@@ -3900,7 +3935,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||nosydorymen.com^
 ||novaleelds.com^
 ||nplaf.com^
-||npjozfqmxlror.space^
 ||nubbycoolly.com^
 ||nucleonfashing.com^
 ||obanlazed.com^
@@ -3962,6 +3996,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||primary808.net^
 ||prizefamily.com^
 ||proceduresto3.net^
+||prognosiscoloredpractical.com^
 ||publicretia.com^
 ||pucaanova.com^
 ||punkasananym.com^
@@ -3987,6 +4022,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||reforgefuhrer.com^
 ||regodipylon.com^
 ||reknowriyals.com^
+||reliedhounder.com^
 ||relieved-understanding.com^
 ||renderstreamshuttleanalytics.net^
 ||rescuermargie.com^
@@ -4016,7 +4052,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||santosunflat.com^
 ||scalarsmartfoundationindustries.com^
 ||scarcehepatitis.com^
-||scatheddedit.com^
 ||schizypdq.com^
 ||scrivencaccias.com^
 ||scrollpushyfar.com^
@@ -4050,7 +4085,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||skewlycrepy.com^
 ||skinnedjets.com^
 ||skirlakawai.com^
-||slartunwrung.com^
 ||sleeklyyallaer.com^
 ||slenderclarify.com^
 ||slimgather.com^
@@ -4094,6 +4128,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||stulmunshent.com^
 ||suavecitoo.org^
 ||succubmisship.com^
+||suivezrarer.com^
 ||sullowspatio.com^
 ||sultoneframer.com^
 ||sunnyreception.com^
@@ -4164,6 +4199,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||twiltpyoid.com^
 ||tyliontentful.com^
 ||tzetzessmoking.com^
+||unbasechulha.com^
 ||uncodedsmoothy.com^
 ||uncrookcurry.com^
 ||undoubtedlydoerdivided.com^
@@ -4181,6 +4217,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||unwrapsstow.cyou^
 ||upsringsautes.com^
 ||urgingslaurae.com^
+||urologyperoses.com^
 ||usesponsorarrange.com^
 ||usrpubtrk.com^
 ||utensilpousse.com^
@@ -4212,6 +4249,7 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||whelmlegge.com^
 ||whistledwifeeverywhere.com^
 ||widdermixtec.com^
+||wielarediciest.com^
 ||wilterloughs.com^
 ||wiltinfume.com^
 ||winksullenwaistcoat.com^
@@ -4221,7 +4259,6 @@ m.youtube.com#$#simulate-mouse-event 'yt-formatted-string.line-text.style-scope.
 ||woodsytenline.com^
 ||wormierfiver.com^
 ||wurreseek.com^
-||xyridpunitur.com^
 ||yakdudism.com^
 ||yallowafridi.com^
 ||yawnfulharpa.com^

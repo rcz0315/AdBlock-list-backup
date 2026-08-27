@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VfJyxPCWw21frEanSPHteg
-! Version: 202608260212
+! Checksum: r0fA7Y0pqtV7d05lFQLZjw
+! Version: 202608271041
 ! Title: Adblock Warning Removal List
-! Last modified: 26 Aug 2026 02:12 UTC
+! Last modified: 27 Aug 2026 10:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/antiadblockfilters
 ! Licence: https://easylist.to/pages/licence.html
@@ -2928,7 +2928,7 @@ kinoafisha.ua##.turn-off-add-block-text
 stalkerportaal.ru##.video_adsense
 bookskeeper.ru,e-xecutive.ru##.warning
 forum.bestflowers.ru##.xenOverlay
-/^https?:\/\/pikabu\.ru\/ajax\/+[A-Za-z0-9_-]+(\.[A-Za-z0-9]{1,2})?\?[A-Za-z0-9]+=[0-9a-z_-]+/$xmlhttprequest,domain=pikabu.ru
+/^https?:\/\/pikabu\.ru\/ajax\/{1,2}[A-Za-z0-9_-]{8,}(?:\.[A-Za-z0-9_-]{1,2})?\?[A-Za-z0-9]+=[0-9a-z_-]+/$xmlhttprequest,domain=pikabu.ru
 /cookie_check.min.js$domain=acetv.me
 /gogl_detector$script,domain=meddaily.ru|newsru.com
 @@||anidub.com/ads.js|$script,domain=anidub.com
