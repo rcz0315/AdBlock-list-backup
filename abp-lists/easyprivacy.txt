@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202609090543
+! Version: 202609100529
 ! Title: EasyPrivacy
-! Last modified: 09 Sep 2026 05:43 UTC
+! Last modified: 10 Sep 2026 05:29 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 53c0cc9f240db529377cddf0dc66519ffa50c199
+! Commit: 51ba34ed0eff4d268567e30956f9bb0a393c1f99
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8910,6 +8910,7 @@ omni.soundestlink.com$image
 ||terriblethumb.com^
 ||test2.uat.mundi.work^
 ||testadmiral.com^
+||texturehunt.com^
 ||texturetrick.com^
 ||thebestpaints.com^
 ||thebigvan.com^
@@ -8967,6 +8968,7 @@ omni.soundestlink.com$image
 ||toolforthought.com^
 ||topcrazypress.com^
 ||topicalcartel.com^
+||topicjungle.com^
 ||topsecretapp.net^
 ||topthrowbacks.com^
 ||tortoisepage.com^
@@ -9006,11 +9008,13 @@ omni.soundestlink.com$image
 ||tuneupcoffee.com^
 ||tuplebar.com^
 ||turtleface.net^
+||tutorshelf.com^
 ||twelvedawn.com^
 ||twentyerr.com^
 ||twistloss.com^
 ||twisty.net^
 ||twochihuahuas.com^
+||twofishweb.com^
 ||typepredict.com^
 ||typewebsite.com^
 ||typicalairplane.com^
@@ -9044,6 +9048,7 @@ omni.soundestlink.com$image
 ||upsidebeauty.com^
 ||upsidehair.com^
 ||urbanlaurel.com^
+||urbanopus.net^
 ||usabilitybook.com^
 ||uselesslumber.com^
 ||userballot.com^
@@ -15590,6 +15595,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||discover.hubpages.com/.bootscripts/analytics.min.js
 ||discover.hubpages.com/.bootscripts/hubPagesViewDurationTracker.min.js
 ||dls-account.di.atlas.samsung.com^
+||dmt.fidelity.com/prod/meas/
 ||dmtgvn.com/wrapper/js/common-engine.js$domain=rt.com
 ||docs.github.com/events
 ||dollartree.com/ccstoreui/*/analytics/
@@ -55952,7 +55958,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 @@||d347cldnsmtg5x.cloudfront.net/util/1x1.gif$image,domain=aplaceforeverything.co.uk
 @@||d41.co/tags/ff-2.min.js$domain=ads.spotify.com
 @@||data.adxcel-ec2.com^$image,domain=laguardia.edu
-@@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|goindigo.in|hungryroot.com|usa.experian.com
+@@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|goindigo.in|hungryroot.com|usa.experian.com|wirecutterstore.nytimes.com
 @@||datadome.monster.com.first-party-js.datadome.co^$script,domain=monster.com
 @@||dc.services.visualstudio.com/v2/track$xmlhttprequest,domain=aiskillsnavigator.microsoft.com
 @@||dd.auspost.com.au/tags.js$script,~third-party
