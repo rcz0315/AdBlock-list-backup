@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609210529
+! Version: 202609220547
 ! Title: Fanboy's Social Blocking List
-! Last modified: 21 Sep 2026 05:29 UTC
+! Last modified: 22 Sep 2026 05:47 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 3cb411ae28eecde2d7c358608dd8f86c3b63f106
+! Commit: 7049df2f408d4100380991f5a0715caba99c3b66
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -13496,6 +13496,7 @@ forklog.com.ua##.post_bottom_socials
 inforesist.org###push_notificationBlock
 sibnet.ru###telegram_push
 rosphoto.com###widget
+sibnet.ru###widget-messenger
 caravan.kz##.PatternCurrentNewsContent__share
 caravan.kz##.PatternCurrentNewsHead__share
 rg.ru##.StoryContentMainShare_root__LRFwu
@@ -13507,6 +13508,7 @@ avtoradio.ru##.in
 tvrus.eu##.menu-icons
 avtoradio.ru##.ok
 forklog.com##.post_bottom_socials_buttons_wrapper
+sibnet.ru##.push
 mold-street.com##.sc-sm
 maximonline.ru##.scrooge-channel-promo
 lifehacker.ru##.share-button__container
