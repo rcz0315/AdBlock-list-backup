@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202609240545
+! Version: 202609250540
 ! Title: Fanboy's Social Blocking List
-! Last modified: 24 Sep 2026 05:45 UTC
+! Last modified: 25 Sep 2026 05:40 UTC
 ! Expires: 4 days (update frequency)
-! Commit: d43ec8f400e84db802fb511b0745c1c0b10c8ca8
+! Commit: 0193d5327f68c55368605f4b4f8c20b49d641d30
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -8143,6 +8143,7 @@ _social_footer_
 ##.sns-section
 ##.sns-share
 ##.sns-share-area
+##.sns-share-area2
 ##.sns-share-icon
 ##.sns-share02
 ##.sns-sharing
@@ -10104,6 +10105,7 @@ _social_footer_
 ##a[href^="https://facebook.com/share.php?u="]
 ##a[href^="https://facebook.com/sharer.php?"]
 ##a[href^="https://google.com/preferences/source?q="]
+##a[href^="https://mastodonshare.com/?text="]
 ##a[href^="https://news.ycombinator.com/submitlink?"]
 ##a[href^="https://nitter.poast.org/share?"]
 ##a[href^="https://open.sns.ymcart.com/mgr?"]
@@ -10511,6 +10513,7 @@ nerfnow.com###social_buttons
 asianews.it###social_top_nav
 salon.com###social_total
 5dariyanews.com###socialize
+achievementhunting.com###socialmedia
 nsctotal.com.br,pastebin.pl###socials
 motortrend.com###socialshare_title
 news.crunchbase.com###ss-sticky-bar
@@ -10979,6 +10982,7 @@ spectator.co.uk##.entry-meta__item--social
 alizila.com##.entry-meta__social
 wideopencountry.com##.entry-social
 arabnews.com##.entry-views
+watchhentai.net##.ep-share-toggle
 nrttv.com##.eshare
 relevantradio.com##.ess-buttons
 thegatewaypundit.com,wersm.com##.essb_links
