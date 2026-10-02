@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610010649
+! Version: 202610020640
 ! Title: EasyPrivacy
-! Last modified: 01 Oct 2026 06:49 UTC
+! Last modified: 02 Oct 2026 06:40 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9b74bce91e06d7a628ede95a69510ac6c5876402
+! Commit: 64d74c686e8616ac8e70a80334d9db5db1cfe10d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7996,6 +7996,7 @@ omni.soundestlink.com$image
 ||mapbasin.com^
 ||mapcommand.com^
 ||marblediscussion.com^
+||marbleseeds.com^
 ||marinechurch.com^
 ||markedmeasure.com^
 ||marketspiders.com^
@@ -10576,6 +10577,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.amakings.com^
 ||analytics.api.justeattakeaway.com^
 ||analytics.apnewsregistry.com^
+||analytics.app.funnelish.com^
 ||analytics.atlas5.co^
 ||analytics.audioeye.com^
 ||analytics.avanser.com.au^
@@ -56091,6 +56093,7 @@ aliexpress.com,aliexpress.ru,aliexpress.us##+js(set, navigator.bluetooth, undefi
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
 @@||bostonglobe.com/login/js/lib/AppMeasurement.js$~third-party
 @@||browser-intake-datadoghq.com^$xmlhttprequest,domain=grubhub.com|mightyape.co.nz
+@@||browser-intake-datadoghq.eu^$xmlhttprequest,domain=sncf-connect.com
 @@||browser.covatic.io/sdk/v1/bauer.js$script,domain=hellorayo.co.uk
 @@||c.lytics.io/api/tag/$script,domain=time.com
 @@||c.paypal.com/da/r/fb.js$script
