@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: VP0RFiTlHFSeLqA2mdwncw
-! Version: 202610070550
+! Checksum: 5bQw3eAMS1DvhcunTxvkJg
+! Version: 202610080600
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-10-07 05:50 UTC
+! Last modified: 2026-10-08 06:00 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -36279,6 +36279,7 @@ fancentro.com##.PromoSnackBarAlert-filledInfo
 accobrands.com,kensington.com##.Promotional-corner
 lemonade.social##.Q1MNk.rE5s-._9cuRr._1aCsL._3DQXI
 eneba.com##.R05cUo
+mazout.com##.RccCookie
 bigfishgames.com##.ReactModalPortal
 gx.games,gx.me##.ReactModal__Overlay--after-open
 huawei.com##.ReadPolicy
@@ -38279,7 +38280,7 @@ shab.ch##agb-bar
 priceline.com.au##api-cookie-banner
 wallet.kukai.app##app-agreement
 orcid.org##app-banners
-apps.db.ripe.net,booking.autopartner.dk,loyalfans.com,navigraph.com,shop.hazi-hinam.co.il##app-cookie-consent
+apps.db.ripe.net,booking.autopartner.dk,loyalfans.com,navigraph.com,shop.hazi-hinam.co.il,tbcbank.ge##app-cookie-consent
 ball.com,wanakaapp.nz##app-cookie-notice
 material.angular.dev##app-cookie-popup
 sard.ac##app-cookie-status
@@ -54137,6 +54138,7 @@ skil.com##popup-component
 @@||lumingerie.com/min/$script,~third-party
 @@||pico.tools/load/build.js$script,domain=escapistmagazine.com
 @@||tedox.de/*/js/footer.js$script,~third-party
+@@||washingtonpost.com/newsletters/api/v1/newsletters/$~third-party
 ! fanboy_newsletter_shopping_allowlist.txt
 ! fanboy_newsletter_shopping_allowlist_general_hide.txt
 ! fanboy_newsletter_allowlist_general_hide.txt
