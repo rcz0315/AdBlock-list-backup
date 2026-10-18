@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610170517
+! Version: 202610180524
 ! Title: Fanboy's Social Blocking List
-! Last modified: 17 Oct 2026 05:17 UTC
+! Last modified: 18 Oct 2026 05:24 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 6346b6a8c69728572c3cf594451ae0ba4901270b
+! Commit: 9999c3de85e2cbfc8c7fe9fc9282a1bf437c33c9
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11170,7 +11170,6 @@ usps.com##.global-footer--social
 avaaz.org##.global-footer-connect
 cars.com##.global-footer-social-buttons
 montgomerycollege.edu##.globalFooter__socialMedia
-tweaktown.com##.gnci
 phonearena.com##.gnews-wrapper
 phonearena.com##.gnews-wrapper-down
 oneindia.com##.goog-one-news
@@ -11520,7 +11519,6 @@ koi.ai##.post_sticky-social
 pravda.com.ua##.post_text > blockquote
 ipolitics.ca##.postshare
 psypost.org##.pp-follow-card
-tweaktown.com##.pr-p7.fsvgs
 atlantablackstar.com##.pre-footer
 lifestyleasia.com##.pre-footer_instagram
 coywolf.com##.preferred
@@ -12046,7 +12044,7 @@ rottentomatoes.com##.trending-bar__social-link
 bloomberglinea.com##.ts-share-bar-custom
 fintech.tv##.ts-social-list-item
 totalsportekx.is##.ts-telegram-alert-btn
-tweaktown.com##.tt-follow-news
+tweaktown.com##.tt-ibar-tools
 tweaktown.com##.tt-preferred-sources
 slashdot.org##.tw
 independent.co.uk##.tw-link
@@ -13916,6 +13914,7 @@ facebook.com#@##share_feed
 smbc-comics.com#@##sharebar
 statoquotidiano.it#@##sidebar-social
 cnbc.com#@##social-buttons-transporter
+docusign.com#@##social-share
 vitruvianthing.com#@##social2
 marktplaats.nl,mijnaegonpensioen.nl#@##socialButtons
 archiveofourown.org#@##social_media
