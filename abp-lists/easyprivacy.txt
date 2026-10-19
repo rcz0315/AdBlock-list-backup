@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610180524
+! Version: 202610190537
 ! Title: EasyPrivacy
-! Last modified: 18 Oct 2026 05:24 UTC
+! Last modified: 19 Oct 2026 05:37 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9999c3de85e2cbfc8c7fe9fc9282a1bf437c33c9
+! Commit: 40a59f9c4eaa2953ec54bfa4935ee0facb1d7702
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -2659,6 +2659,8 @@
 /twiga.js
 /tynt.js
 /u.gif?
+/ua/Optin?
+/ua/TrailEvent?
 /ucount.php?
 /udp-analytics.js
 /uds/stats?
@@ -7581,6 +7583,7 @@ omni.soundestlink.com$image
 ||flakyfeast.com^
 ||flameuncle.com^
 ||flashtexting.com^
+||flatpebble.com^
 ||fleathecat.com^
 ||flightark.com^
 ||flimsycircle.com^
@@ -7631,6 +7634,7 @@ omni.soundestlink.com$image
 ||franksfloral.com^
 ||franticroof.com^
 ||fraysystems.com^
+||freakywacko.com^
 ||freedomgrail.com^
 ||freezingbuilding.com^
 ||frequentflesh.com^
@@ -7724,6 +7728,7 @@ omni.soundestlink.com$image
 ||granlite.com^
 ||gravitygive.com^
 ||gravitykick.com^
+||graychalk.com^
 ||grayoranges.com^
 ||grayreceipt.com^
 ||grayscaleart.com^
@@ -17687,6 +17692,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||log-2ffe60ee.westpac.com.au^
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
 ||olacontent.schwab.com^$script
+||perplexity.ai/unifyintent.js
 ||qfp.intuit.com^
 ||rba-screen.healthsafe-id.com^
 ||rsx.afterpay.com^
@@ -56564,6 +56570,7 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 @@||youvisit.com/tour/$script,subdocument,domain=uaf.edu
 @@||zillow.com/rental-manager/proxy/rental-manager-api/api/v1/users/freemium/analytics/pageViews$~third-party
 @@||zoominfo.com/c/amplitude-js$script,~third-party
+@@||zs.com/scripts/analytics/pageview.js$~third-party
 ! ! monitor.azure.com
 @@||browser.events.data.microsoft.com/onecollector/$script,xmlhttprequest,domain=microsoft.com
 ! ! https://old.reddit.com/r/uBlockOrigin/comments/1czbcvg/foundit_is_blocking_searches_until_ublock_origin/

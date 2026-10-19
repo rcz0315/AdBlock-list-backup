@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202610180524
+! Version: 202610190537
 ! Title: Fanboy's Social Blocking List
-! Last modified: 18 Oct 2026 05:24 UTC
+! Last modified: 19 Oct 2026 05:37 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 9999c3de85e2cbfc8c7fe9fc9282a1bf437c33c9
+! Commit: 40a59f9c4eaa2953ec54bfa4935ee0facb1d7702
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -11666,7 +11666,7 @@ tech.hindustantimes.com##.shareLinks
 windowsreport.com##.shareMobile
 economictimes.indiatimes.com##.sharePbanner
 drexel.edu##.share__body
-gov.br,wtop.com##.share__container
+ggmax.com.br,gov.br,wtop.com##.share__container
 vimeo.com##.share_body
 snowbrains.com##.share_btnhead
 goodmenproject.com##.share_count_holder
@@ -13330,6 +13330,7 @@ nerdrecomenda.com.br##.box--share-single-page
 nerdrecomenda.com.br##.box-networks
 neofeed.com.br##.box-social-single
 independente.com.br##.box-whatsapp
+ggmax.com.br##.brand__social
 revistaforum.com.br##.btn-seguinos-gnews
 otempo.com.br##.btn-whatsapp
 estadao.com.br##.button-share-icon
