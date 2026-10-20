@@ -1,10 +1,10 @@
 [Adblock Plus 2.0]
-! Checksum: qesNZxjqGLvaRR/NzZ0s1g
+! Checksum: 5xIg8/nO9C4G+c85FATokQ
 ! id: 294D21F0-B3DC-11EF-9B01-F73C7F3A4DB5
-! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/bbdb738377c9a1e91eb31485eae0ecbde534fb84.json
-! Version: 202610120702
+! DiffUrl: https://easylist-downloads.adblockplus.org/v3/diff/distraction-control-free/b2a01b9d55b931019e04ab1fd37dfd4d1bb0905b.json
+! Version: 202610190702
 ! Title: Free - Distraction Control
-! Last modified: 12 Oct 2026 07:02 UTC
+! Last modified: 19 Oct 2026 07:02 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://help.getadblock.com/support/home
 !
@@ -407,7 +407,7 @@ tvguide.com#$#simulate-mouse-event '.article-asset-video-container.article-asset
 download.cnet.com#$#simulate-mouse-event '#product-video-container.popOut .toggleDown'
 techradar.com#$#simulate-mouse-event '.sticky-player-background[style*="visible"] .sticky-close'
 foxnews.com#$#simulate-mouse-event '.featured-video .sticky-player .close'
-huffpost.com#$#debug; simulate-mouse-event 'cnx' 'cnx[style="width: 400px; height: 225px; transform: translate(0px, -58px);"] cnx-floating-close-button ^^sh^^ .floating-close-button-wrapper'
+huffpost.com#$#simulate-mouse-event 'cnx' 'cnx[style="width: 400px; height: 225px; transform: translate(0px, -58px);"] cnx-floating-close-button ^^sh^^ .floating-close-button-wrapper'
 independent.co.uk,standard.co.uk#$#simulate-mouse-event '.sticky:not(.closed) .video-popout-close'
 stamfordadvocate.com#$#simulate-mouse-event '.monti-player-wrapper[class*="breakpoint-mobile"] + button'
 bbc.com#$#simulate-mouse-event '.sticky-player--enabled.sticky-player--pinned.sticky-player--visible .sticky-player__close-button'
