@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202610240515
+! Version: 202610250532
 ! Title: EasyPrivacy
-! Last modified: 24 Oct 2026 05:15 UTC
+! Last modified: 25 Oct 2026 05:32 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 5a5cbc86d42c330d1125121a74a74a0b9b7222dd
+! Commit: ba79f111ae297af9544e1fb75b8f4b4c2c65a9fc
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -321,6 +321,7 @@
 /analytics/track_event/*
 /analytics/tracker.js
 /analytics/trackers?
+/analytics/trackImpressions
 /analytics/visit.jsp
 /analytics/visit.php
 /analytics/visit?
@@ -8344,6 +8345,7 @@ omni.soundestlink.com$image
 ||pigmentpaper.com^
 ||pinchsquirrel.com^
 ||pincourse.com^
+||pingprove.com^
 ||pingsurvey.com^
 ||pinsearcher.com^
 ||pipadvance.com^
@@ -10848,6 +10850,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||api.transtore.app/api/v2/storefront/tracking
 ||api.usestoryteller.com/api/app/activity/recordActivity?
 ||api.useunloq.com/event_management/
+||api.vaile.ai/api/track
 ||api.visitorapi.com^$third-party
 ||api.wipmania.com^
 ||apibaza.com/pixel/
@@ -12541,6 +12544,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||pixel.nudgify.com^
 ||pixel.propublica.org^
 ||pixel.pub.lilyai.net^
+||pixel.quantserve.com^
 ||pixel.redgifs.com^
 ||pixel.roymorgan.com^
 ||pixel.s3xified.com^
@@ -16360,6 +16364,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lc-event.pixiv.net^
 ||leadconnectorhq.com/stats/event
 ||lego.com/api/dl-event-ingest
+||lego.com/api/uec/v1/events
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
 ||lenovo.com/gemets/
