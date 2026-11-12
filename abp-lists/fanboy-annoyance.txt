@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: g1ZPyF7WEnfGBcycM+RaNA
-! Version: 202611101950
+! Checksum: r4buaVlCBZz4isscOS7h8g
+! Version: 202611120350
 ! Title: Fanboy's Annoyance List
-! Last modified: 2026-11-10 19:50 UTC
+! Last modified: 2026-11-12 03:50 UTC
 ! Expires: 9 days (update frequency)
 ! Homepage: https://easylist.to/
 ! License: http://creativecommons.org/licenses/by/3.0/
@@ -2257,6 +2257,7 @@ cltampa.com##.fdn-keep-free-block
 browardpalmbeach.com,dallasobserver.com,miaminewtimes.com,phoenixnewtimes.com,westword.com##.fdn-support-us-block
 citybeat.com,clevescene.com,leoweekly.com,metrotimes.com,orlandoweekly.com,sacurrent.com##.fdn-support-us-button-block
 smashingmagazine.com##.feature-panel
+runguides.com##.feature-your-event-button-container
 currentaffairs.org##.featured-product
 k2s.cc##.file-block > .section-question
 educba.com##.five-sixths
@@ -2744,6 +2745,7 @@ votes.decisiondeskhq.com##a[aria-label="Upgrade to DDHQ Pro"]
 xhaccess.com,xhamster.com,xhamster.desi##a[class*="promoMessageBanner-"]
 tech-camp.in##a[data-gtm-tcb="TCB_CLICK_scrollbanner_default_exp_income"]
 tech-camp.in##a[data-gtm-tcb^="TCB_CLICK_buntyubanner_"]
+runguides.com##app-list-your-run
 apkmody.mobi##body-fixed-footer
 nerdwallet.com##div._3VJt4n > div > ._3eCw6n._2247K8
 amazon.com##div[class^="DesktopFlexBannerLayout-module__playerContainer_"]
@@ -36950,7 +36952,7 @@ bigfishgames.com##.cookieConsentBanner-root-1Ic
 allcleartravel.co.uk##.cookieConsentContainer
 bikesales.com.au##.cookieConsentRoot
 dpdiva.com##.cookieConsentWindow
-premid.app##.cookieControl
+premid.app,vulncheck.com##.cookieControl
 hockeycanada.ca##.cookieInfo
 lunajets.com##.cookieLayer_root__2RmDg
 bott-workplace.co.uk##.cookieMain
@@ -38101,6 +38103,7 @@ ikea.com##.toast-container
 odeoncinemasgroup.smg.com##.toast-info
 studee.com##.toast-notification
 cmocro.com,toptests.co.uk##.toastify-bottom
+culturealberta.com##.top-0.fixed
 xxlnutrition.com##.top-0.left-0
 laurentianbank.ca##.top-0.sticky
 siila.com##.top-banner
@@ -38374,6 +38377,7 @@ duelz.com##app-tiny-alert
 chochko.com##aside[data-role="gdpr-cookie-container"]
 thomasnet.com##aside[data-sentry-component="CookieBanner"]
 essential.gg##banner-content
+begiant.ca#?#.z-1300.inset-0:has-text(Your Privacy)
 cherytr.com,cine-max.sk##body .cc-nb-main-container
 facebook.com##body:not([style^="margin-bottom"]) div[data-testid="cookie-policy-banner"]
 community.nexthink.com##c-community-cookie-consent-banner
@@ -39322,7 +39326,7 @@ app.gnosispay.com,cinobo.com,jdslabs.com,lukso.network,lumoar.com,mymarket.ge,pl
 !! .bottom-8
 ai-coustics.com,betterstack.com,dr-anns.com,lightyear.one,parallel.life,platoboost.app,vecer.com##.bottom-8
 !! .bottom-4
-airlineratings.com,annuaire-du-ecommerce.com,blog.smithsecurity.biz,bodegacatsofnewyork.com,boo.world,brightwork.com,canyouhack.org,convex.dev,desenio.se,docs.earthly.dev,downornot.net,foodhubforbusiness.com,freetv.tv,getmerlin.in,gitverse.ru,herzindagi.com,justo.ca,letsdatascience.com,liquid.ai,media.halvacard.ru,moises.ai,my.openbb.co,progorod62.ru,promobit.com.br,pump.fun,remnote.com,shuttle.rs,sllm.cloud,snead.app,thinglink.com,topisrael.co.il,trychatgpt.ru,urlcast.io,zerofox.com##.bottom-4
+airlineratings.com,annuaire-du-ecommerce.com,blog.smithsecurity.biz,bodegacatsofnewyork.com,boo.world,brightwork.com,browser-use.com,canyouhack.org,convex.dev,desenio.se,docs.earthly.dev,downornot.net,foodhubforbusiness.com,freetv.tv,getmerlin.in,gitverse.ru,herzindagi.com,justo.ca,letsdatascience.com,liquid.ai,media.halvacard.ru,moises.ai,my.openbb.co,progorod62.ru,promobit.com.br,pump.fun,remnote.com,shuttle.rs,sllm.cloud,snead.app,thinglink.com,topisrael.co.il,trychatgpt.ru,urlcast.io,zerofox.com##.bottom-4
 !! .bottom-40
 netnoticias.mx##.bottom-40
 !! .bottom-3
@@ -49970,6 +49974,7 @@ mypenndentist.org##.bg-navylightblue.padding-v20
 allaboutcircuits.com,bobvila.com##.bg-newsletter
 biblegateway.com##.bg-popup-root
 sciencealert.com##.bg-sciencealert-yellow
+begiant.ca##.bg-surface-cream
 axios.com##.bg-tertiary.gtmView
 thebudgetsavvybride.com##.bg-turquoise-500
 thepostmillennial.com##.bg-warning
@@ -50587,7 +50592,7 @@ grist.org##.hp-topper-newsletter
 citizensforethics.org##.hp_signup__container
 money.com##.hpv2-newsletter
 topgear.com##.hrWTog
-lbbonline.com##.hs-cta-embed
+agweb.com,lbbonline.com##.hs-cta-embed
 currentaffairs.org##.hs-cta-simple-placeholder
 thehustle.co##.hs-cta-wrapper
 koi.ai##.hs-form_inside-article
@@ -50678,7 +50683,7 @@ qz.com##.kHmXgL
 christinacooks.com##.kadence-conversion-wrap
 joanwestenberg.com,ppc.land##.kg-cta-card
 the-londoner.co.uk##.kg-cta-content
-alsterrunde.com,beautifulpublicdata.com,codereliant.io,evinfocus.com,gardinerbryant.com,gkogan.co,leicester.news,livpost.co.uk,micahflee.com,newslttrs.com,overkill.wtf,oxfordclarion.uk,ppc.land,scarletink.com,simone.org##.kg-signup-card
+alsterrunde.com,beautifulpublicdata.com,codereliant.io,evinfocus.com,gardinerbryant.com,gkogan.co,leicester.news,livpost.co.uk,micahflee.com,newslttrs.com,overkill.wtf,oxfordclarion.uk,ppc.land,scarletink.com,simone.org,this.weekinsecurity.com##.kg-signup-card
 disconnect.blog,the-londoner.co.uk##.kg-signup-card-content
 digitalocean.com##.khfYvn
 betakit.com,govee.com##.kl-private-reset-css-Xuajs1.needsclick
@@ -50758,7 +50763,6 @@ psu.edu##.mailinglist-form
 ndtvprofit.com##.mailmodo-news-letter-m__card-wrapper__o-Dst
 niemanlab.org##.mailmunch-overlay
 niemanlab.org##.mailmunch-popover
-firethering.com##.mailpoet_form
 consummateathlete.com,pstribune.com##.mailpoet_form_popup_overlay
 leadership.ng,openculture.com##.mailster-form
 freebeacon.com##.main-container > .container > .block > .w-full > .border-blue2
@@ -52190,7 +52194,7 @@ edmontonjournal.com##.newsletter-widget
 !! .subscription-widget-wrap
 hamiltonnolan.com,whytryai.com##.subscription-widget-wrap
 !! .mailpoet_form
-broadcastnews.gr,chipsandcheese.com,chipwits.com,consummateathlete.com,etfworld.co.uk,europeantimes.news,exputer.com,hedgenordic.com,logitheque.com,mixed-news.com,notionthings.com,phonandroid.com,portalpuentealto.cl,pstribune.com,sardiniapost.it,scienceclock.com,slaynews.com,tech4gamers.com,thedesk.net,theklaxon.com.au,tomshardware.fr##.mailpoet_form
+broadcastnews.gr,chipsandcheese.com,chipwits.com,consummateathlete.com,etfworld.co.uk,europeantimes.news,exputer.com,firethering.com,hedgenordic.com,logitheque.com,lpeproject.org,mixed-news.com,notionthings.com,phonandroid.com,portalpuentealto.cl,pstribune.com,sardiniapost.it,scienceclock.com,slaynews.com,tech4gamers.com,thedesk.net,theklaxon.com.au,tomshardware.fr##.mailpoet_form
 !! signUpForm_
 fastxmovie.com##div[class^="signUpForm_"]
 !! .bottom-0.fixed
@@ -53469,6 +53473,9 @@ techpolicy.press##.ml-webforms-popup-overlay
 techpolicy.press##body:style(overflow: auto !important; position: initial !important;)
 ! Signup https://github.com/uBlockOrigin/uAssets/issues/35166
 gtaservers.org##+js(set-local-storage-item, np-west-signup-seen-2, 1)
+! begiant.ca
+begiant.ca#?#.z-1200.inset-0.fixed:has-text(Get a free book!)
+begiant.ca##body:style(overflow: auto !important; position: initial !important;)
 ! niemanlab.org
 niemanlab.org###nlep
 niemanlab.org##body:style(overflow: auto !important; position: initial !important;)
@@ -53493,6 +53500,8 @@ core.app##+js(set-local-storage-item, show-email-intake-form, false)
 ! lazycatkitchen.com
 lazycatkitchen.com##.wppopups-whole
 lazycatkitchen.com##body:style(overflow: auto !important; position: initial !important;)
+! culturealberta.com
+culturealberta.com##+js(set-session-storage-item, newsletter_shown, true)
 ! campaignlive.co.uk popup https://github.com/uBlockOrigin/uAssets/issues/29102
 campaignlive.co.uk##+js(set-session-storage-item, articleModalShown, true)
 ! similarweb.com login wall
@@ -54982,6 +54991,7 @@ sports.yahoo.com###app-promo
 linkedin.com###app-upsell-container
 m.economictimes.com###appDwnldBanner
 m.aiscore.com###appLink
+tour.ne.jp###appPopUpBanner
 goo-net.com###app_info_area
 filmora.wondershare.jp###appboxWrapper
 brandeli.com###appbuner
