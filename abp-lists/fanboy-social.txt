@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611170841
+! Version: 202611180804
 ! Title: Fanboy's Social Blocking List
-! Last modified: 17 Nov 2026 08:41 UTC
+! Last modified: 18 Nov 2026 08:04 UTC
 ! Expires: 4 days (update frequency)
-! Commit: bef4a7dab2bb1e1d2974ea9ec776060334280b2e
+! Commit: 404a265a81684b7615a5524b50cd30bb4bbbbaf0
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10889,6 +10889,8 @@ chaser.com.au##.chaser-share-buttons
 progressive.org##.chicklets
 sqmagazine.co.uk##.child-theme-cta
 gatewayhispanic.com##.chromenews_social_contacts_widget
+cheezburger.com##.chz-no-shrink
+cheezburger.com##.chz-round.chz-icon-btn
 thecinemaholic.com##.cinemaholic-share
 khmertimeskh.com##.cisc-box
 chesskid.com##.ck-share-buttons
@@ -11321,6 +11323,7 @@ business2community.com##.join-tg
 businessday.ng##.join-whatsapp
 moneycontrol.com##.join_follow
 euronews.com##.js-c-article-partage-commentaire-share
+cheezburger.com##.js-chz-google-preferred
 buzzfeed.com##.js-inline-share-bar
 lrt.lt##.js-modal-share
 guide.michelin.com##.js-share-sticky
@@ -11424,6 +11427,7 @@ outlookindia.com##.nav-socials
 hnn.us##.nav__socialz
 triblive.com##.navbar-right
 chess.com##.navigation-footer-platforms-component
+politico.eu##.navigation-simple__list
 thesouthafrican.com##.navigator-share
 newsbusters.org##.nb-twitter-block
 ncaa.com##.ncaa-share-hanger
@@ -11490,6 +11494,7 @@ lifezette.com##.parler
 mondediplo.com##.partage
 playbuzz.com##.pb-share-bar
 playbuzz.com##.pb-site-social
+pcguide.com##.pcg-follow
 theyucatantimes.com##.penci_social_counter
 theenergymix.com##.pf-button
 news18.com##.pht-artcl-shr2
@@ -11523,6 +11528,7 @@ volexity.com##.post-single-social
 foodandwaterwatch.org,medcitynews.com,publicbooks.org,sqmagazine.co.uk,tribuna.com.mx##.post-social-share
 blockclubchicago.org##.post-social-sharing__list
 hakaimagazine.com##.post-story-social-sharing
+technastic.com##.post__share-div
 eurointegration.com.ua##.post__social
 cointelegraph.com##.post__socials-block
 captainaltcoin.com,celebritycruises.com,digitalreg.net,tomzorg.nl##.post_share
@@ -11606,6 +11612,7 @@ startupfortune.com##.sf-hero-share
 startupfortune.com##.sf-hero-share-btn
 mpost.io##.sfsi_centered_icon
 bravotube.net##.sh
+shattered.io##.sh-preferred-sources
 dailysabah.com##.shB
 sleepfoundation.org##.sh_space.share
 onlinelibrary.wiley.com##.share-access__ctrl
@@ -11637,6 +11644,7 @@ mprnews.org##.share-hdg
 news.artnet.com##.share-header
 newsnow.co.uk##.share-highlight
 cgtn.com,citynews.ca##.share-icon
+shattered.io##.share-icons
 knowablemagazine.org##.share-icons-box
 builder.io##.share-icons-column
 picsart.com##.share-icons-single-icons-0-2-82
@@ -11842,6 +11850,7 @@ slate.com##.social-share--desktop-only
 iflscience.com##.social-share-elements
 techwalla.com##.social-share-icons
 nashvillescene.com,stltoday.com##.social-share-links
+technastic.com##.social-share-mobile__wrap
 plantbasednews.org##.social-share-partial
 thenationalnews.com##.social-share-rail__sticky
 computerworld.com##.social-share-sticky-men
