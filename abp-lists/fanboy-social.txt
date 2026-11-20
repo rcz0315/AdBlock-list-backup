@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Version: 202611190819
+! Version: 202611200755
 ! Title: Fanboy's Social Blocking List
-! Last modified: 19 Nov 2026 08:19 UTC
+! Last modified: 20 Nov 2026 07:55 UTC
 ! Expires: 4 days (update frequency)
-! Commit: 0ed26dbc16426659037d7f9e6cee15b0f1775fd4
+! Commit: dbbe74cd574295472de7c63aaa96e1580995453d
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -10472,6 +10472,7 @@ jacobin.com###post-header-share
 mediaite.com###post-social
 news.keckmedicine.org###ppmodule_shareus
 news.keckmedicine.org###ppmodule_socialmedia
+bismarcktribune.com,chippewa.com,columbustelegram.com,journalstar.com,pantagraph.com,qctimes.com,siouxcityjournal.com,wcfcourier.com###preferredSource
 wikihow.com###preferred_source_btn
 digit.in###prefsource-button
 auburnpub.com,azdailysun.com,beatricedailysun.com,billingsgazette.com,bismarcktribune.com,chippewa.com,columbustelegram.com,cumberlink.com,dailyjournalonline.com,democratherald.com,elkodaily.com,fremonttribune.com,gazettetimes.com,globegazette.com,hanfordsentinel.com,helenair.com,herald-review.com,jg-tc.com,journalstar.com,journaltimes.com,lacrossetribune.com,lompocrecord.com,magicvalley.com,missoulanews.com,missoulian.com,mtstandard.com,muscatinejournal.com,napavalleyregister.com,nwitimes.com,pantagraph.com,poststar.com,qconline.com,qctimes.com,rapidcityjournal.com,ravallirepublic.com,santamariatimes.com,siouxcityjournal.com,stltoday.com,tdn.com,thesouthern.com,thetandd.com,theworldlink.com,trib.com,tucson.com,wcfcourier.com,winonadailynews.com,wiscnews.com###reaction-wrap
@@ -10767,6 +10768,7 @@ irishtimes.com##.b-it-social-share-block
 bnnbloomberg.ca,cp24.com,ctvnews.ca,irishnews.com,thedailybeast.com,tsn.ca##.b-share-bar
 protos.com##.b-sharers
 spokesman.com##.ba
+techpartner.news##.badge-light
 dutchnews.nl##.badge-social
 dezeen.com##.badges
 butwhytho.net##.bam-topbar-social
@@ -11036,6 +11038,7 @@ thebarentsobserver.com##.field-name-sharing-buttons-2
 straitstimes.com##.field-name-telegram
 peepingmoon.com##.fixed-action-btn
 onegreenplanet.org##.fixed-ad
+moddroid.com##.fixed-icons
 reasonstobecheerful.world##.fixed-social
 indiatoday.in##.fixedshared
 testbook.com##.fl-social
@@ -11209,7 +11212,7 @@ techspot.com##.google-preferred
 ringsidenews.com,thehealthsite.com,tmz.com##.google-preferred-btn
 realestate.com.au##.google-preferred-link
 sammobile.com##.google-preferred-news-source-cta
-cultofmac.com##.google-preferred-source
+cultofmac.com,mlive.com##.google-preferred-source
 9to5google.com,9to5mac.com,9to5toys.com,dronedj.com,mathrubhumi.com,spaceexplored.com##.google-preferred-source-badge
 decider.com,nypost.com,pagesix.com##.google-preferred-sources
 restofworld.org##.google-preferred-v1
@@ -11235,7 +11238,7 @@ ethanzuckerman.com##.group-1
 gadgets360.com##.gsocialbar
 atlanticcouncil.org##.gta-hover-share-container
 united24media.com##.gtm-bottom-popup-article
-publicradiotulsa.org,stlpr.org##.gtm_share
+kcur.org,publicradiotulsa.org,stlpr.org##.gtm_share
 theprint.in##.gw-follow-button
 verdictum.in##.h-anchor
 egotastic.com,egotasticsports.com##.h-fixed-footer
@@ -11694,6 +11697,7 @@ vimeo.com##.share_body
 snowbrains.com##.share_btnhead
 goodmenproject.com##.share_count_holder
 wikihow.com##.share_dropdown_wrap
+messengernews.net##.share_icons
 idlprocycling.com,indeleiderstrui.nl,twenteinsite.nl##.share_item
 independentarabia.com##.share_tools
 cbsnews.com##.sharebar
@@ -12125,6 +12129,7 @@ newsroom.paypal-corp.com##.wd_tools
 poynter.org##.wdm-share-container
 thepridela.com##.weart-share
 ctrl.blog##.webshare
+whispersinthecorridors.in##.wh-share
 firstpost.com##.whats-app-desc
 businesstoday.in##.whatsAppChannel
 dailymail.co.uk,oogtv.nl##.whatsapp
