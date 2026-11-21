@@ -1,9 +1,9 @@
 [Adblock Plus 1.1]
-! Version: 202611200755
+! Version: 202611210757
 ! Title: EasyPrivacy
-! Last modified: 20 Nov 2026 07:55 UTC
+! Last modified: 21 Nov 2026 07:57 UTC
 ! Expires: 4 days (update frequency)
-! Commit: dbbe74cd574295472de7c63aaa96e1580995453d
+! Commit: b4892546bb7b8f8780bc095530b0e5cf22d006ab
 ! *** easylist:template_header.txt ***
 ! 
 ! Please report any unblocked adverts or problems
@@ -7268,6 +7268,7 @@ omni.soundestlink.com$image
 ||coldcrucible.com^
 ||coloradoserves.com^
 ||colorandnoise.com^
+||colorfilter.net^
 ||colorfulneon.com^
 ||colorfulpet.com^
 ||coloroptimizer.com^
@@ -7948,6 +7949,7 @@ omni.soundestlink.com$image
 ||hospitablehall.com^
 ||hospitablehat.com^
 ||hostchutney.com^
+||housewheels.com^
 ||howdoesthislook.com^
 ||hubcapcafe.net^
 ||humbleroots.net^
@@ -8201,6 +8203,7 @@ omni.soundestlink.com$image
 ||marsnextdoor.com^
 ||mascguys.com^
 ||maskedadmin.com^
+||masondown.com^
 ||masseurexpress.com^
 ||massivemark.com^
 ||masterenter.com^
@@ -8348,6 +8351,7 @@ omni.soundestlink.com$image
 ||nimbleplot.com^
 ||nimbuswatersystem.com^
 ||ninjatravels.com^
+||nitrojiveband.com^
 ||noblecables.com^
 ||noblefellow.com^
 ||nodenotify.com^
@@ -8419,6 +8423,7 @@ omni.soundestlink.com$image
 ||orangebirdie.com^
 ||orchidgenius.com^
 ||orderjumper.com^
+||ordinalzero.com^
 ||orgbackups.com^
 ||orientedargument.com^
 ||originblocks.com^
@@ -8653,6 +8658,7 @@ omni.soundestlink.com$image
 ||rangeplayground.com^
 ||rangergustav.com^
 ||rankaddict.com^
+||rapidscraper.com^
 ||rarelyfans.com^
 ||raresummer.com^
 ||razzweb.com^
@@ -11918,6 +11924,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||feedblitz.com/imp?$third-party
 ||feedblitz.com^*.gif?$third-party
 ||feedify.net/thirdparty/json/track/
+||feliz.data.tm-awx.com/netro-web/batch
 ||feliz.data.tm-awx.com/smile-web-v2/batch
 ||fem.gprod.postmedia.digital/*/IIQUniversalID.js
 ||fgip.rosehosting.com^
@@ -17562,7 +17569,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||theblock.co/api/analytics
 ||thebookseller.com/AfoSiteAnalysis/
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
-||thedailybeast.com/static/js/thirdparty.
+||thedailybeast.com/metrics/
 ||thefreedictionary.com/_/tr.ashx?
 ||thehackernews.com/ga/c
 ||thehackernews.com/ga4/c
@@ -56010,9 +56017,6 @@ search.rakuten.co.jp##+js(aeld, mouseup, sendClickEvent)
 ||ssai.api.streaks.jp/*/ad_info?
 ||stat.i3.dmm.com/plus/tracking.js
 ||stats.nhk.or.jp^
-||sy.ameba.jp^
-||sy.amebame.com^
-||sy.ameblo.jp^
 ||t.rentio.jp^
 ||t.syosetu.org^
 ||tanweb.net/wordpress/?rest_route=/sng/v1/page-count
